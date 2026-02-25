@@ -7,25 +7,24 @@ import os
 
 ROOT = Path(__file__).resolve().parent
 def find_uc_to_deanza(root: Path) -> Path:
-    # 1) common expected path
+
     p1 = root / "De Anza files" / "uc_to_deanza"
     if p1.exists() and p1.is_dir():
         return p1
 
-    # 2) search anywhere under project for a folder named uc_to_deanza
+
     hits = list(root.rglob("uc_to_deanza"))
     hits = [h for h in hits if h.is_dir()]
     if hits:
-        # pick the one with the most campus-like subfolders
         hits.sort(key=lambda h: len([x for x in h.iterdir() if x.is_dir()]), reverse=True)
         return hits[0]
 
-    return p1  # fallback (will be missing, but error will show)
+    return p1  
 
 DATA_DIR = find_uc_to_deanza(ROOT)
 
 print("DATA_DIR resolved to:", DATA_DIR)
-print("Campus folders found:", len([x for x in DATA_DIR.iterdir() if x.is_dir()]) if DATA_DIR.exists() else 0)   # <- your tree root
+print("Campus folders found:", len([x for x in DATA_DIR.iterdir() if x.is_dir()]) if DATA_DIR.exists() else 0)  
 
 def safe_relpath(p: Path, base: Path) -> str:
     try:
@@ -48,7 +47,6 @@ def list_json_files(p: Path):
     return sorted(files, key=lambda s: s.lower())
 
 def pick_latest_year(years):
-    # expects folders like 2025_year_76
     def key(y):
         try:
             yyyy = int(y[:4])
@@ -66,15 +64,14 @@ def pick_latest_year(years):
     return sorted(yr, key=key, reverse=True)[0]
 
 class Handler(SimpleHTTPRequestHandler):
-    # Serve files relative to ROOT (so index.html works)
+
     def translate_path(self, path):
-        # default behavior but rooted at ROOT
+
         path = urlparse(path).path
         path = unquote(path)
         path = path.split("?", 1)[0].split("#", 1)[0]
         rel = Path(path.lstrip("/"))
         full = (ROOT / rel).resolve()
-        # prevent escaping ROOT
         if safe_relpath(full, ROOT) == "":
             return str(ROOT)
         return str(full)
@@ -91,7 +88,6 @@ class Handler(SimpleHTTPRequestHandler):
         u = urlparse(self.path)
         if u.path == "/api/campuses":
             campuses = list_dirs(DATA_DIR)
-            # useful display helpers
             out = []
             for folder in campuses:
                 code = folder.split("_", 1)[0] if "_" in folder else folder
@@ -111,7 +107,6 @@ class Handler(SimpleHTTPRequestHandler):
             years = list_dirs(campus_dir)
             latest = pick_latest_year(years)
             majors = list_json_files(campus_dir / latest) if latest else []
-            # return major *names* without .json for UI
             major_names = [m[:-5] for m in majors]
 
             return self._json({
@@ -140,11 +135,10 @@ class Handler(SimpleHTTPRequestHandler):
 
             return self._json(obj)
 
-        # otherwise serve static (index.html, script.js, style.css, etc.)
         return super().do_GET()
 
 if __name__ == "__main__":
-    os.chdir(ROOT)  # important so static files resolve
+    os.chdir(ROOT) 
     host = "127.0.0.1"
     port = 8000
     print(f"Serving on http://{host}:{port}")
