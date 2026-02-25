@@ -1,0 +1,541 @@
+{
+  "result": {
+    "name": "Public Policy, B.A.",
+    "type": "Major",
+    "publishDate": "2025-11-18T19:06:46.3817058",
+    "receivingInstitution": "{\"id\":46,\"code\":\"UCR     \",\"isCommunityCollege\":false,\"category\":\"UC\",\"termType\":\"Quarter\",\"names\":[{\"name\":\"University of California, Riverside\",\"hasDepartments\":true,\"fromYear\":0,\"hideInList\":false}],\"termTypeAcademicYears\":[{\"termType\":\"Quarter\",\"fromYear\":1980}],\"beginId\":31,\"endId\":null}",
+    "sendingInstitution": "{\"id\":113,\"code\":\"DAC     \",\"isCommunityCollege\":true,\"category\":\"CCC\",\"termType\":\"Quarter\",\"names\":[{\"name\":\"De Anza College\",\"hasDepartments\":true,\"fromYear\":0,\"hideInList\":false}],\"termTypeAcademicYears\":[{\"termType\":\"Quarter\",\"fromYear\":1980}],\"beginId\":31,\"endId\":null}",
+    "academicYear": "{\"id\":76,\"code\":\"2025-2026\",\"beginDate\":\"2025-10-01T00:00:00\",\"endDate\":\"2026-10-01T00:00:00\",\"isOpenForMaintenance\":true,\"isOpenForPublic\":true,\"isOpenForReporting\":true,\"isLocked\":false}",
+    "templateAssets": [
+      {
+        "type": "RequirementTitle",
+        "content": "STRONGLY RECOMMENDED COURSES",
+        "groupId": "d7457945-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "Requirements"
+      },
+      {
+        "type": "GeneralTitle",
+        "content": "General Requirements",
+        "groupId": "68657445-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "General"
+      },
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": true,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 263986,
+                      "courseTitle": "Intro to Computer Programming",
+                      "courseNumber": "5",
+                      "prefix": "CS",
+                      "prefixParentId": 501,
+                      "prefixDescription": "Computer Science",
+                      "departmentParentId": 3229,
+                      "department": "Computer Science",
+                      "begin": "F2001",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "41a14f9e-a376-4f72-bca7-08de050a3a69",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 366668,
+                      "courseTitle": "Data Oriented Introduction to Computing I",
+                      "courseNumber": "9A",
+                      "prefix": "CS",
+                      "prefixParentId": 501,
+                      "prefixDescription": "Computer Science",
+                      "departmentParentId": 3229,
+                      "department": "Computer Science",
+                      "begin": "S2022",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "fabfd71e-fff2-466b-bca8-08de050a3a69",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [
+              {
+                "type": "NFollowing",
+                "amount": 1.0,
+                "amountUnitType": "Course",
+                "position": 0,
+                "selectionType": "Select"
+              }
+            ],
+            "position": 1,
+            "attributes": []
+          },
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 304341,
+                      "courseTitle": "Intro to College Math for Business and Social Sciences",
+                      "courseNumber": "4",
+                      "prefix": "MATH",
+                      "prefixParentId": 9953,
+                      "prefixDescription": "Mathematics",
+                      "departmentParentId": 8983,
+                      "department": "Mathematics",
+                      "begin": "F2006",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "3fb87876-52b2-4f7c-bca9-08de050a3a69",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 3,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 304952,
+                      "courseTitle": "Politics and Public Policy",
+                      "courseNumber": "2",
+                      "prefix": "PBPL",
+                      "prefixParentId": 14115,
+                      "prefixDescription": "Public Policy",
+                      "departmentParentId": 11349,
+                      "department": "Public Policy",
+                      "begin": "F2015",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "98a18ee4-cf6f-4f14-bcaa-08de050a3a69",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 4,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 273784,
+                      "courseTitle": "Ethics, Professionalism, and Public Policy",
+                      "courseNumber": "4",
+                      "prefix": "PBPL",
+                      "prefixParentId": 14115,
+                      "prefixDescription": "Public Policy",
+                      "departmentParentId": 11349,
+                      "department": "Public Policy",
+                      "begin": "F2015",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "d77e2a6c-2c64-4290-bcab-08de050a3a69",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 2,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 356780,
+                      "courseTitle": "Intro to Public Policy Analysis",
+                      "courseNumber": "1",
+                      "prefix": "PBPL",
+                      "prefixParentId": 14115,
+                      "prefixDescription": "Public Policy",
+                      "departmentParentId": 11349,
+                      "department": "Public Policy",
+                      "begin": "F2006",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "b1be965f-b3d7-4513-bcac-08de050a3a69",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 309042,
+                      "courseTitle": "Intro to Microeconomics",
+                      "courseNumber": "3",
+                      "prefix": "ECON",
+                      "prefixParentId": 1223,
+                      "prefixDescription": "Economics",
+                      "departmentParentId": 4254,
+                      "department": "Economics",
+                      "begin": "F2006",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": [
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 4,
+                          "pathwayName": "Business Administration",
+                          "pathwayCode": "Business-Administration",
+                          "expectationId": 12,
+                          "expectationName": "C1-Microeconomics",
+                          "subexpectationId": 0,
+                          "subexpectationName": null
+                        }
+                      ]
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [
+                      {
+                        "position": 0,
+                        "content": "An AP exam may be used to satisfy this course requirement"
+                      }
+                    ],
+                    "id": "d2621176-0683-47a8-bcad-08de050a3a69",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 0,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": null,
+        "advisements": [],
+        "groupId": "dd3b7445-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "Requirements"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p>Admission to majors housed in the School of Public Policy is selective based on GPA in all transferrable coursework, with a minimum GPA of 2.40 (This is a baseline GPA for consideration and not a guarantee of admission). Applicants with 80 semester/120 quarter units or more (e.g. a combination of 4-year and community college course work) are subject to additional screening. Although completion of the course work listed below is not mandatory prior to admission, students are advised to complete as much lower division course preparation as possible prior to transfer. Completion of lower division course work prepares students for upper division work at UCR and helps students move more efficiently towards graduation.</p><p><br></p><p><strong><u>AP Exam - Satisfy Course Requirement Section</u></strong></p><p><strong>Economics: Microeconomics Exam</strong></p><p>Minimum score of 3 satisfies ECON 3</p><p>H<strong>istory: United States Exam</strong></p><p>Minimum score of 3 satisfies HIST 17B</p><p><strong>Statistics Exam </strong></p><p>Minimum score of 4 satisfies STAT 8</p><p><br></p><p>If sending institution offers <strong><u>honors/enhanced/support courses</u></strong>, the articulation for the same course number will be used.</p><p><br></p><p>For additional information about this major, please visit <a href=\"https://spp.ucr.edu/undergraduate\" rel=\"noopener noreferrer\" target=\"_blank\">Public Policy</a>.</p><p>For information about the UC Transfer Admission Guarantee (TAG) program, please visit <a href=\"https://admission.universityofcalifornia.edu/admission-requirements/transfer-requirements/uc-transfer-programs/transfer-admission-guarantee-tag.html\" rel=\"noopener noreferrer\" target=\"_blank\">Transfer Admission Guarantee</a>.</p><p><br></p><p><strong>IGETC and General Education/Breadth Information</strong></p><p>In addition to the lower division requirements listed below, students are also encouraged to complete the Intersegmental General Education Transfer Curriculum, \"IGETC\", while attending community college. Although completion of the IGETC is not a UCR admission requirement, it is a good program for students planning to transfer into majors housed in the College of Humanities, Arts and Social Sciences. Information about completing IGETC is available at each community college. Students also have the option of completing the UCR CHASS breadth pattern, you may view the breadth requirements by visiting the <a href=\"https://documents.ucr.edu/registrar/UCR_Catalog_2024-25_Updated.pdf\" rel=\"noopener noreferrer\" target=\"_blank\">2024-25 Catalog</a>, pages 86-87.</p>",
+        "groupId": "9cbd7645-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "General"
+      }
+    ],
+    "articulations": [
+      {
+        "templateCellId": "41a14f9e-a376-4f72-bca7-08de050a3a69",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 263986,
+            "courseTitle": "Intro to Computer Programming",
+            "courseNumber": "5",
+            "prefix": "CS",
+            "prefixParentId": 501,
+            "prefixDescription": "Computer Science",
+            "departmentParentId": 3229,
+            "department": "Computer Science",
+            "begin": "F2001",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 306397,
+                    "courseTitle": "Introduction to Programming in Python",
+                    "courseNumber": "40",
+                    "prefix": "CIS",
+                    "prefixParentId": 2242,
+                    "prefixDescription": "Computer Information Systems",
+                    "departmentParentId": 3124,
+                    "department": "Computer Science and Information Systems",
+                    "begin": "F2016",
+                    "end": "",
+                    "minUnits": 4.5,
+                    "maxUnits": 4.5,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "fabfd71e-fff2-466b-bca8-08de050a3a69",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 366668,
+            "courseTitle": "Data Oriented Introduction to Computing I",
+            "courseNumber": "9A",
+            "prefix": "CS",
+            "prefixParentId": 501,
+            "prefixDescription": "Computer Science",
+            "departmentParentId": 3229,
+            "department": "Computer Science",
+            "begin": "S2022",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 306398,
+                    "courseTitle": "Python Programming",
+                    "courseNumber": "41A",
+                    "prefix": "CIS",
+                    "prefixParentId": 2242,
+                    "prefixDescription": "Computer Information Systems",
+                    "departmentParentId": 3124,
+                    "department": "Computer Science and Information Systems",
+                    "begin": "F2016",
+                    "end": "",
+                    "minUnits": 4.5,
+                    "maxUnits": 4.5,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "d2621176-0683-47a8-bcad-08de050a3a69",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 309042,
+            "courseTitle": "Intro to Microeconomics",
+            "courseNumber": "3",
+            "prefix": "ECON",
+            "prefixParentId": 1223,
+            "prefixDescription": "Economics",
+            "departmentParentId": 4254,
+            "department": "Economics",
+            "begin": "F2006",
+            "end": "",
+            "minUnits": 5.0,
+            "maxUnits": 5.0,
+            "pathways": [
+              {
+                "begin": null,
+                "beginDate": null,
+                "beginTermId": null,
+                "end": null,
+                "endDate": null,
+                "endTermId": null,
+                "pathwayId": 4,
+                "pathwayName": "Business Administration",
+                "pathwayCode": "Business-Administration",
+                "expectationId": 12,
+                "expectationName": "C1-Microeconomics",
+                "subexpectationId": 0,
+                "subexpectationName": null
+              }
+            ]
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [
+            {
+              "position": 0,
+              "content": "An AP exam may be used to satisfy this course requirement"
+            }
+          ],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 290810,
+                    "courseTitle": "Principles of Microeconomics",
+                    "courseNumber": "2",
+                    "prefix": "ECON",
+                    "prefixParentId": 1291,
+                    "prefixDescription": "Economics",
+                    "departmentParentId": 4312,
+                    "department": "Economics",
+                    "begin": "F1995",
+                    "end": "F2026",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [
+            {
+              "position": 0,
+              "content": "An AP exam may be used to satisfy this course requirement"
+            }
+          ],
+          "attributes": []
+        }
+      }
+    ],
+    "catalogYear": "{\"receivingCatalogYearBegin\":2025,\"receivingCatalogYearEnd\":2026,\"sendingCatalogYearBegin\":2025,\"sendingCatalogYearEnd\":2026}"
+  },
+  "validationFailure": null,
+  "isSuccessful": true
+}

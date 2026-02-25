@@ -1,0 +1,824 @@
+{
+  "result": {
+    "name": "Computer Science, B.S.",
+    "type": "Major",
+    "publishDate": "2025-10-29T19:09:55.438068",
+    "receivingInstitution": "{\"id\":21,\"code\":\"CSUHAY\",\"isCommunityCollege\":false,\"category\":\"CSU\",\"termType\":\"Quarter\",\"names\":[{\"name\":\"California State University, Hayward\",\"hasDepartments\":true,\"fromYear\":0,\"hideInList\":false},{\"name\":\"California State University, East Bay\",\"hasDepartments\":true,\"fromYear\":2005,\"hideInList\":false}],\"termTypeAcademicYears\":[{\"termType\":\"Semester\",\"fromYear\":2018},{\"termType\":\"Quarter\",\"fromYear\":2005},{\"termType\":\"Quarter\",\"fromYear\":1980}],\"beginId\":31,\"endId\":null}",
+    "sendingInstitution": "{\"id\":113,\"code\":\"DAC     \",\"isCommunityCollege\":true,\"category\":\"CCC\",\"termType\":\"Quarter\",\"names\":[{\"name\":\"De Anza College\",\"hasDepartments\":true,\"fromYear\":0,\"hideInList\":false}],\"termTypeAcademicYears\":[{\"termType\":\"Quarter\",\"fromYear\":1980}],\"beginId\":31,\"endId\":null}",
+    "academicYear": "{\"id\":76,\"code\":\"2025-2026\",\"beginDate\":\"2025-10-01T00:00:00\",\"endDate\":\"2026-10-01T00:00:00\",\"isOpenForMaintenance\":true,\"isOpenForPublic\":true,\"isOpenForReporting\":true,\"isLocked\":false}",
+    "templateAssets": [
+      {
+        "type": "GeneralText",
+        "content": "<p>Program Description</p><p>The Department of Computer Science offers study leading to a Bachelor of Science degree or minor in Computer Science. This program is designed to prepare students for employment in the technology sector or for advanced study in Computer Science.&nbsp;The curriculum provides a solid foundation of theoretical knowledge as well as experience with practical application in hardware and software.</p><p><br></p><p>Computer Science is the study of algorithms for addressing, processing, storing, and transmitting information. It encompasses a broad perspective that includes what constitutes a computer, computer uses and applications, and theoretical approaches to what can or can\u2019t be computed. The core curriculum in Computer Science, involving a blend of theory and practice, offers opportunities for problem solving in many areas and provides experience with a variety of computer languages and software packages. A typical student\u2019s experience includes programming through software engineering, hardware through operating systems, and can include data solutions, web design, networking, mobile computing, artificial intelligence, hardware design, and graphic implementations ranging from interface design to computer vision.&nbsp;The breadth of subject material is important as many students can expect to have a number of different job classifications throughout their careers.</p><p><br></p><p>Students interested in the B.S. degree program in Computer Science should contact the Computer Science Department\u2019s Student Service Center and visit the<a href=\"https://www.csueastbay.edu/cs/\" rel=\"noopener noreferrer\" target=\"_blank\"> Department\u2019s webpage.</a></p><p><br></p>",
+        "groupId": "cabd6f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 2,
+        "area": "General"
+      },
+      {
+        "type": "RequirementTitle",
+        "content": "LOWER DIVISION CORE",
+        "groupId": "b5ff7645-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": false,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 365342,
+                      "courseTitle": "Computer Science I",
+                      "courseNumber": "101",
+                      "prefix": "CS",
+                      "prefixParentId": 483,
+                      "prefixDescription": "Computer Science",
+                      "departmentParentId": 14107,
+                      "department": "Computer Science",
+                      "begin": "F2018",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "ecede5dd-45a9-4a5f-9daf-08dda831fbfa",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 291838,
+                      "courseTitle": "Computer Science II ",
+                      "courseNumber": "201",
+                      "prefix": "CS",
+                      "prefixParentId": 483,
+                      "prefixDescription": "Computer Science",
+                      "departmentParentId": 14107,
+                      "department": "Computer Science",
+                      "begin": "F2018",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "3779c9a4-e30a-4383-9db0-08dda831fbfa",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 2,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 284381,
+                      "courseTitle": "DISCRETE STRUCTURES",
+                      "courseNumber": "211",
+                      "prefix": "CS",
+                      "prefixParentId": 483,
+                      "prefixDescription": "Computer Science",
+                      "departmentParentId": 14107,
+                      "department": "Computer Science",
+                      "begin": "F2018",
+                      "end": "",
+                      "minUnits": 3.0,
+                      "maxUnits": 3.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "a4a046e9-30c2-4c6b-9db1-08dda831fbfa",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 8,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 359307,
+                      "courseTitle": "Physics for Scientists and Engineers I ",
+                      "courseNumber": "135",
+                      "prefix": "PHYS",
+                      "prefixParentId": 201,
+                      "prefixDescription": "Physics",
+                      "departmentParentId": 10760,
+                      "department": "Physics",
+                      "begin": "F2018",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "e4bfafee-fab5-41ae-9db2-08dda831fbfa",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 7,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 365277,
+                      "courseTitle": "Numerical Algorithms and Linear Algebra for Computer Science ",
+                      "courseNumber": "225",
+                      "prefix": "MATH",
+                      "prefixParentId": 9927,
+                      "prefixDescription": "Mathematics",
+                      "departmentParentId": 14106,
+                      "department": "Mathematics",
+                      "begin": "F2018",
+                      "end": "",
+                      "minUnits": 3.0,
+                      "maxUnits": 3.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "28931686-2323-423e-9db3-08dda831fbfa",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 6,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 284363,
+                      "courseTitle": "CALCULUS II",
+                      "courseNumber": "131",
+                      "prefix": "MATH",
+                      "prefixParentId": 9927,
+                      "prefixDescription": "Mathematics",
+                      "departmentParentId": 14106,
+                      "department": "Mathematics",
+                      "begin": "F2018",
+                      "end": "",
+                      "minUnits": 3.0,
+                      "maxUnits": 3.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "535d5ca5-42f6-49d9-9db4-08dda831fbfa",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 3,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 353996,
+                      "courseTitle": "Assembly Language and Computer Architecture",
+                      "courseNumber": "221",
+                      "prefix": "CS",
+                      "prefixParentId": 483,
+                      "prefixDescription": "Computer Science",
+                      "departmentParentId": 14107,
+                      "department": "Computer Science",
+                      "begin": "F2018",
+                      "end": "",
+                      "minUnits": 3.0,
+                      "maxUnits": 3.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "0b8e6532-8bef-4e90-9db5-08dda831fbfa",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 5,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 256819,
+                      "courseTitle": "CALCULUS I",
+                      "courseNumber": "130",
+                      "prefix": "MATH",
+                      "prefixParentId": 9927,
+                      "prefixDescription": "Mathematics",
+                      "departmentParentId": 14106,
+                      "department": "Mathematics",
+                      "begin": "F2018",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "a15182a6-0632-4f7b-9db6-08dda831fbfa",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 4,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 365344,
+                      "courseTitle": "Computing and Social Responsibility ",
+                      "courseNumber": "230",
+                      "prefix": "CS",
+                      "prefixParentId": 483,
+                      "prefixDescription": "Computer Science",
+                      "departmentParentId": 14107,
+                      "department": "Computer Science",
+                      "begin": "F2018",
+                      "end": "",
+                      "minUnits": 3.0,
+                      "maxUnits": 3.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "73536779-c780-4245-9db7-08dda831fbfa",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 0,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": null,
+        "advisements": [],
+        "groupId": "cdbd6f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "Requirements"
+      },
+      {
+        "type": "GeneralTitle",
+        "content": "Computer Science, B.S. Program (120 units)",
+        "groupId": "cfbd6f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p>PLEASE NOTE: ASSIST does not replace the assistance of meeting with an adviser. Please contact CSU East Bay at (510) 885-2556 for an advising appointment. The most accurate and up to date transfer information for transfer courses accepted by CSU East Bay is available at this link: <a href=\"https://tes.collegesource.com/publicview/TES_publicview01.aspx?rid=b75e02ac-0916-413d-8adf-f8011538371f&amp;aid=c79a2650-be66-45fb-9aff-c6f976fd20ff\" rel=\"noopener noreferrer\" target=\"_blank\">CSUEB Equivalencies </a>All California Community College transfer students are encouraged to complete their CSU General Education Breadth or CALGETC pattern at their Community College prior to enrollment at CSU, East Bay.  ASSOCIATE DEGREE FOR TRANSFER similarity matches with CSUEB DEGREES can be found here:  <a href=\"https://www.csueastbay.edu/aps/academic-services/articulation-and-transfer/associate-degrees-for-transfer.html\" rel=\"noopener noreferrer\" target=\"_blank\">ASSOCIATE DEGREES FOR TRANSFER CHART</a></p>",
+        "groupId": "d1bd6f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p>Please Note that the CSU EAST BAY COLLEGE OF SCIENCE does not accept ONLINE LABS taken for transfer as equivalent to CSUEB Lab courses. Only \"In Person\" Labs conducted in a College Laboratory setting will be considered equivalent to the CSU East Bay Lab course. Students who took an ONLINE LAB will be expected to retake the lab in person for major credit. This only affects  transfer students within the College of Science majors.</p>",
+        "groupId": "f814addb-1b50-4ca0-b193-019a30d6a3b7",
+        "position": 4,
+        "area": "General"
+      },
+      {
+        "type": "GeneralTitle",
+        "content": "NO ONLINE LABS for TRANSFER",
+        "groupId": "4febd378-9023-43b8-9fdc-019a311d081e",
+        "position": 3,
+        "area": "General"
+      }
+    ],
+    "articulations": [
+      {
+        "templateCellId": "ecede5dd-45a9-4a5f-9daf-08dda831fbfa",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 365342,
+            "courseTitle": "Computer Science I",
+            "courseNumber": "101",
+            "prefix": "CS",
+            "prefixParentId": 483,
+            "prefixDescription": "Computer Science",
+            "departmentParentId": 14107,
+            "department": "Computer Science",
+            "begin": "F2018",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": "Articulates as a Series Only",
+            "deniedCourses": [],
+            "items": [],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "3779c9a4-e30a-4383-9db0-08dda831fbfa",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 291838,
+            "courseTitle": "Computer Science II ",
+            "courseNumber": "201",
+            "prefix": "CS",
+            "prefixParentId": 483,
+            "prefixDescription": "Computer Science",
+            "departmentParentId": 14107,
+            "department": "Computer Science",
+            "begin": "F2018",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": "Articulates as a Series Only",
+            "deniedCourses": [],
+            "items": [],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "a4a046e9-30c2-4c6b-9db1-08dda831fbfa",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 284381,
+            "courseTitle": "DISCRETE STRUCTURES",
+            "courseNumber": "211",
+            "prefix": "CS",
+            "prefixParentId": 483,
+            "prefixDescription": "Computer Science",
+            "departmentParentId": 14107,
+            "department": "Computer Science",
+            "begin": "F2018",
+            "end": "",
+            "minUnits": 3.0,
+            "maxUnits": 3.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 359214,
+                    "courseTitle": "Discrete Mathematics",
+                    "courseNumber": "22",
+                    "prefix": "MATH",
+                    "prefixParentId": 10025,
+                    "prefixDescription": "Mathematics",
+                    "departmentParentId": 9040,
+                    "department": "Mathematics",
+                    "begin": "F1995",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 179,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 376897,
+                    "courseTitle": "Discrete Mathematics - HONORS",
+                    "courseNumber": "22H",
+                    "prefix": "MATH",
+                    "prefixParentId": 10025,
+                    "prefixDescription": "Mathematics",
+                    "departmentParentId": 9040,
+                    "department": "Mathematics",
+                    "begin": "F2021",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 283,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 1,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [
+              {
+                "id": "86b65115-03e4-4cab-84ec-08de00f70b2d",
+                "sendingArticulationId": "05ad4824-7a52-4cd7-3f97-08dda8322596",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 0,
+                "sendingCourseGroupEndPosition": 1
+              }
+            ],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "e4bfafee-fab5-41ae-9db2-08dda831fbfa",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 359307,
+            "courseTitle": "Physics for Scientists and Engineers I ",
+            "courseNumber": "135",
+            "prefix": "PHYS",
+            "prefixParentId": 201,
+            "prefixDescription": "Physics",
+            "departmentParentId": 10760,
+            "department": "Physics",
+            "begin": "F2018",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": "Articulates as a Series Only",
+            "deniedCourses": [],
+            "items": [],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "535d5ca5-42f6-49d9-9db4-08dda831fbfa",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 284363,
+            "courseTitle": "CALCULUS II",
+            "courseNumber": "131",
+            "prefix": "MATH",
+            "prefixParentId": 9927,
+            "prefixDescription": "Mathematics",
+            "departmentParentId": 14106,
+            "department": "Mathematics",
+            "begin": "F2018",
+            "end": "",
+            "minUnits": 3.0,
+            "maxUnits": 3.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "Or",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 307949,
+                    "courseTitle": "Calculus II",
+                    "courseNumber": "1B",
+                    "prefix": "MATH",
+                    "prefixParentId": 10025,
+                    "prefixDescription": "Mathematics",
+                    "departmentParentId": 9040,
+                    "department": "Mathematics",
+                    "begin": "F2024",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 179,
+                    "position": 0,
+                    "type": "Course"
+                  },
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 288769,
+                    "courseTitle": "Calculus II - HONORS",
+                    "courseNumber": "1BH",
+                    "prefix": "MATH",
+                    "prefixParentId": 10025,
+                    "prefixDescription": "Mathematics",
+                    "departmentParentId": 9040,
+                    "department": "Mathematics",
+                    "begin": "F2024",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 263,
+                    "position": 1,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "0b8e6532-8bef-4e90-9db5-08dda831fbfa",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 353996,
+            "courseTitle": "Assembly Language and Computer Architecture",
+            "courseNumber": "221",
+            "prefix": "CS",
+            "prefixParentId": 483,
+            "prefixDescription": "Computer Science",
+            "departmentParentId": 14107,
+            "department": "Computer Science",
+            "begin": "F2018",
+            "end": "",
+            "minUnits": 3.0,
+            "maxUnits": 3.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 279901,
+                    "courseTitle": "Introduction to x86 Processor Assembly Language and Computer Architecture",
+                    "courseNumber": "21JA",
+                    "prefix": "CIS",
+                    "prefixParentId": 2242,
+                    "prefixDescription": "Computer Information Systems",
+                    "departmentParentId": 3124,
+                    "department": "Computer Science and Information Systems",
+                    "begin": "F2015",
+                    "end": "",
+                    "minUnits": 4.5,
+                    "maxUnits": 4.5,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "a15182a6-0632-4f7b-9db6-08dda831fbfa",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 256819,
+            "courseTitle": "CALCULUS I",
+            "courseNumber": "130",
+            "prefix": "MATH",
+            "prefixParentId": 9927,
+            "prefixDescription": "Mathematics",
+            "departmentParentId": 14106,
+            "department": "Mathematics",
+            "begin": "F2018",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "Or",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 281397,
+                    "courseTitle": "Calculus I",
+                    "courseNumber": "1A",
+                    "prefix": "MATH",
+                    "prefixParentId": 10025,
+                    "prefixDescription": "Mathematics",
+                    "departmentParentId": 9040,
+                    "department": "Mathematics",
+                    "begin": "F2024",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 179,
+                    "position": 0,
+                    "type": "Course"
+                  },
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 288768,
+                    "courseTitle": "Calculus I - HONORS",
+                    "courseNumber": "1AH",
+                    "prefix": "MATH",
+                    "prefixParentId": 10025,
+                    "prefixDescription": "Mathematics",
+                    "departmentParentId": 9040,
+                    "department": "Mathematics",
+                    "begin": "F2024",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 263,
+                    "position": 1,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      }
+    ],
+    "catalogYear": "{\"receivingCatalogYearBegin\":2025,\"receivingCatalogYearEnd\":2026,\"sendingCatalogYearBegin\":2025,\"sendingCatalogYearEnd\":2026}"
+  },
+  "validationFailure": null,
+  "isSuccessful": true
+}

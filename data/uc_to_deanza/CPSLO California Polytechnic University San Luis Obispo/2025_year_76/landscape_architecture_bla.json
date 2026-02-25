@@ -1,0 +1,1701 @@
+{
+  "result": {
+    "name": "LANDSCAPE ARCHITECTURE, B.L.A.",
+    "type": "Major",
+    "publishDate": "2026-02-06T22:52:00.5688755",
+    "receivingInstitution": "{\"id\":11,\"code\":\"CPSLO   \",\"isCommunityCollege\":false,\"category\":\"CSU\",\"termType\":\"Quarter\",\"names\":[{\"name\":\"California Polytechnic University, San Luis Obispo\",\"hasDepartments\":true,\"fromYear\":0,\"hideInList\":false}],\"termTypeAcademicYears\":[{\"termType\":\"Semester\",\"fromYear\":2026},{\"termType\":\"Quarter\",\"fromYear\":1980}],\"beginId\":31,\"endId\":null}",
+    "sendingInstitution": "{\"id\":113,\"code\":\"DAC     \",\"isCommunityCollege\":true,\"category\":\"CCC\",\"termType\":\"Quarter\",\"names\":[{\"name\":\"De Anza College\",\"hasDepartments\":true,\"fromYear\":0,\"hideInList\":false}],\"termTypeAcademicYears\":[{\"termType\":\"Quarter\",\"fromYear\":1980}],\"beginId\":31,\"endId\":null}",
+    "academicYear": "{\"id\":76,\"code\":\"2025-2026\",\"beginDate\":\"2025-10-01T00:00:00\",\"endDate\":\"2026-10-01T00:00:00\",\"isOpenForMaintenance\":true,\"isOpenForPublic\":true,\"isOpenForReporting\":true,\"isLocked\":false}",
+    "templateAssets": [
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": false,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 294860,
+                      "courseTitle": "Wildlife Conservation Biology",
+                      "courseNumber": "227",
+                      "prefix": "BIO",
+                      "prefixParentId": 4835,
+                      "prefixDescription": "Biology",
+                      "departmentParentId": 13319,
+                      "department": "Biological Sciences",
+                      "begin": "S2017",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "39b7e9ee-d71e-4f59-2f8b-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 281905,
+                      "courseTitle": "Introductory Soil Science",
+                      "courseNumber": "120",
+                      "prefix": "SS",
+                      "prefixParentId": 5138,
+                      "prefixDescription": "Soil Science",
+                      "departmentParentId": 9598,
+                      "department": "Natural Resources Management and Environmental Sciences",
+                      "begin": "Su2019",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "791f3e04-e48b-4c64-2f8c-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [
+              {
+                "type": "NFromUnits",
+                "amount": 1.0,
+                "amountQuantifier": "AtLeast",
+                "amountUnitType": "Course",
+                "position": 0,
+                "selectionType": "Select"
+              }
+            ],
+            "position": 0,
+            "attributes": []
+          },
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 245922,
+                      "courseTitle": "Introduction to Statistical Concepts and Methods",
+                      "courseNumber": "217",
+                      "prefix": "STAT",
+                      "prefixParentId": 3349,
+                      "prefixDescription": "Statistics",
+                      "departmentParentId": 12535,
+                      "department": "Statistics",
+                      "begin": "F2001",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "714b381c-bf47-486c-2f8d-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 286562,
+                      "courseTitle": "Applied Statistics for the Life Sciences",
+                      "courseNumber": "218",
+                      "prefix": "STAT",
+                      "prefixParentId": 3349,
+                      "prefixDescription": "Statistics",
+                      "departmentParentId": 12535,
+                      "department": "Statistics",
+                      "begin": "F2000",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "92ba2092-d373-4d82-2f8e-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [
+              {
+                "type": "NFromUnits",
+                "amount": 1.0,
+                "amountQuantifier": "UpTo",
+                "amountUnitType": "Course",
+                "position": 0,
+                "selectionType": "Select"
+              }
+            ],
+            "position": 1,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": true,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": {
+          "type": "NFromConjunction",
+          "conjunction": "And",
+          "amountQuantifier": "None",
+          "amount": 8.0,
+          "amountUnitType": "Unit",
+          "id": "7b660437-404c-46d6-020b-08ddf49aba4d",
+          "selectionType": "Complete"
+        },
+        "advisements": [],
+        "groupId": "9fdc7145-6887-ef11-8474-000d3a37e3b6",
+        "position": 4,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementTitle",
+        "content": "SUPPORT COURSES",
+        "groupId": "56467945-6887-ef11-8474-000d3a37e3b6",
+        "position": 2,
+        "area": "Requirements"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<h2><span style=\"font-size: 20px;\">Thank you for your interest in Cal Poly San Luis Obispo!</span></h2><p>This articulation agreement displays the lower-division courses required in&nbsp;major and support. Students are advised to complete as much lower-division course preparation as possible prior to transfer. Cal Poly has specific selection criteria for transfer students for admissions, and we encourage you to check the selection criteria for the major you are interested in.&nbsp;</p><h1><span style=\"color: rgb(41, 98, 255); font-size: 16px;\">GENERAL INFORMATION</span></h1><ul><li><a href=\"https://catalog.calpoly.edu/\" rel=\"noopener noreferrer\" target=\"_blank\">University Catalog </a>for the full listing of degree requirements for this major</li><li><a href=\"https://www.calpoly.edu/admissions/transfer-student/how-to-apply\" rel=\"noopener noreferrer\" target=\"_blank\">Admissions website</a> for current transfer admission requirements</li><li><a href=\"https://www.calpoly.edu/\" rel=\"noopener noreferrer\" target=\"_blank\">Cal Poly website</a> for information on our campus</li></ul><p><br></p><h1><span style=\"font-size: 16px; color: rgb(41, 98, 255);\">ACADEMIC INFORMATION</span></h1><ul><li><a href=\"https://flowcharts.calpoly.edu/\" rel=\"noopener noreferrer\" target=\"_blank\">Curriculum sheets &amp; flowcharts</a> for Cal Poly majors | this will show you information about concentrations if applicable in your major</li><li><a href=\"https://registrar.calpoly.edu/other_ac_credit\" rel=\"noopener noreferrer\" target=\"_blank\">AP/IB exams and test credits earned</a> &amp; <a href=\"https://catalog.calpoly.edu/academicstandardsandpolicies/evaluationoftransfercredit/#otheracademicredit\" rel=\"noopener noreferrer\" target=\"_blank\">policies on college-level examination program exams</a>&nbsp;&nbsp;</li><li><a href=\"https://advising.calpoly.edu/\" rel=\"noopener noreferrer\" target=\"_blank\">Academic Advising</a>&nbsp;&nbsp;</li><li><a href=\"https://registrar.calpoly.edu/how-use-assist\" rel=\"noopener noreferrer\" target=\"_blank\">How to use Assist.org</a>&nbsp;</li></ul><p><br></p><p><em>This major does not have concentrations or areas of emphasis. This major has 8 units of Professional Electives. These may include any course in the College of Architecture and Environmental Design, any course from a College of Architecture and Environmental Design minor, or any course from the Art and Design Department.&nbsp;Please refer to curriculum sheets and flowcharts link above.</em>&nbsp;</p><p>\ufeff&nbsp;</p>",
+        "groupId": "a1dc7145-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "General"
+      },
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": true,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 10,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 233717,
+                      "courseTitle": "California Plants and Plant Communities",
+                      "courseNumber": "221",
+                      "prefix": "LA",
+                      "prefixParentId": 7723,
+                      "prefixDescription": "Landscape Architecture",
+                      "departmentParentId": 8252,
+                      "department": "Landscape Architecture",
+                      "begin": "Su2005",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "f097f7d4-23a0-40d3-2f8f-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 5,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 295927,
+                      "courseTitle": "Design Fundamentals II",
+                      "courseNumber": "203",
+                      "prefix": "LA",
+                      "prefixParentId": 7723,
+                      "prefixDescription": "Landscape Architecture",
+                      "departmentParentId": 8252,
+                      "department": "Landscape Architecture",
+                      "begin": "Su2005",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "17bbccd9-389a-49c6-2f90-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 3,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 299423,
+                      "courseTitle": "Principles of Digital Communication",
+                      "courseNumber": "171",
+                      "prefix": "LA",
+                      "prefixParentId": 7723,
+                      "prefixDescription": "Landscape Architecture",
+                      "departmentParentId": 8252,
+                      "department": "Landscape Architecture",
+                      "begin": "F2013",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "111ddf5e-39d3-4a7f-2f91-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 8,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 300028,
+                      "courseTitle": "History of Modern and Contemporary Landscape Architecture",
+                      "courseNumber": "212",
+                      "prefix": "LA",
+                      "prefixParentId": 7723,
+                      "prefixDescription": "Landscape Architecture",
+                      "departmentParentId": 8252,
+                      "department": "Landscape Architecture",
+                      "begin": "Su2007",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "00eef896-3100-4e00-2f92-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 2,
+                "cells": [
+                  {
+                    "type": "Series",
+                    "series": {
+                      "conjunction": "And",
+                      "name": "LA 170, LA 202",
+                      "courses": [
+                        {
+                          "id": "dee580f1-569c-4061-c174-08ddf49a0312",
+                          "position": 0,
+                          "courseIdentifierParentId": 269261,
+                          "courseTitle": "Principles of Design Communication",
+                          "courseNumber": "170",
+                          "prefix": "LA",
+                          "prefixParentId": 7723,
+                          "prefixDescription": "Landscape Architecture",
+                          "departmentParentId": 8252,
+                          "department": "Landscape Architecture",
+                          "begin": "Su2005",
+                          "end": "",
+                          "minUnits": 4.0,
+                          "maxUnits": 4.0,
+                          "pathways": []
+                        },
+                        {
+                          "id": "c6b3f7b4-8f7b-4071-c175-08ddf49a0312",
+                          "position": 1,
+                          "courseIdentifierParentId": 269262,
+                          "courseTitle": "Design Fundamentals I",
+                          "courseNumber": "202",
+                          "prefix": "LA",
+                          "prefixParentId": 7723,
+                          "prefixDescription": "Landscape Architecture",
+                          "departmentParentId": 8252,
+                          "department": "Landscape Architecture",
+                          "begin": "Su2005",
+                          "end": "",
+                          "minUnits": 4.0,
+                          "maxUnits": 4.0,
+                          "pathways": []
+                        }
+                      ],
+                      "seriesPathways": []
+                    },
+                    "requisites": [],
+                    "visibleCrossListedCourses": [],
+                    "seriesAttributes": [],
+                    "courseAttributes": [],
+                    "id": "ef277643-ef4a-4e87-2f93-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 9,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 295928,
+                      "courseTitle": "Landscape Ecology: Concepts, Issues and Interrelationships",
+                      "courseNumber": "220",
+                      "prefix": "LA",
+                      "prefixParentId": 7723,
+                      "prefixDescription": "Landscape Architecture",
+                      "departmentParentId": 8252,
+                      "department": "Landscape Architecture",
+                      "begin": "Su2005",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "05728868-da4f-451c-2f94-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 11,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 295929,
+                      "courseTitle": "Site Engineering Techniques and Applications",
+                      "courseNumber": "241",
+                      "prefix": "LA",
+                      "prefixParentId": 7723,
+                      "prefixDescription": "Landscape Architecture",
+                      "departmentParentId": 8252,
+                      "department": "Landscape Architecture",
+                      "begin": "Su2005",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "e0e97d40-646b-4e9c-2f95-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 269260,
+                      "courseTitle": "Introduction to Landscape Architecture",
+                      "courseNumber": "101",
+                      "prefix": "LA",
+                      "prefixParentId": 7723,
+                      "prefixDescription": "Landscape Architecture",
+                      "departmentParentId": 8252,
+                      "department": "Landscape Architecture",
+                      "begin": "Su2005",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "2736bd0c-fc12-4ccd-2f96-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 12,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 299170,
+                      "courseTitle": "Implementation Strategies",
+                      "courseNumber": "242",
+                      "prefix": "LA",
+                      "prefixParentId": 7723,
+                      "prefixDescription": "Landscape Architecture",
+                      "departmentParentId": 8252,
+                      "department": "Landscape Architecture",
+                      "begin": "Su2005",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "3ce5c59f-f926-4778-2f97-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 6,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 356568,
+                      "courseTitle": "Design Fundamentals III",
+                      "courseNumber": "204",
+                      "prefix": "LA",
+                      "prefixParentId": 7723,
+                      "prefixDescription": "Landscape Architecture",
+                      "departmentParentId": 8252,
+                      "department": "Landscape Architecture",
+                      "begin": "Su2005",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "5bd3951a-4e13-49f3-2f98-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 269261,
+                      "courseTitle": "Principles of Design Communication",
+                      "courseNumber": "170",
+                      "prefix": "LA",
+                      "prefixParentId": 7723,
+                      "prefixDescription": "Landscape Architecture",
+                      "departmentParentId": 8252,
+                      "department": "Landscape Architecture",
+                      "begin": "Su2005",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "57a3c7f2-2ed7-4b3e-2f99-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 4,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 269262,
+                      "courseTitle": "Design Fundamentals I",
+                      "courseNumber": "202",
+                      "prefix": "LA",
+                      "prefixParentId": 7723,
+                      "prefixDescription": "Landscape Architecture",
+                      "departmentParentId": 8252,
+                      "department": "Landscape Architecture",
+                      "begin": "Su2005",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "3df3aba0-586b-494a-2f9a-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 7,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 356827,
+                      "courseTitle": "History of Landscape Architecture: Ancient Civilizations through Colonial America",
+                      "courseNumber": "211",
+                      "prefix": "LA",
+                      "prefixParentId": 7723,
+                      "prefixDescription": "Landscape Architecture",
+                      "departmentParentId": 8252,
+                      "department": "Landscape Architecture",
+                      "begin": "Su2007",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "36e1305a-f3ad-48a3-2f9b-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 13,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 269263,
+                      "courseTitle": "Materials and Techniques of Landscape Construction",
+                      "courseNumber": "243",
+                      "prefix": "LA",
+                      "prefixParentId": 7723,
+                      "prefixDescription": "Landscape Architecture",
+                      "departmentParentId": 8252,
+                      "department": "Landscape Architecture",
+                      "begin": "Su2005",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "cea84847-522c-407a-2f9c-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 0,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": null,
+        "advisements": [],
+        "groupId": "a2dc7145-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementTitle",
+        "content": "MAJOR COURSES",
+        "groupId": "121b7945-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": true,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 245716,
+                      "courseTitle": "General Botany",
+                      "courseNumber": "121",
+                      "prefix": "BOT",
+                      "prefixParentId": 142,
+                      "prefixDescription": "Botany",
+                      "departmentParentId": 13319,
+                      "department": "Biological Sciences",
+                      "begin": "F2016",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "bf9c9120-be10-4868-2f9d-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 156260,
+                      "courseTitle": "Plant Diversity and Ecology",
+                      "courseNumber": "114",
+                      "prefix": "BIO",
+                      "prefixParentId": 4835,
+                      "prefixDescription": "Biology",
+                      "departmentParentId": 13319,
+                      "department": "Biological Sciences",
+                      "begin": "F2016",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "e9c3bc4c-81a7-40ac-2f9e-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [
+              {
+                "type": "NFollowing",
+                "amount": 1.0,
+                "amountUnitType": "Course",
+                "position": 0,
+                "selectionType": "Select"
+              }
+            ],
+            "position": 1,
+            "attributes": []
+          },
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 275917,
+                      "courseTitle": "Pre-Calculus Algebra",
+                      "courseNumber": "118",
+                      "prefix": "MATH",
+                      "prefixParentId": 9918,
+                      "prefixDescription": "Mathematics",
+                      "departmentParentId": 8956,
+                      "department": "Mathematics",
+                      "begin": "F2000",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "443ba8c7-101d-4154-2f9f-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Series",
+                    "series": {
+                      "conjunction": "And",
+                      "name": "MATH 116, MATH 117",
+                      "courses": [
+                        {
+                          "id": "91c2866c-fdd4-431f-c102-08ddf49a0312",
+                          "position": 0,
+                          "courseIdentifierParentId": 234774,
+                          "courseTitle": "Pre-Calculus Algebra I",
+                          "courseNumber": "116",
+                          "prefix": "MATH",
+                          "prefixParentId": 9918,
+                          "prefixDescription": "Mathematics",
+                          "departmentParentId": 8956,
+                          "department": "Mathematics",
+                          "begin": "F2000",
+                          "end": "",
+                          "minUnits": 3.0,
+                          "maxUnits": 3.0,
+                          "pathways": []
+                        },
+                        {
+                          "id": "58c4c138-d00b-4d0e-c104-08ddf49a0312",
+                          "position": 1,
+                          "courseIdentifierParentId": 135694,
+                          "courseTitle": "Pre-Calculus Algebra II",
+                          "courseNumber": "117",
+                          "prefix": "MATH",
+                          "prefixParentId": 9918,
+                          "prefixDescription": "Mathematics",
+                          "departmentParentId": 8956,
+                          "department": "Mathematics",
+                          "begin": "F2001",
+                          "end": "",
+                          "minUnits": 3.0,
+                          "maxUnits": 3.0,
+                          "pathways": []
+                        }
+                      ],
+                      "seriesPathways": []
+                    },
+                    "requisites": [],
+                    "visibleCrossListedCourses": [],
+                    "seriesAttributes": [],
+                    "courseAttributes": [],
+                    "id": "a898d970-b6f2-4086-2fa0-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [
+              {
+                "type": "NFollowing",
+                "amount": 1.0,
+                "amountUnitType": "CourseOrCombination",
+                "position": 0,
+                "selectionType": "Select"
+              }
+            ],
+            "position": 2,
+            "attributes": []
+          },
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 4,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 275838,
+                      "courseTitle": "Plant Materials I",
+                      "courseNumber": "233",
+                      "prefix": "PLSC",
+                      "prefixParentId": 15712,
+                      "prefixDescription": "Plant Sciences",
+                      "departmentParentId": 14223,
+                      "department": "Plant Sciences",
+                      "begin": "F2022",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "44083c57-a3f6-4b0b-2fa1-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 357762,
+                      "courseTitle": "Principles of Environmental Design",
+                      "courseNumber": "123",
+                      "prefix": "EDES",
+                      "prefixParentId": 9382,
+                      "prefixDescription": "Environmental Design",
+                      "departmentParentId": 5199,
+                      "department": "Environmental Design",
+                      "begin": "F2015",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "48731aae-a4fb-49c4-2fa2-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 2,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 156240,
+                      "courseTitle": "Pre-Calculus Trigonometry",
+                      "courseNumber": "119",
+                      "prefix": "MATH",
+                      "prefixParentId": 9918,
+                      "prefixDescription": "Mathematics",
+                      "departmentParentId": 8956,
+                      "department": "Mathematics",
+                      "begin": "F2000",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "c567a8fd-d261-4fc6-2fa3-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 5,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 304704,
+                      "courseTitle": "Plant Materials II",
+                      "courseNumber": "234",
+                      "prefix": "PLSC",
+                      "prefixParentId": 15712,
+                      "prefixDescription": "Plant Sciences",
+                      "departmentParentId": 14223,
+                      "department": "Plant Sciences",
+                      "begin": "F2022",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "cabb0c33-2b9c-4541-2fa4-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 3,
+                "cells": [
+                  {
+                    "type": "Series",
+                    "series": {
+                      "conjunction": "And",
+                      "name": "MATH 118, MATH 119",
+                      "courses": [
+                        {
+                          "id": "d03731fc-711d-4701-c145-08ddf49a0312",
+                          "position": 0,
+                          "courseIdentifierParentId": 275917,
+                          "courseTitle": "Pre-Calculus Algebra",
+                          "courseNumber": "118",
+                          "prefix": "MATH",
+                          "prefixParentId": 9918,
+                          "prefixDescription": "Mathematics",
+                          "departmentParentId": 8956,
+                          "department": "Mathematics",
+                          "begin": "F2000",
+                          "end": "",
+                          "minUnits": 4.0,
+                          "maxUnits": 4.0,
+                          "pathways": []
+                        },
+                        {
+                          "id": "c260647e-7afc-404d-c146-08ddf49a0312",
+                          "position": 1,
+                          "courseIdentifierParentId": 156240,
+                          "courseTitle": "Pre-Calculus Trigonometry",
+                          "courseNumber": "119",
+                          "prefix": "MATH",
+                          "prefixParentId": 9918,
+                          "prefixDescription": "Mathematics",
+                          "departmentParentId": 8956,
+                          "department": "Mathematics",
+                          "begin": "F2000",
+                          "end": "",
+                          "minUnits": 4.0,
+                          "maxUnits": 4.0,
+                          "pathways": []
+                        }
+                      ],
+                      "seriesPathways": []
+                    },
+                    "requisites": [],
+                    "visibleCrossListedCourses": [],
+                    "seriesAttributes": [],
+                    "courseAttributes": [],
+                    "id": "584ca205-5314-45ce-2fa5-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 169511,
+                      "courseTitle": "Introduction to Urban Planning",
+                      "courseNumber": "212",
+                      "prefix": "CRP",
+                      "prefixParentId": 11132,
+                      "prefixDescription": "City and Regional Planning",
+                      "departmentParentId": 2662,
+                      "department": "City and Regional Planning",
+                      "begin": "F2000",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "340ae74f-50e1-4cd3-2fa6-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 0,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": null,
+        "advisements": [],
+        "groupId": "a4dc7145-6887-ef11-8474-000d3a37e3b6",
+        "position": 3,
+        "area": "Requirements"
+      },
+      {
+        "type": "GeneralTitle",
+        "content": "TRANSFER INFORMATION & RESOURCES",
+        "groupId": "a7dc7145-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "General"
+      },
+      {
+        "type": "GeneralTitle",
+        "content": "ADMISSIONS INFORMATION",
+        "groupId": "97cd1c97-d6f0-4dae-89ab-01997db30596",
+        "position": 2,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p>To be a competitive transfer applicant, it\u2019s important to start by reviewing Cal Poly\u2019s <a href=\"https://www.calpoly.edu/admissions/transfer-student/selection-criteria\" rel=\"noopener noreferrer\" target=\"_blank\">Selection Criteria for Transfer Students</a> for your major of interest. This page outlines general admissions requirements for all transfer applicants and the required and desired courses for admissions to Cal Poly San Luis Obispo.&nbsp;&nbsp;Once you know which courses are expected, use ASSIST to see how your completed or planned courses match Cal Poly\u2019s. You can search articulation agreements by major, department, or course prefix. Keep in mind that credit is granted based on the academic year in which you took the course.&nbsp;</p><p><br></p><p>Note: Not all articulated courses listed in ASSIST are required to be a competitive applicant\u2014but completing the required courses in the selection criteria&nbsp;and as many recommended courses as possible will strengthen your application.&nbsp;</p><p class=\"ql-indent-1\"><span style=\"font-size: 16px;\">&nbsp;&nbsp;</span></p><p><strong><em>This is not a static document; new articulation may be added at any time. The information provided herein is subject to change without notice and does not constitute a contract or the terms and conditions of a contract between the student and the institution or the California State University.</em>&nbsp;</strong></p>",
+        "groupId": "4884a78a-1825-46c6-aa80-01997db30596",
+        "position": 3,
+        "area": "General"
+      },
+      {
+        "type": "GeneralTitle",
+        "content": "SEMESTER CONVERSION",
+        "groupId": "eb76ab32-b135-475b-ae15-01997db30596",
+        "position": 4,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p>Cal Poly is currently on the quarter system, and all Cal Poly course units reflect that format. Starting Fall 2026, the university will switch to the semester system. If you begin at Cal Poly in Fall 2025, Cal Poly will make every effort to ensure a seamless transfer of your community college work, so that you make progress-to-degree.&nbsp;ASSIST agreements, flowcharts, curriculum sheets, and planning tools haven\u2019t been updated yet to show semester-based information. For latest updates, visit Cal Poly\u2019s official semester conversion page:&nbsp;</p><p><br></p><ul><li><a href=\"https://www.calpoly.edu/semester-conversion\" rel=\"noopener noreferrer\" target=\"_blank\">Semester conversion website</a>&nbsp;</li><li><a href=\"https://semesters.calpoly.edu/student-advising\" rel=\"noopener noreferrer\" target=\"_blank\">Specific College semester conversion websites</a>&nbsp;</li></ul>",
+        "groupId": "d881dcaf-596c-4049-a19c-01997db30596",
+        "position": 5,
+        "area": "General"
+      }
+    ],
+    "articulations": [
+      {
+        "templateCellId": "714b381c-bf47-486c-2f8d-08ddf49aba51",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 245922,
+            "courseTitle": "Introduction to Statistical Concepts and Methods",
+            "courseNumber": "217",
+            "prefix": "STAT",
+            "prefixParentId": 3349,
+            "prefixDescription": "Statistics",
+            "departmentParentId": 12535,
+            "department": "Statistics",
+            "begin": "F2001",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [
+                      {
+                        "id": "f50c99c6-1154-441a-9bb2-08ddf49acf0c",
+                        "publishedCourseIdentifierYearTermId": 279,
+                        "courseIdentifierParentId": 255009,
+                        "courseTitle": "Statistics and Research Methods in Social Science",
+                        "courseNumber": "15",
+                        "prefix": "PSYC",
+                        "prefixParentId": 4716,
+                        "prefixDescription": "Psychology",
+                        "departmentParentId": 11251,
+                        "department": "Psychology",
+                        "begin": "F2020",
+                        "end": "",
+                        "minUnits": 4.0,
+                        "maxUnits": 4.0,
+                        "pathways": []
+                      }
+                    ],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 283453,
+                    "courseTitle": "Statistics and Research Methods in Social Science",
+                    "courseNumber": "15",
+                    "prefix": "SOC",
+                    "prefixParentId": 9095,
+                    "prefixDescription": "Sociology",
+                    "departmentParentId": 12108,
+                    "department": "Sociology",
+                    "begin": "F2020",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 279,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 2,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [
+                      {
+                        "id": "81d3a49c-19da-48e1-9bb3-08ddf49acf0c",
+                        "publishedCourseIdentifierYearTermId": 279,
+                        "courseIdentifierParentId": 283453,
+                        "courseTitle": "Statistics and Research Methods in Social Science",
+                        "courseNumber": "15",
+                        "prefix": "SOC",
+                        "prefixParentId": 9095,
+                        "prefixDescription": "Sociology",
+                        "departmentParentId": 12108,
+                        "department": "Sociology",
+                        "begin": "F2020",
+                        "end": "",
+                        "minUnits": 4.0,
+                        "maxUnits": 4.0,
+                        "pathways": []
+                      }
+                    ],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 255009,
+                    "courseTitle": "Statistics and Research Methods in Social Science",
+                    "courseNumber": "15",
+                    "prefix": "PSYC",
+                    "prefixParentId": 4716,
+                    "prefixDescription": "Psychology",
+                    "departmentParentId": 11251,
+                    "department": "Psychology",
+                    "begin": "F2020",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 279,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 3,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 358922,
+                    "courseTitle": "Introduction to Statistics",
+                    "courseNumber": "C1000",
+                    "prefix": "STAT",
+                    "prefixParentId": 18723,
+                    "prefixDescription": "Statistics",
+                    "departmentParentId": 15393,
+                    "department": "Statistics",
+                    "begin": "F2025",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 299,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 281385,
+                    "courseTitle": "Engineering Statistics",
+                    "courseNumber": "23",
+                    "prefix": "MATH",
+                    "prefixParentId": 10025,
+                    "prefixDescription": "Mathematics",
+                    "departmentParentId": 9040,
+                    "department": "Mathematics",
+                    "begin": "F1995",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 179,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 4,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 288705,
+                    "courseTitle": "Introduction to Statistics - HONORS",
+                    "courseNumber": "C1000H",
+                    "prefix": "STAT",
+                    "prefixParentId": 18723,
+                    "prefixDescription": "Statistics",
+                    "departmentParentId": 15393,
+                    "department": "Statistics",
+                    "begin": "F2025",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 299,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 1,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 410764,
+                    "courseTitle": "Introduction to Statistics for the Behavioral and Social Sciences",
+                    "courseNumber": "20",
+                    "prefix": "POLI",
+                    "prefixParentId": 2020,
+                    "prefixDescription": "Political Science",
+                    "departmentParentId": 11018,
+                    "department": "Political Science",
+                    "begin": "F2025",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 299,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 5,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [
+              {
+                "id": "b6e28174-dbaf-4b13-8f78-08ddf49accf2",
+                "sendingArticulationId": "9c2ce7dd-0ea7-4b10-925d-08ddf49acc21",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 0,
+                "sendingCourseGroupEndPosition": 1
+              },
+              {
+                "id": "889110cf-7da2-4bee-9b72-08ddfca1a18b",
+                "sendingArticulationId": "9c2ce7dd-0ea7-4b10-925d-08ddf49acc21",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 1,
+                "sendingCourseGroupEndPosition": 2
+              },
+              {
+                "id": "4fc89758-cc5b-4e44-8f79-08ddf49accf2",
+                "sendingArticulationId": "9c2ce7dd-0ea7-4b10-925d-08ddf49acc21",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 2,
+                "sendingCourseGroupEndPosition": 3
+              },
+              {
+                "id": "215ce7f9-423f-404f-8f7a-08ddf49accf2",
+                "sendingArticulationId": "9c2ce7dd-0ea7-4b10-925d-08ddf49acc21",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 3,
+                "sendingCourseGroupEndPosition": 4
+              },
+              {
+                "id": "48d32746-0f44-4e1b-8433-08de00f70b2d",
+                "sendingArticulationId": "9c2ce7dd-0ea7-4b10-925d-08ddf49acc21",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 4,
+                "sendingCourseGroupEndPosition": 5
+              }
+            ],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "92ba2092-d373-4d82-2f8e-08ddf49aba51",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 286562,
+            "courseTitle": "Applied Statistics for the Life Sciences",
+            "courseNumber": "218",
+            "prefix": "STAT",
+            "prefixParentId": 3349,
+            "prefixDescription": "Statistics",
+            "departmentParentId": 12535,
+            "department": "Statistics",
+            "begin": "F2000",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 281385,
+                    "courseTitle": "Engineering Statistics",
+                    "courseNumber": "23",
+                    "prefix": "MATH",
+                    "prefixParentId": 10025,
+                    "prefixDescription": "Mathematics",
+                    "departmentParentId": 9040,
+                    "department": "Mathematics",
+                    "begin": "F1995",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 179,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 4,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [
+                      {
+                        "id": "80ca9ad9-099e-441d-9bb4-08ddf49acf0c",
+                        "publishedCourseIdentifierYearTermId": 279,
+                        "courseIdentifierParentId": 255009,
+                        "courseTitle": "Statistics and Research Methods in Social Science",
+                        "courseNumber": "15",
+                        "prefix": "PSYC",
+                        "prefixParentId": 4716,
+                        "prefixDescription": "Psychology",
+                        "departmentParentId": 11251,
+                        "department": "Psychology",
+                        "begin": "F2020",
+                        "end": "",
+                        "minUnits": 4.0,
+                        "maxUnits": 4.0,
+                        "pathways": []
+                      }
+                    ],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 283453,
+                    "courseTitle": "Statistics and Research Methods in Social Science",
+                    "courseNumber": "15",
+                    "prefix": "SOC",
+                    "prefixParentId": 9095,
+                    "prefixDescription": "Sociology",
+                    "departmentParentId": 12108,
+                    "department": "Sociology",
+                    "begin": "F2020",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 279,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 3,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 358922,
+                    "courseTitle": "Introduction to Statistics",
+                    "courseNumber": "C1000",
+                    "prefix": "STAT",
+                    "prefixParentId": 18723,
+                    "prefixDescription": "Statistics",
+                    "departmentParentId": 15393,
+                    "department": "Statistics",
+                    "begin": "F2025",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 299,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [
+                      {
+                        "id": "b50a7c03-b73e-4167-9bb5-08ddf49acf0c",
+                        "publishedCourseIdentifierYearTermId": 279,
+                        "courseIdentifierParentId": 283453,
+                        "courseTitle": "Statistics and Research Methods in Social Science",
+                        "courseNumber": "15",
+                        "prefix": "SOC",
+                        "prefixParentId": 9095,
+                        "prefixDescription": "Sociology",
+                        "departmentParentId": 12108,
+                        "department": "Sociology",
+                        "begin": "F2020",
+                        "end": "",
+                        "minUnits": 4.0,
+                        "maxUnits": 4.0,
+                        "pathways": []
+                      }
+                    ],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 255009,
+                    "courseTitle": "Statistics and Research Methods in Social Science",
+                    "courseNumber": "15",
+                    "prefix": "PSYC",
+                    "prefixParentId": 4716,
+                    "prefixDescription": "Psychology",
+                    "departmentParentId": 11251,
+                    "department": "Psychology",
+                    "begin": "F2020",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 279,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 2,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 288705,
+                    "courseTitle": "Introduction to Statistics - HONORS",
+                    "courseNumber": "C1000H",
+                    "prefix": "STAT",
+                    "prefixParentId": 18723,
+                    "prefixDescription": "Statistics",
+                    "departmentParentId": 15393,
+                    "department": "Statistics",
+                    "begin": "F2025",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 299,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 1,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 410764,
+                    "courseTitle": "Introduction to Statistics for the Behavioral and Social Sciences",
+                    "courseNumber": "20",
+                    "prefix": "POLI",
+                    "prefixParentId": 2020,
+                    "prefixDescription": "Political Science",
+                    "departmentParentId": 11018,
+                    "department": "Political Science",
+                    "begin": "F2025",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 299,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 5,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [
+              {
+                "id": "a3f08af7-d9b0-4dbc-8fa4-08ddf49accf2",
+                "sendingArticulationId": "5d7b6181-f532-45e9-92a0-08ddf49acc21",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 0,
+                "sendingCourseGroupEndPosition": 1
+              },
+              {
+                "id": "4adb2cda-51b2-453d-9b73-08ddfca1a18b",
+                "sendingArticulationId": "5d7b6181-f532-45e9-92a0-08ddf49acc21",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 1,
+                "sendingCourseGroupEndPosition": 2
+              },
+              {
+                "id": "b3f0d26e-42ee-4044-8fa3-08ddf49accf2",
+                "sendingArticulationId": "5d7b6181-f532-45e9-92a0-08ddf49acc21",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 2,
+                "sendingCourseGroupEndPosition": 3
+              },
+              {
+                "id": "5e79dce9-c7b7-4761-8fa5-08ddf49accf2",
+                "sendingArticulationId": "5d7b6181-f532-45e9-92a0-08ddf49acc21",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 3,
+                "sendingCourseGroupEndPosition": 4
+              },
+              {
+                "id": "50082338-4455-4f03-8434-08de00f70b2d",
+                "sendingArticulationId": "5d7b6181-f532-45e9-92a0-08ddf49acc21",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 4,
+                "sendingCourseGroupEndPosition": 5
+              }
+            ],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      }
+    ],
+    "catalogYear": "{\"receivingCatalogYearBegin\":2025,\"receivingCatalogYearEnd\":2026,\"sendingCatalogYearBegin\":2025,\"sendingCatalogYearEnd\":2026}"
+  },
+  "validationFailure": null,
+  "isSuccessful": true
+}

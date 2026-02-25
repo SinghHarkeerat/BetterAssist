@@ -1,0 +1,680 @@
+{
+  "result": {
+    "name": "Psychology, B.A.",
+    "type": "Major",
+    "publishDate": "2025-10-29T19:17:37.4413989",
+    "receivingInstitution": "{\"id\":21,\"code\":\"CSUHAY\",\"isCommunityCollege\":false,\"category\":\"CSU\",\"termType\":\"Quarter\",\"names\":[{\"name\":\"California State University, Hayward\",\"hasDepartments\":true,\"fromYear\":0,\"hideInList\":false},{\"name\":\"California State University, East Bay\",\"hasDepartments\":true,\"fromYear\":2005,\"hideInList\":false}],\"termTypeAcademicYears\":[{\"termType\":\"Semester\",\"fromYear\":2018},{\"termType\":\"Quarter\",\"fromYear\":2005},{\"termType\":\"Quarter\",\"fromYear\":1980}],\"beginId\":31,\"endId\":null}",
+    "sendingInstitution": "{\"id\":113,\"code\":\"DAC     \",\"isCommunityCollege\":true,\"category\":\"CCC\",\"termType\":\"Quarter\",\"names\":[{\"name\":\"De Anza College\",\"hasDepartments\":true,\"fromYear\":0,\"hideInList\":false}],\"termTypeAcademicYears\":[{\"termType\":\"Quarter\",\"fromYear\":1980}],\"beginId\":31,\"endId\":null}",
+    "academicYear": "{\"id\":76,\"code\":\"2025-2026\",\"beginDate\":\"2025-10-01T00:00:00\",\"endDate\":\"2026-10-01T00:00:00\",\"isOpenForMaintenance\":true,\"isOpenForPublic\":true,\"isOpenForReporting\":true,\"isLocked\":false}",
+    "templateAssets": [
+      {
+        "type": "GeneralText",
+        "content": "<p>Program Description</p><p>Psychology is the science of behavior and mental processes. Many psychologists work primarily with people to understand how they think, respond to stress, learn and forget, develop into unique personalities, and interact with one another. Others study the behavior and nervous systems of animals in order to find general principles that apply across species. Psychologists apply their knowledge to do therapy and counseling; to improve practices in schools, prisons, and rehabilitation centers; and to enhance performance in industrial and business settings.</p><p><br></p><p>The B.A. program is appropriate for most psychology students. It provides a basic understanding of human behavior and motivation that is valuable in many careers in business, government, and education. It also provides the background expected for entry into graduate programs in clinical psychology, counseling psychology, school psychology, health psychology, social psychology, or experimental psychology.</p><p><br></p>",
+        "groupId": "24ad6f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 2,
+        "area": "General"
+      },
+      {
+        "type": "GeneralTitle",
+        "content": "Psychology, B.A. (120 units)",
+        "groupId": "29ad6f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "General"
+      },
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": false,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 2,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 296534,
+                      "courseTitle": "Methods of Investigation in Psychology",
+                      "courseNumber": "200",
+                      "prefix": "PSYC",
+                      "prefixParentId": 4610,
+                      "prefixDescription": "Psychology",
+                      "departmentParentId": 11228,
+                      "department": "Psychology",
+                      "begin": "F2018",
+                      "end": "",
+                      "minUnits": 3.0,
+                      "maxUnits": 3.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "b4fcb8a6-19c0-4746-9ea1-08dda831fbfa",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Series",
+                    "series": {
+                      "conjunction": "And",
+                      "name": "BIOL 101, BIOL 102",
+                      "courses": [
+                        {
+                          "id": "fcc8a1c9-5f08-4613-b477-08dda831f292",
+                          "position": 0,
+                          "courseIdentifierParentId": 256846,
+                          "courseTitle": "INTRODUCTION TO BIOLOGY",
+                          "courseNumber": "101",
+                          "prefix": "BIOL",
+                          "prefixParentId": 9246,
+                          "prefixDescription": "Biological Science",
+                          "departmentParentId": 1620,
+                          "department": "Biological Science",
+                          "begin": "F2018",
+                          "end": "",
+                          "minUnits": 3.0,
+                          "maxUnits": 3.0,
+                          "pathways": []
+                        },
+                        {
+                          "id": "17c592bd-2bc6-41be-b478-08dda831f292",
+                          "position": 1,
+                          "courseIdentifierParentId": 43014,
+                          "courseTitle": "Introduction to Biology Lab",
+                          "courseNumber": "102",
+                          "prefix": "BIOL",
+                          "prefixParentId": 9246,
+                          "prefixDescription": "Biological Science",
+                          "departmentParentId": 1620,
+                          "department": "Biological Science",
+                          "begin": "F2018",
+                          "end": "",
+                          "minUnits": 1.0,
+                          "maxUnits": 1.0,
+                          "pathways": []
+                        }
+                      ],
+                      "seriesPathways": []
+                    },
+                    "requisites": [],
+                    "visibleCrossListedCourses": [],
+                    "seriesAttributes": [],
+                    "courseAttributes": [],
+                    "id": "73411625-3f33-491a-9ea2-08dda831fbfa",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 3,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 308306,
+                      "courseTitle": "ELEMENTS OF PROBABILITY AND STATISTICS",
+                      "courseNumber": "100",
+                      "prefix": "STAT",
+                      "prefixParentId": 3351,
+                      "prefixDescription": "Statistics",
+                      "departmentParentId": 12562,
+                      "department": "Statistics and Biostatistics",
+                      "begin": "F2018",
+                      "end": "",
+                      "minUnits": 3.0,
+                      "maxUnits": 3.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "f0442d2e-fc1b-44b5-9ea3-08dda831fbfa",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 359316,
+                      "courseTitle": "GENERAL PSYCHOLOGY",
+                      "courseNumber": "100",
+                      "prefix": "PSYC",
+                      "prefixParentId": 4610,
+                      "prefixDescription": "Psychology",
+                      "departmentParentId": 11228,
+                      "department": "Psychology",
+                      "begin": "F2018",
+                      "end": "",
+                      "minUnits": 3.0,
+                      "maxUnits": 3.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "6364924b-a0c0-4683-9ea4-08dda831fbfa",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 0,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": null,
+        "advisements": [],
+        "groupId": "2bad6f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "Requirements"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p>PLEASE NOTE: ASSIST does not replace the assistance of meeting with an adviser. Please contact CSU East Bay at (510) 885-2556 for an advising appointment. The most accurate and up to date transfer information for transfer courses accepted by CSU East Bay is available at this link: <a href=\"https://tes.collegesource.com/publicview/TES_publicview01.aspx?rid=b75e02ac-0916-413d-8adf-f8011538371f&amp;aid=c79a2650-be66-45fb-9aff-c6f976fd20ff\" rel=\"noopener noreferrer\" target=\"_blank\">CSUEB Equivalencies </a>All California Community College transfer students are encouraged to complete their CSU General Education Breadth or CALGETC pattern at their Community College prior to enrollment at CSU, East Bay.  ASSOCIATE DEGREE FOR TRANSFER similarity matches with CSUEB DEGREES can be found here:  <a href=\"https://www.csueastbay.edu/aps/academic-services/articulation-and-transfer/associate-degrees-for-transfer.html\" rel=\"noopener noreferrer\" target=\"_blank\">ASSOCIATE DEGREES FOR TRANSFER CHART</a></p>",
+        "groupId": "2ead6f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "General"
+      },
+      {
+        "type": "RequirementTitle",
+        "content": "LOWER DIVISION CORE",
+        "groupId": "5dfe7645-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "Requirements"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p>Please Note that the CSU EAST BAY COLLEGE OF SCIENCE does not accept ONLINE LABS taken for transfer as equivalent to CSUEB Lab courses. Only \"In Person\" Labs conducted in a College Laboratory setting will be considered equivalent to the CSU East Bay Lab course. Students who took an ONLINE LAB will be expected to retake the lab in person for major credit. This only affects  transfer students within the College of Science majors.</p>",
+        "groupId": "f814addb-1b50-4ca0-b193-019a30d6a3b7",
+        "position": 4,
+        "area": "General"
+      },
+      {
+        "type": "GeneralTitle",
+        "content": "NO ONLINE LABS for TRANSFER",
+        "groupId": "98555607-a350-43d8-b779-019a313fee0a",
+        "position": 3,
+        "area": "General"
+      }
+    ],
+    "articulations": [
+      {
+        "templateCellId": "b4fcb8a6-19c0-4746-9ea1-08dda831fbfa",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 296534,
+            "courseTitle": "Methods of Investigation in Psychology",
+            "courseNumber": "200",
+            "prefix": "PSYC",
+            "prefixParentId": 4610,
+            "prefixDescription": "Psychology",
+            "departmentParentId": 11228,
+            "department": "Psychology",
+            "begin": "F2018",
+            "end": "",
+            "minUnits": 3.0,
+            "maxUnits": 3.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 305479,
+                    "courseTitle": "Research Methods in Psychology ",
+                    "courseNumber": "2",
+                    "prefix": "PSYC",
+                    "prefixParentId": 4716,
+                    "prefixDescription": "Psychology",
+                    "departmentParentId": 11251,
+                    "department": "Psychology",
+                    "begin": "F2021",
+                    "end": "",
+                    "minUnits": 6.0,
+                    "maxUnits": 6.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 1,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 305476,
+                    "courseTitle": "An Introduction to Cognitive Psychology",
+                    "courseNumber": "3",
+                    "prefix": "PSYC",
+                    "prefixParentId": 4716,
+                    "prefixDescription": "Psychology",
+                    "departmentParentId": 11251,
+                    "department": "Psychology",
+                    "begin": "F2021",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [
+              {
+                "id": "4d6bac79-41e5-418e-5a8e-08dda83225b1",
+                "sendingArticulationId": "ecd44b0d-a31e-4421-258e-08dda8322596",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 0,
+                "sendingCourseGroupEndPosition": 1
+              }
+            ],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "f0442d2e-fc1b-44b5-9ea3-08dda831fbfa",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 308306,
+            "courseTitle": "ELEMENTS OF PROBABILITY AND STATISTICS",
+            "courseNumber": "100",
+            "prefix": "STAT",
+            "prefixParentId": 3351,
+            "prefixDescription": "Statistics",
+            "departmentParentId": 12562,
+            "department": "Statistics and Biostatistics",
+            "begin": "F2018",
+            "end": "",
+            "minUnits": 3.0,
+            "maxUnits": 3.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 288705,
+                    "courseTitle": "Introduction to Statistics - HONORS",
+                    "courseNumber": "C1000H",
+                    "prefix": "STAT",
+                    "prefixParentId": 18723,
+                    "prefixDescription": "Statistics",
+                    "departmentParentId": 15393,
+                    "department": "Statistics",
+                    "begin": "F2025",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 1,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 358922,
+                    "courseTitle": "Introduction to Statistics",
+                    "courseNumber": "C1000",
+                    "prefix": "STAT",
+                    "prefixParentId": 18723,
+                    "prefixDescription": "Statistics",
+                    "departmentParentId": 15393,
+                    "department": "Statistics",
+                    "begin": "F2025",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 309383,
+                    "courseTitle": "Integrated Statistics 2",
+                    "courseNumber": "17",
+                    "prefix": "MATH",
+                    "prefixParentId": 10025,
+                    "prefixDescription": "Mathematics",
+                    "departmentParentId": 9040,
+                    "department": "Mathematics",
+                    "begin": "F2016",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 2,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [
+              {
+                "id": "1de39f1d-39cd-4503-61ec-08dda83225b1",
+                "sendingArticulationId": "ffcfa333-6b5e-4d2c-3fb3-08dda8322596",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 0,
+                "sendingCourseGroupEndPosition": 1
+              },
+              {
+                "id": "d06e9a02-9967-4767-61ed-08dda83225b1",
+                "sendingArticulationId": "ffcfa333-6b5e-4d2c-3fb3-08dda8322596",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 1,
+                "sendingCourseGroupEndPosition": 2
+              }
+            ],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "6364924b-a0c0-4683-9ea4-08dda831fbfa",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 359316,
+            "courseTitle": "GENERAL PSYCHOLOGY",
+            "courseNumber": "100",
+            "prefix": "PSYC",
+            "prefixParentId": 4610,
+            "prefixDescription": "Psychology",
+            "departmentParentId": 11228,
+            "department": "Psychology",
+            "begin": "F2018",
+            "end": "",
+            "minUnits": 3.0,
+            "maxUnits": 3.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 281450,
+                    "courseTitle": "Introduction to Psychology",
+                    "courseNumber": "C1000",
+                    "prefix": "PSYC",
+                    "prefixParentId": 4716,
+                    "prefixDescription": "Psychology",
+                    "departmentParentId": 11251,
+                    "department": "Psychology",
+                    "begin": "F2025",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "73411625-3f33-491a-9ea2-08dda831fbfa",
+        "articulation": {
+          "type": "Series",
+          "series": {
+            "conjunction": "And",
+            "name": "BIOL 101, BIOL 102",
+            "courses": [
+              {
+                "id": "fcc8a1c9-5f08-4613-b477-08dda831f292",
+                "position": 0,
+                "courseIdentifierParentId": 256846,
+                "courseTitle": "INTRODUCTION TO BIOLOGY",
+                "courseNumber": "101",
+                "prefix": "BIOL",
+                "prefixParentId": 9246,
+                "prefixDescription": "Biological Science",
+                "departmentParentId": 1620,
+                "department": "Biological Science",
+                "begin": "F2018",
+                "end": "",
+                "minUnits": 3.0,
+                "maxUnits": 3.0,
+                "pathways": []
+              },
+              {
+                "id": "17c592bd-2bc6-41be-b478-08dda831f292",
+                "position": 1,
+                "courseIdentifierParentId": 43014,
+                "courseTitle": "Introduction to Biology Lab",
+                "courseNumber": "102",
+                "prefix": "BIOL",
+                "prefixParentId": 9246,
+                "prefixDescription": "Biological Science",
+                "departmentParentId": 1620,
+                "department": "Biological Science",
+                "begin": "F2018",
+                "end": "",
+                "minUnits": 1.0,
+                "maxUnits": 1.0,
+                "pathways": []
+              }
+            ],
+            "seriesPathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "seriesAttributes": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 309511,
+                    "courseTitle": "Introductory Biology - HONORS",
+                    "courseNumber": "10H",
+                    "prefix": "BIOL",
+                    "prefixParentId": 4926,
+                    "prefixDescription": "Biology",
+                    "departmentParentId": 1741,
+                    "department": "Biology",
+                    "begin": "F2015",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 1,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 282638,
+                    "courseTitle": "Introductory Biology",
+                    "courseNumber": "10",
+                    "prefix": "BIOL",
+                    "prefixParentId": 4926,
+                    "prefixDescription": "Biology",
+                    "departmentParentId": 1741,
+                    "department": "Biology",
+                    "begin": "F1998",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [
+              {
+                "id": "68cfae93-1acc-44e8-5476-08dda83225b1",
+                "sendingArticulationId": "4ea65619-4853-400d-0be5-08dda8322596",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 0,
+                "sendingCourseGroupEndPosition": 1
+              }
+            ],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Series",
+          "seriesAttributes": [],
+          "seriesCourseAttributes": [],
+          "attributes": []
+        }
+      }
+    ],
+    "catalogYear": "{\"receivingCatalogYearBegin\":2025,\"receivingCatalogYearEnd\":2026,\"sendingCatalogYearBegin\":2025,\"sendingCatalogYearEnd\":2026}"
+  },
+  "validationFailure": null,
+  "isSuccessful": true
+}

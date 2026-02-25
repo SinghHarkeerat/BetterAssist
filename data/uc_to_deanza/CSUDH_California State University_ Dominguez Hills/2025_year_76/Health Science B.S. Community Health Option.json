@@ -1,0 +1,567 @@
+{
+  "result": {
+    "name": "Health Science B.S. Community Health Option",
+    "type": "Major",
+    "publishDate": "2025-10-29T03:13:29.0802611",
+    "receivingInstitution": "{\"id\":50,\"code\":\"CSUDH   \",\"isCommunityCollege\":false,\"category\":\"CSU\",\"termType\":\"Semester\",\"names\":[{\"name\":\"California State University, Dominguez Hills\",\"hasDepartments\":true,\"fromYear\":0,\"hideInList\":false}],\"termTypeAcademicYears\":[{\"termType\":\"Semester\",\"fromYear\":1980}],\"beginId\":31,\"endId\":null}",
+    "sendingInstitution": "{\"id\":113,\"code\":\"DAC     \",\"isCommunityCollege\":true,\"category\":\"CCC\",\"termType\":\"Quarter\",\"names\":[{\"name\":\"De Anza College\",\"hasDepartments\":true,\"fromYear\":0,\"hideInList\":false}],\"termTypeAcademicYears\":[{\"termType\":\"Quarter\",\"fromYear\":1980}],\"beginId\":31,\"endId\":null}",
+    "academicYear": "{\"id\":76,\"code\":\"2025-2026\",\"beginDate\":\"2025-10-01T00:00:00\",\"endDate\":\"2026-10-01T00:00:00\",\"isOpenForMaintenance\":true,\"isOpenForPublic\":true,\"isOpenForReporting\":true,\"isLocked\":false}",
+    "templateAssets": [
+      {
+        "type": "GeneralText",
+        "content": "<p><strong style=\"font-size: 16px; color: rgb(78, 14, 80);\">Thank you for your interest in CSU Dominguez Hills! </strong><span style=\"font-size: 16px;\">This articulation agreement displays lower-division course requirements specific to this major. Students are advised to meet with an academic counselor when planning to transfer to CSU Dominguez Hills and refer to the </span><a href=\"https://catalog.csudh.edu/\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 16px;\">University Catalog</a> <span style=\"font-size: 16px;\">to learn more about this major and its features. Detailed </span><a href=\"https://www.csudh.edu/future-students/transfer/\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 16px;\">admissions requirements for transfer students</a><span style=\"font-size: 16px;\"> are available on the CSUDH </span><a href=\"https://www.csudh.edu/\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 16px;\">campus website</a><span style=\"font-size: 16px;\">. Completion of </span><a href=\"https://catalog.csudh.edu/general-information/baccalaureate-degrees-undergraduate-studies/university-graduation-requirements/\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 16px;\">Statutory Requirements </a><span style=\"font-size: 16px;\">(United States History, Constitution and American Ideals) is a baccalaureate degree requirement for the California State University system and may be met prior to transfer with eligible California Community College (CCC) courses designated as US-1, US-2, and US-3. </span><strong style=\"font-size: 16px;\">Completion of Statutory Requirements prior to transfer is most advantageous and strongly encouraged </strong><span style=\"font-size: 16px;\">as a number of CCC courses that meet this requirement might also double-count for General Education. </span></p>",
+        "groupId": "35f57845-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "General"
+      },
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": false,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 160866,
+                      "courseTitle": "Elementary Statistics and Probability",
+                      "courseNumber": "131",
+                      "prefix": "MAT",
+                      "prefixParentId": 9957,
+                      "prefixDescription": "Mathematics",
+                      "departmentParentId": 8938,
+                      "department": "Mathematics",
+                      "begin": "F2004",
+                      "end": "",
+                      "minUnits": 3.0,
+                      "maxUnits": 3.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "be378190-a32d-42fd-2507-08ddbf3f4f04",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 0,
+            "attributes": []
+          },
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 366190,
+                      "courseTitle": "Elementary Statistics and Probability with Support",
+                      "courseNumber": "132",
+                      "prefix": "MAT",
+                      "prefixParentId": 9957,
+                      "prefixDescription": "Mathematics",
+                      "departmentParentId": 8938,
+                      "department": "Mathematics",
+                      "begin": "F2019",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "f8e6b67f-d70c-4188-ea34-08ddc540d620",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 1,
+            "attributes": []
+          }
+        ],
+        "attributes": [
+          {
+            "position": 0,
+            "content": "Minimum grade required: C or better"
+          }
+        ],
+        "showConjunctionBetweenSections": true,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": {
+          "type": "Conjunction",
+          "conjunction": "Or",
+          "id": "d89e258c-86d1-4827-bab7-08ddc5492e4d",
+          "selectionType": "Complete"
+        },
+        "advisements": [],
+        "groupId": "3d117745-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": false,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Series",
+                    "series": {
+                      "conjunction": "And",
+                      "name": "BIO 102, BIO 103",
+                      "courses": [
+                        {
+                          "id": "18db9dfc-5fe0-4b2d-8f55-08ddbf3f4497",
+                          "position": 0,
+                          "courseIdentifierParentId": 193457,
+                          "courseTitle": "General Biology",
+                          "courseNumber": "102",
+                          "prefix": "BIO",
+                          "prefixParentId": 4868,
+                          "prefixDescription": "Biology",
+                          "departmentParentId": 1661,
+                          "department": "Biology",
+                          "begin": "S2002",
+                          "end": "",
+                          "minUnits": 3.0,
+                          "maxUnits": 3.0,
+                          "pathways": []
+                        },
+                        {
+                          "id": "05e35e74-46b6-4401-8f56-08ddbf3f4497",
+                          "position": 1,
+                          "courseIdentifierParentId": 314817,
+                          "courseTitle": "General Biology Laboratory",
+                          "courseNumber": "103",
+                          "prefix": "BIO",
+                          "prefixParentId": 4868,
+                          "prefixDescription": "Biology",
+                          "departmentParentId": 1661,
+                          "department": "Biology",
+                          "begin": "F2000",
+                          "end": "",
+                          "minUnits": 1.0,
+                          "maxUnits": 1.0,
+                          "pathways": []
+                        }
+                      ],
+                      "seriesPathways": []
+                    },
+                    "requisites": [],
+                    "visibleCrossListedCourses": [],
+                    "seriesAttributes": [],
+                    "courseAttributes": [],
+                    "id": "f6939d29-82b5-499f-26c5-08ddbf3f4f04",
+                    "position": 0,
+                    "attributes": [
+                      {
+                        "position": 0,
+                        "content": "Acceptable substitute"
+                      }
+                    ]
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 1,
+            "attributes": []
+          },
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 193457,
+                      "courseTitle": "General Biology",
+                      "courseNumber": "102",
+                      "prefix": "BIO",
+                      "prefixParentId": 4868,
+                      "prefixDescription": "Biology",
+                      "departmentParentId": 1661,
+                      "department": "Biology",
+                      "begin": "S2002",
+                      "end": "",
+                      "minUnits": 3.0,
+                      "maxUnits": 3.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "647dacc4-671b-42f9-26c6-08ddbf3f4f04",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 0,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": true,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": {
+          "type": "Conjunction",
+          "conjunction": "Or",
+          "id": "6eb97e87-1579-4f6b-0b46-08ddbf3f4ef6",
+          "selectionType": "Complete"
+        },
+        "advisements": [],
+        "groupId": "054f6845-6887-ef11-8474-000d3a37e3b6",
+        "position": 3,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementTitle",
+        "content": "ADDITIONAL MAJOR REQUIREMENTS",
+        "groupId": "7a627445-6887-ef11-8474-000d3a37e3b6",
+        "position": 2,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementTitle",
+        "content": "LOWER DIVISION CORE",
+        "groupId": "60027745-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "Requirements"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<ul><li><strong style=\"color: rgb(137, 58, 171); font-size: 16px;\">GENERAL BIOLOGY</strong><span style=\"font-size: 16px;\"> articulation varies by campus. BIO 103 (Lab) is not required. </span></li></ul>",
+        "groupId": "f7f96f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 3,
+        "area": "General"
+      },
+      {
+        "type": "GeneralTitle",
+        "content": "program Notes",
+        "groupId": "cff97845-6887-ef11-8474-000d3a37e3b6",
+        "position": 2,
+        "area": "General"
+      },
+      {
+        "type": "GeneralTitle",
+        "content": "General information",
+        "groupId": "1ea67645-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "General"
+      }
+    ],
+    "articulations": [
+      {
+        "templateCellId": "be378190-a32d-42fd-2507-08ddbf3f4f04",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 160866,
+            "courseTitle": "Elementary Statistics and Probability",
+            "courseNumber": "131",
+            "prefix": "MAT",
+            "prefixParentId": 9957,
+            "prefixDescription": "Mathematics",
+            "departmentParentId": 8938,
+            "department": "Mathematics",
+            "begin": "F2004",
+            "end": "",
+            "minUnits": 3.0,
+            "maxUnits": 3.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 358922,
+                    "courseTitle": "Introduction to Statistics",
+                    "courseNumber": "C1000",
+                    "prefix": "STAT",
+                    "prefixParentId": 18723,
+                    "prefixDescription": "Statistics",
+                    "departmentParentId": 15393,
+                    "department": "Statistics",
+                    "begin": "F2025",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 288705,
+                    "courseTitle": "Introduction to Statistics - HONORS",
+                    "courseNumber": "C1000H",
+                    "prefix": "STAT",
+                    "prefixParentId": 18723,
+                    "prefixDescription": "Statistics",
+                    "departmentParentId": 15393,
+                    "department": "Statistics",
+                    "begin": "F2025",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 1,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [
+              {
+                "id": "dc6f8ad2-5fe0-4d83-55ee-08ddbf3f8663",
+                "sendingArticulationId": "d3cdc8c2-a733-450f-1e65-08ddbf3f85bb",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 0,
+                "sendingCourseGroupEndPosition": 1
+              }
+            ],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "647dacc4-671b-42f9-26c6-08ddbf3f4f04",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 193457,
+            "courseTitle": "General Biology",
+            "courseNumber": "102",
+            "prefix": "BIO",
+            "prefixParentId": 4868,
+            "prefixDescription": "Biology",
+            "departmentParentId": 1661,
+            "department": "Biology",
+            "begin": "S2002",
+            "end": "",
+            "minUnits": 3.0,
+            "maxUnits": 3.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": "No Course Articulated",
+            "deniedCourses": [],
+            "items": [],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "f6939d29-82b5-499f-26c5-08ddbf3f4f04",
+        "articulation": {
+          "type": "Series",
+          "series": {
+            "conjunction": "And",
+            "name": "BIO 102, BIO 103",
+            "courses": [
+              {
+                "id": "18db9dfc-5fe0-4b2d-8f55-08ddbf3f4497",
+                "position": 0,
+                "courseIdentifierParentId": 193457,
+                "courseTitle": "General Biology",
+                "courseNumber": "102",
+                "prefix": "BIO",
+                "prefixParentId": 4868,
+                "prefixDescription": "Biology",
+                "departmentParentId": 1661,
+                "department": "Biology",
+                "begin": "S2002",
+                "end": "",
+                "minUnits": 3.0,
+                "maxUnits": 3.0,
+                "pathways": []
+              },
+              {
+                "id": "05e35e74-46b6-4401-8f56-08ddbf3f4497",
+                "position": 1,
+                "courseIdentifierParentId": 314817,
+                "courseTitle": "General Biology Laboratory",
+                "courseNumber": "103",
+                "prefix": "BIO",
+                "prefixParentId": 4868,
+                "prefixDescription": "Biology",
+                "departmentParentId": 1661,
+                "department": "Biology",
+                "begin": "F2000",
+                "end": "",
+                "minUnits": 1.0,
+                "maxUnits": 1.0,
+                "pathways": []
+              }
+            ],
+            "seriesPathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "seriesAttributes": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 282638,
+                    "courseTitle": "Introductory Biology",
+                    "courseNumber": "10",
+                    "prefix": "BIOL",
+                    "prefixParentId": 4926,
+                    "prefixDescription": "Biology",
+                    "departmentParentId": 1741,
+                    "department": "Biology",
+                    "begin": "F1998",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 309511,
+                    "courseTitle": "Introductory Biology - HONORS",
+                    "courseNumber": "10H",
+                    "prefix": "BIOL",
+                    "prefixParentId": 4926,
+                    "prefixDescription": "Biology",
+                    "departmentParentId": 1741,
+                    "department": "Biology",
+                    "begin": "F2015",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 1,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [
+              {
+                "id": "2b6eb2dd-9c6b-433e-5282-08ddbf3f8663",
+                "sendingArticulationId": "8910c757-c2a5-47df-041d-08ddbf3f85bb",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 0,
+                "sendingCourseGroupEndPosition": 1
+              }
+            ],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Series",
+          "seriesAttributes": [],
+          "seriesCourseAttributes": [],
+          "attributes": []
+        }
+      }
+    ],
+    "catalogYear": "{\"receivingCatalogYearBegin\":2025,\"receivingCatalogYearEnd\":2026,\"sendingCatalogYearBegin\":2025,\"sendingCatalogYearEnd\":2026}"
+  },
+  "validationFailure": null,
+  "isSuccessful": true
+}

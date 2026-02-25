@@ -1,0 +1,703 @@
+{
+  "result": {
+    "name": "Geography/Environmental Studies/B.A.",
+    "type": "Major",
+    "publishDate": "2025-10-31T03:25:45.8673431",
+    "receivingInstitution": "{\"id\":117,\"code\":\"UCLA    \",\"isCommunityCollege\":false,\"category\":\"UC\",\"termType\":\"Quarter\",\"names\":[{\"name\":\"University of California, Los Angeles\",\"hasDepartments\":true,\"fromYear\":0,\"hideInList\":false}],\"termTypeAcademicYears\":[{\"termType\":\"Quarter\",\"fromYear\":1980}],\"beginId\":31,\"endId\":null}",
+    "sendingInstitution": "{\"id\":113,\"code\":\"DAC     \",\"isCommunityCollege\":true,\"category\":\"CCC\",\"termType\":\"Quarter\",\"names\":[{\"name\":\"De Anza College\",\"hasDepartments\":true,\"fromYear\":0,\"hideInList\":false}],\"termTypeAcademicYears\":[{\"termType\":\"Quarter\",\"fromYear\":1980}],\"beginId\":31,\"endId\":null}",
+    "academicYear": "{\"id\":76,\"code\":\"2025-2026\",\"beginDate\":\"2025-10-01T00:00:00\",\"endDate\":\"2026-10-01T00:00:00\",\"isOpenForMaintenance\":true,\"isOpenForPublic\":true,\"isOpenForReporting\":true,\"isLocked\":false}",
+    "templateAssets": [
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": false,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 286520,
+                      "courseTitle": "Earth's Physical Environment",
+                      "courseNumber": "1",
+                      "prefix": "GEOG",
+                      "prefixParentId": 10606,
+                      "prefixDescription": "Geography",
+                      "departmentParentId": 6217,
+                      "department": "Geography",
+                      "begin": "F2009",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "1762b9b0-229f-412c-e555-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 304777,
+                      "courseTitle": "Biodiversity in Changing World",
+                      "courseNumber": "2",
+                      "prefix": "GEOG",
+                      "prefixParentId": 10606,
+                      "prefixDescription": "Geography",
+                      "departmentParentId": 6217,
+                      "department": "Geography",
+                      "begin": "S2016",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "b65080b0-492a-49f1-e556-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 0,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": {
+          "type": "NFromConjunction",
+          "conjunction": "Or",
+          "amountQuantifier": "None",
+          "amount": 1.0,
+          "amountUnitType": "Course",
+          "id": "caec96c4-0b8a-47bc-6801-08ddcb96dfa1",
+          "selectionType": "Complete"
+        },
+        "advisements": [],
+        "groupId": "f2bc6f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": false,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 304098,
+                      "courseTitle": "Cultural Geography",
+                      "courseNumber": "3",
+                      "prefix": "GEOG",
+                      "prefixParentId": 10606,
+                      "prefixDescription": "Geography",
+                      "departmentParentId": 6217,
+                      "department": "Geography",
+                      "begin": "F2004",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "6d8ee682-9502-4084-e557-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 304099,
+                      "courseTitle": "Globalization: Regional Development and World Economy",
+                      "courseNumber": "4",
+                      "prefix": "GEOG",
+                      "prefixParentId": 10606,
+                      "prefixDescription": "Geography",
+                      "departmentParentId": 6217,
+                      "department": "Geography",
+                      "begin": "F2004",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "15ad2545-f4e3-457b-e558-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 2,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 359693,
+                      "courseTitle": "World Regions: Concepts and Contemporary Issues",
+                      "courseNumber": "6",
+                      "prefix": "GEOG",
+                      "prefixParentId": 10606,
+                      "prefixDescription": "Geography",
+                      "departmentParentId": 6217,
+                      "department": "Geography",
+                      "begin": "F2004",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "733c8481-3d1e-4ca4-e559-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 0,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": {
+          "type": "NFromConjunction",
+          "conjunction": "Or",
+          "amountQuantifier": "None",
+          "amount": 1.0,
+          "amountUnitType": "Course",
+          "id": "4cb105cd-12d0-4cc6-6802-08ddcb96dfa1",
+          "selectionType": "Complete"
+        },
+        "advisements": [],
+        "groupId": "f4bc6f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 2,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": false,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 359687,
+                      "courseTitle": "People and Earth's Ecosystems",
+                      "courseNumber": "5",
+                      "prefix": "GEOG",
+                      "prefixParentId": 10606,
+                      "prefixDescription": "Geography",
+                      "departmentParentId": 6217,
+                      "department": "Geography",
+                      "begin": "F2019",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "3c0c70a5-db5a-457a-e55a-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 368263,
+                      "courseTitle": "Introduction to Geographic Information Systems",
+                      "courseNumber": "7",
+                      "prefix": "GEOG",
+                      "prefixParentId": 10606,
+                      "prefixDescription": "Geography",
+                      "departmentParentId": 6217,
+                      "department": "Geography",
+                      "begin": "F2018",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [
+                      {
+                        "position": 0,
+                        "content": "Course(s) must be taken at university"
+                      }
+                    ],
+                    "id": "95beb049-a676-4587-e55b-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 0,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": {
+          "type": "Following",
+          "id": "13b3735c-69f9-4146-6803-08ddcb96dfa1",
+          "selectionType": "Complete"
+        },
+        "advisements": [],
+        "groupId": "f9bc6f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 3,
+        "area": "Requirements"
+      },
+      {
+        "type": "GeneralTitle",
+        "content": "IMPORTANT MAJOR INFORMATION",
+        "groupId": "fcbc6f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "General"
+      },
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": false,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 359733,
+                      "courseTitle": "Introduction to Statistical Methods for Geography and Environmental Studies",
+                      "courseNumber": "12",
+                      "prefix": "STATS",
+                      "prefixParentId": 3372,
+                      "prefixDescription": "Statistics",
+                      "departmentParentId": 12559,
+                      "department": "Statistics",
+                      "begin": "W2008",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [
+                      {
+                        "position": 0,
+                        "content": "Acceptable substitute"
+                      }
+                    ],
+                    "id": "951d062d-58e7-42d2-e55c-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 0,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": {
+          "type": "Following",
+          "id": "2c01e58d-bde9-4813-6804-08ddcb96dfa1",
+          "selectionType": "Complete"
+        },
+        "advisements": [],
+        "groupId": "febc6f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 4,
+        "area": "Requirements"
+      },
+      {
+        "type": "GeneralText",
+        "content": "The community college statistics course included on this agreement has been approved as a substitute for Statistics 12 course, however it may not tranfer as an exact UCLA equivalent.",
+        "groupId": "00bd6f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 3,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p>Listed below are the lower division preparation courses for the major. The Geography/Environmental Studies major is intended to develop and deepen your understanding of environmental issues. It emphasizes a system approach to gaining an understanding of major environmental problems facing our society and the world at large. You will gain an understanding of geographical perspectives of human impacts on natural systems, and on the implications of environmental change on local, regional and global human systems.</p><p><br></p><p>Listed below are the lower division preparation courses for the major.</p><p><br></p><p>To be considered for this major, you must complete at least two major prep courses by the end of spring before transfer:</p><ul><li>One course in Physical Geography or Biogeography,</li><li>One course in Cultural, Economic or World Regions Geography,</li><li>One course in People and Ecosystems, and</li><li>One Statistics course.</li></ul><p>All courses must be taken for a letter grade.</p><p><br></p><p>For more information regarding this major and UCLA's transfer selection process, visit <a href=\"http://www.geog.ucla.edu?\" rel=\"noopener noreferrer\" target=\"_blank\">https://geog.ucla.edu </a> and <u style=\"color: rgb(41, 98, 255);\">https://</u><a href=\"http://www.admission.ucla.edu\" rel=\"noopener noreferrer\" target=\"_blank\">admission.ucla.edu.</a></p><p><br></p><p>PLEASE NOTE: the community college courses listed below have been approved to satisfy the preparation for this major at UCLA, but they may not be exact equivalents of the UCLA courses listed.</p>",
+        "groupId": "02bd6f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "General"
+      },
+      {
+        "type": "RequirementTitle",
+        "content": "LOWER DIVISION MAJOR REQUIREMENTS",
+        "groupId": "622c7745-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "Requirements"
+      },
+      {
+        "type": "GeneralTitle",
+        "content": "ADDITIONAL MAJOR INFORMATION",
+        "groupId": "04bd6f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 2,
+        "area": "General"
+      }
+    ],
+    "articulations": [
+      {
+        "templateCellId": "1762b9b0-229f-412c-e555-08ddcb96dfae",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 286520,
+            "courseTitle": "Earth's Physical Environment",
+            "courseNumber": "1",
+            "prefix": "GEOG",
+            "prefixParentId": 10606,
+            "prefixDescription": "Geography",
+            "departmentParentId": 6217,
+            "department": "Geography",
+            "begin": "F2009",
+            "end": "",
+            "minUnits": 5.0,
+            "maxUnits": 5.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": "No Course Articulated",
+            "deniedCourses": [],
+            "items": [],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "6d8ee682-9502-4084-e557-08ddcb96dfae",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 304098,
+            "courseTitle": "Cultural Geography",
+            "courseNumber": "3",
+            "prefix": "GEOG",
+            "prefixParentId": 10606,
+            "prefixDescription": "Geography",
+            "departmentParentId": 6217,
+            "department": "Geography",
+            "begin": "F2004",
+            "end": "",
+            "minUnits": 5.0,
+            "maxUnits": 5.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 298844,
+                    "courseTitle": "Cultural Geography",
+                    "courseNumber": "4",
+                    "prefix": "GEO",
+                    "prefixParentId": 10601,
+                    "prefixDescription": "Geography",
+                    "departmentParentId": 6120,
+                    "department": "Geography",
+                    "begin": "F2004",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "733c8481-3d1e-4ca4-e559-08ddcb96dfae",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 359693,
+            "courseTitle": "World Regions: Concepts and Contemporary Issues",
+            "courseNumber": "6",
+            "prefix": "GEOG",
+            "prefixParentId": 10606,
+            "prefixDescription": "Geography",
+            "departmentParentId": 6217,
+            "department": "Geography",
+            "begin": "F2004",
+            "end": "",
+            "minUnits": 5.0,
+            "maxUnits": 5.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 288590,
+                    "courseTitle": "World Regional Geography",
+                    "courseNumber": "10",
+                    "prefix": "GEO",
+                    "prefixParentId": 10601,
+                    "prefixDescription": "Geography",
+                    "departmentParentId": 6120,
+                    "department": "Geography",
+                    "begin": "F2003",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "95beb049-a676-4587-e55b-08ddcb96dfae",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 368263,
+            "courseTitle": "Introduction to Geographic Information Systems",
+            "courseNumber": "7",
+            "prefix": "GEOG",
+            "prefixParentId": 10606,
+            "prefixDescription": "Geography",
+            "departmentParentId": 6217,
+            "department": "Geography",
+            "begin": "F2018",
+            "end": "",
+            "minUnits": 5.0,
+            "maxUnits": 5.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": "This course must be taken at the university after transfer",
+            "deniedCourses": [],
+            "items": [],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "951d062d-58e7-42d2-e55c-08ddcb96dfae",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 359733,
+            "courseTitle": "Introduction to Statistical Methods for Geography and Environmental Studies",
+            "courseNumber": "12",
+            "prefix": "STATS",
+            "prefixParentId": 3372,
+            "prefixDescription": "Statistics",
+            "departmentParentId": 12559,
+            "department": "Statistics",
+            "begin": "W2008",
+            "end": "",
+            "minUnits": 5.0,
+            "maxUnits": 5.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 358922,
+                    "courseTitle": "Introduction to Statistics",
+                    "courseNumber": "C1000",
+                    "prefix": "STAT",
+                    "prefixParentId": 18723,
+                    "prefixDescription": "Statistics",
+                    "departmentParentId": 15393,
+                    "department": "Statistics",
+                    "begin": "F2025",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 275,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      }
+    ],
+    "catalogYear": "{\"receivingCatalogYearBegin\":2025,\"receivingCatalogYearEnd\":2026,\"sendingCatalogYearBegin\":2025,\"sendingCatalogYearEnd\":2026}"
+  },
+  "validationFailure": null,
+  "isSuccessful": true
+}

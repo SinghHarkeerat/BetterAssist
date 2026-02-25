@@ -1,0 +1,928 @@
+{
+  "result": {
+    "name": "Psychology B.A.",
+    "type": "Major",
+    "publishDate": "2026-02-05T17:35:16.4269294",
+    "receivingInstitution": "{\"id\":12,\"code\":\"CSUMB   \",\"isCommunityCollege\":false,\"category\":\"CSU\",\"termType\":\"Semester\",\"names\":[{\"name\":\"California State University, Monterey Bay\",\"hasDepartments\":true,\"fromYear\":0,\"hideInList\":false}],\"termTypeAcademicYears\":[{\"termType\":\"Semester\",\"fromYear\":1980}],\"beginId\":31,\"endId\":null}",
+    "sendingInstitution": "{\"id\":113,\"code\":\"DAC     \",\"isCommunityCollege\":true,\"category\":\"CCC\",\"termType\":\"Quarter\",\"names\":[{\"name\":\"De Anza College\",\"hasDepartments\":true,\"fromYear\":0,\"hideInList\":false}],\"termTypeAcademicYears\":[{\"termType\":\"Quarter\",\"fromYear\":1980}],\"beginId\":31,\"endId\":null}",
+    "academicYear": "{\"id\":76,\"code\":\"2025-2026\",\"beginDate\":\"2025-10-01T00:00:00\",\"endDate\":\"2026-10-01T00:00:00\",\"isOpenForMaintenance\":true,\"isOpenForPublic\":true,\"isOpenForReporting\":true,\"isLocked\":false}",
+    "templateAssets": [
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": false,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 2,
+                "cells": [
+                  {
+                    "type": "Series",
+                    "series": {
+                      "conjunction": "And",
+                      "name": "PSY 200, PSY 200L",
+                      "courses": [
+                        {
+                          "id": "c9dd26ec-888f-485f-4fb1-08dd6d8294d8",
+                          "position": 0,
+                          "courseIdentifierParentId": 252947,
+                          "courseTitle": "Introduction Research/Method/Data/Analysis",
+                          "courseNumber": "200",
+                          "prefix": "PSY",
+                          "prefixParentId": 13385,
+                          "prefixDescription": "Psychology",
+                          "departmentParentId": 11185,
+                          "department": "Psychology",
+                          "begin": "F2012",
+                          "end": "",
+                          "minUnits": 3.0,
+                          "maxUnits": 3.0,
+                          "pathways": []
+                        },
+                        {
+                          "id": "69df69bc-3ba2-4221-4fb3-08dd6d8294d8",
+                          "position": 1,
+                          "courseIdentifierParentId": 54784,
+                          "courseTitle": "Research Methods Laboratory",
+                          "courseNumber": "200L",
+                          "prefix": "PSY",
+                          "prefixParentId": 13385,
+                          "prefixDescription": "Psychology",
+                          "departmentParentId": 11185,
+                          "department": "Psychology",
+                          "begin": "F2007",
+                          "end": "",
+                          "minUnits": 1.0,
+                          "maxUnits": 1.0,
+                          "pathways": []
+                        }
+                      ],
+                      "seriesPathways": []
+                    },
+                    "requisites": [],
+                    "visibleCrossListedCourses": [],
+                    "seriesAttributes": [],
+                    "courseAttributes": [],
+                    "id": "34d6269f-7dfa-47c2-d146-08dd6d829ad0",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 265231,
+                      "courseTitle": "Introduction to Psychology",
+                      "courseNumber": "100",
+                      "prefix": "PSY",
+                      "prefixParentId": 13385,
+                      "prefixDescription": "Psychology",
+                      "departmentParentId": 11185,
+                      "department": "Psychology",
+                      "begin": "F2019",
+                      "end": "",
+                      "minUnits": 3.0,
+                      "maxUnits": 3.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "bb6ef143-d378-45b6-d147-08dd6d829ad0",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 289060,
+                      "courseTitle": "Introduction to Statistics",
+                      "courseNumber": "100",
+                      "prefix": "STAT",
+                      "prefixParentId": 3350,
+                      "prefixDescription": "Statistics",
+                      "departmentParentId": 12536,
+                      "department": "Statistics",
+                      "begin": "F2019",
+                      "end": "",
+                      "minUnits": 3.0,
+                      "maxUnits": 3.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "7c89af55-ca15-4b1c-d148-08dd6d829ad0",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 0,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": {
+          "type": "Conjunction",
+          "conjunction": "And",
+          "id": "175018c1-f6e8-4e8c-cbca-08dd6d829ac2",
+          "selectionType": "Complete"
+        },
+        "advisements": [],
+        "groupId": "f8dc7145-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementTitle",
+        "content": "PREPARATION COURSES FOR THE MAJOR",
+        "groupId": "27157945-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "Requirements"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p><strong>Transfer Admissions Requirements </strong>- To be admitted to CSU Monterey Bay, an Upper Division transfer student must have completed 60 transferable credit units, of which 30 must be applicable to General Education. English Communication (Area 1A), Critical Thinking (Area 1B), Oral Communication (Area 1C) and Mathematical Concepts and Quantitative Reasoning (Area 2) must be completed with a grade of C- or better prior to admission acceptance.</p><p><br></p><p><strong>General Education (GE) Requirements </strong>- Upper Division transfer students are recommended to complete all CSU GE/CAL-GETC requirements prior to transfer. Beginning Fall 2025, all California Community Colleges, CSUs, and UCs use one GE Pattern: CAL-GETC. Students who have completed college work prior to Fall 2025 should work with their community college advisor to determine the GE Pattern and catalog year that is best suited to their transfer needs. Students who have completed all General Education requirements at their community college should request full GE certification and send official documentation to CSUMB displaying GE certification completion (i.e. official transcript or GE certification form).</p><p><br></p><p><strong>CSU American Institutions Requirement (US 1, 2, 3)</strong> - Transfer students are recommended to complete the CSU American Institutions (AI) requirement prior to transfer. You may check with your community college or find a list of approved US 1, 2, 3 courses on Assist.</p><p><br></p><p><strong>World Culture &amp; Language Requirement (Majors Leading to a BA Degree) </strong>- CSU Monterey Bay requires all undergraduate students to satisfy the World Culture &amp; Language Requirement (WCL) for graduation. <strong><em>This requirement is satisfied differently for students pursuing BA degrees than for students pursuing BS/LS degrees.</em></strong></p><p><br></p><p>For Majors Leading to a BA Degree, students can satisfy this requirement by completing one of the following:</p><p><br></p><ul><li><strong>Complete an Intermediate level language course </strong>- Students who demonstrate second language proficiency by completing a course (equivalent to a language level 201 course at CSUMB) will satisfy the WCL requirement.</li><li><strong>Advanced Placement (AP) Exam </strong>- Students who score a 4 or 5 on one of the following AP Exams will satisfy the WCL Requirement:</li><li class=\"ql-indent-1\">Chinese Language &amp; Culture</li><li class=\"ql-indent-1\">French Language &amp; Culture</li><li class=\"ql-indent-1\">German Language &amp; Culture</li><li class=\"ql-indent-1\">Italian Language &amp; Culture</li><li class=\"ql-indent-1\">Japanese Language &amp; Culture</li><li class=\"ql-indent-1\">Latin</li><li class=\"ql-indent-1\">Spanish Language &amp; Culture</li><li class=\"ql-indent-1\">Spanish Literature &amp; Culture</li><li><strong>College Level Entrance Program (CLEP) Exam</strong> - Students who score above the score threshold listed below on one of the following CLEP Exams will satisfy the WCL Requirement:</li><li class=\"ql-indent-1\">French Level II (score of 59 or above)</li><li class=\"ql-indent-1\">German Level II (score 60 or above)</li><li class=\"ql-indent-1\">Spanish Level II (score 63 or above)</li><li class=\"ql-indent-1\">Spanish Level II with Writing (score 65 or above)</li><li><strong>International Baccalaureate (IB) HL Exam</strong> - Students who score a 6 or 7 on one of the following IB HL Exams will satisfy the WCL Requirement:</li><li class=\"ql-indent-1\">IB Language A Literature HL (in language other than English)</li><li class=\"ql-indent-1\">IB Language A Language &amp; Literature Exam (in language other than English)</li><li class=\"ql-indent-2\"><em>Please note that the following exams DO NOT meet the WCL requirement: Language B HL exams or any standard level (SL) exams.</em></li></ul><p><br></p><p>Students <strong>must </strong>send official transcripts and/or test scores to CSUMB in order to satisfy the WCL requirement.</p>",
+        "groupId": "d5dc7145-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "General"
+      },
+      {
+        "type": "GeneralTitle",
+        "content": "Associate Degree for Transfer (ADT) Accepted For This Major",
+        "groupId": "c7ab7583-b22d-4534-930f-01966f1566ae",
+        "position": 2,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p>The following ADT is accepted for this major:</p><ul><li>Psychology</li></ul><p><br></p><p>Students in this major who have completed an appropriate ADT <strong>must </strong>send official transcripts to CSUMB displaying ADT conferral. If your ADT degree is still in progress when you first send official transcripts to CSUMB, you <strong>must </strong>send in another official transcript once your ADT has been conferred.</p>",
+        "groupId": "aa2b5234-84a6-4d24-b33d-01966f1566ae",
+        "position": 3,
+        "area": "General"
+      },
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": true,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 375065,
+                      "courseTitle": "Intro to Child Development",
+                      "courseNumber": "200",
+                      "prefix": "HDFS",
+                      "prefixParentId": 16666,
+                      "prefixDescription": "Human Development and Family Science",
+                      "departmentParentId": 15507,
+                      "department": "Human Development and Family Science",
+                      "begin": "F2020",
+                      "end": "",
+                      "minUnits": 3.0,
+                      "maxUnits": 3.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "08aa1803-c2fb-4a3a-c7c2-08dd86a9c1a6",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 1,
+            "attributes": []
+          },
+          {
+            "type": "SectionHeader",
+            "content": "RECOMMENDED",
+            "position": 0,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": null,
+        "advisements": [],
+        "groupId": "954c1ba0-51dd-4ebe-becd-01968809798c",
+        "position": 2,
+        "area": "Requirements"
+      },
+      {
+        "type": "GeneralTitle",
+        "content": "Admissions and Transfer Information",
+        "groupId": "52f717e9-a14a-4897-bd96-019866f370f2",
+        "position": 0,
+        "area": "General"
+      }
+    ],
+    "articulations": [
+      {
+        "templateCellId": "bb6ef143-d378-45b6-d147-08dd6d829ad0",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 265231,
+            "courseTitle": "Introduction to Psychology",
+            "courseNumber": "100",
+            "prefix": "PSY",
+            "prefixParentId": 13385,
+            "prefixDescription": "Psychology",
+            "departmentParentId": 11185,
+            "department": "Psychology",
+            "begin": "F2019",
+            "end": "",
+            "minUnits": 3.0,
+            "maxUnits": 3.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 281450,
+                    "courseTitle": "Introduction to Psychology",
+                    "courseNumber": "C1000",
+                    "prefix": "PSYC",
+                    "prefixParentId": 4716,
+                    "prefixDescription": "Psychology",
+                    "departmentParentId": 11251,
+                    "department": "Psychology",
+                    "begin": "F2025",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "7c89af55-ca15-4b1c-d148-08dd6d829ad0",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 289060,
+            "courseTitle": "Introduction to Statistics",
+            "courseNumber": "100",
+            "prefix": "STAT",
+            "prefixParentId": 3350,
+            "prefixDescription": "Statistics",
+            "departmentParentId": 12536,
+            "department": "Statistics",
+            "begin": "F2019",
+            "end": "",
+            "minUnits": 3.0,
+            "maxUnits": 3.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 358922,
+                    "courseTitle": "Introduction to Statistics",
+                    "courseNumber": "C1000",
+                    "prefix": "STAT",
+                    "prefixParentId": 18723,
+                    "prefixDescription": "Statistics",
+                    "departmentParentId": 15393,
+                    "department": "Statistics",
+                    "begin": "F2025",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 299,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 309383,
+                    "courseTitle": "Integrated Statistics 2",
+                    "courseNumber": "17",
+                    "prefix": "MATH",
+                    "prefixParentId": 10025,
+                    "prefixDescription": "Mathematics",
+                    "departmentParentId": 9040,
+                    "department": "Mathematics",
+                    "begin": "F2016",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 263,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 2,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 288705,
+                    "courseTitle": "Introduction to Statistics - HONORS",
+                    "courseNumber": "C1000H",
+                    "prefix": "STAT",
+                    "prefixParentId": 18723,
+                    "prefixDescription": "Statistics",
+                    "departmentParentId": 15393,
+                    "department": "Statistics",
+                    "begin": "F2025",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 299,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 1,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [
+                      {
+                        "id": "6485ef0d-5f83-4bb5-f26f-08ddc943ac05",
+                        "publishedCourseIdentifierYearTermId": 279,
+                        "courseIdentifierParentId": 283453,
+                        "courseTitle": "Statistics and Research Methods in Social Science",
+                        "courseNumber": "15",
+                        "prefix": "SOC",
+                        "prefixParentId": 9095,
+                        "prefixDescription": "Sociology",
+                        "departmentParentId": 12108,
+                        "department": "Sociology",
+                        "begin": "F2020",
+                        "end": "",
+                        "minUnits": 4.0,
+                        "maxUnits": 4.0,
+                        "pathways": []
+                      }
+                    ],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 255009,
+                    "courseTitle": "Statistics and Research Methods in Social Science",
+                    "courseNumber": "15",
+                    "prefix": "PSYC",
+                    "prefixParentId": 4716,
+                    "prefixDescription": "Psychology",
+                    "departmentParentId": 11251,
+                    "department": "Psychology",
+                    "begin": "F2020",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 279,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 3,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [
+                      {
+                        "id": "977c5bf0-59ef-40bc-f270-08ddc943ac05",
+                        "publishedCourseIdentifierYearTermId": 279,
+                        "courseIdentifierParentId": 255009,
+                        "courseTitle": "Statistics and Research Methods in Social Science",
+                        "courseNumber": "15",
+                        "prefix": "PSYC",
+                        "prefixParentId": 4716,
+                        "prefixDescription": "Psychology",
+                        "departmentParentId": 11251,
+                        "department": "Psychology",
+                        "begin": "F2020",
+                        "end": "",
+                        "minUnits": 4.0,
+                        "maxUnits": 4.0,
+                        "pathways": []
+                      }
+                    ],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 283453,
+                    "courseTitle": "Statistics and Research Methods in Social Science",
+                    "courseNumber": "15",
+                    "prefix": "SOC",
+                    "prefixParentId": 9095,
+                    "prefixDescription": "Sociology",
+                    "departmentParentId": 12108,
+                    "department": "Sociology",
+                    "begin": "F2020",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 279,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 4,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 410764,
+                    "courseTitle": "Introduction to Statistics for the Behavioral and Social Sciences",
+                    "courseNumber": "20",
+                    "prefix": "POLI",
+                    "prefixParentId": 2020,
+                    "prefixDescription": "Political Science",
+                    "departmentParentId": 11018,
+                    "department": "Political Science",
+                    "begin": "F2025",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 299,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 5,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [
+              {
+                "id": "505341a0-b1c0-406e-7b96-08dd6d82ac0c",
+                "sendingArticulationId": "28f71396-c16e-445d-af09-08dd6d82ab2c",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 0,
+                "sendingCourseGroupEndPosition": 1
+              },
+              {
+                "id": "12816a26-2289-4a6e-7b97-08dd6d82ac0c",
+                "sendingArticulationId": "28f71396-c16e-445d-af09-08dd6d82ab2c",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 1,
+                "sendingCourseGroupEndPosition": 2
+              },
+              {
+                "id": "b399b4c7-fa01-40b3-692e-08ddc92e3e61",
+                "sendingArticulationId": "28f71396-c16e-445d-af09-08dd6d82ab2c",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 2,
+                "sendingCourseGroupEndPosition": 3
+              },
+              {
+                "id": "13a58369-64e4-46ce-6930-08ddc92e3e61",
+                "sendingArticulationId": "28f71396-c16e-445d-af09-08dd6d82ab2c",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 3,
+                "sendingCourseGroupEndPosition": 4
+              },
+              {
+                "id": "b98a56f8-bf61-40e3-8d9e-08de601ae484",
+                "sendingArticulationId": "28f71396-c16e-445d-af09-08dd6d82ab2c",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 4,
+                "sendingCourseGroupEndPosition": 5
+              }
+            ],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "08aa1803-c2fb-4a3a-c7c2-08dd86a9c1a6",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 375065,
+            "courseTitle": "Intro to Child Development",
+            "courseNumber": "200",
+            "prefix": "HDFS",
+            "prefixParentId": 16666,
+            "prefixDescription": "Human Development and Family Science",
+            "departmentParentId": 15507,
+            "department": "Human Development and Family Science",
+            "begin": "F2020",
+            "end": "",
+            "minUnits": 3.0,
+            "maxUnits": 3.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [
+                      {
+                        "id": "220eaa93-951a-4cfd-c725-08dd86932b18",
+                        "publishedCourseIdentifierYearTermId": 195,
+                        "courseIdentifierParentId": 284399,
+                        "courseTitle": "Child Development (The Early Years)",
+                        "courseNumber": "10G",
+                        "prefix": "C D",
+                        "prefixParentId": 7251,
+                        "prefixDescription": "Child Development",
+                        "departmentParentId": 2448,
+                        "department": "Child Development",
+                        "begin": "F1999",
+                        "end": "",
+                        "minUnits": 4.0,
+                        "maxUnits": 4.0,
+                        "pathways": []
+                      }
+                    ],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 284398,
+                    "courseTitle": "Child Development (The Early Years)",
+                    "courseNumber": "10G",
+                    "prefix": "PSYC",
+                    "prefixParentId": 4716,
+                    "prefixDescription": "Psychology",
+                    "departmentParentId": 11251,
+                    "department": "Psychology",
+                    "begin": "F1998",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 191,
+                    "position": 0,
+                    "type": "Course"
+                  },
+                  {
+                    "visibleCrossListedCourses": [
+                      {
+                        "id": "cb1b1b60-22ab-4b99-c726-08dd86932b18",
+                        "publishedCourseIdentifierYearTermId": 263,
+                        "courseIdentifierParentId": 284726,
+                        "courseTitle": "Child Growth and Development (Middle Childhood and Adolescence)",
+                        "courseNumber": "10H",
+                        "prefix": "C D",
+                        "prefixParentId": 7251,
+                        "prefixDescription": "Child Development",
+                        "departmentParentId": 2448,
+                        "department": "Child Development",
+                        "begin": "F2016",
+                        "end": "",
+                        "minUnits": 4.0,
+                        "maxUnits": 4.0,
+                        "pathways": []
+                      }
+                    ],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 284725,
+                    "courseTitle": "Child Growth and Development (Middle Childhood and Adolescence)",
+                    "courseNumber": "10H",
+                    "prefix": "PSYC",
+                    "prefixParentId": 4716,
+                    "prefixDescription": "Psychology",
+                    "departmentParentId": 11251,
+                    "department": "Psychology",
+                    "begin": "F2016",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 263,
+                    "position": 1,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [
+                      {
+                        "id": "a9170c21-ca49-4bf0-c727-08dd86932b18",
+                        "publishedCourseIdentifierYearTermId": 191,
+                        "courseIdentifierParentId": 284398,
+                        "courseTitle": "Child Development (The Early Years)",
+                        "courseNumber": "10G",
+                        "prefix": "PSYC",
+                        "prefixParentId": 4716,
+                        "prefixDescription": "Psychology",
+                        "departmentParentId": 11251,
+                        "department": "Psychology",
+                        "begin": "F1998",
+                        "end": "",
+                        "minUnits": 4.0,
+                        "maxUnits": 4.0,
+                        "pathways": []
+                      }
+                    ],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 284399,
+                    "courseTitle": "Child Development (The Early Years)",
+                    "courseNumber": "10G",
+                    "prefix": "C D",
+                    "prefixParentId": 7251,
+                    "prefixDescription": "Child Development",
+                    "departmentParentId": 2448,
+                    "department": "Child Development",
+                    "begin": "F1999",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 195,
+                    "position": 0,
+                    "type": "Course"
+                  },
+                  {
+                    "visibleCrossListedCourses": [
+                      {
+                        "id": "721b828b-79c4-4b38-c728-08dd86932b18",
+                        "publishedCourseIdentifierYearTermId": 263,
+                        "courseIdentifierParentId": 284725,
+                        "courseTitle": "Child Growth and Development (Middle Childhood and Adolescence)",
+                        "courseNumber": "10H",
+                        "prefix": "PSYC",
+                        "prefixParentId": 4716,
+                        "prefixDescription": "Psychology",
+                        "departmentParentId": 11251,
+                        "department": "Psychology",
+                        "begin": "F2016",
+                        "end": "",
+                        "minUnits": 4.0,
+                        "maxUnits": 4.0,
+                        "pathways": []
+                      }
+                    ],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 284726,
+                    "courseTitle": "Child Growth and Development (Middle Childhood and Adolescence)",
+                    "courseNumber": "10H",
+                    "prefix": "C D",
+                    "prefixParentId": 7251,
+                    "prefixDescription": "Child Development",
+                    "departmentParentId": 2448,
+                    "department": "Child Development",
+                    "begin": "F2016",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 263,
+                    "position": 1,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 1,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [
+              {
+                "id": "bd9259bd-e8d8-4446-25f9-08dd86925fff",
+                "sendingArticulationId": "f2d4a412-d046-444c-a584-08dd86919213",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 0,
+                "sendingCourseGroupEndPosition": 1
+              }
+            ],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "34d6269f-7dfa-47c2-d146-08dd6d829ad0",
+        "articulation": {
+          "type": "Series",
+          "series": {
+            "conjunction": "And",
+            "name": "PSY 200, PSY 200L",
+            "courses": [
+              {
+                "id": "c9dd26ec-888f-485f-4fb1-08dd6d8294d8",
+                "position": 0,
+                "courseIdentifierParentId": 252947,
+                "courseTitle": "Introduction Research/Method/Data/Analysis",
+                "courseNumber": "200",
+                "prefix": "PSY",
+                "prefixParentId": 13385,
+                "prefixDescription": "Psychology",
+                "departmentParentId": 11185,
+                "department": "Psychology",
+                "begin": "F2012",
+                "end": "",
+                "minUnits": 3.0,
+                "maxUnits": 3.0,
+                "pathways": []
+              },
+              {
+                "id": "69df69bc-3ba2-4221-4fb3-08dd6d8294d8",
+                "position": 1,
+                "courseIdentifierParentId": 54784,
+                "courseTitle": "Research Methods Laboratory",
+                "courseNumber": "200L",
+                "prefix": "PSY",
+                "prefixParentId": 13385,
+                "prefixDescription": "Psychology",
+                "departmentParentId": 11185,
+                "department": "Psychology",
+                "begin": "F2007",
+                "end": "",
+                "minUnits": 1.0,
+                "maxUnits": 1.0,
+                "pathways": []
+              }
+            ],
+            "seriesPathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "seriesAttributes": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 305479,
+                    "courseTitle": "Research Methods in Psychology ",
+                    "courseNumber": "2",
+                    "prefix": "PSYC",
+                    "prefixParentId": 4716,
+                    "prefixDescription": "Psychology",
+                    "departmentParentId": 11251,
+                    "department": "Psychology",
+                    "begin": "F2021",
+                    "end": "",
+                    "minUnits": 6.0,
+                    "maxUnits": 6.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Series",
+          "seriesAttributes": [],
+          "seriesCourseAttributes": [],
+          "attributes": []
+        }
+      }
+    ],
+    "catalogYear": "{\"receivingCatalogYearBegin\":2025,\"receivingCatalogYearEnd\":2026,\"sendingCatalogYearBegin\":2025,\"sendingCatalogYearEnd\":2026}"
+  },
+  "validationFailure": null,
+  "isSuccessful": true
+}

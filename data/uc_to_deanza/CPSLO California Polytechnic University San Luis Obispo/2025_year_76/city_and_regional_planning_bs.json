@@ -1,0 +1,1500 @@
+{
+  "result": {
+    "name": "CITY AND REGIONAL PLANNING, B.S.",
+    "type": "Major",
+    "publishDate": "2026-02-06T22:47:48.0531645",
+    "receivingInstitution": "{\"id\":11,\"code\":\"CPSLO   \",\"isCommunityCollege\":false,\"category\":\"CSU\",\"termType\":\"Quarter\",\"names\":[{\"name\":\"California Polytechnic University, San Luis Obispo\",\"hasDepartments\":true,\"fromYear\":0,\"hideInList\":false}],\"termTypeAcademicYears\":[{\"termType\":\"Semester\",\"fromYear\":2026},{\"termType\":\"Quarter\",\"fromYear\":1980}],\"beginId\":31,\"endId\":null}",
+    "sendingInstitution": "{\"id\":113,\"code\":\"DAC     \",\"isCommunityCollege\":true,\"category\":\"CCC\",\"termType\":\"Quarter\",\"names\":[{\"name\":\"De Anza College\",\"hasDepartments\":true,\"fromYear\":0,\"hideInList\":false}],\"termTypeAcademicYears\":[{\"termType\":\"Quarter\",\"fromYear\":1980}],\"beginId\":31,\"endId\":null}",
+    "academicYear": "{\"id\":76,\"code\":\"2025-2026\",\"beginDate\":\"2025-10-01T00:00:00\",\"endDate\":\"2026-10-01T00:00:00\",\"isOpenForMaintenance\":true,\"isOpenForPublic\":true,\"isOpenForReporting\":true,\"isLocked\":false}",
+    "templateAssets": [
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": true,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 269257,
+                      "courseTitle": "Introductory Ecology and Evolution",
+                      "courseNumber": "263",
+                      "prefix": "BIO",
+                      "prefixParentId": 4835,
+                      "prefixDescription": "Biology",
+                      "departmentParentId": 13319,
+                      "department": "Biological Sciences",
+                      "begin": "F2016",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "a0ad18ce-f962-47fc-303f-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 295928,
+                      "courseTitle": "Landscape Ecology: Concepts, Issues and Interrelationships",
+                      "courseNumber": "220",
+                      "prefix": "LA",
+                      "prefixParentId": 7723,
+                      "prefixDescription": "Landscape Architecture",
+                      "departmentParentId": 8252,
+                      "department": "Landscape Architecture",
+                      "begin": "Su2005",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "5a25faa9-4e51-4a8c-3040-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [
+              {
+                "type": "NFollowing",
+                "amount": 1.0,
+                "amountUnitType": "Course",
+                "position": 0,
+                "selectionType": "Select"
+              }
+            ],
+            "position": 0,
+            "attributes": []
+          },
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 275917,
+                      "courseTitle": "Pre-Calculus Algebra",
+                      "courseNumber": "118",
+                      "prefix": "MATH",
+                      "prefixParentId": 9918,
+                      "prefixDescription": "Mathematics",
+                      "departmentParentId": 8956,
+                      "department": "Mathematics",
+                      "begin": "F2000",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "3a2fd2ea-0c7c-4b76-3041-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Series",
+                    "series": {
+                      "conjunction": "And",
+                      "name": "MATH 116, MATH 117",
+                      "courses": [
+                        {
+                          "id": "91c2866c-fdd4-431f-c102-08ddf49a0312",
+                          "position": 0,
+                          "courseIdentifierParentId": 234774,
+                          "courseTitle": "Pre-Calculus Algebra I",
+                          "courseNumber": "116",
+                          "prefix": "MATH",
+                          "prefixParentId": 9918,
+                          "prefixDescription": "Mathematics",
+                          "departmentParentId": 8956,
+                          "department": "Mathematics",
+                          "begin": "F2000",
+                          "end": "",
+                          "minUnits": 3.0,
+                          "maxUnits": 3.0,
+                          "pathways": []
+                        },
+                        {
+                          "id": "58c4c138-d00b-4d0e-c104-08ddf49a0312",
+                          "position": 1,
+                          "courseIdentifierParentId": 135694,
+                          "courseTitle": "Pre-Calculus Algebra II",
+                          "courseNumber": "117",
+                          "prefix": "MATH",
+                          "prefixParentId": 9918,
+                          "prefixDescription": "Mathematics",
+                          "departmentParentId": 8956,
+                          "department": "Mathematics",
+                          "begin": "F2001",
+                          "end": "",
+                          "minUnits": 3.0,
+                          "maxUnits": 3.0,
+                          "pathways": []
+                        }
+                      ],
+                      "seriesPathways": []
+                    },
+                    "requisites": [],
+                    "visibleCrossListedCourses": [],
+                    "seriesAttributes": [],
+                    "courseAttributes": [],
+                    "id": "9f99133b-beb4-47b4-3042-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [
+              {
+                "type": "NFollowing",
+                "amount": 1.0,
+                "amountUnitType": "CourseOrCombination",
+                "position": 0,
+                "selectionType": "Select"
+              }
+            ],
+            "position": 1,
+            "attributes": []
+          },
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 245922,
+                      "courseTitle": "Introduction to Statistical Concepts and Methods",
+                      "courseNumber": "217",
+                      "prefix": "STAT",
+                      "prefixParentId": 3349,
+                      "prefixDescription": "Statistics",
+                      "departmentParentId": 12535,
+                      "department": "Statistics",
+                      "begin": "F2001",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "436e03da-2a7c-4f6b-3043-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 286562,
+                      "courseTitle": "Applied Statistics for the Life Sciences",
+                      "courseNumber": "218",
+                      "prefix": "STAT",
+                      "prefixParentId": 3349,
+                      "prefixDescription": "Statistics",
+                      "departmentParentId": 12535,
+                      "department": "Statistics",
+                      "begin": "F2000",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "49d16ae4-3ff6-4660-3044-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [
+              {
+                "type": "NFollowing",
+                "amount": 1.0,
+                "amountUnitType": "Course",
+                "position": 0,
+                "selectionType": "Select"
+              }
+            ],
+            "position": 2,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": null,
+        "advisements": [],
+        "groupId": "81dc7145-6887-ef11-8474-000d3a37e3b6",
+        "position": 3,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementTitle",
+        "content": "SUPPORT COURSES",
+        "groupId": "50467945-6887-ef11-8474-000d3a37e3b6",
+        "position": 2,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": true,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 296930,
+                      "courseTitle": "Urban Design Studio I",
+                      "courseNumber": "202",
+                      "prefix": "CRP",
+                      "prefixParentId": 11132,
+                      "prefixDescription": "City and Regional Planning",
+                      "departmentParentId": 2662,
+                      "department": "City and Regional Planning",
+                      "begin": "Su2005",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "8f34c9b2-6cfe-42e8-3045-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 7,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 157272,
+                      "courseTitle": "Land Use and Transportation Studies",
+                      "courseNumber": "214",
+                      "prefix": "CRP",
+                      "prefixParentId": 11132,
+                      "prefixDescription": "City and Regional Planning",
+                      "departmentParentId": 2662,
+                      "department": "City and Regional Planning",
+                      "begin": "F2000",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "77af8978-1b84-482c-3046-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 9,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 155967,
+                      "courseTitle": "Representing the City",
+                      "courseNumber": "216",
+                      "prefix": "CRP",
+                      "prefixParentId": 11132,
+                      "prefixDescription": "City and Regional Planning",
+                      "departmentParentId": 2662,
+                      "department": "City and Regional Planning",
+                      "begin": "Su2019",
+                      "end": "",
+                      "minUnits": 2.0,
+                      "maxUnits": 2.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "b16003d4-90fb-4e21-3047-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 4,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 170538,
+                      "courseTitle": "Cities: Form, Culture and Evolution",
+                      "courseNumber": "211",
+                      "prefix": "CRP",
+                      "prefixParentId": 11132,
+                      "prefixDescription": "City and Regional Planning",
+                      "departmentParentId": 2662,
+                      "department": "City and Regional Planning",
+                      "begin": "F2000",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "4a716bfd-cc9d-4b80-3048-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 296933,
+                      "courseTitle": "Basic Graphic Skills",
+                      "courseNumber": "201",
+                      "prefix": "CRP",
+                      "prefixParentId": 11132,
+                      "prefixDescription": "City and Regional Planning",
+                      "departmentParentId": 2662,
+                      "department": "City and Regional Planning",
+                      "begin": "F2000",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "f1624c93-85a9-4987-3049-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 6,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 296958,
+                      "courseTitle": "Population, Housing and Economic Applications",
+                      "courseNumber": "213",
+                      "prefix": "CRP",
+                      "prefixParentId": 11132,
+                      "prefixDescription": "City and Regional Planning",
+                      "departmentParentId": 2662,
+                      "department": "City and Regional Planning",
+                      "begin": "F2000",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "77b7263a-2b88-4a9a-304a-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 5,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 169511,
+                      "courseTitle": "Introduction to Urban Planning",
+                      "courseNumber": "212",
+                      "prefix": "CRP",
+                      "prefixParentId": 11132,
+                      "prefixDescription": "City and Regional Planning",
+                      "departmentParentId": 2662,
+                      "department": "City and Regional Planning",
+                      "begin": "F2000",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "e3f93d77-e71f-404a-304b-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 2,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 329396,
+                      "courseTitle": "Urban Design Studio II",
+                      "courseNumber": "203",
+                      "prefix": "CRP",
+                      "prefixParentId": 11132,
+                      "prefixDescription": "City and Regional Planning",
+                      "departmentParentId": 2662,
+                      "department": "City and Regional Planning",
+                      "begin": "Su2005",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "da5f53de-01e7-49d0-304c-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 8,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 291097,
+                      "courseTitle": "Planning for and with Multiple Publics",
+                      "courseNumber": "215",
+                      "prefix": "CRP",
+                      "prefixParentId": 11132,
+                      "prefixDescription": "City and Regional Planning",
+                      "departmentParentId": 2662,
+                      "department": "City and Regional Planning",
+                      "begin": "F2000",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [
+                      {
+                        "course": {
+                          "courseIdentifierParentId": 291096,
+                          "courseTitle": "Planning for and with Multiple Publics",
+                          "courseNumber": "215",
+                          "prefix": "ES",
+                          "prefixParentId": 3993,
+                          "prefixDescription": "Ethnic Studies",
+                          "departmentParentId": 5384,
+                          "department": "Ethnic Studies",
+                          "begin": "F2000",
+                          "end": "",
+                          "minUnits": 4.0,
+                          "maxUnits": 4.0,
+                          "pathways": []
+                        }
+                      }
+                    ],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "a719952e-ea91-4e77-304d-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 3,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 260309,
+                      "courseTitle": "Theories and Methods of Urban Design",
+                      "courseNumber": "204",
+                      "prefix": "CRP",
+                      "prefixParentId": 11132,
+                      "prefixDescription": "City and Regional Planning",
+                      "departmentParentId": 2662,
+                      "department": "City and Regional Planning",
+                      "begin": "F2013",
+                      "end": "",
+                      "minUnits": 3.0,
+                      "maxUnits": 3.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "9cd9a78a-0e44-4abb-304e-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 0,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": null,
+        "advisements": [],
+        "groupId": "82dc7145-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": true,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 379914,
+                      "courseTitle": "Applications in GIS",
+                      "courseNumber": "218",
+                      "prefix": "GEOG",
+                      "prefixParentId": 10499,
+                      "prefixDescription": "Geography",
+                      "departmentParentId": 12005,
+                      "department": "Social Sciences",
+                      "begin": "F2021",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "b0aa13f2-ac29-4cee-304f-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 2,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 260280,
+                      "courseTitle": "Introduction to Geographic Information Systems (GIS)",
+                      "courseNumber": "218",
+                      "prefix": "LA",
+                      "prefixParentId": 7723,
+                      "prefixDescription": "Landscape Architecture",
+                      "departmentParentId": 8252,
+                      "department": "Landscape Architecture",
+                      "begin": "Su2019",
+                      "end": "",
+                      "minUnits": 3.0,
+                      "maxUnits": 3.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [
+                      {
+                        "course": {
+                          "courseIdentifierParentId": 260279,
+                          "courseTitle": "Introduction to Geographic Information Systems (GIS)",
+                          "courseNumber": "218",
+                          "prefix": "NR",
+                          "prefixParentId": 2176,
+                          "prefixDescription": "Natural Resources",
+                          "departmentParentId": 9598,
+                          "department": "Natural Resources Management and Environmental Sciences",
+                          "begin": "Su2019",
+                          "end": "",
+                          "minUnits": 3.0,
+                          "maxUnits": 3.0,
+                          "pathways": []
+                        }
+                      }
+                    ],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "4109fe39-6d7b-4eb7-3050-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 357762,
+                      "courseTitle": "Principles of Environmental Design",
+                      "courseNumber": "123",
+                      "prefix": "EDES",
+                      "prefixParentId": 9382,
+                      "prefixDescription": "Environmental Design",
+                      "departmentParentId": 5199,
+                      "department": "Environmental Design",
+                      "begin": "F2015",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "c69aa5a3-a6b6-4021-3051-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 0,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": null,
+        "advisements": [],
+        "groupId": "83dc7145-6887-ef11-8474-000d3a37e3b6",
+        "position": 5,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementTitle",
+        "content": "OTHER COURSES (CONCENTRATION/EMPHASIS/ELECTIVES)",
+        "groupId": "8c027745-6887-ef11-8474-000d3a37e3b6",
+        "position": 4,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementTitle",
+        "content": "MAJOR COURSES",
+        "groupId": "fc1a7945-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "Requirements"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<h2><span style=\"font-size: 20px;\">Thank you for your interest in Cal Poly San Luis Obispo!</span></h2><p>This articulation agreement displays the lower-division courses required in&nbsp;major and support. Students are advised to complete as much lower-division course preparation as possible prior to transfer. Cal Poly has specific selection criteria for transfer students for admissions, and we encourage you to check the selection criteria for the major you are interested in.&nbsp;</p><h1><span style=\"color: rgb(41, 98, 255); font-size: 16px;\">GENERAL INFORMATION</span></h1><ul><li><a href=\"https://catalog.calpoly.edu/\" rel=\"noopener noreferrer\" target=\"_blank\">University Catalog </a>for the full listing of degree requirements for this major</li><li><a href=\"https://www.calpoly.edu/admissions/transfer-student/how-to-apply\" rel=\"noopener noreferrer\" target=\"_blank\">Admissions website</a> for current transfer admission requirements</li><li><a href=\"https://www.calpoly.edu/\" rel=\"noopener noreferrer\" target=\"_blank\">Cal Poly website</a> for information on our campus</li></ul><p><br></p><h1><span style=\"font-size: 16px; color: rgb(41, 98, 255);\">ACADEMIC INFORMATION</span></h1><ul><li><a href=\"https://flowcharts.calpoly.edu/\" rel=\"noopener noreferrer\" target=\"_blank\">Curriculum sheets &amp; flowcharts</a> for Cal Poly majors | this will show you information about concentrations if applicable in your major</li><li><a href=\"https://registrar.calpoly.edu/other_ac_credit\" rel=\"noopener noreferrer\" target=\"_blank\">AP/IB exams and test credits earned</a> &amp; <a href=\"https://catalog.calpoly.edu/academicstandardsandpolicies/evaluationoftransfercredit/#otheracademicredit\" rel=\"noopener noreferrer\" target=\"_blank\">policies on college-level examination program exams</a>&nbsp;&nbsp;</li><li><a href=\"https://advising.calpoly.edu/\" rel=\"noopener noreferrer\" target=\"_blank\">Academic Advising</a>&nbsp;&nbsp;</li><li><a href=\"https://registrar.calpoly.edu/how-use-assist\" rel=\"noopener noreferrer\" target=\"_blank\">How to use Assist.org</a>&nbsp;</li></ul><p><br></p><p><em>This major has no concentrations. This major has no areas of emphasis. This major has 15 units of approved electives. Lower division choices are listed.&nbsp;Please refer to curriculum sheets and flowcharts link above.&nbsp;</em></p>",
+        "groupId": "84dc7145-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "General"
+      },
+      {
+        "type": "GeneralTitle",
+        "content": "TRANSFER INFORMATION & RESOURCES",
+        "groupId": "85dc7145-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "General"
+      },
+      {
+        "type": "GeneralTitle",
+        "content": "ADMISSIONS INFORMATION",
+        "groupId": "aca3134e-7598-48fc-a75e-01997d256e90",
+        "position": 2,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p>To be a competitive transfer applicant, it\u2019s important to start by reviewing Cal Poly\u2019s <a href=\"https://www.calpoly.edu/admissions/transfer-student/selection-criteria\" rel=\"noopener noreferrer\" target=\"_blank\">Selection Criteria for Transfer Students</a> for your major of interest. This page outlines general admissions requirements for all transfer applicants and the required and desired courses for admissions to Cal Poly San Luis Obispo.&nbsp;&nbsp;Once you know which courses are expected, use ASSIST to see how your completed or planned courses match Cal Poly\u2019s. You can search articulation agreements by major, department, or course prefix. Keep in mind that credit is granted based on the academic year in which you took the course.&nbsp;</p><p><br></p><p>Note: Not all articulated courses listed in ASSIST are required to be a competitive applicant\u2014but completing the required courses in the selection criteria&nbsp;and as many recommended courses as possible will strengthen your application.&nbsp;</p><p class=\"ql-indent-1\"><span style=\"font-size: 16px;\">&nbsp;&nbsp;</span></p><p><strong><em>This is not a static document; new articulation may be added at any time. The information provided herein is subject to change without notice and does not constitute a contract or the terms and conditions of a contract between the student and the institution or the California State University.</em>&nbsp;</strong></p>",
+        "groupId": "9223c75a-4436-4b5c-87b5-01997d256e90",
+        "position": 3,
+        "area": "General"
+      },
+      {
+        "type": "GeneralTitle",
+        "content": "SEMESTER CONVERSION",
+        "groupId": "3aadebaf-f704-4c07-9cfa-01997d256e91",
+        "position": 4,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p>Cal Poly is currently on the quarter system, and all Cal Poly course units reflect that format. Starting Fall 2026, the university will switch to the semester system. If you begin at Cal Poly in Fall 2025, Cal Poly will make every effort to ensure a seamless transfer of your community college work, so that you make progress-to-degree.&nbsp;ASSIST agreements, flowcharts, curriculum sheets, and planning tools haven\u2019t been updated yet to show semester-based information. For latest updates, visit Cal Poly\u2019s official semester conversion page:&nbsp;</p><p><br></p><ul><li><a href=\"https://www.calpoly.edu/semester-conversion\" rel=\"noopener noreferrer\" target=\"_blank\">Semester conversion website</a>&nbsp;</li><li><a href=\"https://semesters.calpoly.edu/student-advising\" rel=\"noopener noreferrer\" target=\"_blank\">Specific College semester conversion websites</a>&nbsp;</li></ul>",
+        "groupId": "dd795849-3d35-4811-a2b2-01997d256e91",
+        "position": 5,
+        "area": "General"
+      }
+    ],
+    "articulations": [
+      {
+        "templateCellId": "436e03da-2a7c-4f6b-3043-08ddf49aba51",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 245922,
+            "courseTitle": "Introduction to Statistical Concepts and Methods",
+            "courseNumber": "217",
+            "prefix": "STAT",
+            "prefixParentId": 3349,
+            "prefixDescription": "Statistics",
+            "departmentParentId": 12535,
+            "department": "Statistics",
+            "begin": "F2001",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [
+                      {
+                        "id": "f50c99c6-1154-441a-9bb2-08ddf49acf0c",
+                        "publishedCourseIdentifierYearTermId": 279,
+                        "courseIdentifierParentId": 255009,
+                        "courseTitle": "Statistics and Research Methods in Social Science",
+                        "courseNumber": "15",
+                        "prefix": "PSYC",
+                        "prefixParentId": 4716,
+                        "prefixDescription": "Psychology",
+                        "departmentParentId": 11251,
+                        "department": "Psychology",
+                        "begin": "F2020",
+                        "end": "",
+                        "minUnits": 4.0,
+                        "maxUnits": 4.0,
+                        "pathways": []
+                      }
+                    ],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 283453,
+                    "courseTitle": "Statistics and Research Methods in Social Science",
+                    "courseNumber": "15",
+                    "prefix": "SOC",
+                    "prefixParentId": 9095,
+                    "prefixDescription": "Sociology",
+                    "departmentParentId": 12108,
+                    "department": "Sociology",
+                    "begin": "F2020",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 279,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 2,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [
+                      {
+                        "id": "81d3a49c-19da-48e1-9bb3-08ddf49acf0c",
+                        "publishedCourseIdentifierYearTermId": 279,
+                        "courseIdentifierParentId": 283453,
+                        "courseTitle": "Statistics and Research Methods in Social Science",
+                        "courseNumber": "15",
+                        "prefix": "SOC",
+                        "prefixParentId": 9095,
+                        "prefixDescription": "Sociology",
+                        "departmentParentId": 12108,
+                        "department": "Sociology",
+                        "begin": "F2020",
+                        "end": "",
+                        "minUnits": 4.0,
+                        "maxUnits": 4.0,
+                        "pathways": []
+                      }
+                    ],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 255009,
+                    "courseTitle": "Statistics and Research Methods in Social Science",
+                    "courseNumber": "15",
+                    "prefix": "PSYC",
+                    "prefixParentId": 4716,
+                    "prefixDescription": "Psychology",
+                    "departmentParentId": 11251,
+                    "department": "Psychology",
+                    "begin": "F2020",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 279,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 3,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 358922,
+                    "courseTitle": "Introduction to Statistics",
+                    "courseNumber": "C1000",
+                    "prefix": "STAT",
+                    "prefixParentId": 18723,
+                    "prefixDescription": "Statistics",
+                    "departmentParentId": 15393,
+                    "department": "Statistics",
+                    "begin": "F2025",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 299,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 281385,
+                    "courseTitle": "Engineering Statistics",
+                    "courseNumber": "23",
+                    "prefix": "MATH",
+                    "prefixParentId": 10025,
+                    "prefixDescription": "Mathematics",
+                    "departmentParentId": 9040,
+                    "department": "Mathematics",
+                    "begin": "F1995",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 179,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 4,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 288705,
+                    "courseTitle": "Introduction to Statistics - HONORS",
+                    "courseNumber": "C1000H",
+                    "prefix": "STAT",
+                    "prefixParentId": 18723,
+                    "prefixDescription": "Statistics",
+                    "departmentParentId": 15393,
+                    "department": "Statistics",
+                    "begin": "F2025",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 299,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 1,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 410764,
+                    "courseTitle": "Introduction to Statistics for the Behavioral and Social Sciences",
+                    "courseNumber": "20",
+                    "prefix": "POLI",
+                    "prefixParentId": 2020,
+                    "prefixDescription": "Political Science",
+                    "departmentParentId": 11018,
+                    "department": "Political Science",
+                    "begin": "F2025",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 299,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 5,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [
+              {
+                "id": "b6e28174-dbaf-4b13-8f78-08ddf49accf2",
+                "sendingArticulationId": "9c2ce7dd-0ea7-4b10-925d-08ddf49acc21",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 0,
+                "sendingCourseGroupEndPosition": 1
+              },
+              {
+                "id": "889110cf-7da2-4bee-9b72-08ddfca1a18b",
+                "sendingArticulationId": "9c2ce7dd-0ea7-4b10-925d-08ddf49acc21",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 1,
+                "sendingCourseGroupEndPosition": 2
+              },
+              {
+                "id": "4fc89758-cc5b-4e44-8f79-08ddf49accf2",
+                "sendingArticulationId": "9c2ce7dd-0ea7-4b10-925d-08ddf49acc21",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 2,
+                "sendingCourseGroupEndPosition": 3
+              },
+              {
+                "id": "215ce7f9-423f-404f-8f7a-08ddf49accf2",
+                "sendingArticulationId": "9c2ce7dd-0ea7-4b10-925d-08ddf49acc21",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 3,
+                "sendingCourseGroupEndPosition": 4
+              },
+              {
+                "id": "48d32746-0f44-4e1b-8433-08de00f70b2d",
+                "sendingArticulationId": "9c2ce7dd-0ea7-4b10-925d-08ddf49acc21",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 4,
+                "sendingCourseGroupEndPosition": 5
+              }
+            ],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "49d16ae4-3ff6-4660-3044-08ddf49aba51",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 286562,
+            "courseTitle": "Applied Statistics for the Life Sciences",
+            "courseNumber": "218",
+            "prefix": "STAT",
+            "prefixParentId": 3349,
+            "prefixDescription": "Statistics",
+            "departmentParentId": 12535,
+            "department": "Statistics",
+            "begin": "F2000",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 281385,
+                    "courseTitle": "Engineering Statistics",
+                    "courseNumber": "23",
+                    "prefix": "MATH",
+                    "prefixParentId": 10025,
+                    "prefixDescription": "Mathematics",
+                    "departmentParentId": 9040,
+                    "department": "Mathematics",
+                    "begin": "F1995",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 179,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 4,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [
+                      {
+                        "id": "80ca9ad9-099e-441d-9bb4-08ddf49acf0c",
+                        "publishedCourseIdentifierYearTermId": 279,
+                        "courseIdentifierParentId": 255009,
+                        "courseTitle": "Statistics and Research Methods in Social Science",
+                        "courseNumber": "15",
+                        "prefix": "PSYC",
+                        "prefixParentId": 4716,
+                        "prefixDescription": "Psychology",
+                        "departmentParentId": 11251,
+                        "department": "Psychology",
+                        "begin": "F2020",
+                        "end": "",
+                        "minUnits": 4.0,
+                        "maxUnits": 4.0,
+                        "pathways": []
+                      }
+                    ],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 283453,
+                    "courseTitle": "Statistics and Research Methods in Social Science",
+                    "courseNumber": "15",
+                    "prefix": "SOC",
+                    "prefixParentId": 9095,
+                    "prefixDescription": "Sociology",
+                    "departmentParentId": 12108,
+                    "department": "Sociology",
+                    "begin": "F2020",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 279,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 3,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 358922,
+                    "courseTitle": "Introduction to Statistics",
+                    "courseNumber": "C1000",
+                    "prefix": "STAT",
+                    "prefixParentId": 18723,
+                    "prefixDescription": "Statistics",
+                    "departmentParentId": 15393,
+                    "department": "Statistics",
+                    "begin": "F2025",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 299,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [
+                      {
+                        "id": "b50a7c03-b73e-4167-9bb5-08ddf49acf0c",
+                        "publishedCourseIdentifierYearTermId": 279,
+                        "courseIdentifierParentId": 283453,
+                        "courseTitle": "Statistics and Research Methods in Social Science",
+                        "courseNumber": "15",
+                        "prefix": "SOC",
+                        "prefixParentId": 9095,
+                        "prefixDescription": "Sociology",
+                        "departmentParentId": 12108,
+                        "department": "Sociology",
+                        "begin": "F2020",
+                        "end": "",
+                        "minUnits": 4.0,
+                        "maxUnits": 4.0,
+                        "pathways": []
+                      }
+                    ],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 255009,
+                    "courseTitle": "Statistics and Research Methods in Social Science",
+                    "courseNumber": "15",
+                    "prefix": "PSYC",
+                    "prefixParentId": 4716,
+                    "prefixDescription": "Psychology",
+                    "departmentParentId": 11251,
+                    "department": "Psychology",
+                    "begin": "F2020",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 279,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 2,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 288705,
+                    "courseTitle": "Introduction to Statistics - HONORS",
+                    "courseNumber": "C1000H",
+                    "prefix": "STAT",
+                    "prefixParentId": 18723,
+                    "prefixDescription": "Statistics",
+                    "departmentParentId": 15393,
+                    "department": "Statistics",
+                    "begin": "F2025",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 299,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 1,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 410764,
+                    "courseTitle": "Introduction to Statistics for the Behavioral and Social Sciences",
+                    "courseNumber": "20",
+                    "prefix": "POLI",
+                    "prefixParentId": 2020,
+                    "prefixDescription": "Political Science",
+                    "departmentParentId": 11018,
+                    "department": "Political Science",
+                    "begin": "F2025",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 299,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 5,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [
+              {
+                "id": "a3f08af7-d9b0-4dbc-8fa4-08ddf49accf2",
+                "sendingArticulationId": "5d7b6181-f532-45e9-92a0-08ddf49acc21",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 0,
+                "sendingCourseGroupEndPosition": 1
+              },
+              {
+                "id": "4adb2cda-51b2-453d-9b73-08ddfca1a18b",
+                "sendingArticulationId": "5d7b6181-f532-45e9-92a0-08ddf49acc21",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 1,
+                "sendingCourseGroupEndPosition": 2
+              },
+              {
+                "id": "b3f0d26e-42ee-4044-8fa3-08ddf49accf2",
+                "sendingArticulationId": "5d7b6181-f532-45e9-92a0-08ddf49acc21",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 2,
+                "sendingCourseGroupEndPosition": 3
+              },
+              {
+                "id": "5e79dce9-c7b7-4761-8fa5-08ddf49accf2",
+                "sendingArticulationId": "5d7b6181-f532-45e9-92a0-08ddf49acc21",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 3,
+                "sendingCourseGroupEndPosition": 4
+              },
+              {
+                "id": "50082338-4455-4f03-8434-08de00f70b2d",
+                "sendingArticulationId": "5d7b6181-f532-45e9-92a0-08ddf49acc21",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 4,
+                "sendingCourseGroupEndPosition": 5
+              }
+            ],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "f1624c93-85a9-4987-3049-08ddf49aba51",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 296933,
+            "courseTitle": "Basic Graphic Skills",
+            "courseNumber": "201",
+            "prefix": "CRP",
+            "prefixParentId": 11132,
+            "prefixDescription": "City and Regional Planning",
+            "departmentParentId": 2662,
+            "department": "City and Regional Planning",
+            "begin": "F2000",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 202833,
+                    "courseTitle": "Graphic Design-Visual Communication I",
+                    "courseNumber": "55A",
+                    "prefix": "ARTS",
+                    "prefixParentId": 4538,
+                    "prefixDescription": "Arts",
+                    "departmentParentId": 1240,
+                    "department": "Arts",
+                    "begin": "F2024",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 1,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 201648,
+                    "courseTitle": "Two-Dimensional Design",
+                    "courseNumber": "8",
+                    "prefix": "ARTS",
+                    "prefixParentId": 4538,
+                    "prefixDescription": "Arts",
+                    "departmentParentId": 1240,
+                    "department": "Arts",
+                    "begin": "F2015",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [
+              {
+                "id": "8ce1e928-b235-4319-8fb0-08ddf49accf2",
+                "sendingArticulationId": "5ff501f8-c1d7-4b6d-92bd-08ddf49acc21",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 0,
+                "sendingCourseGroupEndPosition": 1
+              }
+            ],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      }
+    ],
+    "catalogYear": "{\"receivingCatalogYearBegin\":2025,\"receivingCatalogYearEnd\":2026,\"sendingCatalogYearBegin\":2025,\"sendingCatalogYearEnd\":2026}"
+  },
+  "validationFailure": null,
+  "isSuccessful": true
+}

@@ -1,0 +1,254 @@
+{
+  "result": {
+    "name": "1 - Second Semester Composition Graduation Requirement",
+    "type": "Major",
+    "publishDate": "2025-09-10T22:45:39.0284218",
+    "receivingInstitution": "{\"id\":60,\"code\":\"CSUS    \",\"isCommunityCollege\":false,\"category\":\"CSU\",\"termType\":\"Semester\",\"names\":[{\"name\":\"California State University, Sacramento\",\"hasDepartments\":true,\"fromYear\":0,\"hideInList\":false}],\"termTypeAcademicYears\":[{\"termType\":\"Semester\",\"fromYear\":1980}],\"beginId\":31,\"endId\":null}",
+    "sendingInstitution": "{\"id\":113,\"code\":\"DAC     \",\"isCommunityCollege\":true,\"category\":\"CCC\",\"termType\":\"Quarter\",\"names\":[{\"name\":\"De Anza College\",\"hasDepartments\":true,\"fromYear\":0,\"hideInList\":false}],\"termTypeAcademicYears\":[{\"termType\":\"Quarter\",\"fromYear\":1980}],\"beginId\":31,\"endId\":null}",
+    "academicYear": "{\"id\":76,\"code\":\"2025-2026\",\"beginDate\":\"2025-10-01T00:00:00\",\"endDate\":\"2026-10-01T00:00:00\",\"isOpenForMaintenance\":true,\"isOpenForPublic\":true,\"isOpenForReporting\":true,\"isLocked\":false}",
+    "templateAssets": [
+      {
+        "type": "GeneralTitle",
+        "content": "REQUIREMENT INFORMATION",
+        "groupId": "e785ba52-8f75-4de0-9d12-01979d7ba844",
+        "position": 0,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p><span style=\"font-size: 14px;\">Students graduating from Sacramento State are required to complete a second semester composition course. Second semester composition courses (ENGL 20, ENGL 20M, or an approved equivalent) must be completed with a grade of C- or better.</span></p><p><br></p><p><span style=\"font-size: 14px;\">Although not required for admission, transfer students are encouraged to complete a course fulfilling this requirement prior to transfer. Please see a counselor for more information.</span></p>",
+        "groupId": "bab25d59-1692-4462-989e-01979d7ba845",
+        "position": 1,
+        "area": "General"
+      },
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": false,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Requirement",
+                    "requirement": {
+                      "name": "Courses approved for Second Semester Composition Graduation Requirement"
+                    },
+                    "requirementAttributes": [
+                      {
+                        "position": 0,
+                        "content": "Recommended; Not required for admission"
+                      },
+                      {
+                        "position": 1,
+                        "content": "Required for graduation"
+                      }
+                    ],
+                    "id": "4d933f43-c694-4c0b-623b-08ddbf3f4f04",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 0,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": {
+          "type": "NFromArea",
+          "amount": 1.0,
+          "amountQuantifier": "None",
+          "amountUnitType": "Course",
+          "toAmountDeterminer": "None",
+          "toAmount": 0.0,
+          "areaType": "None",
+          "id": "b9297842-ed91-4f52-102e-08ddbf3f4ef6",
+          "selectionType": "Complete"
+        },
+        "advisements": [],
+        "groupId": "f596abfa-c6a5-49ca-b093-01979d7c47ab",
+        "position": 0,
+        "area": "Requirements"
+      }
+    ],
+    "articulations": [
+      {
+        "templateCellId": "4d933f43-c694-4c0b-623b-08ddbf3f4f04",
+        "articulation": {
+          "type": "Requirement",
+          "requirement": {
+            "name": "Courses approved for Second Semester Composition Graduation Requirement"
+          },
+          "requirementAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 280460,
+                    "courseTitle": "Reading, Writing and Research",
+                    "courseNumber": "1B",
+                    "prefix": "EWRT",
+                    "prefixParentId": 1402,
+                    "prefixDescription": "English (Writing)",
+                    "departmentParentId": 5070,
+                    "department": "English (Writing)",
+                    "begin": "F1999",
+                    "end": "F2026",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 195,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 302735,
+                    "courseTitle": "Literature and Composition",
+                    "courseNumber": "1C",
+                    "prefix": "EWRT",
+                    "prefixParentId": 1402,
+                    "prefixDescription": "English (Writing)",
+                    "departmentParentId": 5070,
+                    "department": "English (Writing)",
+                    "begin": "F1999",
+                    "end": "F2026",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 195,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 1,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 308237,
+                    "courseTitle": " Critical Thinking and Writing ",
+                    "courseNumber": "C1001",
+                    "prefix": "ENGL",
+                    "prefixParentId": 18741,
+                    "prefixDescription": "English",
+                    "departmentParentId": 15392,
+                    "department": "English",
+                    "begin": "F2025",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 299,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 2,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 360067,
+                    "courseTitle": "Critical Thinking and Writing - HONORS ",
+                    "courseNumber": "C1001H",
+                    "prefix": "ENGL",
+                    "prefixParentId": 18741,
+                    "prefixDescription": "English",
+                    "departmentParentId": 15392,
+                    "department": "English",
+                    "begin": "F2025",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 299,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 3,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [
+              {
+                "id": "adb5e8f7-ba72-442d-65e5-08ddbf3f8663",
+                "sendingArticulationId": "8205eefd-25b7-41be-9389-08ddbf3f85bb",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 0,
+                "sendingCourseGroupEndPosition": 1
+              },
+              {
+                "id": "fabebbc1-37e6-4f3e-65e6-08ddbf3f8663",
+                "sendingArticulationId": "8205eefd-25b7-41be-9389-08ddbf3f85bb",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 1,
+                "sendingCourseGroupEndPosition": 2
+              },
+              {
+                "id": "8067c5bf-21e8-4d94-32d9-08ddf081b0fb",
+                "sendingArticulationId": "8205eefd-25b7-41be-9389-08ddbf3f85bb",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 2,
+                "sendingCourseGroupEndPosition": 3
+              }
+            ],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Requirement",
+          "requirementAttributes": [],
+          "attributes": []
+        }
+      }
+    ],
+    "catalogYear": "{\"receivingCatalogYearBegin\":2025,\"receivingCatalogYearEnd\":2026,\"sendingCatalogYearBegin\":2025,\"sendingCatalogYearEnd\":2026}"
+  },
+  "validationFailure": null,
+  "isSuccessful": true
+}

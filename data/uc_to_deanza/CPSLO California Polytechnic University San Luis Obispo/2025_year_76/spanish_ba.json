@@ -1,0 +1,743 @@
+{
+  "result": {
+    "name": "SPANISH, B.A.",
+    "type": "Major",
+    "publishDate": "2026-02-06T23:18:59.630596",
+    "receivingInstitution": "{\"id\":11,\"code\":\"CPSLO   \",\"isCommunityCollege\":false,\"category\":\"CSU\",\"termType\":\"Quarter\",\"names\":[{\"name\":\"California Polytechnic University, San Luis Obispo\",\"hasDepartments\":true,\"fromYear\":0,\"hideInList\":false}],\"termTypeAcademicYears\":[{\"termType\":\"Semester\",\"fromYear\":2026},{\"termType\":\"Quarter\",\"fromYear\":1980}],\"beginId\":31,\"endId\":null}",
+    "sendingInstitution": "{\"id\":113,\"code\":\"DAC     \",\"isCommunityCollege\":true,\"category\":\"CCC\",\"termType\":\"Quarter\",\"names\":[{\"name\":\"De Anza College\",\"hasDepartments\":true,\"fromYear\":0,\"hideInList\":false}],\"termTypeAcademicYears\":[{\"termType\":\"Quarter\",\"fromYear\":1980}],\"beginId\":31,\"endId\":null}",
+    "academicYear": "{\"id\":76,\"code\":\"2025-2026\",\"beginDate\":\"2025-10-01T00:00:00\",\"endDate\":\"2026-10-01T00:00:00\",\"isOpenForMaintenance\":true,\"isOpenForPublic\":true,\"isOpenForReporting\":true,\"isLocked\":false}",
+    "templateAssets": [
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": true,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 259528,
+                      "courseTitle": "Intermediate Spanish I",
+                      "courseNumber": "201",
+                      "prefix": "SPAN",
+                      "prefixParentId": 3100,
+                      "prefixDescription": "Spanish",
+                      "departmentParentId": 9330,
+                      "department": "World Languages and Cultures",
+                      "begin": "F2016",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "ca4ccd19-c77c-4f18-3344-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 275868,
+                      "courseTitle": "Intermediate Spanish II",
+                      "courseNumber": "202",
+                      "prefix": "SPAN",
+                      "prefixParentId": 3100,
+                      "prefixDescription": "Spanish",
+                      "departmentParentId": 9330,
+                      "department": "World Languages and Cultures",
+                      "begin": "F2016",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "aa9d70e5-4205-4e69-3345-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 4,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 299271,
+                      "courseTitle": "Spanish for Heritage Speakers",
+                      "courseNumber": "206",
+                      "prefix": "SPAN",
+                      "prefixParentId": 3100,
+                      "prefixDescription": "Spanish",
+                      "departmentParentId": 9330,
+                      "department": "World Languages and Cultures",
+                      "begin": "F2016",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "9e81c652-73bc-4e35-3346-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 5,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 272271,
+                      "courseTitle": "Introduction to Spanish Linguistics",
+                      "courseNumber": "207",
+                      "prefix": "SPAN",
+                      "prefixParentId": 3100,
+                      "prefixDescription": "Spanish",
+                      "departmentParentId": 9330,
+                      "department": "World Languages and Cultures",
+                      "begin": "F2016",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "4416cfd0-cca7-4b59-3347-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 2,
+                "cells": [
+                  {
+                    "type": "Series",
+                    "series": {
+                      "conjunction": "And",
+                      "name": "SPAN 201, SPAN 202, SPAN 203",
+                      "courses": [
+                        {
+                          "id": "461a70c6-baf9-4807-c0b9-08ddf49a0312",
+                          "position": 0,
+                          "courseIdentifierParentId": 259528,
+                          "courseTitle": "Intermediate Spanish I",
+                          "courseNumber": "201",
+                          "prefix": "SPAN",
+                          "prefixParentId": 3100,
+                          "prefixDescription": "Spanish",
+                          "departmentParentId": 9330,
+                          "department": "World Languages and Cultures",
+                          "begin": "F2016",
+                          "end": "",
+                          "minUnits": 4.0,
+                          "maxUnits": 4.0,
+                          "pathways": []
+                        },
+                        {
+                          "id": "0122da29-0a7a-49f5-c0ba-08ddf49a0312",
+                          "position": 1,
+                          "courseIdentifierParentId": 275868,
+                          "courseTitle": "Intermediate Spanish II",
+                          "courseNumber": "202",
+                          "prefix": "SPAN",
+                          "prefixParentId": 3100,
+                          "prefixDescription": "Spanish",
+                          "departmentParentId": 9330,
+                          "department": "World Languages and Cultures",
+                          "begin": "F2016",
+                          "end": "",
+                          "minUnits": 4.0,
+                          "maxUnits": 4.0,
+                          "pathways": []
+                        },
+                        {
+                          "id": "f36d384b-f87b-4bbb-c0bb-08ddf49a0312",
+                          "position": 2,
+                          "courseIdentifierParentId": 299427,
+                          "courseTitle": "Intermediate Spanish III",
+                          "courseNumber": "203",
+                          "prefix": "SPAN",
+                          "prefixParentId": 3100,
+                          "prefixDescription": "Spanish",
+                          "departmentParentId": 9330,
+                          "department": "World Languages and Cultures",
+                          "begin": "F2016",
+                          "end": "",
+                          "minUnits": 4.0,
+                          "maxUnits": 4.0,
+                          "pathways": []
+                        }
+                      ],
+                      "seriesPathways": []
+                    },
+                    "requisites": [],
+                    "visibleCrossListedCourses": [],
+                    "seriesAttributes": [],
+                    "courseAttributes": [],
+                    "id": "ac583195-91ba-4754-3348-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 3,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 299427,
+                      "courseTitle": "Intermediate Spanish III",
+                      "courseNumber": "203",
+                      "prefix": "SPAN",
+                      "prefixParentId": 3100,
+                      "prefixDescription": "Spanish",
+                      "departmentParentId": 9330,
+                      "department": "World Languages and Cultures",
+                      "begin": "F2016",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "b7cb141b-4e34-4e4f-3349-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 6,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 351818,
+                      "courseTitle": "Introduction to Hispanic Readings",
+                      "courseNumber": "233",
+                      "prefix": "SPAN",
+                      "prefixParentId": 3100,
+                      "prefixDescription": "Spanish",
+                      "departmentParentId": 9330,
+                      "department": "World Languages and Cultures",
+                      "begin": "F2016",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "43f41db2-ed8a-4ed3-334a-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 0,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": null,
+        "advisements": [],
+        "groupId": "1bdc7145-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementTitle",
+        "content": "MAJOR COURSES",
+        "groupId": "8e1a7945-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "Requirements"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<h2><span style=\"font-size: 20px;\">Thank you for your interest in Cal Poly San Luis Obispo!</span></h2><p>This articulation agreement displays the lower-division courses required in&nbsp;major and support. Students are advised to complete as much lower-division course preparation as possible prior to transfer. Cal Poly has specific selection criteria for transfer students for admissions, and we encourage you to check the selection criteria for the major you are interested in.&nbsp;</p><h1><span style=\"color: rgb(41, 98, 255); font-size: 16px;\">GENERAL INFORMATION</span></h1><ul><li><a href=\"https://catalog.calpoly.edu/\" rel=\"noopener noreferrer\" target=\"_blank\">University Catalog </a>for the full listing of degree requirements for this major</li><li><a href=\"https://www.calpoly.edu/admissions/transfer-student/how-to-apply\" rel=\"noopener noreferrer\" target=\"_blank\">Admissions website</a> for current transfer admission requirements</li><li><a href=\"https://www.calpoly.edu/\" rel=\"noopener noreferrer\" target=\"_blank\">Cal Poly website</a> for information on our campus</li></ul><p><br></p><h1><span style=\"font-size: 16px; color: rgb(41, 98, 255);\">ACADEMIC INFORMATION</span></h1><ul><li><a href=\"https://flowcharts.calpoly.edu/\" rel=\"noopener noreferrer\" target=\"_blank\">Curriculum sheets &amp; flowcharts</a> for Cal Poly majors | this will show you information about concentrations if applicable in your major</li><li><a href=\"https://registrar.calpoly.edu/other_ac_credit\" rel=\"noopener noreferrer\" target=\"_blank\">AP/IB exams and test credits earned</a> &amp; <a href=\"https://catalog.calpoly.edu/academicstandardsandpolicies/evaluationoftransfercredit/#otheracademicredit\" rel=\"noopener noreferrer\" target=\"_blank\">policies on college-level examination program exams</a>&nbsp;&nbsp;</li><li><a href=\"https://advising.calpoly.edu/\" rel=\"noopener noreferrer\" target=\"_blank\">Academic Advising</a>&nbsp;&nbsp;</li><li><a href=\"https://registrar.calpoly.edu/how-use-assist\" rel=\"noopener noreferrer\" target=\"_blank\">How to use Assist.org</a>&nbsp;</li></ul><p><br></p><p><em>This major allows for 24-30 units of a declared academic minor, (department approval required, may not declare a Spanish minor). This major has no support courses. This major has no other courses (concentrations, areas of emphasis, nor electives). Although not listed here, this major has 20 units of free electives.&nbsp;Please refer to curriculum sheets and flowcharts link above.</em>&nbsp;</p>",
+        "groupId": "1cdc7145-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "General"
+      },
+      {
+        "type": "GeneralTitle",
+        "content": "TRANSFER INFORMATION & RESOURCES",
+        "groupId": "1ddc7145-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "General"
+      },
+      {
+        "type": "GeneralTitle",
+        "content": "ADMISSIONS INFORMATION",
+        "groupId": "0b22197e-0c09-4fc7-8855-01997de084c9",
+        "position": 2,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p>To be a competitive transfer applicant, it\u2019s important to start by reviewing Cal Poly\u2019s <a href=\"https://www.calpoly.edu/admissions/transfer-student/selection-criteria\" rel=\"noopener noreferrer\" target=\"_blank\">Selection Criteria for Transfer Students</a> for your major of interest. This page outlines general admissions requirements for all transfer applicants and the required and desired courses for admissions to Cal Poly San Luis Obispo.&nbsp;&nbsp;Once you know which courses are expected, use ASSIST to see how your completed or planned courses match Cal Poly\u2019s. You can search articulation agreements by major, department, or course prefix. Keep in mind that credit is granted based on the academic year in which you took the course.&nbsp;</p><p><br></p><p>Note: Not all articulated courses listed in ASSIST are required to be a competitive applicant\u2014but completing the required courses in the selection criteria&nbsp;and as many recommended courses as possible will strengthen your application.&nbsp;</p><p class=\"ql-indent-1\"><span style=\"font-size: 16px;\">&nbsp;&nbsp;</span></p><p><strong><em>This is not a static document; new articulation may be added at any time. The information provided herein is subject to change without notice and does not constitute a contract or the terms and conditions of a contract between the student and the institution or the California State University.</em>&nbsp;</strong></p>",
+        "groupId": "e6bf589a-029c-43c8-ab56-01997de084c9",
+        "position": 3,
+        "area": "General"
+      },
+      {
+        "type": "GeneralTitle",
+        "content": "SEMESTER CONVERSION",
+        "groupId": "db63a537-acef-4da4-bb74-01997de084c9",
+        "position": 4,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p>Cal Poly is currently on the quarter system, and all Cal Poly course units reflect that format. Starting Fall 2026, the university will switch to the semester system. If you begin at Cal Poly in Fall 2025, Cal Poly will make every effort to ensure a seamless transfer of your community college work, so that you make progress-to-degree.&nbsp;ASSIST agreements, flowcharts, curriculum sheets, and planning tools haven\u2019t been updated yet to show semester-based information. For latest updates, visit Cal Poly\u2019s official semester conversion page:&nbsp;</p><p><br></p><ul><li><a href=\"https://www.calpoly.edu/semester-conversion\" rel=\"noopener noreferrer\" target=\"_blank\">Semester conversion website</a>&nbsp;</li><li><a href=\"https://semesters.calpoly.edu/student-advising\" rel=\"noopener noreferrer\" target=\"_blank\">Specific College semester conversion websites</a>&nbsp;</li></ul>",
+        "groupId": "47eb1f53-e04d-4e76-8152-01997de084c9",
+        "position": 5,
+        "area": "General"
+      }
+    ],
+    "articulations": [
+      {
+        "templateCellId": "ca4ccd19-c77c-4f18-3344-08ddf49aba51",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 259528,
+            "courseTitle": "Intermediate Spanish I",
+            "courseNumber": "201",
+            "prefix": "SPAN",
+            "prefixParentId": 3100,
+            "prefixDescription": "Spanish",
+            "departmentParentId": 9330,
+            "department": "World Languages and Cultures",
+            "begin": "F2016",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 307801,
+                    "courseTitle": "Intermediate Spanish (First Quarter)",
+                    "courseNumber": "4",
+                    "prefix": "SPAN",
+                    "prefixParentId": 3206,
+                    "prefixDescription": "Spanish",
+                    "departmentParentId": 12290,
+                    "department": "Spanish",
+                    "begin": "F2005",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 219,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "aa9d70e5-4205-4e69-3345-08ddf49aba51",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 275868,
+            "courseTitle": "Intermediate Spanish II",
+            "courseNumber": "202",
+            "prefix": "SPAN",
+            "prefixParentId": 3100,
+            "prefixDescription": "Spanish",
+            "departmentParentId": 9330,
+            "department": "World Languages and Cultures",
+            "begin": "F2016",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 358905,
+                    "courseTitle": "Intermediate Spanish (Third Quarter)",
+                    "courseNumber": "6",
+                    "prefix": "SPAN",
+                    "prefixParentId": 3206,
+                    "prefixDescription": "Spanish",
+                    "departmentParentId": 12290,
+                    "department": "Spanish",
+                    "begin": "F2005",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 1,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 280845,
+                    "courseTitle": "Intermediate Spanish (Second Quarter)",
+                    "courseNumber": "5",
+                    "prefix": "SPAN",
+                    "prefixParentId": 3206,
+                    "prefixDescription": "Spanish",
+                    "departmentParentId": 12290,
+                    "department": "Spanish",
+                    "begin": "F2005",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [
+              {
+                "id": "fbe496f7-9738-42ba-8f8d-08ddf49accf2",
+                "sendingArticulationId": "faaa9af8-96f8-472e-9279-08ddf49acc21",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 0,
+                "sendingCourseGroupEndPosition": 1
+              }
+            ],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "b7cb141b-4e34-4e4f-3349-08ddf49aba51",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 299427,
+            "courseTitle": "Intermediate Spanish III",
+            "courseNumber": "203",
+            "prefix": "SPAN",
+            "prefixParentId": 3100,
+            "prefixDescription": "Spanish",
+            "departmentParentId": 9330,
+            "department": "World Languages and Cultures",
+            "begin": "F2016",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 358905,
+                    "courseTitle": "Intermediate Spanish (Third Quarter)",
+                    "courseNumber": "6",
+                    "prefix": "SPAN",
+                    "prefixParentId": 3206,
+                    "prefixDescription": "Spanish",
+                    "departmentParentId": 12290,
+                    "department": "Spanish",
+                    "begin": "F2005",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 219,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "ac583195-91ba-4754-3348-08ddf49aba51",
+        "articulation": {
+          "type": "Series",
+          "series": {
+            "conjunction": "And",
+            "name": "SPAN 201, SPAN 202, SPAN 203",
+            "courses": [
+              {
+                "id": "461a70c6-baf9-4807-c0b9-08ddf49a0312",
+                "position": 0,
+                "courseIdentifierParentId": 259528,
+                "courseTitle": "Intermediate Spanish I",
+                "courseNumber": "201",
+                "prefix": "SPAN",
+                "prefixParentId": 3100,
+                "prefixDescription": "Spanish",
+                "departmentParentId": 9330,
+                "department": "World Languages and Cultures",
+                "begin": "F2016",
+                "end": "",
+                "minUnits": 4.0,
+                "maxUnits": 4.0,
+                "pathways": []
+              },
+              {
+                "id": "0122da29-0a7a-49f5-c0ba-08ddf49a0312",
+                "position": 1,
+                "courseIdentifierParentId": 275868,
+                "courseTitle": "Intermediate Spanish II",
+                "courseNumber": "202",
+                "prefix": "SPAN",
+                "prefixParentId": 3100,
+                "prefixDescription": "Spanish",
+                "departmentParentId": 9330,
+                "department": "World Languages and Cultures",
+                "begin": "F2016",
+                "end": "",
+                "minUnits": 4.0,
+                "maxUnits": 4.0,
+                "pathways": []
+              },
+              {
+                "id": "f36d384b-f87b-4bbb-c0bb-08ddf49a0312",
+                "position": 2,
+                "courseIdentifierParentId": 299427,
+                "courseTitle": "Intermediate Spanish III",
+                "courseNumber": "203",
+                "prefix": "SPAN",
+                "prefixParentId": 3100,
+                "prefixDescription": "Spanish",
+                "departmentParentId": 9330,
+                "department": "World Languages and Cultures",
+                "begin": "F2016",
+                "end": "",
+                "minUnits": 4.0,
+                "maxUnits": 4.0,
+                "pathways": []
+              }
+            ],
+            "seriesPathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "seriesAttributes": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 307801,
+                    "courseTitle": "Intermediate Spanish (First Quarter)",
+                    "courseNumber": "4",
+                    "prefix": "SPAN",
+                    "prefixParentId": 3206,
+                    "prefixDescription": "Spanish",
+                    "departmentParentId": 12290,
+                    "department": "Spanish",
+                    "begin": "F2005",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 219,
+                    "position": 0,
+                    "type": "Course"
+                  },
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 280845,
+                    "courseTitle": "Intermediate Spanish (Second Quarter)",
+                    "courseNumber": "5",
+                    "prefix": "SPAN",
+                    "prefixParentId": 3206,
+                    "prefixDescription": "Spanish",
+                    "departmentParentId": 12290,
+                    "department": "Spanish",
+                    "begin": "F2005",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 219,
+                    "position": 1,
+                    "type": "Course"
+                  },
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 358905,
+                    "courseTitle": "Intermediate Spanish (Third Quarter)",
+                    "courseNumber": "6",
+                    "prefix": "SPAN",
+                    "prefixParentId": 3206,
+                    "prefixDescription": "Spanish",
+                    "departmentParentId": 12290,
+                    "department": "Spanish",
+                    "begin": "F2005",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 219,
+                    "position": 2,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Series",
+          "seriesAttributes": [],
+          "seriesCourseAttributes": [],
+          "attributes": []
+        }
+      }
+    ],
+    "catalogYear": "{\"receivingCatalogYearBegin\":2025,\"receivingCatalogYearEnd\":2026,\"sendingCatalogYearBegin\":2025,\"sendingCatalogYearEnd\":2026}"
+  },
+  "validationFailure": null,
+  "isSuccessful": true
+}

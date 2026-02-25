@@ -1,0 +1,844 @@
+{
+  "result": {
+    "name": "Philosophy/B.A.",
+    "type": "Major",
+    "publishDate": "2026-01-16T20:46:38.9162779",
+    "receivingInstitution": "{\"id\":117,\"code\":\"UCLA    \",\"isCommunityCollege\":false,\"category\":\"UC\",\"termType\":\"Quarter\",\"names\":[{\"name\":\"University of California, Los Angeles\",\"hasDepartments\":true,\"fromYear\":0,\"hideInList\":false}],\"termTypeAcademicYears\":[{\"termType\":\"Quarter\",\"fromYear\":1980}],\"beginId\":31,\"endId\":null}",
+    "sendingInstitution": "{\"id\":113,\"code\":\"DAC     \",\"isCommunityCollege\":true,\"category\":\"CCC\",\"termType\":\"Quarter\",\"names\":[{\"name\":\"De Anza College\",\"hasDepartments\":true,\"fromYear\":0,\"hideInList\":false}],\"termTypeAcademicYears\":[{\"termType\":\"Quarter\",\"fromYear\":1980}],\"beginId\":31,\"endId\":null}",
+    "academicYear": "{\"id\":76,\"code\":\"2025-2026\",\"beginDate\":\"2025-10-01T00:00:00\",\"endDate\":\"2026-10-01T00:00:00\",\"isOpenForMaintenance\":true,\"isOpenForPublic\":true,\"isOpenForReporting\":true,\"isLocked\":false}",
+    "templateAssets": [
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": false,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 258992,
+                      "courseTitle": "Introduction to Ethical Theory",
+                      "courseNumber": "22",
+                      "prefix": "PHILOS",
+                      "prefixParentId": 5491,
+                      "prefixDescription": "Philosophy",
+                      "departmentParentId": 10222,
+                      "department": "Philosophy",
+                      "begin": "F2002",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": [
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 17,
+                          "pathwayName": "Philosophy",
+                          "pathwayCode": "Philosophy",
+                          "expectationId": 88,
+                          "expectationName": "C4-Ethical Theory",
+                          "subexpectationId": 0,
+                          "subexpectationName": null
+                        }
+                      ]
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "8c3ce727-3fbf-4f2a-e9b1-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 259540,
+                      "courseTitle": "Logic, First Course",
+                      "courseNumber": "31",
+                      "prefix": "PHILOS",
+                      "prefixParentId": 5491,
+                      "prefixDescription": "Philosophy",
+                      "departmentParentId": 10222,
+                      "department": "Philosophy",
+                      "begin": "Su2015",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": [
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 17,
+                          "pathwayName": "Philosophy",
+                          "pathwayCode": "Philosophy",
+                          "expectationId": 85,
+                          "expectationName": "C1-Symbolic Logic",
+                          "subexpectationId": 0,
+                          "subexpectationName": null
+                        }
+                      ]
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "d443e64c-0aec-4502-e9b2-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 2,
+                "cells": [
+                  {
+                    "type": "Requirement",
+                    "requirement": {
+                      "name": "Lower Division Philosophy Courses"
+                    },
+                    "requirementAttributes": [],
+                    "id": "06230f71-fc25-4f6e-e9b3-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 0,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": {
+          "type": "Following",
+          "id": "19275181-78ea-49ed-6910-08ddcb96dfa1",
+          "selectionType": "Complete"
+        },
+        "advisements": [],
+        "groupId": "2fb46f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 2,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": false,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 288862,
+                      "courseTitle": "Introduction to Philosophy of Mind",
+                      "courseNumber": "7",
+                      "prefix": "PHILOS",
+                      "prefixParentId": 5491,
+                      "prefixDescription": "Philosophy",
+                      "departmentParentId": 10222,
+                      "department": "Philosophy",
+                      "begin": "F2002",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": [
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 17,
+                          "pathwayName": "Philosophy",
+                          "pathwayCode": "Philosophy",
+                          "expectationId": 89,
+                          "expectationName": "C5-Philosophy of Mind/Epistemology",
+                          "subexpectationId": 0,
+                          "subexpectationName": null
+                        }
+                      ]
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "b2d88d71-0b45-4453-e9b4-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 289128,
+                      "courseTitle": "Skepticism and Rationality",
+                      "courseNumber": "21",
+                      "prefix": "PHILOS",
+                      "prefixParentId": 5491,
+                      "prefixDescription": "Philosophy",
+                      "departmentParentId": 10222,
+                      "department": "Philosophy",
+                      "begin": "F2014",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": [
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 17,
+                          "pathwayName": "Philosophy",
+                          "pathwayCode": "Philosophy",
+                          "expectationId": 89,
+                          "expectationName": "C5-Philosophy of Mind/Epistemology",
+                          "subexpectationId": 0,
+                          "subexpectationName": null
+                        }
+                      ]
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "b161c2b6-6dd3-4c83-e9b5-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 0,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": {
+          "type": "NFromConjunction",
+          "conjunction": "And",
+          "amountQuantifier": "None",
+          "amount": 1.0,
+          "amountUnitType": "Course",
+          "id": "fb228933-40d0-43a8-6911-08ddcb96dfa1",
+          "selectionType": "Complete"
+        },
+        "advisements": [],
+        "groupId": "30b46f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementTitle",
+        "content": "LOWER DIVISION MAJOR REQUIREMENTS",
+        "groupId": "0e2b7745-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "Requirements"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p>The Philosophy major covers a wide variety of topics including philosophy of language, philosophy of mind, metaphysics, philosophy of science, logic, philosophy of mathematics, ethics, social and political philosophy, philosophy of law, and the history of philosophy, from antiquity to the present.</p><p><br></p><p>Listed below are the lower division preparation courses for the major.</p><p><br></p><p>To be considered for this major, <strong><u>please complete two or more  courses listed below</u></strong> by the spring before transfer:</p><ul><li>One introductory course in Philosophy of the mind or in skepticism and rationality,</li><li>One introductory course in Ethical Theory,</li><li>One introductory course in Symbolic Logic, and</li><li>One additional introductory philosophy course (i. e. contemporary moral issues, Western Philosophy etc).</li></ul><p>All courses must be taken for a letter grade.</p><p><br></p><p>For more information regarding this major and UCLA's transfer selection process, visit <u style=\"color: rgb(41, 98, 255);\">https://philosophy</u><a href=\"http://www.math.ucla.edu\" rel=\"noopener noreferrer\" target=\"_blank\">.ucla.edu</a> and <u style=\"color: rgb(41, 98, 255);\">https://</u><a href=\"http://www.admission.ucla.edu\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(41, 98, 255);\">admission.ucla.edu</a>.</p><p><br></p><p>PLEASE NOTE: the community college courses listed below have been approved to satisfy the preparation requirements for this major at UCLA, but they may not be exact equivalents of the UCLA courses listed.</p>",
+        "groupId": "31b46f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "General"
+      },
+      {
+        "type": "GeneralTitle",
+        "content": "IMPORTANT MAJOR INFORMATION",
+        "groupId": "33b46f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "General"
+      },
+      {
+        "type": "GeneralTitle",
+        "content": "AP/IB EXAM CREDIT",
+        "groupId": "69bcb235-d2fb-4eae-a284-019b946d1189",
+        "position": 2,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p>No AP or IB philosophy exams are considered equivalent, and credit earned from those exams cannot be used towards the Philosophy major prep.</p>",
+        "groupId": "46078b3a-a73d-4a7b-aff5-019b946d1189",
+        "position": 3,
+        "area": "General"
+      }
+    ],
+    "articulations": [
+      {
+        "templateCellId": "8c3ce727-3fbf-4f2a-e9b1-08ddcb96dfae",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 258992,
+            "courseTitle": "Introduction to Ethical Theory",
+            "courseNumber": "22",
+            "prefix": "PHILOS",
+            "prefixParentId": 5491,
+            "prefixDescription": "Philosophy",
+            "departmentParentId": 10222,
+            "department": "Philosophy",
+            "begin": "F2002",
+            "end": "",
+            "minUnits": 5.0,
+            "maxUnits": 5.0,
+            "pathways": [
+              {
+                "begin": null,
+                "beginDate": null,
+                "beginTermId": null,
+                "end": null,
+                "endDate": null,
+                "endTermId": null,
+                "pathwayId": 17,
+                "pathwayName": "Philosophy",
+                "pathwayCode": "Philosophy",
+                "expectationId": 88,
+                "expectationName": "C4-Ethical Theory",
+                "subexpectationId": 0,
+                "subexpectationName": null
+              }
+            ]
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "Or",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 253759,
+                    "courseTitle": "Ethics",
+                    "courseNumber": "8",
+                    "prefix": "PHIL",
+                    "prefixParentId": 5487,
+                    "prefixDescription": "Philosophy",
+                    "departmentParentId": 10175,
+                    "department": "Philosophy",
+                    "begin": "F1995",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 179,
+                    "position": 0,
+                    "type": "Course"
+                  },
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 368050,
+                    "courseTitle": "Ethics - HONORS",
+                    "courseNumber": "8H",
+                    "prefix": "PHIL",
+                    "prefixParentId": 5487,
+                    "prefixDescription": "Philosophy",
+                    "departmentParentId": 10175,
+                    "department": "Philosophy",
+                    "begin": "F2019",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 275,
+                    "position": 1,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "d443e64c-0aec-4502-e9b2-08ddcb96dfae",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 259540,
+            "courseTitle": "Logic, First Course",
+            "courseNumber": "31",
+            "prefix": "PHILOS",
+            "prefixParentId": 5491,
+            "prefixDescription": "Philosophy",
+            "departmentParentId": 10222,
+            "department": "Philosophy",
+            "begin": "Su2015",
+            "end": "",
+            "minUnits": 5.0,
+            "maxUnits": 5.0,
+            "pathways": [
+              {
+                "begin": null,
+                "beginDate": null,
+                "beginTermId": null,
+                "end": null,
+                "endDate": null,
+                "endTermId": null,
+                "pathwayId": 17,
+                "pathwayName": "Philosophy",
+                "pathwayCode": "Philosophy",
+                "expectationId": 85,
+                "expectationName": "C1-Symbolic Logic",
+                "subexpectationId": 0,
+                "subexpectationName": null
+              }
+            ]
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "Or",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 253827,
+                    "courseTitle": "Deductive Logic",
+                    "courseNumber": "7",
+                    "prefix": "PHIL",
+                    "prefixParentId": 5487,
+                    "prefixDescription": "Philosophy",
+                    "departmentParentId": 10175,
+                    "department": "Philosophy",
+                    "begin": "F1995",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 179,
+                    "position": 0,
+                    "type": "Course"
+                  },
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 368049,
+                    "courseTitle": "Deductive Logic - HONORS",
+                    "courseNumber": "7H",
+                    "prefix": "PHIL",
+                    "prefixParentId": 5487,
+                    "prefixDescription": "Philosophy",
+                    "departmentParentId": 10175,
+                    "department": "Philosophy",
+                    "begin": "F2019",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 275,
+                    "position": 1,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "b2d88d71-0b45-4453-e9b4-08ddcb96dfae",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 288862,
+            "courseTitle": "Introduction to Philosophy of Mind",
+            "courseNumber": "7",
+            "prefix": "PHILOS",
+            "prefixParentId": 5491,
+            "prefixDescription": "Philosophy",
+            "departmentParentId": 10222,
+            "department": "Philosophy",
+            "begin": "F2002",
+            "end": "",
+            "minUnits": 5.0,
+            "maxUnits": 5.0,
+            "pathways": [
+              {
+                "begin": null,
+                "beginDate": null,
+                "beginTermId": null,
+                "end": null,
+                "endDate": null,
+                "endTermId": null,
+                "pathwayId": 17,
+                "pathwayName": "Philosophy",
+                "pathwayCode": "Philosophy",
+                "expectationId": 89,
+                "expectationName": "C5-Philosophy of Mind/Epistemology",
+                "subexpectationId": 0,
+                "subexpectationName": null
+              }
+            ]
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 282428,
+                    "courseTitle": "Introduction to Philosophy",
+                    "courseNumber": "1",
+                    "prefix": "PHIL",
+                    "prefixParentId": 5487,
+                    "prefixDescription": "Philosophy",
+                    "departmentParentId": 10175,
+                    "department": "Philosophy",
+                    "begin": "F2019",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "06230f71-fc25-4f6e-e9b3-08ddcb96dfae",
+        "articulation": {
+          "type": "Requirement",
+          "requirement": {
+            "name": "Lower Division Philosophy Courses"
+          },
+          "requirementAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 246491,
+                    "courseTitle": "History of Western Philosophy- Ancient Greece",
+                    "courseNumber": "20A",
+                    "prefix": "PHIL",
+                    "prefixParentId": 5487,
+                    "prefixDescription": "Philosophy",
+                    "departmentParentId": 10175,
+                    "department": "Philosophy",
+                    "begin": "F2024",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 3,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 352964,
+                    "courseTitle": "Social and Political Philosophy",
+                    "courseNumber": "2",
+                    "prefix": "PHIL",
+                    "prefixParentId": 5487,
+                    "prefixDescription": "Philosophy",
+                    "departmentParentId": 10175,
+                    "department": "Philosophy",
+                    "begin": "F2009",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 291000,
+                    "courseTitle": "History of Western Philosophy- 1400 - 1800",
+                    "courseNumber": "20B",
+                    "prefix": "PHIL",
+                    "prefixParentId": 5487,
+                    "prefixDescription": "Philosophy",
+                    "departmentParentId": 10175,
+                    "department": "Philosophy",
+                    "begin": "F2024",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 4,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 368051,
+                    "courseTitle": "Asian Philosophy",
+                    "courseNumber": "11",
+                    "prefix": "PHIL",
+                    "prefixParentId": 5487,
+                    "prefixDescription": "Philosophy",
+                    "departmentParentId": 10175,
+                    "department": "Philosophy",
+                    "begin": "F2019",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 2,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 290438,
+                    "courseTitle": "Critical Thinking",
+                    "courseNumber": "4",
+                    "prefix": "PHIL",
+                    "prefixParentId": 5487,
+                    "prefixDescription": "Philosophy",
+                    "departmentParentId": 10175,
+                    "department": "Philosophy",
+                    "begin": "F1995",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 1,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 253942,
+                    "courseTitle": "Philosophy of Religion",
+                    "courseNumber": "24",
+                    "prefix": "PHIL",
+                    "prefixParentId": 5487,
+                    "prefixDescription": "Philosophy",
+                    "departmentParentId": 10175,
+                    "department": "Philosophy",
+                    "begin": "F1995",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 5,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [
+              {
+                "id": "5e2b3c4b-d70a-4549-dac9-08ddcb9717a5",
+                "sendingArticulationId": "1ec96ccb-ea7a-4648-ba01-08ddcb97173a",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 0,
+                "sendingCourseGroupEndPosition": 1
+              },
+              {
+                "id": "dec96ca0-adb6-4e55-daca-08ddcb9717a5",
+                "sendingArticulationId": "1ec96ccb-ea7a-4648-ba01-08ddcb97173a",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 1,
+                "sendingCourseGroupEndPosition": 2
+              },
+              {
+                "id": "1fe806b0-6c2a-4758-dacb-08ddcb9717a5",
+                "sendingArticulationId": "1ec96ccb-ea7a-4648-ba01-08ddcb97173a",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 2,
+                "sendingCourseGroupEndPosition": 3
+              },
+              {
+                "id": "e54811f0-86f6-49cb-dacc-08ddcb9717a5",
+                "sendingArticulationId": "1ec96ccb-ea7a-4648-ba01-08ddcb97173a",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 3,
+                "sendingCourseGroupEndPosition": 4
+              },
+              {
+                "id": "21f41686-a8ed-4a3e-dacd-08ddcb9717a5",
+                "sendingArticulationId": "1ec96ccb-ea7a-4648-ba01-08ddcb97173a",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 4,
+                "sendingCourseGroupEndPosition": 5
+              }
+            ],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Requirement",
+          "requirementAttributes": [],
+          "attributes": []
+        }
+      }
+    ],
+    "catalogYear": "{\"receivingCatalogYearBegin\":2025,\"receivingCatalogYearEnd\":2026,\"sendingCatalogYearBegin\":2025,\"sendingCatalogYearEnd\":2026}"
+  },
+  "validationFailure": null,
+  "isSuccessful": true
+}

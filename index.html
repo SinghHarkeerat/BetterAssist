@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Better Assist</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="./style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2"></script> 
+</head>
+<body>
+
+  <div class="bg-gradient"></div>
+
+  <div class="container">
+
+    <header class="hero">
+      <div class="logo"></div>
+      <h1>Better Assist</h1>
+      <p>Find UC transfer requirements in seconds.</p>
+    </header>
+
+    <section class="card" id="statusCard">
+      <div class="cardHead">
+        <h2>Data</h2>
+        <span class="pill" id="modePill">loading…</span>
+      </div>
+      <div id="statusText" class="muted">Loading bundle.json…</div>
+      <div id="statusTags" class="tags" style="display:none;"></div>
+      <div id="retryRow" style="display:none;">
+        <button id="retryBtn">Retry</button>
+      </div>
+      <div id="helpText" class="muted" style="display:none;"></div>
+    </section>
+
+    <section class="card" id="pickers" style="display:none;">
+      <h2 class="sectionTitle">Search</h2>
+
+      <div class="field">
+        <label>Campus</label>
+        <input id="schoolInput" type="text" placeholder="College Name" />
+      </div>
+
+      <div class="field">
+        <label>Major</label>
+        <input id="majorInput" type="text" placeholder="Major" />
+      </div>
+
+      <div class="actions">
+        <button id="loadBtn">Show Requirements</button>
+        <button id="clearBtn" class="ghost">Clear</button>
+      </div>
+
+      <div id="schoolSug" class="suggestions"></div>
+      <div id="majorSug" class="suggestions"></div>
+    </section>
+
+    <section class="card" id="results" style="display:none;">
+      <div class="cardHead">
+        <h2>Requirements</h2>
+        <div>
+          <button id="finalBtn">Generate</button>
+          <button id="copyBtn" class="ghost">Copy</button>
+        </div>
+      </div>
+
+      <pre id="finalOut"></pre>
+      <div id="parsedArea"></div>
+    </section>
+
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>

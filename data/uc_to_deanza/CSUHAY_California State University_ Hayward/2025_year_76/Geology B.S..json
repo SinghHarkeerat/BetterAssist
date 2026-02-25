@@ -1,0 +1,1457 @@
+{
+  "result": {
+    "name": "Geology B.S.",
+    "type": "Major",
+    "publishDate": "2025-10-29T19:13:24.4528563",
+    "receivingInstitution": "{\"id\":21,\"code\":\"CSUHAY\",\"isCommunityCollege\":false,\"category\":\"CSU\",\"termType\":\"Quarter\",\"names\":[{\"name\":\"California State University, Hayward\",\"hasDepartments\":true,\"fromYear\":0,\"hideInList\":false},{\"name\":\"California State University, East Bay\",\"hasDepartments\":true,\"fromYear\":2005,\"hideInList\":false}],\"termTypeAcademicYears\":[{\"termType\":\"Semester\",\"fromYear\":2018},{\"termType\":\"Quarter\",\"fromYear\":2005},{\"termType\":\"Quarter\",\"fromYear\":1980}],\"beginId\":31,\"endId\":null}",
+    "sendingInstitution": "{\"id\":113,\"code\":\"DAC     \",\"isCommunityCollege\":true,\"category\":\"CCC\",\"termType\":\"Quarter\",\"names\":[{\"name\":\"De Anza College\",\"hasDepartments\":true,\"fromYear\":0,\"hideInList\":false}],\"termTypeAcademicYears\":[{\"termType\":\"Quarter\",\"fromYear\":1980}],\"beginId\":31,\"endId\":null}",
+    "academicYear": "{\"id\":76,\"code\":\"2025-2026\",\"beginDate\":\"2025-10-01T00:00:00\",\"endDate\":\"2026-10-01T00:00:00\",\"isOpenForMaintenance\":true,\"isOpenForPublic\":true,\"isOpenForReporting\":true,\"isLocked\":false}",
+    "templateAssets": [
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": false,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 284363,
+                      "courseTitle": "CALCULUS II",
+                      "courseNumber": "131",
+                      "prefix": "MATH",
+                      "prefixParentId": 9927,
+                      "prefixDescription": "Mathematics",
+                      "departmentParentId": 14106,
+                      "department": "Mathematics",
+                      "begin": "F2018",
+                      "end": "",
+                      "minUnits": 3.0,
+                      "maxUnits": 3.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "41eaac50-42d9-4cd8-9bff-08dda831fbfa",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 0,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": {
+          "type": "Following",
+          "id": "6a74bc83-dcb0-4708-99a5-08dda831fbeb",
+          "selectionType": "Complete"
+        },
+        "advisements": [],
+        "groupId": "bfc06f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 4,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": false,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 296859,
+                      "courseTitle": "Introduction to GIS in Earth and Environmental Sciences ",
+                      "courseNumber": "260",
+                      "prefix": "GEOL",
+                      "prefixParentId": 11242,
+                      "prefixDescription": "Geology",
+                      "departmentParentId": 15660,
+                      "department": "Earth, Environmental and Sustainability Sciences",
+                      "begin": "F2025",
+                      "end": "",
+                      "minUnits": 3.0,
+                      "maxUnits": 3.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [
+                      {
+                        "course": {
+                          "courseIdentifierParentId": 365247,
+                          "courseTitle": "Introduction to GIS in Earth and Environmental Sciences ",
+                          "courseNumber": "260",
+                          "prefix": "ENSC",
+                          "prefixParentId": 3950,
+                          "prefixDescription": "Environmental Science",
+                          "departmentParentId": 15660,
+                          "department": "Earth, Environmental and Sustainability Sciences",
+                          "begin": "F2025",
+                          "end": "",
+                          "minUnits": 3.0,
+                          "maxUnits": 3.0,
+                          "pathways": []
+                        }
+                      }
+                    ],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "a59c7ad3-68b1-4ad0-9f06-08dda831fbfa",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 284429,
+                      "courseTitle": "Principles of Physics I",
+                      "courseNumber": "125",
+                      "prefix": "PHYS",
+                      "prefixParentId": 201,
+                      "prefixDescription": "Physics",
+                      "departmentParentId": 10760,
+                      "department": "Physics",
+                      "begin": "F2018",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "98bf82c0-3ba1-4527-9f07-08dda831fbfa",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 2,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 256830,
+                      "courseTitle": "Principles of Physics II",
+                      "courseNumber": "126",
+                      "prefix": "PHYS",
+                      "prefixParentId": 201,
+                      "prefixDescription": "Physics",
+                      "departmentParentId": 10760,
+                      "department": "Physics",
+                      "begin": "F2018",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "3c9a7ab8-1099-44fe-9f08-08dda831fbfa",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 0,
+            "attributes": []
+          },
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 359307,
+                      "courseTitle": "Physics for Scientists and Engineers I ",
+                      "courseNumber": "135",
+                      "prefix": "PHYS",
+                      "prefixParentId": 201,
+                      "prefixDescription": "Physics",
+                      "departmentParentId": 10760,
+                      "department": "Physics",
+                      "begin": "F2018",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "eb425767-6a4d-42e8-9f09-08dda831fbfa",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 308313,
+                      "courseTitle": "Physics for Scientists and Engineers II",
+                      "courseNumber": "136",
+                      "prefix": "PHYS",
+                      "prefixParentId": 201,
+                      "prefixDescription": "Physics",
+                      "departmentParentId": 10760,
+                      "department": "Physics",
+                      "begin": "F2018",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "c912f214-4566-4d1f-9f0a-08dda831fbfa",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 2,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 303145,
+                      "courseTitle": "Physics for Scientists and Engineers III",
+                      "courseNumber": "137",
+                      "prefix": "PHYS",
+                      "prefixParentId": 201,
+                      "prefixDescription": "Physics",
+                      "departmentParentId": 10760,
+                      "department": "Physics",
+                      "begin": "F2018",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "9901a814-184f-421e-9f0b-08dda831fbfa",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 3,
+                "cells": [
+                  {
+                    "type": "Series",
+                    "series": {
+                      "conjunction": "And",
+                      "name": "PHYS 135, PHYS 136, PHYS 137",
+                      "courses": [
+                        {
+                          "id": "ab8fa93f-5862-4d87-b46c-08dda831f292",
+                          "position": 0,
+                          "courseIdentifierParentId": 359307,
+                          "courseTitle": "Physics for Scientists and Engineers I ",
+                          "courseNumber": "135",
+                          "prefix": "PHYS",
+                          "prefixParentId": 201,
+                          "prefixDescription": "Physics",
+                          "departmentParentId": 10760,
+                          "department": "Physics",
+                          "begin": "F2018",
+                          "end": "",
+                          "minUnits": 4.0,
+                          "maxUnits": 4.0,
+                          "pathways": []
+                        },
+                        {
+                          "id": "84e8a0d3-0916-4401-b46d-08dda831f292",
+                          "position": 1,
+                          "courseIdentifierParentId": 308313,
+                          "courseTitle": "Physics for Scientists and Engineers II",
+                          "courseNumber": "136",
+                          "prefix": "PHYS",
+                          "prefixParentId": 201,
+                          "prefixDescription": "Physics",
+                          "departmentParentId": 10760,
+                          "department": "Physics",
+                          "begin": "F2018",
+                          "end": "",
+                          "minUnits": 4.0,
+                          "maxUnits": 4.0,
+                          "pathways": []
+                        },
+                        {
+                          "id": "5f643639-217e-4f3d-b46e-08dda831f292",
+                          "position": 2,
+                          "courseIdentifierParentId": 303145,
+                          "courseTitle": "Physics for Scientists and Engineers III",
+                          "courseNumber": "137",
+                          "prefix": "PHYS",
+                          "prefixParentId": 201,
+                          "prefixDescription": "Physics",
+                          "departmentParentId": 10760,
+                          "department": "Physics",
+                          "begin": "F2018",
+                          "end": "",
+                          "minUnits": 4.0,
+                          "maxUnits": 4.0,
+                          "pathways": []
+                        }
+                      ],
+                      "seriesPathways": []
+                    },
+                    "requisites": [],
+                    "visibleCrossListedCourses": [],
+                    "seriesAttributes": [],
+                    "courseAttributes": [],
+                    "id": "fe1c2be6-6632-42af-9f0c-08dda831fbfa",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 1,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": {
+          "type": "Conjunction",
+          "conjunction": "Or",
+          "id": "96b5b7ff-679b-4162-9a30-08dda831fbeb",
+          "selectionType": "Select"
+        },
+        "advisements": [],
+        "groupId": "79ac6f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 2,
+        "area": "Requirements"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p>PLEASE NOTE: ASSIST does not replace the assistance of meeting with an adviser. Please contact CSU East Bay at (510) 885-2556 for an advising appointment. The most accurate and up to date transfer information for transfer courses accepted by CSU East Bay is available at this link: <a href=\"https://tes.collegesource.com/publicview/TES_publicview01.aspx?rid=b75e02ac-0916-413d-8adf-f8011538371f&amp;aid=c79a2650-be66-45fb-9aff-c6f976fd20ff\" rel=\"noopener noreferrer\" target=\"_blank\">CSUEB Equivalencies </a>All California Community College transfer students are encouraged to complete their CSU General Education Breadth or CALGETC pattern at their Community College prior to enrollment at CSU, East Bay.  ASSOCIATE DEGREE FOR TRANSFER similarity matches with CSUEB DEGREES can be found here:  <a href=\"https://www.csueastbay.edu/aps/academic-services/articulation-and-transfer/associate-degrees-for-transfer.html\" rel=\"noopener noreferrer\" target=\"_blank\">ASSOCIATE DEGREES FOR TRANSFER CHART</a></p>",
+        "groupId": "7eac6f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "General"
+      },
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": false,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 4,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 365246,
+                      "courseTitle": "Introductory Field Experience ",
+                      "courseNumber": "297",
+                      "prefix": "GEOL",
+                      "prefixParentId": 11242,
+                      "prefixDescription": "Geology",
+                      "departmentParentId": 15660,
+                      "department": "Earth, Environmental and Sustainability Sciences",
+                      "begin": "F2025",
+                      "end": "",
+                      "minUnits": 1.0,
+                      "maxUnits": 1.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "931b81b0-2de0-4d3f-9f0d-08dda831fbfa",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 3,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 300149,
+                      "courseTitle": "Historical Geology",
+                      "courseNumber": "211",
+                      "prefix": "GEOL",
+                      "prefixParentId": 11242,
+                      "prefixDescription": "Geology",
+                      "departmentParentId": 15660,
+                      "department": "Earth, Environmental and Sustainability Sciences",
+                      "begin": "F2025",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "b77b0899-783a-46ec-9f0e-08dda831fbfa",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 2,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 359313,
+                      "courseTitle": "Physical and Environmental Geology",
+                      "courseNumber": "210",
+                      "prefix": "GEOL",
+                      "prefixParentId": 11242,
+                      "prefixDescription": "Geology",
+                      "departmentParentId": 15660,
+                      "department": "Earth, Environmental and Sustainability Sciences",
+                      "begin": "F2025",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "afa6619e-685b-4a89-9f0f-08dda831fbfa",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 5,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 256819,
+                      "courseTitle": "CALCULUS I",
+                      "courseNumber": "130",
+                      "prefix": "MATH",
+                      "prefixParentId": 9927,
+                      "prefixDescription": "Mathematics",
+                      "departmentParentId": 14106,
+                      "department": "Mathematics",
+                      "begin": "F2018",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "0bf0439c-6d3d-4790-9f10-08dda831fbfa",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Series",
+                    "series": {
+                      "conjunction": "And",
+                      "name": "CHEM 111, CHEM 111L",
+                      "courses": [
+                        {
+                          "id": "44acafcd-bd9c-485e-b497-08dda831f292",
+                          "position": 0,
+                          "courseIdentifierParentId": 308342,
+                          "courseTitle": "GENERAL CHEMISTRY I",
+                          "courseNumber": "111",
+                          "prefix": "CHEM",
+                          "prefixParentId": 3762,
+                          "prefixDescription": "Chemistry",
+                          "departmentParentId": 15664,
+                          "department": "Chemistry and Biochemistry",
+                          "begin": "F2025",
+                          "end": "",
+                          "minUnits": 3.0,
+                          "maxUnits": 3.0,
+                          "pathways": []
+                        },
+                        {
+                          "id": "baafd99a-c17c-4bf0-b498-08dda831f292",
+                          "position": 1,
+                          "courseIdentifierParentId": 384930,
+                          "courseTitle": "GENERAL CHEMISTRY LABORATORY I",
+                          "courseNumber": "111L",
+                          "prefix": "CHEM",
+                          "prefixParentId": 3762,
+                          "prefixDescription": "Chemistry",
+                          "departmentParentId": 15664,
+                          "department": "Chemistry and Biochemistry",
+                          "begin": "F2025",
+                          "end": "",
+                          "minUnits": 2.0,
+                          "maxUnits": 2.0,
+                          "pathways": []
+                        }
+                      ],
+                      "seriesPathways": []
+                    },
+                    "requisites": [],
+                    "visibleCrossListedCourses": [],
+                    "seriesAttributes": [],
+                    "courseAttributes": [],
+                    "id": "899b3c8e-61a0-4e33-9f11-08dda831fbfa",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Series",
+                    "series": {
+                      "conjunction": "And",
+                      "name": "CHEM 112, CHEM 112L",
+                      "courses": [
+                        {
+                          "id": "175d79ba-c954-48bb-b48d-08dda831f292",
+                          "position": 0,
+                          "courseIdentifierParentId": 281693,
+                          "courseTitle": "GENERAL CHEMISTRY II",
+                          "courseNumber": "112",
+                          "prefix": "CHEM",
+                          "prefixParentId": 3762,
+                          "prefixDescription": "Chemistry",
+                          "departmentParentId": 15664,
+                          "department": "Chemistry and Biochemistry",
+                          "begin": "F2025",
+                          "end": "",
+                          "minUnits": 3.0,
+                          "maxUnits": 3.0,
+                          "pathways": []
+                        },
+                        {
+                          "id": "230eb607-82c5-4d39-b48e-08dda831f292",
+                          "position": 1,
+                          "courseIdentifierParentId": 412171,
+                          "courseTitle": "GENERAL CHEMISTRY LABORATORY II",
+                          "courseNumber": "112L",
+                          "prefix": "CHEM",
+                          "prefixParentId": 3762,
+                          "prefixDescription": "Chemistry",
+                          "departmentParentId": 15664,
+                          "department": "Chemistry and Biochemistry",
+                          "begin": "F2025",
+                          "end": "",
+                          "minUnits": 2.0,
+                          "maxUnits": 2.0,
+                          "pathways": []
+                        }
+                      ],
+                      "seriesPathways": []
+                    },
+                    "requisites": [],
+                    "visibleCrossListedCourses": [],
+                    "seriesAttributes": [],
+                    "courseAttributes": [],
+                    "id": "eaddd347-e932-4a13-9f12-08dda831fbfa",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 0,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": {
+          "type": "Following",
+          "id": "cdf50e5d-8326-47ce-9a31-08dda831fbeb",
+          "selectionType": "Complete"
+        },
+        "advisements": [],
+        "groupId": "82ac6f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "Requirements"
+      },
+      {
+        "type": "GeneralTitle",
+        "content": "Geology, B.S. Program (120 units)",
+        "groupId": "85ac6f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "General"
+      },
+      {
+        "type": "RequirementTitle",
+        "content": "LOWER DIVISION CORE",
+        "groupId": "46fe7645-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "Requirements"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p>Program Description</p><p>Geology is the study of the earth and of life and the natural processes occurring on the planet through time. Students learn about the causes of processes such as earthquakes, volcanoes, the formation of mountains, the effect of erosion and deposition, and the formation of rocks and minerals and their uses. Coursework combined with observations on field trips provide Cal State East Bay students with an understanding of natural processes and the human impact on the environment.</p><p><br></p><p>The Geology, B.A. program offers the student a greater degree of flexibility and may be more appropriate for those who do not plan to become certified professional geologists or pursue graduate study. (Note: Transfer from the Geology, B.A. to the Geology, B.S. program or vice versa can be accomplished.) Students wishing to do independent geological work professionally or plan on graduate study should enroll in the B.S. program; see Geology, B.S. in the Department of Earth and Environmental Sciences.</p><p><br></p><p>The Department of Earth and Environmental Sciences offers undergraduate study leading to the Bachelor of Science and Bachelor of Arts degrees in Geology, focusing on developing strong foundational knowledge and a broad set of field and laboratory skills in the Earth sciences.</p><p><br></p><p>The B.A. program is designed to prepare students for:</p><p>Entry-level employment as geologists and environmental scientists in government (city, county, regional, state, and federal) and private consulting firms (environmental, engineering, and geotechnical firms, mining and oil companies, etc.).</p><p>K-12 Earth Science Education.</p><p>The undergraduate Geology programs emphasize field and laboratory training. Many opportunities for field and laboratory research exist throughout northern California and elsewhere. Our B.S. and B.A. program reflects departmental expertise by focusing on near-surface processes, hazards and resources, and concentrates on issues of regional and local importance to our community. Rigorous coursework is augmented by embedded and sequential field experiences that integrate classroom concepts in natural laboratories. Seminars and topical courses address diverse subjects, for example: geochemical evolution of groundwater, natural tracers of geologic processes, tectonic geomorphology, earthquake hazards, bay area tectonics, near-surface geophysics, and modern depositional environments. We maintain strong connections with East Bay Regional Parks, the California Environmental Protection Agency, Lawrence Livermore National Laboratory, NASA Ames, the U.S. Geological Survey in Menlo Park, and SLAC National Accelerator Laboratory.&nbsp;</p><p><br></p><p>The Earth &amp; Environmental Science Club, a student-run organization, sponsors a variety of activities including guest speakers, field trips, employment workshops, and student-faculty gatherings. The club is an important part of department life, providing students with opportunities to make professional contacts, to explore graduate school and professional options, and to enjoy the company of others with similar interests.</p><p><br></p>",
+        "groupId": "95ac6f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 2,
+        "area": "General"
+      },
+      {
+        "type": "RequirementTitle",
+        "content": "ADDITIONAL MAJOR ELECTIVES",
+        "groupId": "f962db7c-7611-4873-b6a9-0194ae251d77",
+        "position": 3,
+        "area": "Requirements"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p>Please Note that the CSU EAST BAY COLLEGE OF SCIENCE does not accept ONLINE LABS taken for transfer as equivalent to CSUEB Lab courses. Only \"In Person\" Labs conducted in a College Laboratory setting will be considered equivalent to the CSU East Bay Lab course. Students who took an ONLINE LAB will be expected to retake the lab in person for major credit. This only affects  transfer students within the College of Science majors.</p>",
+        "groupId": "f814addb-1b50-4ca0-b193-019a30d6a3b7",
+        "position": 4,
+        "area": "General"
+      },
+      {
+        "type": "GeneralTitle",
+        "content": "NO ONLINE LABS for TRANSFER",
+        "groupId": "8ad7ec62-cd85-4f04-a92b-019a312dbf95",
+        "position": 3,
+        "area": "General"
+      }
+    ],
+    "articulations": [
+      {
+        "templateCellId": "41eaac50-42d9-4cd8-9bff-08dda831fbfa",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 284363,
+            "courseTitle": "CALCULUS II",
+            "courseNumber": "131",
+            "prefix": "MATH",
+            "prefixParentId": 9927,
+            "prefixDescription": "Mathematics",
+            "departmentParentId": 14106,
+            "department": "Mathematics",
+            "begin": "F2018",
+            "end": "",
+            "minUnits": 3.0,
+            "maxUnits": 3.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "Or",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 307949,
+                    "courseTitle": "Calculus II",
+                    "courseNumber": "1B",
+                    "prefix": "MATH",
+                    "prefixParentId": 10025,
+                    "prefixDescription": "Mathematics",
+                    "departmentParentId": 9040,
+                    "department": "Mathematics",
+                    "begin": "F2024",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 179,
+                    "position": 0,
+                    "type": "Course"
+                  },
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 288769,
+                    "courseTitle": "Calculus II - HONORS",
+                    "courseNumber": "1BH",
+                    "prefix": "MATH",
+                    "prefixParentId": 10025,
+                    "prefixDescription": "Mathematics",
+                    "departmentParentId": 9040,
+                    "department": "Mathematics",
+                    "begin": "F2024",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 263,
+                    "position": 1,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "98bf82c0-3ba1-4527-9f07-08dda831fbfa",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 284429,
+            "courseTitle": "Principles of Physics I",
+            "courseNumber": "125",
+            "prefix": "PHYS",
+            "prefixParentId": 201,
+            "prefixDescription": "Physics",
+            "departmentParentId": 10760,
+            "department": "Physics",
+            "begin": "F2018",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": "Articulates as a Series Only",
+            "deniedCourses": [],
+            "items": [],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "3c9a7ab8-1099-44fe-9f08-08dda831fbfa",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 256830,
+            "courseTitle": "Principles of Physics II",
+            "courseNumber": "126",
+            "prefix": "PHYS",
+            "prefixParentId": 201,
+            "prefixDescription": "Physics",
+            "departmentParentId": 10760,
+            "department": "Physics",
+            "begin": "F2018",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": "Articulates as a Series Only",
+            "deniedCourses": [],
+            "items": [],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "eb425767-6a4d-42e8-9f09-08dda831fbfa",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 359307,
+            "courseTitle": "Physics for Scientists and Engineers I ",
+            "courseNumber": "135",
+            "prefix": "PHYS",
+            "prefixParentId": 201,
+            "prefixDescription": "Physics",
+            "departmentParentId": 10760,
+            "department": "Physics",
+            "begin": "F2018",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": "Articulates as a Series Only",
+            "deniedCourses": [],
+            "items": [],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "c912f214-4566-4d1f-9f0a-08dda831fbfa",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 308313,
+            "courseTitle": "Physics for Scientists and Engineers II",
+            "courseNumber": "136",
+            "prefix": "PHYS",
+            "prefixParentId": 201,
+            "prefixDescription": "Physics",
+            "departmentParentId": 10760,
+            "department": "Physics",
+            "begin": "F2018",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": "Articulates as a Series Only",
+            "deniedCourses": [],
+            "items": [],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "9901a814-184f-421e-9f0b-08dda831fbfa",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 303145,
+            "courseTitle": "Physics for Scientists and Engineers III",
+            "courseNumber": "137",
+            "prefix": "PHYS",
+            "prefixParentId": 201,
+            "prefixDescription": "Physics",
+            "departmentParentId": 10760,
+            "department": "Physics",
+            "begin": "F2018",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": "Articulates as a Series Only",
+            "deniedCourses": [],
+            "items": [],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "afa6619e-685b-4a89-9f0f-08dda831fbfa",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 359313,
+            "courseTitle": "Physical and Environmental Geology",
+            "courseNumber": "210",
+            "prefix": "GEOL",
+            "prefixParentId": 11242,
+            "prefixDescription": "Geology",
+            "departmentParentId": 15660,
+            "department": "Earth, Environmental and Sustainability Sciences",
+            "begin": "F2025",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 308128,
+                    "courseTitle": "Introductory Geology",
+                    "courseNumber": "10",
+                    "prefix": "GEOL",
+                    "prefixParentId": 11330,
+                    "prefixDescription": "Geology",
+                    "departmentParentId": 6352,
+                    "department": "Geology",
+                    "begin": "F1995",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "0bf0439c-6d3d-4790-9f10-08dda831fbfa",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 256819,
+            "courseTitle": "CALCULUS I",
+            "courseNumber": "130",
+            "prefix": "MATH",
+            "prefixParentId": 9927,
+            "prefixDescription": "Mathematics",
+            "departmentParentId": 14106,
+            "department": "Mathematics",
+            "begin": "F2018",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "Or",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 281397,
+                    "courseTitle": "Calculus I",
+                    "courseNumber": "1A",
+                    "prefix": "MATH",
+                    "prefixParentId": 10025,
+                    "prefixDescription": "Mathematics",
+                    "departmentParentId": 9040,
+                    "department": "Mathematics",
+                    "begin": "F2024",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 179,
+                    "position": 0,
+                    "type": "Course"
+                  },
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 288768,
+                    "courseTitle": "Calculus I - HONORS",
+                    "courseNumber": "1AH",
+                    "prefix": "MATH",
+                    "prefixParentId": 10025,
+                    "prefixDescription": "Mathematics",
+                    "departmentParentId": 9040,
+                    "department": "Mathematics",
+                    "begin": "F2024",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 263,
+                    "position": 1,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "fe1c2be6-6632-42af-9f0c-08dda831fbfa",
+        "articulation": {
+          "type": "Series",
+          "series": {
+            "conjunction": "And",
+            "name": "PHYS 135, PHYS 136, PHYS 137",
+            "courses": [
+              {
+                "id": "ab8fa93f-5862-4d87-b46c-08dda831f292",
+                "position": 0,
+                "courseIdentifierParentId": 359307,
+                "courseTitle": "Physics for Scientists and Engineers I ",
+                "courseNumber": "135",
+                "prefix": "PHYS",
+                "prefixParentId": 201,
+                "prefixDescription": "Physics",
+                "departmentParentId": 10760,
+                "department": "Physics",
+                "begin": "F2018",
+                "end": "",
+                "minUnits": 4.0,
+                "maxUnits": 4.0,
+                "pathways": []
+              },
+              {
+                "id": "84e8a0d3-0916-4401-b46d-08dda831f292",
+                "position": 1,
+                "courseIdentifierParentId": 308313,
+                "courseTitle": "Physics for Scientists and Engineers II",
+                "courseNumber": "136",
+                "prefix": "PHYS",
+                "prefixParentId": 201,
+                "prefixDescription": "Physics",
+                "departmentParentId": 10760,
+                "department": "Physics",
+                "begin": "F2018",
+                "end": "",
+                "minUnits": 4.0,
+                "maxUnits": 4.0,
+                "pathways": []
+              },
+              {
+                "id": "5f643639-217e-4f3d-b46e-08dda831f292",
+                "position": 2,
+                "courseIdentifierParentId": 303145,
+                "courseTitle": "Physics for Scientists and Engineers III",
+                "courseNumber": "137",
+                "prefix": "PHYS",
+                "prefixParentId": 201,
+                "prefixDescription": "Physics",
+                "departmentParentId": 10760,
+                "department": "Physics",
+                "begin": "F2018",
+                "end": "",
+                "minUnits": 4.0,
+                "maxUnits": 4.0,
+                "pathways": []
+              }
+            ],
+            "seriesPathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "seriesAttributes": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 276901,
+                    "courseTitle": "Physics for Scientists and Engineers: Electricity and Magnetism",
+                    "courseNumber": "4B",
+                    "prefix": "PHYS",
+                    "prefixParentId": 300,
+                    "prefixDescription": "Physics",
+                    "departmentParentId": 10814,
+                    "department": "Physics",
+                    "begin": "F1998",
+                    "end": "",
+                    "minUnits": 6.0,
+                    "maxUnits": 6.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 1,
+                    "type": "Course"
+                  },
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 290250,
+                    "courseTitle": "Physics for Scientists and Engineers: Fluids, Waves, Optics and Thermodynamics",
+                    "courseNumber": "4C",
+                    "prefix": "PHYS",
+                    "prefixParentId": 300,
+                    "prefixDescription": "Physics",
+                    "departmentParentId": 10814,
+                    "department": "Physics",
+                    "begin": "F1998",
+                    "end": "",
+                    "minUnits": 6.0,
+                    "maxUnits": 6.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 2,
+                    "type": "Course"
+                  },
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 276904,
+                    "courseTitle": "Physics for Scientists and Engineers: Modern Physics",
+                    "courseNumber": "4D",
+                    "prefix": "PHYS",
+                    "prefixParentId": 300,
+                    "prefixDescription": "Physics",
+                    "departmentParentId": 10814,
+                    "department": "Physics",
+                    "begin": "F1998",
+                    "end": "",
+                    "minUnits": 6.0,
+                    "maxUnits": 6.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 3,
+                    "type": "Course"
+                  },
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 305519,
+                    "courseTitle": "Physics for Scientists and Engineers: Mechanics",
+                    "courseNumber": "4A",
+                    "prefix": "PHYS",
+                    "prefixParentId": 300,
+                    "prefixDescription": "Physics",
+                    "departmentParentId": 10814,
+                    "department": "Physics",
+                    "begin": "F1998",
+                    "end": "",
+                    "minUnits": 6.0,
+                    "maxUnits": 6.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Series",
+          "seriesAttributes": [],
+          "seriesCourseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "899b3c8e-61a0-4e33-9f11-08dda831fbfa",
+        "articulation": {
+          "type": "Series",
+          "series": {
+            "conjunction": "And",
+            "name": "CHEM 111, CHEM 111L",
+            "courses": [
+              {
+                "id": "44acafcd-bd9c-485e-b497-08dda831f292",
+                "position": 0,
+                "courseIdentifierParentId": 308342,
+                "courseTitle": "GENERAL CHEMISTRY I",
+                "courseNumber": "111",
+                "prefix": "CHEM",
+                "prefixParentId": 3762,
+                "prefixDescription": "Chemistry",
+                "departmentParentId": 15664,
+                "department": "Chemistry and Biochemistry",
+                "begin": "F2025",
+                "end": "",
+                "minUnits": 3.0,
+                "maxUnits": 3.0,
+                "pathways": []
+              },
+              {
+                "id": "baafd99a-c17c-4bf0-b498-08dda831f292",
+                "position": 1,
+                "courseIdentifierParentId": 384930,
+                "courseTitle": "GENERAL CHEMISTRY LABORATORY I",
+                "courseNumber": "111L",
+                "prefix": "CHEM",
+                "prefixParentId": 3762,
+                "prefixDescription": "Chemistry",
+                "departmentParentId": 15664,
+                "department": "Chemistry and Biochemistry",
+                "begin": "F2025",
+                "end": "",
+                "minUnits": 2.0,
+                "maxUnits": 2.0,
+                "pathways": []
+              }
+            ],
+            "seriesPathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "seriesAttributes": [
+            {
+              "position": 0,
+              "content": "Articulates as a sequence only"
+            }
+          ],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": "Articulates as a Series Only",
+            "deniedCourses": [],
+            "items": [],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Series",
+          "seriesAttributes": [
+            {
+              "position": 0,
+              "content": "Articulates as a sequence only"
+            }
+          ],
+          "seriesCourseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "eaddd347-e932-4a13-9f12-08dda831fbfa",
+        "articulation": {
+          "type": "Series",
+          "series": {
+            "conjunction": "And",
+            "name": "CHEM 112, CHEM 112L",
+            "courses": [
+              {
+                "id": "175d79ba-c954-48bb-b48d-08dda831f292",
+                "position": 0,
+                "courseIdentifierParentId": 281693,
+                "courseTitle": "GENERAL CHEMISTRY II",
+                "courseNumber": "112",
+                "prefix": "CHEM",
+                "prefixParentId": 3762,
+                "prefixDescription": "Chemistry",
+                "departmentParentId": 15664,
+                "department": "Chemistry and Biochemistry",
+                "begin": "F2025",
+                "end": "",
+                "minUnits": 3.0,
+                "maxUnits": 3.0,
+                "pathways": []
+              },
+              {
+                "id": "230eb607-82c5-4d39-b48e-08dda831f292",
+                "position": 1,
+                "courseIdentifierParentId": 412171,
+                "courseTitle": "GENERAL CHEMISTRY LABORATORY II",
+                "courseNumber": "112L",
+                "prefix": "CHEM",
+                "prefixParentId": 3762,
+                "prefixDescription": "Chemistry",
+                "departmentParentId": 15664,
+                "department": "Chemistry and Biochemistry",
+                "begin": "F2025",
+                "end": "",
+                "minUnits": 2.0,
+                "maxUnits": 2.0,
+                "pathways": []
+              }
+            ],
+            "seriesPathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "seriesAttributes": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": "Articulates as a Series Only",
+            "deniedCourses": [],
+            "items": [],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Series",
+          "seriesAttributes": [],
+          "seriesCourseAttributes": [],
+          "attributes": []
+        }
+      }
+    ],
+    "catalogYear": "{\"receivingCatalogYearBegin\":2025,\"receivingCatalogYearEnd\":2026,\"sendingCatalogYearBegin\":2025,\"sendingCatalogYearEnd\":2026}"
+  },
+  "validationFailure": null,
+  "isSuccessful": true
+}

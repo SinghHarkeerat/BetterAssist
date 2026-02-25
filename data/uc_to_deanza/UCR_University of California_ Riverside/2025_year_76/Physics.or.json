@@ -1,0 +1,975 @@
+{
+  "result": {
+    "name": "Physics, B.A. or B.S.",
+    "type": "Major",
+    "publishDate": "2025-11-18T19:20:07.3318944",
+    "receivingInstitution": "{\"id\":46,\"code\":\"UCR     \",\"isCommunityCollege\":false,\"category\":\"UC\",\"termType\":\"Quarter\",\"names\":[{\"name\":\"University of California, Riverside\",\"hasDepartments\":true,\"fromYear\":0,\"hideInList\":false}],\"termTypeAcademicYears\":[{\"termType\":\"Quarter\",\"fromYear\":1980}],\"beginId\":31,\"endId\":null}",
+    "sendingInstitution": "{\"id\":113,\"code\":\"DAC     \",\"isCommunityCollege\":true,\"category\":\"CCC\",\"termType\":\"Quarter\",\"names\":[{\"name\":\"De Anza College\",\"hasDepartments\":true,\"fromYear\":0,\"hideInList\":false}],\"termTypeAcademicYears\":[{\"termType\":\"Quarter\",\"fromYear\":1980}],\"beginId\":31,\"endId\":null}",
+    "academicYear": "{\"id\":76,\"code\":\"2025-2026\",\"beginDate\":\"2025-10-01T00:00:00\",\"endDate\":\"2026-10-01T00:00:00\",\"isOpenForMaintenance\":true,\"isOpenForPublic\":true,\"isOpenForReporting\":true,\"isLocked\":false}",
+    "templateAssets": [
+      {
+        "type": "GeneralText",
+        "content": "<p>Applicants to majors in the College of Natural and Agricultural Sciences are selected on the basis of their academic preparation, as assessed by their GPA and the strength of preparation for their intended major. A GPA of at least 2.70 is required (This is a baseline GPA for consideration and not a guarantee of admission). Courses must be completed with a letter grade, with no grade lower than a \"C.\" To be best prepared for upper division course work at UCR, students are advised to complete as many as possible of the lower division major requirements listed below prior to transfer, and to prioritize this course work above completion of breadth/general education courses.</p><p><br></p><p>In addition, complete community college courses comparable to following UCR two year-long Series in order to meet selection criteria for this major.</p><p><br></p><p><strong><u>Mandatory Course Series</u></strong></p><p><strong>Math </strong>Math 9A, MATH 9B, MATH 9C (<strong><u>or </u></strong>Math 7A, MATH 7B, MATH 9C if articulated)</p><p><strong>Physics </strong>PHYS 40A, PHYS 40B, PHYS 40C</p><p><br></p><p><strong><u>AP Exam - Satisfy Course Requirement Section </u></strong></p><p>Mathematics: AB Exam or AB Subscore from BC Exam</p><p>Minimum score of 3 satisfies MATH 9A <strong><u>or </u></strong>MATH 7A</p><p><strong>Mathematics: BC Exam </strong></p><p>Minimum score of 3 satisfies MATH 9A and MATH 9B <strong><u>or </u></strong>MATH 7A and MATH 7B</p><p>Minimum score of 4 satisfies MATH 9A, MATH 9B, MATH 9C <strong><u>or </u></strong>MATH 7A, MATH 7B, MATH 9C</p><p><br></p><p>For additional information about this major, please visit <a href=\"http://www.physics.ucr.edu\" rel=\"noopener noreferrer\" target=\"_blank\">Physics</a>.</p><p>For information about the UC Transfer Admission Guarantee (TAG) program, please visit <a href=\"https://admission.universityofcalifornia.edu/admission-requirements/transfer-requirements/uc-transfer-programs/transfer-admission-guarantee-tag.html\" rel=\"noopener noreferrer\" target=\"_blank\">Transfer Admission Guarantee</a>.</p><p><br></p><p>If sending institution offers <strong><u>honors/enhanced/support courses</u></strong>, the articulation for the same course number will be used.</p><p><br></p><p><strong><u>IGETC/CAL-GETC and General Education/Breadth Information </u></strong></p><p>The College of Natural and Agricultural Sciences (CNAS) accepts completion of the IGETC or CAL-GETC as satisfying the college\u2019s lower-division general education/breadth requirements for transfer students.</p><p>Students completing CAL-GETC and pursuing a Bachelor of Arts (B.A.) degree may have an additional \"Language Other Than English\" requirement, which can be met with coursework completed at UCR or with applicable transfer credit.&nbsp;Transfer students who wish to supplement their math and science preparation with humanities or social science courses are encouraged to follow the College of Natural and Agricultural Sciences breadth pattern. You may view the breadth requirements for College of Natural and Agricultural Sciences by visiting the <a href=\"https://documents.ucr.edu/registrar/UCR%20Catalog%202025-2026.pdf\" rel=\"noopener noreferrer\" target=\"_blank\">2025-26 Catalo</a><a href=\"https://documents.ucr.edu/registrar/UCR_Catalog_2024-25_Updated.pdf\" rel=\"noopener noreferrer\" target=\"_blank\">g</a>, pages 94-96.</p>",
+        "groupId": "1dea7145-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "General"
+      },
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": true,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Series",
+                    "series": {
+                      "conjunction": "And",
+                      "name": "MATH 9A, MATH 9B, MATH 9C",
+                      "courses": [
+                        {
+                          "id": "28b4cff4-c9ad-49cd-2a9e-08de05170dad",
+                          "position": 0,
+                          "courseIdentifierParentId": 255903,
+                          "courseTitle": "First-Year Calculus",
+                          "courseNumber": "9A",
+                          "prefix": "MATH",
+                          "prefixParentId": 9953,
+                          "prefixDescription": "Mathematics",
+                          "departmentParentId": 8983,
+                          "department": "Mathematics",
+                          "begin": "F1999",
+                          "end": "",
+                          "minUnits": 4.0,
+                          "maxUnits": 4.0,
+                          "pathways": [
+                            {
+                              "begin": null,
+                              "beginDate": null,
+                              "beginTermId": null,
+                              "end": null,
+                              "endDate": null,
+                              "endTermId": null,
+                              "pathwayId": 3,
+                              "pathwayName": "Biology",
+                              "pathwayCode": "Biology",
+                              "expectationId": 10,
+                              "expectationName": "C3-Single Var. Calc.",
+                              "subexpectationId": 0,
+                              "subexpectationName": null
+                            }
+                          ]
+                        },
+                        {
+                          "id": "c4b4c729-5b7a-4f61-2a9f-08de05170dad",
+                          "position": 1,
+                          "courseIdentifierParentId": 283360,
+                          "courseTitle": "First-Year Calculus",
+                          "courseNumber": "9B",
+                          "prefix": "MATH",
+                          "prefixParentId": 9953,
+                          "prefixDescription": "Mathematics",
+                          "departmentParentId": 8983,
+                          "department": "Mathematics",
+                          "begin": "F1999",
+                          "end": "",
+                          "minUnits": 4.0,
+                          "maxUnits": 4.0,
+                          "pathways": [
+                            {
+                              "begin": null,
+                              "beginDate": null,
+                              "beginTermId": null,
+                              "end": null,
+                              "endDate": null,
+                              "endTermId": null,
+                              "pathwayId": 3,
+                              "pathwayName": "Biology",
+                              "pathwayCode": "Biology",
+                              "expectationId": 10,
+                              "expectationName": "C3-Single Var. Calc.",
+                              "subexpectationId": 0,
+                              "subexpectationName": null
+                            }
+                          ]
+                        },
+                        {
+                          "id": "0f128d40-ecfb-4d89-2aa0-08de05170dad",
+                          "position": 2,
+                          "courseIdentifierParentId": 283347,
+                          "courseTitle": "First-Year Calculus",
+                          "courseNumber": "9C",
+                          "prefix": "MATH",
+                          "prefixParentId": 9953,
+                          "prefixDescription": "Mathematics",
+                          "departmentParentId": 8983,
+                          "department": "Mathematics",
+                          "begin": "F1999",
+                          "end": "",
+                          "minUnits": 4.0,
+                          "maxUnits": 4.0,
+                          "pathways": []
+                        }
+                      ],
+                      "seriesPathways": []
+                    },
+                    "requisites": [],
+                    "visibleCrossListedCourses": [],
+                    "seriesAttributes": [
+                      {
+                        "position": 0,
+                        "content": "An AP exam may be used to satisfy this course requirement"
+                      }
+                    ],
+                    "courseAttributes": [],
+                    "id": "09482160-28bc-45a1-c0cd-08de050a3a69",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 3,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 283347,
+                      "courseTitle": "First-Year Calculus",
+                      "courseNumber": "9C",
+                      "prefix": "MATH",
+                      "prefixParentId": 9953,
+                      "prefixDescription": "Mathematics",
+                      "departmentParentId": 8983,
+                      "department": "Mathematics",
+                      "begin": "F1999",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "820e6cff-8122-4ff6-c0cf-08de050a3a69",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 365120,
+                      "courseTitle": "Calculus for Life Sciences",
+                      "courseNumber": "7A",
+                      "prefix": "MATH",
+                      "prefixParentId": 9953,
+                      "prefixDescription": "Mathematics",
+                      "departmentParentId": 8983,
+                      "department": "Mathematics",
+                      "begin": "F2018",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": [
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 3,
+                          "pathwayName": "Biology",
+                          "pathwayCode": "Biology",
+                          "expectationId": 10,
+                          "expectationName": "C3-Single Var. Calc.",
+                          "subexpectationId": 0,
+                          "subexpectationName": null
+                        }
+                      ]
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [
+                      {
+                        "position": 0,
+                        "content": "An AP exam may be used to satisfy this course requirement"
+                      }
+                    ],
+                    "id": "e01b63e4-7714-42f5-c0d1-08de050a3a69",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 2,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 365121,
+                      "courseTitle": "Calculus for Life Sciences",
+                      "courseNumber": "7B",
+                      "prefix": "MATH",
+                      "prefixParentId": 9953,
+                      "prefixDescription": "Mathematics",
+                      "departmentParentId": 8983,
+                      "department": "Mathematics",
+                      "begin": "F2018",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": [
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 3,
+                          "pathwayName": "Biology",
+                          "pathwayCode": "Biology",
+                          "expectationId": 10,
+                          "expectationName": "C3-Single Var. Calc.",
+                          "subexpectationId": 0,
+                          "subexpectationName": null
+                        }
+                      ]
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [
+                      {
+                        "position": 0,
+                        "content": "An AP exam may be used to satisfy this course requirement"
+                      }
+                    ],
+                    "id": "8a9d57ef-f230-4982-c0d4-08de050a3a69",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [
+              {
+                "type": "NFollowing",
+                "amount": 1.0,
+                "amountUnitType": "Series",
+                "position": 0,
+                "selectionType": "Complete"
+              }
+            ],
+            "position": 0,
+            "attributes": [
+              {
+                "position": 0,
+                "content": "Minimum grade required: C or better"
+              },
+              {
+                "position": 1,
+                "content": "Required for admission"
+              }
+            ]
+          },
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Series",
+                    "series": {
+                      "conjunction": "And",
+                      "name": "PHYS 40A, PHYS 40B, PHYS 40C",
+                      "courses": [
+                        {
+                          "id": "a9ca9101-6815-4e48-2ac4-08de05170dad",
+                          "position": 0,
+                          "courseIdentifierParentId": 281598,
+                          "courseTitle": "General Physics",
+                          "courseNumber": "40A",
+                          "prefix": "PHYS",
+                          "prefixParentId": 226,
+                          "prefixDescription": "Physics",
+                          "departmentParentId": 10772,
+                          "department": "Physics",
+                          "begin": "F1995",
+                          "end": "",
+                          "minUnits": 5.0,
+                          "maxUnits": 5.0,
+                          "pathways": []
+                        },
+                        {
+                          "id": "1dc36163-fc5d-4e7b-2ac5-08de05170dad",
+                          "position": 1,
+                          "courseIdentifierParentId": 359266,
+                          "courseTitle": "General Physics",
+                          "courseNumber": "40B",
+                          "prefix": "PHYS",
+                          "prefixParentId": 226,
+                          "prefixDescription": "Physics",
+                          "departmentParentId": 10772,
+                          "department": "Physics",
+                          "begin": "F1995",
+                          "end": "",
+                          "minUnits": 5.0,
+                          "maxUnits": 5.0,
+                          "pathways": []
+                        },
+                        {
+                          "id": "dcaf7c6f-9610-48a9-2ac6-08de05170dad",
+                          "position": 2,
+                          "courseIdentifierParentId": 359264,
+                          "courseTitle": "General Physics",
+                          "courseNumber": "40C",
+                          "prefix": "PHYS",
+                          "prefixParentId": 226,
+                          "prefixDescription": "Physics",
+                          "departmentParentId": 10772,
+                          "department": "Physics",
+                          "begin": "F1995",
+                          "end": "",
+                          "minUnits": 5.0,
+                          "maxUnits": 5.0,
+                          "pathways": []
+                        }
+                      ],
+                      "seriesPathways": []
+                    },
+                    "requisites": [],
+                    "visibleCrossListedCourses": [],
+                    "seriesAttributes": [],
+                    "courseAttributes": [],
+                    "id": "cbc65dbb-ca7b-49d0-c0d6-08de050a3a69",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 1,
+            "attributes": [
+              {
+                "position": 0,
+                "content": "Minimum grade required: C or better"
+              },
+              {
+                "position": 1,
+                "content": "Required for admission"
+              }
+            ]
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": null,
+        "advisements": [],
+        "groupId": "bce97645-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementTitle",
+        "content": "LOWER DIVISION MAJOR REQUIREMENTS",
+        "groupId": "c9087945-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "Requirements"
+      },
+      {
+        "type": "GeneralTitle",
+        "content": "General Requirements",
+        "groupId": "226c7445-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "General"
+      }
+    ],
+    "articulations": [
+      {
+        "templateCellId": "820e6cff-8122-4ff6-c0cf-08de050a3a69",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 283347,
+            "courseTitle": "First-Year Calculus",
+            "courseNumber": "9C",
+            "prefix": "MATH",
+            "prefixParentId": 9953,
+            "prefixDescription": "Mathematics",
+            "departmentParentId": 8983,
+            "department": "Mathematics",
+            "begin": "F1999",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [
+            {
+              "position": 0,
+              "content": "An AP exam may be used to satisfy this course requirement"
+            }
+          ],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 359110,
+                    "courseTitle": "Calculus III",
+                    "courseNumber": "1C",
+                    "prefix": "MATH",
+                    "prefixParentId": 10025,
+                    "prefixDescription": "Mathematics",
+                    "departmentParentId": 9040,
+                    "department": "Mathematics",
+                    "begin": "F2024",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [
+            {
+              "position": 0,
+              "content": "An AP exam may be used to satisfy this course requirement"
+            }
+          ],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "e01b63e4-7714-42f5-c0d1-08de050a3a69",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 365120,
+            "courseTitle": "Calculus for Life Sciences",
+            "courseNumber": "7A",
+            "prefix": "MATH",
+            "prefixParentId": 9953,
+            "prefixDescription": "Mathematics",
+            "departmentParentId": 8983,
+            "department": "Mathematics",
+            "begin": "F2018",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": [
+              {
+                "begin": null,
+                "beginDate": null,
+                "beginTermId": null,
+                "end": null,
+                "endDate": null,
+                "endTermId": null,
+                "pathwayId": 3,
+                "pathwayName": "Biology",
+                "pathwayCode": "Biology",
+                "expectationId": 10,
+                "expectationName": "C3-Single Var. Calc.",
+                "subexpectationId": 0,
+                "subexpectationName": null
+              }
+            ]
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [
+            {
+              "position": 0,
+              "content": "An AP exam may be used to satisfy this course requirement"
+            }
+          ],
+          "sendingArticulation": {
+            "noArticulationReason": "No Course Articulated",
+            "deniedCourses": [],
+            "items": [],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [
+            {
+              "position": 0,
+              "content": "An AP exam may be used to satisfy this course requirement"
+            }
+          ],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "8a9d57ef-f230-4982-c0d4-08de050a3a69",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 365121,
+            "courseTitle": "Calculus for Life Sciences",
+            "courseNumber": "7B",
+            "prefix": "MATH",
+            "prefixParentId": 9953,
+            "prefixDescription": "Mathematics",
+            "departmentParentId": 8983,
+            "department": "Mathematics",
+            "begin": "F2018",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": [
+              {
+                "begin": null,
+                "beginDate": null,
+                "beginTermId": null,
+                "end": null,
+                "endDate": null,
+                "endTermId": null,
+                "pathwayId": 3,
+                "pathwayName": "Biology",
+                "pathwayCode": "Biology",
+                "expectationId": 10,
+                "expectationName": "C3-Single Var. Calc.",
+                "subexpectationId": 0,
+                "subexpectationName": null
+              }
+            ]
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [
+            {
+              "position": 0,
+              "content": "An AP exam may be used to satisfy this course requirement"
+            }
+          ],
+          "sendingArticulation": {
+            "noArticulationReason": "No Course Articulated",
+            "deniedCourses": [],
+            "items": [],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [
+            {
+              "position": 0,
+              "content": "An AP exam may be used to satisfy this course requirement"
+            }
+          ],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "09482160-28bc-45a1-c0cd-08de050a3a69",
+        "articulation": {
+          "type": "Series",
+          "series": {
+            "conjunction": "And",
+            "name": "MATH 9A, MATH 9B, MATH 9C",
+            "courses": [
+              {
+                "id": "28b4cff4-c9ad-49cd-2a9e-08de05170dad",
+                "position": 0,
+                "courseIdentifierParentId": 255903,
+                "courseTitle": "First-Year Calculus",
+                "courseNumber": "9A",
+                "prefix": "MATH",
+                "prefixParentId": 9953,
+                "prefixDescription": "Mathematics",
+                "departmentParentId": 8983,
+                "department": "Mathematics",
+                "begin": "F1999",
+                "end": "",
+                "minUnits": 4.0,
+                "maxUnits": 4.0,
+                "pathways": [
+                  {
+                    "begin": null,
+                    "beginDate": null,
+                    "beginTermId": null,
+                    "end": null,
+                    "endDate": null,
+                    "endTermId": null,
+                    "pathwayId": 3,
+                    "pathwayName": "Biology",
+                    "pathwayCode": "Biology",
+                    "expectationId": 10,
+                    "expectationName": "C3-Single Var. Calc.",
+                    "subexpectationId": 0,
+                    "subexpectationName": null
+                  }
+                ]
+              },
+              {
+                "id": "c4b4c729-5b7a-4f61-2a9f-08de05170dad",
+                "position": 1,
+                "courseIdentifierParentId": 283360,
+                "courseTitle": "First-Year Calculus",
+                "courseNumber": "9B",
+                "prefix": "MATH",
+                "prefixParentId": 9953,
+                "prefixDescription": "Mathematics",
+                "departmentParentId": 8983,
+                "department": "Mathematics",
+                "begin": "F1999",
+                "end": "",
+                "minUnits": 4.0,
+                "maxUnits": 4.0,
+                "pathways": [
+                  {
+                    "begin": null,
+                    "beginDate": null,
+                    "beginTermId": null,
+                    "end": null,
+                    "endDate": null,
+                    "endTermId": null,
+                    "pathwayId": 3,
+                    "pathwayName": "Biology",
+                    "pathwayCode": "Biology",
+                    "expectationId": 10,
+                    "expectationName": "C3-Single Var. Calc.",
+                    "subexpectationId": 0,
+                    "subexpectationName": null
+                  }
+                ]
+              },
+              {
+                "id": "0f128d40-ecfb-4d89-2aa0-08de05170dad",
+                "position": 2,
+                "courseIdentifierParentId": 283347,
+                "courseTitle": "First-Year Calculus",
+                "courseNumber": "9C",
+                "prefix": "MATH",
+                "prefixParentId": 9953,
+                "prefixDescription": "Mathematics",
+                "departmentParentId": 8983,
+                "department": "Mathematics",
+                "begin": "F1999",
+                "end": "",
+                "minUnits": 4.0,
+                "maxUnits": 4.0,
+                "pathways": []
+              }
+            ],
+            "seriesPathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "seriesAttributes": [
+            {
+              "position": 0,
+              "content": "An AP exam may be used to satisfy this course requirement"
+            }
+          ],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 359110,
+                    "courseTitle": "Calculus III",
+                    "courseNumber": "1C",
+                    "prefix": "MATH",
+                    "prefixParentId": 10025,
+                    "prefixDescription": "Mathematics",
+                    "departmentParentId": 9040,
+                    "department": "Mathematics",
+                    "begin": "F2024",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 2,
+                    "type": "Course"
+                  },
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 307949,
+                    "courseTitle": "Calculus II",
+                    "courseNumber": "1B",
+                    "prefix": "MATH",
+                    "prefixParentId": 10025,
+                    "prefixDescription": "Mathematics",
+                    "departmentParentId": 9040,
+                    "department": "Mathematics",
+                    "begin": "F2024",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 1,
+                    "type": "Course"
+                  },
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 281397,
+                    "courseTitle": "Calculus I",
+                    "courseNumber": "1A",
+                    "prefix": "MATH",
+                    "prefixParentId": 10025,
+                    "prefixDescription": "Mathematics",
+                    "departmentParentId": 9040,
+                    "department": "Mathematics",
+                    "begin": "F2024",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Series",
+          "seriesAttributes": [
+            {
+              "position": 0,
+              "content": "An AP exam may be used to satisfy this course requirement"
+            }
+          ],
+          "seriesCourseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "cbc65dbb-ca7b-49d0-c0d6-08de050a3a69",
+        "articulation": {
+          "type": "Series",
+          "series": {
+            "conjunction": "And",
+            "name": "PHYS 40A, PHYS 40B, PHYS 40C",
+            "courses": [
+              {
+                "id": "a9ca9101-6815-4e48-2ac4-08de05170dad",
+                "position": 0,
+                "courseIdentifierParentId": 281598,
+                "courseTitle": "General Physics",
+                "courseNumber": "40A",
+                "prefix": "PHYS",
+                "prefixParentId": 226,
+                "prefixDescription": "Physics",
+                "departmentParentId": 10772,
+                "department": "Physics",
+                "begin": "F1995",
+                "end": "",
+                "minUnits": 5.0,
+                "maxUnits": 5.0,
+                "pathways": []
+              },
+              {
+                "id": "1dc36163-fc5d-4e7b-2ac5-08de05170dad",
+                "position": 1,
+                "courseIdentifierParentId": 359266,
+                "courseTitle": "General Physics",
+                "courseNumber": "40B",
+                "prefix": "PHYS",
+                "prefixParentId": 226,
+                "prefixDescription": "Physics",
+                "departmentParentId": 10772,
+                "department": "Physics",
+                "begin": "F1995",
+                "end": "",
+                "minUnits": 5.0,
+                "maxUnits": 5.0,
+                "pathways": []
+              },
+              {
+                "id": "dcaf7c6f-9610-48a9-2ac6-08de05170dad",
+                "position": 2,
+                "courseIdentifierParentId": 359264,
+                "courseTitle": "General Physics",
+                "courseNumber": "40C",
+                "prefix": "PHYS",
+                "prefixParentId": 226,
+                "prefixDescription": "Physics",
+                "departmentParentId": 10772,
+                "department": "Physics",
+                "begin": "F1995",
+                "end": "",
+                "minUnits": 5.0,
+                "maxUnits": 5.0,
+                "pathways": []
+              }
+            ],
+            "seriesPathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "seriesAttributes": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 290250,
+                    "courseTitle": "Physics for Scientists and Engineers: Fluids, Waves, Optics and Thermodynamics",
+                    "courseNumber": "4C",
+                    "prefix": "PHYS",
+                    "prefixParentId": 300,
+                    "prefixDescription": "Physics",
+                    "departmentParentId": 10814,
+                    "department": "Physics",
+                    "begin": "F1998",
+                    "end": "",
+                    "minUnits": 6.0,
+                    "maxUnits": 6.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 2,
+                    "type": "Course"
+                  },
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 276901,
+                    "courseTitle": "Physics for Scientists and Engineers: Electricity and Magnetism",
+                    "courseNumber": "4B",
+                    "prefix": "PHYS",
+                    "prefixParentId": 300,
+                    "prefixDescription": "Physics",
+                    "departmentParentId": 10814,
+                    "department": "Physics",
+                    "begin": "F1998",
+                    "end": "",
+                    "minUnits": 6.0,
+                    "maxUnits": 6.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 1,
+                    "type": "Course"
+                  },
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 305519,
+                    "courseTitle": "Physics for Scientists and Engineers: Mechanics",
+                    "courseNumber": "4A",
+                    "prefix": "PHYS",
+                    "prefixParentId": 300,
+                    "prefixDescription": "Physics",
+                    "departmentParentId": 10814,
+                    "department": "Physics",
+                    "begin": "F1998",
+                    "end": "",
+                    "minUnits": 6.0,
+                    "maxUnits": 6.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Series",
+          "seriesAttributes": [],
+          "seriesCourseAttributes": [],
+          "attributes": []
+        }
+      }
+    ],
+    "catalogYear": "{\"receivingCatalogYearBegin\":2025,\"receivingCatalogYearEnd\":2026,\"sendingCatalogYearBegin\":2025,\"sendingCatalogYearEnd\":2026}"
+  },
+  "validationFailure": null,
+  "isSuccessful": true
+}

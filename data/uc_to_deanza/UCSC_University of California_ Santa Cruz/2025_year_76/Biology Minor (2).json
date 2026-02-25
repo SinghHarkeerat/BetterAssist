@@ -1,0 +1,1529 @@
+{
+  "result": {
+    "name": "Biology Minor",
+    "type": "Major",
+    "publishDate": "2025-11-17T22:43:37.2093695",
+    "receivingInstitution": "{\"id\":132,\"code\":\"UCSC    \",\"isCommunityCollege\":false,\"category\":\"UC\",\"termType\":\"Quarter\",\"names\":[{\"name\":\"University of California, Santa Cruz\",\"hasDepartments\":true,\"fromYear\":0,\"hideInList\":false}],\"termTypeAcademicYears\":[{\"termType\":\"Quarter\",\"fromYear\":1980}],\"beginId\":31,\"endId\":null}",
+    "sendingInstitution": "{\"id\":113,\"code\":\"DAC     \",\"isCommunityCollege\":true,\"category\":\"CCC\",\"termType\":\"Quarter\",\"names\":[{\"name\":\"De Anza College\",\"hasDepartments\":true,\"fromYear\":0,\"hideInList\":false}],\"termTypeAcademicYears\":[{\"termType\":\"Quarter\",\"fromYear\":1980}],\"beginId\":31,\"endId\":null}",
+    "academicYear": "{\"id\":76,\"code\":\"2025-2026\",\"beginDate\":\"2025-10-01T00:00:00\",\"endDate\":\"2026-10-01T00:00:00\",\"isOpenForMaintenance\":true,\"isOpenForPublic\":true,\"isOpenForReporting\":true,\"isLocked\":false}",
+    "templateAssets": [
+      {
+        "type": "GeneralText",
+        "content": "<p><span style=\"font-size: 14px;\">UC Santa Cruz students may complete one or more minors, provided they can finish all required coursework within their maximum enrollment terms and credit limits. Minors are recorded on the official transcript but do not appear on the diploma. Pursuing a minor is optional and should align with a student\u2019s academic interests and career goals.</span></p><p><br></p><p><span style=\"font-size: 14px;\">Students do not apply for minors as part of their UC Santa Cruz admission application. Transfer students interested in a minor should reach out to the department that offers it for advising during their first quarter of enrollment.</span></p>",
+        "groupId": "90c86f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "General"
+      },
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": false,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 385597,
+                      "courseTitle": "General Chemistry",
+                      "courseNumber": "3A",
+                      "prefix": "CHEM",
+                      "prefixParentId": 3872,
+                      "prefixDescription": "Chemistry and Biochemistry",
+                      "departmentParentId": 2398,
+                      "department": "Chemistry and Biochemistry",
+                      "begin": "F2023",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": [
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 3,
+                          "pathwayName": "Biology",
+                          "pathwayCode": "Biology",
+                          "expectationId": 9,
+                          "expectationName": "C2-General Chem. Seq.",
+                          "subexpectationId": 0,
+                          "subexpectationName": null
+                        },
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 6,
+                          "pathwayName": "Chemistry",
+                          "pathwayCode": "Chemistry",
+                          "expectationId": 24,
+                          "expectationName": "C1-General Chem",
+                          "subexpectationId": 0,
+                          "subexpectationName": null
+                        },
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 18,
+                          "pathwayName": "Physics",
+                          "pathwayCode": "Physics",
+                          "expectationId": 95,
+                          "expectationName": "C6-Chem. Seq.",
+                          "subexpectationId": 0,
+                          "subexpectationName": null
+                        }
+                      ]
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "ad0a1482-ea73-4bcd-ed8d-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 386092,
+                      "courseTitle": "General Chemistry",
+                      "courseNumber": "3B",
+                      "prefix": "CHEM",
+                      "prefixParentId": 3872,
+                      "prefixDescription": "Chemistry and Biochemistry",
+                      "departmentParentId": 2398,
+                      "department": "Chemistry and Biochemistry",
+                      "begin": "F2023",
+                      "end": "",
+                      "minUnits": 3.0,
+                      "maxUnits": 3.0,
+                      "pathways": [
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 3,
+                          "pathwayName": "Biology",
+                          "pathwayCode": "Biology",
+                          "expectationId": 9,
+                          "expectationName": "C2-General Chem. Seq.",
+                          "subexpectationId": 0,
+                          "subexpectationName": null
+                        },
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 6,
+                          "pathwayName": "Chemistry",
+                          "pathwayCode": "Chemistry",
+                          "expectationId": 24,
+                          "expectationName": "C1-General Chem",
+                          "subexpectationId": 0,
+                          "subexpectationName": null
+                        },
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 18,
+                          "pathwayName": "Physics",
+                          "pathwayCode": "Physics",
+                          "expectationId": 95,
+                          "expectationName": "C6-Chem. Seq.",
+                          "subexpectationId": 0,
+                          "subexpectationName": null
+                        }
+                      ]
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "9983d1c8-fcb6-46b4-ed8e-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 2,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 386093,
+                      "courseTitle": "General Chemistry",
+                      "courseNumber": "3C",
+                      "prefix": "CHEM",
+                      "prefixParentId": 3872,
+                      "prefixDescription": "Chemistry and Biochemistry",
+                      "departmentParentId": 2398,
+                      "department": "Chemistry and Biochemistry",
+                      "begin": "F2023",
+                      "end": "",
+                      "minUnits": 3.0,
+                      "maxUnits": 3.0,
+                      "pathways": [
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 3,
+                          "pathwayName": "Biology",
+                          "pathwayCode": "Biology",
+                          "expectationId": 9,
+                          "expectationName": "C2-General Chem. Seq.",
+                          "subexpectationId": 0,
+                          "subexpectationName": null
+                        },
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 6,
+                          "pathwayName": "Chemistry",
+                          "pathwayCode": "Chemistry",
+                          "expectationId": 24,
+                          "expectationName": "C1-General Chem",
+                          "subexpectationId": 0,
+                          "subexpectationName": null
+                        },
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 18,
+                          "pathwayName": "Physics",
+                          "pathwayCode": "Physics",
+                          "expectationId": 95,
+                          "expectationName": "C6-Chem. Seq.",
+                          "subexpectationId": 0,
+                          "subexpectationName": null
+                        }
+                      ]
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "a15c150c-0e4e-4801-ed8f-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 0,
+            "attributes": []
+          },
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 277226,
+                      "courseTitle": "Organic Chemistry",
+                      "courseNumber": "8A",
+                      "prefix": "CHEM",
+                      "prefixParentId": 3872,
+                      "prefixDescription": "Chemistry and Biochemistry",
+                      "departmentParentId": 2398,
+                      "department": "Chemistry and Biochemistry",
+                      "begin": "F2016",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": [
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 3,
+                          "pathwayName": "Biology",
+                          "pathwayCode": "Biology",
+                          "expectationId": 11,
+                          "expectationName": "C4-Org. Chemistry",
+                          "subexpectationId": 0,
+                          "subexpectationName": null
+                        },
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 6,
+                          "pathwayName": "Chemistry",
+                          "pathwayCode": "Chemistry",
+                          "expectationId": 25,
+                          "expectationName": "C2-Org. Chem",
+                          "subexpectationId": 0,
+                          "subexpectationName": null
+                        }
+                      ]
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "c34bd1e8-5abd-426f-ed90-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 288748,
+                      "courseTitle": "Organic Chemistry",
+                      "courseNumber": "8B",
+                      "prefix": "CHEM",
+                      "prefixParentId": 3872,
+                      "prefixDescription": "Chemistry and Biochemistry",
+                      "departmentParentId": 2398,
+                      "department": "Chemistry and Biochemistry",
+                      "begin": "F2016",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": [
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 3,
+                          "pathwayName": "Biology",
+                          "pathwayCode": "Biology",
+                          "expectationId": 11,
+                          "expectationName": "C4-Org. Chemistry",
+                          "subexpectationId": 0,
+                          "subexpectationName": null
+                        },
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 6,
+                          "pathwayName": "Chemistry",
+                          "pathwayCode": "Chemistry",
+                          "expectationId": 25,
+                          "expectationName": "C2-Org. Chem",
+                          "subexpectationId": 0,
+                          "subexpectationName": null
+                        }
+                      ]
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "d8d8485c-fbd8-470f-ed91-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 1,
+            "attributes": []
+          }
+        ],
+        "attributes": [
+          {
+            "position": 0,
+            "content": "Complete entire sequence at same institution prior to transfer"
+          }
+        ],
+        "showConjunctionBetweenSections": true,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": {
+          "type": "Conjunction",
+          "conjunction": "And",
+          "id": "fd4b5df2-1e2d-4ee3-69dc-08ddcb96dfa1",
+          "selectionType": "Complete"
+        },
+        "advisements": [],
+        "groupId": "2b786f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 2,
+        "area": "Requirements"
+      },
+      {
+        "type": "GeneralTitle",
+        "content": "GENERAL INFORMATION FOR ALL MINORS",
+        "groupId": "2d786f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "General"
+      },
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": true,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 2,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 282221,
+                      "courseTitle": "Development and Physiology",
+                      "courseNumber": "20B",
+                      "prefix": "BIOE",
+                      "prefixParentId": 14479,
+                      "prefixDescription": "Biology: Ecology and Evolutionary",
+                      "departmentParentId": 1777,
+                      "department": "Biology: Ecology and Evolutionary",
+                      "begin": "F2008",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": [
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 3,
+                          "pathwayName": "Biology",
+                          "pathwayCode": "Biology",
+                          "expectationId": 8,
+                          "expectationName": "C1-Intro Biology Seq.",
+                          "subexpectationId": 0,
+                          "subexpectationName": null
+                        }
+                      ]
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "0d871ead-5e33-4919-ed92-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 358228,
+                      "courseTitle": "Cell and Molecular Biology",
+                      "courseNumber": "20A",
+                      "prefix": "BIOL",
+                      "prefixParentId": 4943,
+                      "prefixDescription": "Biology",
+                      "departmentParentId": 1778,
+                      "department": "Biology: Molecular, Cell, and Developmental",
+                      "begin": "F1997",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": [
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 3,
+                          "pathwayName": "Biology",
+                          "pathwayCode": "Biology",
+                          "expectationId": 8,
+                          "expectationName": "C1-Intro Biology Seq.",
+                          "subexpectationId": 0,
+                          "subexpectationName": null
+                        },
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 20,
+                          "pathwayName": "Psychology",
+                          "pathwayCode": "Psychology",
+                          "expectationId": 103,
+                          "expectationName": "C4-Biology I",
+                          "subexpectationId": 0,
+                          "subexpectationName": null
+                        }
+                      ]
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "4ea8204d-0172-4089-ed93-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 303486,
+                      "courseTitle": "Experimental Biology Laboratory",
+                      "courseNumber": "20L",
+                      "prefix": "BIOL",
+                      "prefixParentId": 4943,
+                      "prefixDescription": "Biology",
+                      "departmentParentId": 1778,
+                      "department": "Biology: Molecular, Cell, and Developmental",
+                      "begin": "F2008",
+                      "end": "",
+                      "minUnits": 2.0,
+                      "maxUnits": 2.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [
+                      {
+                        "position": 0,
+                        "content": "**REFER TO TOP OF AGREEMENT**"
+                      }
+                    ],
+                    "id": "3c78eef1-14ea-43d5-ed94-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 0,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": {
+          "type": "Following",
+          "id": "09abb14c-4ddd-4e6a-69dd-08ddcb96dfa1",
+          "selectionType": "Complete"
+        },
+        "advisements": [],
+        "groupId": "2f786f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementTitle",
+        "content": "PREPARATION FOR THE MINOR",
+        "groupId": "53fd7845-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "Requirements"
+      },
+      {
+        "type": "GeneralTitle",
+        "content": "Biology Minor",
+        "groupId": "31786f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 2,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p><span style=\"font-size: 14px;\">Transfer students interested in this minor are encouraged to complete the articulated equivalents of the courses listed in the \"</span><strong style=\"font-size: 14px;\">Preparation for the Minor</strong><span style=\"font-size: 14px;\">\" section below before transferring.</span></p><p><br></p><p><strong style=\"font-size: 14px;\">NOTE: </strong><span style=\"font-size: 14px;\">BIOL 20L is not required for students who complete the articulated equivalents of BIOL 20A and BIOE 20B at California community colleges. Refer to </span><strong style=\"font-size: 14px;\">\"Preparation for the Minor,\" Group #1 </strong><span style=\"font-size: 14px;\">below for courses approved to satisfy these requirements.</span></p><p><br></p><p class=\"highlight\"><strong style=\"font-size: 14px; color: rgb(169, 62, 58);\">It is strongly recommended that students complete all of their required General Chemistry courses at a single institution.</strong></p><p><br></p><p><br></p><p><span style=\"font-size: 14px;\">Visit the </span><a href=\"https://mcd.ucsc.edu/\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 14px;\">Molecular, Cell and Developmental Biology (MCD) website</a><span style=\"font-size: 14px;\"> to learn more about this minor.</span></p><p><a href=\"https://catalog.ucsc.edu/en/current/general-catalog/academic-units/physical-and-biological-sciences-division/molecular-cell-and-developmental-biology/biology-minor/\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 14px;\">UC Santa Cruz General Catalog: Biology Minor Program Statement</a></p>",
+        "groupId": "944a7445-6887-ef11-8474-000d3a37e3b6",
+        "position": 3,
+        "area": "General"
+      }
+    ],
+    "articulations": [
+      {
+        "templateCellId": "ad0a1482-ea73-4bcd-ed8d-08ddcb96dfae",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 385597,
+            "courseTitle": "General Chemistry",
+            "courseNumber": "3A",
+            "prefix": "CHEM",
+            "prefixParentId": 3872,
+            "prefixDescription": "Chemistry and Biochemistry",
+            "departmentParentId": 2398,
+            "department": "Chemistry and Biochemistry",
+            "begin": "F2023",
+            "end": "",
+            "minUnits": 5.0,
+            "maxUnits": 5.0,
+            "pathways": [
+              {
+                "begin": null,
+                "beginDate": null,
+                "beginTermId": null,
+                "end": null,
+                "endDate": null,
+                "endTermId": null,
+                "pathwayId": 3,
+                "pathwayName": "Biology",
+                "pathwayCode": "Biology",
+                "expectationId": 9,
+                "expectationName": "C2-General Chem. Seq.",
+                "subexpectationId": 0,
+                "subexpectationName": null
+              },
+              {
+                "begin": null,
+                "beginDate": null,
+                "beginTermId": null,
+                "end": null,
+                "endDate": null,
+                "endTermId": null,
+                "pathwayId": 6,
+                "pathwayName": "Chemistry",
+                "pathwayCode": "Chemistry",
+                "expectationId": 24,
+                "expectationName": "C1-General Chem",
+                "subexpectationId": 0,
+                "subexpectationName": null
+              },
+              {
+                "begin": null,
+                "beginDate": null,
+                "beginTermId": null,
+                "end": null,
+                "endDate": null,
+                "endTermId": null,
+                "pathwayId": 18,
+                "pathwayName": "Physics",
+                "pathwayCode": "Physics",
+                "expectationId": 95,
+                "expectationName": "C6-Chem. Seq.",
+                "subexpectationId": 0,
+                "subexpectationName": null
+              }
+            ]
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 359228,
+                    "courseTitle": "General Chemistry I",
+                    "courseNumber": "1A",
+                    "prefix": "CHEM",
+                    "prefixParentId": 3854,
+                    "prefixDescription": "Chemistry",
+                    "departmentParentId": 2358,
+                    "department": "Chemistry",
+                    "begin": "F2024",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 179,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 368022,
+                    "courseTitle": "General Chemistry I - HONORS",
+                    "courseNumber": "1AH",
+                    "prefix": "CHEM",
+                    "prefixParentId": 3854,
+                    "prefixDescription": "Chemistry",
+                    "departmentParentId": 2358,
+                    "department": "Chemistry",
+                    "begin": "F2024",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 275,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 1,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [
+              {
+                "id": "bab4753b-f6bb-4a6b-ef04-08ddcb9717a5",
+                "sendingArticulationId": "6269b36f-5b10-4c9d-1e46-08ddcb97173b",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 0,
+                "sendingCourseGroupEndPosition": 1
+              }
+            ],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "9983d1c8-fcb6-46b4-ed8e-08ddcb96dfae",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 386092,
+            "courseTitle": "General Chemistry",
+            "courseNumber": "3B",
+            "prefix": "CHEM",
+            "prefixParentId": 3872,
+            "prefixDescription": "Chemistry and Biochemistry",
+            "departmentParentId": 2398,
+            "department": "Chemistry and Biochemistry",
+            "begin": "F2023",
+            "end": "",
+            "minUnits": 3.0,
+            "maxUnits": 3.0,
+            "pathways": [
+              {
+                "begin": null,
+                "beginDate": null,
+                "beginTermId": null,
+                "end": null,
+                "endDate": null,
+                "endTermId": null,
+                "pathwayId": 3,
+                "pathwayName": "Biology",
+                "pathwayCode": "Biology",
+                "expectationId": 9,
+                "expectationName": "C2-General Chem. Seq.",
+                "subexpectationId": 0,
+                "subexpectationName": null
+              },
+              {
+                "begin": null,
+                "beginDate": null,
+                "beginTermId": null,
+                "end": null,
+                "endDate": null,
+                "endTermId": null,
+                "pathwayId": 6,
+                "pathwayName": "Chemistry",
+                "pathwayCode": "Chemistry",
+                "expectationId": 24,
+                "expectationName": "C1-General Chem",
+                "subexpectationId": 0,
+                "subexpectationName": null
+              },
+              {
+                "begin": null,
+                "beginDate": null,
+                "beginTermId": null,
+                "end": null,
+                "endDate": null,
+                "endTermId": null,
+                "pathwayId": 18,
+                "pathwayName": "Physics",
+                "pathwayCode": "Physics",
+                "expectationId": 95,
+                "expectationName": "C6-Chem. Seq.",
+                "subexpectationId": 0,
+                "subexpectationName": null
+              }
+            ]
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 358342,
+                    "courseTitle": "General Chemistry II",
+                    "courseNumber": "1B",
+                    "prefix": "CHEM",
+                    "prefixParentId": 3854,
+                    "prefixDescription": "Chemistry",
+                    "departmentParentId": 2358,
+                    "department": "Chemistry",
+                    "begin": "F2024",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 163,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 368023,
+                    "courseTitle": "General Chemistry II - HONORS",
+                    "courseNumber": "1BH",
+                    "prefix": "CHEM",
+                    "prefixParentId": 3854,
+                    "prefixDescription": "Chemistry",
+                    "departmentParentId": 2358,
+                    "department": "Chemistry",
+                    "begin": "F2024",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 275,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 1,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [
+              {
+                "id": "187ffac3-89db-48ce-ef06-08ddcb9717a5",
+                "sendingArticulationId": "df82becb-6cbd-4854-1e49-08ddcb97173b",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 0,
+                "sendingCourseGroupEndPosition": 1
+              }
+            ],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "a15c150c-0e4e-4801-ed8f-08ddcb96dfae",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 386093,
+            "courseTitle": "General Chemistry",
+            "courseNumber": "3C",
+            "prefix": "CHEM",
+            "prefixParentId": 3872,
+            "prefixDescription": "Chemistry and Biochemistry",
+            "departmentParentId": 2398,
+            "department": "Chemistry and Biochemistry",
+            "begin": "F2023",
+            "end": "",
+            "minUnits": 3.0,
+            "maxUnits": 3.0,
+            "pathways": [
+              {
+                "begin": null,
+                "beginDate": null,
+                "beginTermId": null,
+                "end": null,
+                "endDate": null,
+                "endTermId": null,
+                "pathwayId": 3,
+                "pathwayName": "Biology",
+                "pathwayCode": "Biology",
+                "expectationId": 9,
+                "expectationName": "C2-General Chem. Seq.",
+                "subexpectationId": 0,
+                "subexpectationName": null
+              },
+              {
+                "begin": null,
+                "beginDate": null,
+                "beginTermId": null,
+                "end": null,
+                "endDate": null,
+                "endTermId": null,
+                "pathwayId": 6,
+                "pathwayName": "Chemistry",
+                "pathwayCode": "Chemistry",
+                "expectationId": 24,
+                "expectationName": "C1-General Chem",
+                "subexpectationId": 0,
+                "subexpectationName": null
+              },
+              {
+                "begin": null,
+                "beginDate": null,
+                "beginTermId": null,
+                "end": null,
+                "endDate": null,
+                "endTermId": null,
+                "pathwayId": 18,
+                "pathwayName": "Physics",
+                "pathwayCode": "Physics",
+                "expectationId": 95,
+                "expectationName": "C6-Chem. Seq.",
+                "subexpectationId": 0,
+                "subexpectationName": null
+              }
+            ]
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 306955,
+                    "courseTitle": "General Chemistry III",
+                    "courseNumber": "1C",
+                    "prefix": "CHEM",
+                    "prefixParentId": 3854,
+                    "prefixDescription": "Chemistry",
+                    "departmentParentId": 2358,
+                    "department": "Chemistry",
+                    "begin": "F2024",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 163,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 368024,
+                    "courseTitle": "General Chemistry III - HONORS",
+                    "courseNumber": "1CH",
+                    "prefix": "CHEM",
+                    "prefixParentId": 3854,
+                    "prefixDescription": "Chemistry",
+                    "departmentParentId": 2358,
+                    "department": "Chemistry",
+                    "begin": "F2024",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 275,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 1,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [
+              {
+                "id": "10c4e53d-af1e-49ad-ef08-08ddcb9717a5",
+                "sendingArticulationId": "3c04df5d-1dc9-498b-1e4b-08ddcb97173b",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 0,
+                "sendingCourseGroupEndPosition": 1
+              }
+            ],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "c34bd1e8-5abd-426f-ed90-08ddcb96dfae",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 277226,
+            "courseTitle": "Organic Chemistry",
+            "courseNumber": "8A",
+            "prefix": "CHEM",
+            "prefixParentId": 3872,
+            "prefixDescription": "Chemistry and Biochemistry",
+            "departmentParentId": 2398,
+            "department": "Chemistry and Biochemistry",
+            "begin": "F2016",
+            "end": "",
+            "minUnits": 5.0,
+            "maxUnits": 5.0,
+            "pathways": [
+              {
+                "begin": null,
+                "beginDate": null,
+                "beginTermId": null,
+                "end": null,
+                "endDate": null,
+                "endTermId": null,
+                "pathwayId": 3,
+                "pathwayName": "Biology",
+                "pathwayCode": "Biology",
+                "expectationId": 11,
+                "expectationName": "C4-Org. Chemistry",
+                "subexpectationId": 0,
+                "subexpectationName": null
+              },
+              {
+                "begin": null,
+                "beginDate": null,
+                "beginTermId": null,
+                "end": null,
+                "endDate": null,
+                "endTermId": null,
+                "pathwayId": 6,
+                "pathwayName": "Chemistry",
+                "pathwayCode": "Chemistry",
+                "expectationId": 25,
+                "expectationName": "C2-Org. Chem",
+                "subexpectationId": 0,
+                "subexpectationName": null
+              }
+            ]
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 358347,
+                    "courseTitle": "Organic Chemistry I",
+                    "courseNumber": "12A",
+                    "prefix": "CHEM",
+                    "prefixParentId": 3854,
+                    "prefixDescription": "Chemistry",
+                    "departmentParentId": 2358,
+                    "department": "Chemistry",
+                    "begin": "F2024",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "d8d8485c-fbd8-470f-ed91-08ddcb96dfae",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 288748,
+            "courseTitle": "Organic Chemistry",
+            "courseNumber": "8B",
+            "prefix": "CHEM",
+            "prefixParentId": 3872,
+            "prefixDescription": "Chemistry and Biochemistry",
+            "departmentParentId": 2398,
+            "department": "Chemistry and Biochemistry",
+            "begin": "F2016",
+            "end": "",
+            "minUnits": 5.0,
+            "maxUnits": 5.0,
+            "pathways": [
+              {
+                "begin": null,
+                "beginDate": null,
+                "beginTermId": null,
+                "end": null,
+                "endDate": null,
+                "endTermId": null,
+                "pathwayId": 3,
+                "pathwayName": "Biology",
+                "pathwayCode": "Biology",
+                "expectationId": 11,
+                "expectationName": "C4-Org. Chemistry",
+                "subexpectationId": 0,
+                "subexpectationName": null
+              },
+              {
+                "begin": null,
+                "beginDate": null,
+                "beginTermId": null,
+                "end": null,
+                "endDate": null,
+                "endTermId": null,
+                "pathwayId": 6,
+                "pathwayName": "Chemistry",
+                "pathwayCode": "Chemistry",
+                "expectationId": 25,
+                "expectationName": "C2-Org. Chem",
+                "subexpectationId": 0,
+                "subexpectationName": null
+              }
+            ]
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 358346,
+                    "courseTitle": "Organic Chemistry II",
+                    "courseNumber": "12B",
+                    "prefix": "CHEM",
+                    "prefixParentId": 3854,
+                    "prefixDescription": "Chemistry",
+                    "departmentParentId": 2358,
+                    "department": "Chemistry",
+                    "begin": "F2024",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "0d871ead-5e33-4919-ed92-08ddcb96dfae",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 282221,
+            "courseTitle": "Development and Physiology",
+            "courseNumber": "20B",
+            "prefix": "BIOE",
+            "prefixParentId": 14479,
+            "prefixDescription": "Biology: Ecology and Evolutionary",
+            "departmentParentId": 1777,
+            "department": "Biology: Ecology and Evolutionary",
+            "begin": "F2008",
+            "end": "",
+            "minUnits": 5.0,
+            "maxUnits": 5.0,
+            "pathways": [
+              {
+                "begin": null,
+                "beginDate": null,
+                "beginTermId": null,
+                "end": null,
+                "endDate": null,
+                "endTermId": null,
+                "pathwayId": 3,
+                "pathwayName": "Biology",
+                "pathwayCode": "Biology",
+                "expectationId": 8,
+                "expectationName": "C1-Intro Biology Seq.",
+                "subexpectationId": 0,
+                "subexpectationName": null
+              }
+            ]
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 360335,
+                    "courseTitle": "Form and Function in the Biological World - HONORS",
+                    "courseNumber": "6AH",
+                    "prefix": "BIOL",
+                    "prefixParentId": 4926,
+                    "prefixDescription": "Biology",
+                    "departmentParentId": 1741,
+                    "department": "Biology",
+                    "begin": "F2015",
+                    "end": "",
+                    "minUnits": 6.0,
+                    "maxUnits": 6.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 1,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 290474,
+                    "courseTitle": "Form and Function in the Biological World",
+                    "courseNumber": "6A",
+                    "prefix": "BIOL",
+                    "prefixParentId": 4926,
+                    "prefixDescription": "Biology",
+                    "departmentParentId": 1741,
+                    "department": "Biology",
+                    "begin": "F2005",
+                    "end": "",
+                    "minUnits": 6.0,
+                    "maxUnits": 6.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [
+              {
+                "id": "dc9ab854-9957-44f3-f49d-08ddcb9717a5",
+                "sendingArticulationId": "c272f5d9-dfd5-4df2-37b7-08ddcb97173b",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 0,
+                "sendingCourseGroupEndPosition": 1
+              }
+            ],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "4ea8204d-0172-4089-ed93-08ddcb96dfae",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 358228,
+            "courseTitle": "Cell and Molecular Biology",
+            "courseNumber": "20A",
+            "prefix": "BIOL",
+            "prefixParentId": 4943,
+            "prefixDescription": "Biology",
+            "departmentParentId": 1778,
+            "department": "Biology: Molecular, Cell, and Developmental",
+            "begin": "F1997",
+            "end": "",
+            "minUnits": 5.0,
+            "maxUnits": 5.0,
+            "pathways": [
+              {
+                "begin": null,
+                "beginDate": null,
+                "beginTermId": null,
+                "end": null,
+                "endDate": null,
+                "endTermId": null,
+                "pathwayId": 3,
+                "pathwayName": "Biology",
+                "pathwayCode": "Biology",
+                "expectationId": 8,
+                "expectationName": "C1-Intro Biology Seq.",
+                "subexpectationId": 0,
+                "subexpectationName": null
+              },
+              {
+                "begin": null,
+                "beginDate": null,
+                "beginTermId": null,
+                "end": null,
+                "endDate": null,
+                "endTermId": null,
+                "pathwayId": 20,
+                "pathwayName": "Psychology",
+                "pathwayCode": "Psychology",
+                "expectationId": 103,
+                "expectationName": "C4-Biology I",
+                "subexpectationId": 0,
+                "subexpectationName": null
+              }
+            ]
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 290473,
+                    "courseTitle": "Cell and Molecular Biology",
+                    "courseNumber": "6B",
+                    "prefix": "BIOL",
+                    "prefixParentId": 4926,
+                    "prefixDescription": "Biology",
+                    "departmentParentId": 1741,
+                    "department": "Biology",
+                    "begin": "F2001",
+                    "end": "",
+                    "minUnits": 6.0,
+                    "maxUnits": 6.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "3c78eef1-14ea-43d5-ed94-08ddcb96dfae",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 303486,
+            "courseTitle": "Experimental Biology Laboratory",
+            "courseNumber": "20L",
+            "prefix": "BIOL",
+            "prefixParentId": 4943,
+            "prefixDescription": "Biology",
+            "departmentParentId": 1778,
+            "department": "Biology: Molecular, Cell, and Developmental",
+            "begin": "F2008",
+            "end": "",
+            "minUnits": 2.0,
+            "maxUnits": 2.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": "No Course Articulated",
+            "deniedCourses": [],
+            "items": [],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      }
+    ],
+    "catalogYear": "{\"receivingCatalogYearBegin\":2025,\"receivingCatalogYearEnd\":2026,\"sendingCatalogYearBegin\":2025,\"sendingCatalogYearEnd\":2026}"
+  },
+  "validationFailure": null,
+  "isSuccessful": true
+}

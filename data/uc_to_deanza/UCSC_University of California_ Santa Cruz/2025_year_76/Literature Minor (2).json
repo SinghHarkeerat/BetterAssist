@@ -1,0 +1,821 @@
+{
+  "result": {
+    "name": "Literature Minor",
+    "type": "Major",
+    "publishDate": "2025-11-17T22:44:19.3518875",
+    "receivingInstitution": "{\"id\":132,\"code\":\"UCSC    \",\"isCommunityCollege\":false,\"category\":\"UC\",\"termType\":\"Quarter\",\"names\":[{\"name\":\"University of California, Santa Cruz\",\"hasDepartments\":true,\"fromYear\":0,\"hideInList\":false}],\"termTypeAcademicYears\":[{\"termType\":\"Quarter\",\"fromYear\":1980}],\"beginId\":31,\"endId\":null}",
+    "sendingInstitution": "{\"id\":113,\"code\":\"DAC     \",\"isCommunityCollege\":true,\"category\":\"CCC\",\"termType\":\"Quarter\",\"names\":[{\"name\":\"De Anza College\",\"hasDepartments\":true,\"fromYear\":0,\"hideInList\":false}],\"termTypeAcademicYears\":[{\"termType\":\"Quarter\",\"fromYear\":1980}],\"beginId\":31,\"endId\":null}",
+    "academicYear": "{\"id\":76,\"code\":\"2025-2026\",\"beginDate\":\"2025-10-01T00:00:00\",\"endDate\":\"2026-10-01T00:00:00\",\"isOpenForMaintenance\":true,\"isOpenForPublic\":true,\"isOpenForReporting\":true,\"isLocked\":false}",
+    "templateAssets": [
+      {
+        "type": "GeneralText",
+        "content": "<p><span style=\"font-size: 14px;\">UC Santa Cruz students may complete one or more minors, provided they can finish all required coursework within their maximum enrollment terms and credit limits. Minors are recorded on the official transcript but do not appear on the diploma. Pursuing a minor is optional and should align with a student\u2019s academic interests and career goals.</span></p><p><br></p><p><span style=\"font-size: 14px;\">Students do not apply for minors as part of their UC Santa Cruz admission application. Transfer students interested in a minor should reach out to the department that offers it for advising during their first quarter of enrollment.</span></p>",
+        "groupId": "90c86f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "General"
+      },
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": false,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Requirement",
+                    "requirement": {
+                      "name": "Literature courses"
+                    },
+                    "requirementAttributes": [],
+                    "id": "6fd11376-bfb4-48b8-edfe-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [
+              {
+                "type": "NFromUnits",
+                "amount": 1.0,
+                "amountQuantifier": "None",
+                "amountUnitType": "Course",
+                "position": 0,
+                "selectionType": "Complete"
+              }
+            ],
+            "position": 1,
+            "attributes": []
+          },
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 277514,
+                      "courseTitle": "Literary Interpretation",
+                      "courseNumber": "1",
+                      "prefix": "LIT",
+                      "prefixParentId": 4578,
+                      "prefixDescription": "Literature",
+                      "departmentParentId": 8662,
+                      "department": "Literature",
+                      "begin": "F1994",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [
+                      {
+                        "position": 0,
+                        "content": "Highly recommended"
+                      }
+                    ],
+                    "id": "909daf1e-3243-4dcc-edff-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [
+              {
+                "type": "NFromUnits",
+                "amount": 1.0,
+                "amountQuantifier": "None",
+                "amountUnitType": "Course",
+                "position": 0,
+                "selectionType": "Complete"
+              }
+            ],
+            "position": 0,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": true,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": {
+          "type": "NFromConjunction",
+          "conjunction": "And",
+          "amountQuantifier": "None",
+          "amount": 2.0,
+          "amountUnitType": "Course",
+          "id": "f79410c8-b809-4366-69f0-08ddcb96dfa1",
+          "selectionType": "Complete"
+        },
+        "advisements": [],
+        "groupId": "ce776f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "Requirements"
+      },
+      {
+        "type": "GeneralTitle",
+        "content": "GENERAL INFORMATION FOR ALL MINORS",
+        "groupId": "c3756f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "General"
+      },
+      {
+        "type": "GeneralTitle",
+        "content": "Literature Minor",
+        "groupId": "c4756f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 2,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p><span style=\"font-size: 14px;\">Students majoring in a different program of study may find that a literature minor is an invaluable addition to their educational plan. Prospective transfer students interested in this minor are encouraged to complete the articulated equivalents of </span><strong style=\"font-size: 14px;\">TWO</strong><span style=\"font-size: 14px;\"> lower-division courses prior to transfer. Refer to the </span><strong style=\"font-size: 14px;\">\u201cPreparation for the Minor\u201d </strong><span style=\"font-size: 14px;\">section below for courses approved to articulate to these requirements.</span></p><p><br></p><p><span style=\"font-size: 14px;\">Please visit the </span><a href=\"https://literature.ucsc.edu/\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 14px;\">Literature Department website</a><span style=\"font-size: 14px;\"> to learn more about this minor.</span></p><p><a href=\"https://catalog.ucsc.edu/en/current/general-catalog/academic-units/humanities-division/literature/literature-minor/\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 14px;\">UC Santa Cruz General Catalog: Literature Minor Program Statement</a></p>",
+        "groupId": "c5756f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 3,
+        "area": "General"
+      },
+      {
+        "type": "RequirementTitle",
+        "content": "PREPARATION FOR THE MINOR",
+        "groupId": "2ffd7845-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "Requirements"
+      }
+    ],
+    "articulations": [
+      {
+        "templateCellId": "909daf1e-3243-4dcc-edff-08ddcb96dfae",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 277514,
+            "courseTitle": "Literary Interpretation",
+            "courseNumber": "1",
+            "prefix": "LIT",
+            "prefixParentId": 4578,
+            "prefixDescription": "Literature",
+            "departmentParentId": 8662,
+            "department": "Literature",
+            "begin": "F1994",
+            "end": "",
+            "minUnits": 5.0,
+            "maxUnits": 5.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 302735,
+                    "courseTitle": "Literature and Composition",
+                    "courseNumber": "1C",
+                    "prefix": "EWRT",
+                    "prefixParentId": 1402,
+                    "prefixDescription": "English (Writing)",
+                    "departmentParentId": 5070,
+                    "department": "English (Writing)",
+                    "begin": "F1999",
+                    "end": "F2026",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "6fd11376-bfb4-48b8-edfe-08ddcb96dfae",
+        "articulation": {
+          "type": "Requirement",
+          "requirement": {
+            "name": "Literature courses"
+          },
+          "requirementAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 253834,
+                    "courseTitle": "Major British Writers (Victorian and Modern)",
+                    "courseNumber": "46C",
+                    "prefix": "ELIT",
+                    "prefixParentId": 4816,
+                    "prefixDescription": "English (Literature)",
+                    "departmentParentId": 5069,
+                    "department": "English (Literature)",
+                    "begin": "F1999",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 12,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [
+                      {
+                        "id": "44d6eb90-6e50-4c4f-1084-08ddcb97187d",
+                        "publishedCourseIdentifierYearTermId": null,
+                        "courseIdentifierParentId": 269407,
+                        "courseTitle": "Asian Pacific American Literature",
+                        "courseNumber": "24",
+                        "prefix": "ELIT",
+                        "prefixParentId": 4816,
+                        "prefixDescription": "English (Literature)",
+                        "departmentParentId": 5069,
+                        "department": "English (Literature)",
+                        "begin": "F2014",
+                        "end": "",
+                        "minUnits": 4.0,
+                        "maxUnits": 4.0,
+                        "pathways": []
+                      }
+                    ],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 269408,
+                    "courseTitle": "Asian Pacific American Literature",
+                    "courseNumber": "20",
+                    "prefix": "ASAM",
+                    "prefixParentId": 16555,
+                    "prefixDescription": "Asian American and Asian Studies",
+                    "departmentParentId": 13706,
+                    "department": "Asian American and Asian Studies",
+                    "begin": "F2020",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 353362,
+                    "courseTitle": "Major British Writers (Medieval and Renaissance)",
+                    "courseNumber": "46A",
+                    "prefix": "ELIT",
+                    "prefixParentId": 4816,
+                    "prefixDescription": "English (Literature)",
+                    "departmentParentId": 5069,
+                    "department": "English (Literature)",
+                    "begin": "F1999",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 10,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 290814,
+                    "courseTitle": "Introduction to Shakespeare",
+                    "courseNumber": "17",
+                    "prefix": "ELIT",
+                    "prefixParentId": 4816,
+                    "prefixDescription": "English (Literature)",
+                    "departmentParentId": 5069,
+                    "department": "English (Literature)",
+                    "begin": "F1999",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 4,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 353308,
+                    "courseTitle": "Major American Writers (The Advent of Realism, 1865-1914)",
+                    "courseNumber": "48B",
+                    "prefix": "ELIT",
+                    "prefixParentId": 4816,
+                    "prefixDescription": "English (Literature)",
+                    "departmentParentId": 5069,
+                    "department": "English (Literature)",
+                    "begin": "F2010",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 14,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [
+                      {
+                        "id": "e3ef0e64-4c0b-4cb5-1085-08ddcb97187d",
+                        "publishedCourseIdentifierYearTermId": null,
+                        "courseIdentifierParentId": 269408,
+                        "courseTitle": "Asian Pacific American Literature",
+                        "courseNumber": "20",
+                        "prefix": "ASAM",
+                        "prefixParentId": 16555,
+                        "prefixDescription": "Asian American and Asian Studies",
+                        "departmentParentId": 13706,
+                        "department": "Asian American and Asian Studies",
+                        "begin": "F2020",
+                        "end": "",
+                        "minUnits": 4.0,
+                        "maxUnits": 4.0,
+                        "pathways": []
+                      }
+                    ],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 269407,
+                    "courseTitle": "Asian Pacific American Literature",
+                    "courseNumber": "24",
+                    "prefix": "ELIT",
+                    "prefixParentId": 4816,
+                    "prefixDescription": "English (Literature)",
+                    "departmentParentId": 5069,
+                    "department": "English (Literature)",
+                    "begin": "F2014",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 8,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 290796,
+                    "courseTitle": "Introduction to Poetry",
+                    "courseNumber": "11",
+                    "prefix": "ELIT",
+                    "prefixParentId": 4816,
+                    "prefixDescription": "English (Literature)",
+                    "departmentParentId": 5069,
+                    "department": "English (Literature)",
+                    "begin": "F1999",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 2,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [
+                      {
+                        "id": "eb5ea1e6-a51b-4569-1086-08ddcb97187d",
+                        "publishedCourseIdentifierYearTermId": null,
+                        "courseIdentifierParentId": 254083,
+                        "courseTitle": "Women in Literature",
+                        "courseNumber": "21",
+                        "prefix": "ELIT",
+                        "prefixParentId": 4816,
+                        "prefixDescription": "English (Literature)",
+                        "departmentParentId": 5069,
+                        "department": "English (Literature)",
+                        "begin": "F2017",
+                        "end": "",
+                        "minUnits": 4.0,
+                        "maxUnits": 4.0,
+                        "pathways": []
+                      }
+                    ],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 254084,
+                    "courseTitle": "Women in Literature",
+                    "courseNumber": "21",
+                    "prefix": "WMST",
+                    "prefixParentId": 11816,
+                    "prefixDescription": "Women's Studies",
+                    "departmentParentId": 13150,
+                    "department": "Women's Studies",
+                    "begin": "F2017",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 16,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 254997,
+                    "courseTitle": "Major American Writers (The Modern Age, 1914 - The Present)",
+                    "courseNumber": "48C",
+                    "prefix": "ELIT",
+                    "prefixParentId": 4816,
+                    "prefixDescription": "English (Literature)",
+                    "departmentParentId": 5069,
+                    "department": "English (Literature)",
+                    "begin": "F1999",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 15,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [
+                      {
+                        "id": "eabfca66-7b25-4d28-1087-08ddcb97187d",
+                        "publishedCourseIdentifierYearTermId": null,
+                        "courseIdentifierParentId": 254084,
+                        "courseTitle": "Women in Literature",
+                        "courseNumber": "21",
+                        "prefix": "WMST",
+                        "prefixParentId": 11816,
+                        "prefixDescription": "Women's Studies",
+                        "departmentParentId": 13150,
+                        "department": "Women's Studies",
+                        "begin": "F2017",
+                        "end": "",
+                        "minUnits": 4.0,
+                        "maxUnits": 4.0,
+                        "pathways": []
+                      }
+                    ],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 254083,
+                    "courseTitle": "Women in Literature",
+                    "courseNumber": "21",
+                    "prefix": "ELIT",
+                    "prefixParentId": 4816,
+                    "prefixDescription": "English (Literature)",
+                    "departmentParentId": 5069,
+                    "department": "English (Literature)",
+                    "begin": "F1999",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 6,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 352940,
+                    "courseTitle": "Introduction to Dramatic Literature",
+                    "courseNumber": "12",
+                    "prefix": "ELIT",
+                    "prefixParentId": 4816,
+                    "prefixDescription": "English (Literature)",
+                    "departmentParentId": 5069,
+                    "department": "English (Literature)",
+                    "begin": "F1999",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 3,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 290175,
+                    "courseTitle": "Mythology and Folklore",
+                    "courseNumber": "22",
+                    "prefix": "ELIT",
+                    "prefixParentId": 4816,
+                    "prefixDescription": "English (Literature)",
+                    "departmentParentId": 5069,
+                    "department": "English (Literature)",
+                    "begin": "F1999",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 7,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 245966,
+                    "courseTitle": "Introduction to the Bible as Literature",
+                    "courseNumber": "19",
+                    "prefix": "ELIT",
+                    "prefixParentId": 4816,
+                    "prefixDescription": "English (Literature)",
+                    "departmentParentId": 5069,
+                    "department": "English (Literature)",
+                    "begin": "F1999",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 5,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 353667,
+                    "courseTitle": "Contemporary Literature",
+                    "courseNumber": "39",
+                    "prefix": "ELIT",
+                    "prefixParentId": 4816,
+                    "prefixDescription": "English (Literature)",
+                    "departmentParentId": 5069,
+                    "department": "English (Literature)",
+                    "begin": "F1999",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 9,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 288561,
+                    "courseTitle": "Introduction to Fiction",
+                    "courseNumber": "10",
+                    "prefix": "ELIT",
+                    "prefixParentId": 4816,
+                    "prefixDescription": "English (Literature)",
+                    "departmentParentId": 5069,
+                    "department": "English (Literature)",
+                    "begin": "F1999",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 1,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 289056,
+                    "courseTitle": "Major British Writers (Neo-Classical and Romantic)",
+                    "courseNumber": "46B",
+                    "prefix": "ELIT",
+                    "prefixParentId": 4816,
+                    "prefixDescription": "English (Literature)",
+                    "departmentParentId": 5069,
+                    "department": "English (Literature)",
+                    "begin": "F1999",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 11,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 353683,
+                    "courseTitle": "Major American Writers (Colonial and Romantic, 1620-1865)",
+                    "courseNumber": "48A",
+                    "prefix": "ELIT",
+                    "prefixParentId": 4816,
+                    "prefixDescription": "English (Literature)",
+                    "departmentParentId": 5069,
+                    "department": "English (Literature)",
+                    "begin": "F2010",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 13,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Requirement",
+          "requirementAttributes": [],
+          "attributes": []
+        }
+      }
+    ],
+    "catalogYear": "{\"receivingCatalogYearBegin\":2025,\"receivingCatalogYearEnd\":2026,\"sendingCatalogYearBegin\":2025,\"sendingCatalogYearEnd\":2026}"
+  },
+  "validationFailure": null,
+  "isSuccessful": true
+}

@@ -1,0 +1,2868 @@
+{
+  "result": {
+    "name": "AGRICULTURAL SCIENCE, B.S.",
+    "type": "Major",
+    "publishDate": "2026-02-06T23:24:19.9327933",
+    "receivingInstitution": "{\"id\":11,\"code\":\"CPSLO   \",\"isCommunityCollege\":false,\"category\":\"CSU\",\"termType\":\"Quarter\",\"names\":[{\"name\":\"California Polytechnic University, San Luis Obispo\",\"hasDepartments\":true,\"fromYear\":0,\"hideInList\":false}],\"termTypeAcademicYears\":[{\"termType\":\"Semester\",\"fromYear\":2026},{\"termType\":\"Quarter\",\"fromYear\":1980}],\"beginId\":31,\"endId\":null}",
+    "sendingInstitution": "{\"id\":113,\"code\":\"DAC     \",\"isCommunityCollege\":true,\"category\":\"CCC\",\"termType\":\"Quarter\",\"names\":[{\"name\":\"De Anza College\",\"hasDepartments\":true,\"fromYear\":0,\"hideInList\":false}],\"termTypeAcademicYears\":[{\"termType\":\"Quarter\",\"fromYear\":1980}],\"beginId\":31,\"endId\":null}",
+    "academicYear": "{\"id\":76,\"code\":\"2025-2026\",\"beginDate\":\"2025-10-01T00:00:00\",\"endDate\":\"2026-10-01T00:00:00\",\"isOpenForMaintenance\":true,\"isOpenForPublic\":true,\"isOpenForReporting\":true,\"isLocked\":false}",
+    "templateAssets": [
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": true,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 245716,
+                      "courseTitle": "General Botany",
+                      "courseNumber": "121",
+                      "prefix": "BOT",
+                      "prefixParentId": 142,
+                      "prefixDescription": "Botany",
+                      "departmentParentId": 13319,
+                      "department": "Biological Sciences",
+                      "begin": "F2016",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "7757c214-04ab-4b38-36ba-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 260579,
+                      "courseTitle": "Microbiology",
+                      "courseNumber": "221",
+                      "prefix": "MCRO",
+                      "prefixParentId": 10157,
+                      "prefixDescription": "Microbiology",
+                      "departmentParentId": 13319,
+                      "department": "Biological Sciences",
+                      "begin": "F2016",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "5ee79b72-d8b4-4b6a-36bb-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 2,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 275908,
+                      "courseTitle": "College Physics I",
+                      "courseNumber": "121",
+                      "prefix": "PHYS",
+                      "prefixParentId": 192,
+                      "prefixDescription": "Physics",
+                      "departmentParentId": 10752,
+                      "department": "Physics",
+                      "begin": "Su2005",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "f1dfff5a-7d3e-44e2-36bc-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [
+              {
+                "type": "NFollowing",
+                "amount": 1.0,
+                "amountUnitType": "Course",
+                "position": 0,
+                "selectionType": "Select"
+              }
+            ],
+            "position": 0,
+            "attributes": []
+          },
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 289305,
+                      "courseTitle": "World of Chemistry",
+                      "courseNumber": "110",
+                      "prefix": "CHEM",
+                      "prefixParentId": 3754,
+                      "prefixDescription": "Chemistry",
+                      "departmentParentId": 2273,
+                      "department": "Chemistry and Biochemistry",
+                      "begin": "F2001",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "a0d94743-10a3-4659-36bd-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 245719,
+                      "courseTitle": "General Chemistry for Agriculture and Life Science I",
+                      "courseNumber": "127",
+                      "prefix": "CHEM",
+                      "prefixParentId": 3754,
+                      "prefixDescription": "Chemistry",
+                      "departmentParentId": 2273,
+                      "department": "Chemistry and Biochemistry",
+                      "begin": "F2015",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "4ec4d926-f9c3-46f8-36be-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [
+              {
+                "type": "NFollowing",
+                "amount": 1.0,
+                "amountUnitType": "Course",
+                "position": 0,
+                "selectionType": "Select"
+              }
+            ],
+            "position": 1,
+            "attributes": []
+          },
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 275917,
+                      "courseTitle": "Pre-Calculus Algebra",
+                      "courseNumber": "118",
+                      "prefix": "MATH",
+                      "prefixParentId": 9918,
+                      "prefixDescription": "Mathematics",
+                      "departmentParentId": 8956,
+                      "department": "Mathematics",
+                      "begin": "F2000",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "51780507-6285-4904-36bf-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Series",
+                    "series": {
+                      "conjunction": "And",
+                      "name": "MATH 116, MATH 117",
+                      "courses": [
+                        {
+                          "id": "91c2866c-fdd4-431f-c102-08ddf49a0312",
+                          "position": 0,
+                          "courseIdentifierParentId": 234774,
+                          "courseTitle": "Pre-Calculus Algebra I",
+                          "courseNumber": "116",
+                          "prefix": "MATH",
+                          "prefixParentId": 9918,
+                          "prefixDescription": "Mathematics",
+                          "departmentParentId": 8956,
+                          "department": "Mathematics",
+                          "begin": "F2000",
+                          "end": "",
+                          "minUnits": 3.0,
+                          "maxUnits": 3.0,
+                          "pathways": []
+                        },
+                        {
+                          "id": "58c4c138-d00b-4d0e-c104-08ddf49a0312",
+                          "position": 1,
+                          "courseIdentifierParentId": 135694,
+                          "courseTitle": "Pre-Calculus Algebra II",
+                          "courseNumber": "117",
+                          "prefix": "MATH",
+                          "prefixParentId": 9918,
+                          "prefixDescription": "Mathematics",
+                          "departmentParentId": 8956,
+                          "department": "Mathematics",
+                          "begin": "F2001",
+                          "end": "",
+                          "minUnits": 3.0,
+                          "maxUnits": 3.0,
+                          "pathways": []
+                        }
+                      ],
+                      "seriesPathways": []
+                    },
+                    "requisites": [],
+                    "visibleCrossListedCourses": [],
+                    "seriesAttributes": [],
+                    "courseAttributes": [],
+                    "id": "2588a742-88bd-4c94-36c0-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 2,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 156240,
+                      "courseTitle": "Pre-Calculus Trigonometry",
+                      "courseNumber": "119",
+                      "prefix": "MATH",
+                      "prefixParentId": 9918,
+                      "prefixDescription": "Mathematics",
+                      "departmentParentId": 8956,
+                      "department": "Mathematics",
+                      "begin": "F2000",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "4d931cf9-97c6-44e0-36c1-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 3,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 281890,
+                      "courseTitle": "Calculus I",
+                      "courseNumber": "141",
+                      "prefix": "MATH",
+                      "prefixParentId": 9918,
+                      "prefixDescription": "Mathematics",
+                      "departmentParentId": 8956,
+                      "department": "Mathematics",
+                      "begin": "F2000",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [
+                      {
+                        "course": {
+                          "courseIdentifierParentId": 357056,
+                          "courseTitle": "Calculus I",
+                          "courseNumber": "141",
+                          "prefix": "HNRS",
+                          "prefixParentId": 16,
+                          "prefixDescription": "Honors",
+                          "departmentParentId": 7099,
+                          "department": "Honors",
+                          "begin": "F2015",
+                          "end": "",
+                          "minUnits": 4.0,
+                          "maxUnits": 4.0,
+                          "pathways": []
+                        }
+                      }
+                    ],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "3618381e-8e4f-44e6-36c2-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 4,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 356063,
+                      "courseTitle": "Calculus for the Life Sciences I",
+                      "courseNumber": "161",
+                      "prefix": "MATH",
+                      "prefixParentId": 9918,
+                      "prefixDescription": "Mathematics",
+                      "departmentParentId": 8956,
+                      "department": "Mathematics",
+                      "begin": "F2001",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "f4bc2d4a-7594-49bd-36c3-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 5,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 281888,
+                      "courseTitle": "Calculus for Business and Economics",
+                      "courseNumber": "221",
+                      "prefix": "MATH",
+                      "prefixParentId": 9918,
+                      "prefixDescription": "Mathematics",
+                      "departmentParentId": 8956,
+                      "department": "Mathematics",
+                      "begin": "F2000",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "d5aa4237-bcfb-4999-36c4-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [
+              {
+                "type": "NFollowing",
+                "amount": 1.0,
+                "amountUnitType": "CourseOrCombination",
+                "position": 0,
+                "selectionType": "Select"
+              }
+            ],
+            "position": 2,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": null,
+        "advisements": [],
+        "groupId": "a5db7145-6887-ef11-8474-000d3a37e3b6",
+        "position": 3,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": true,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 10,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 52388,
+                      "courseTitle": "General Animal Science Laboratory",
+                      "courseNumber": "232",
+                      "prefix": "ASCI",
+                      "prefixParentId": 2334,
+                      "prefixDescription": "Animal Science",
+                      "departmentParentId": 671,
+                      "department": "Animal Science",
+                      "begin": "Su2003",
+                      "end": "",
+                      "minUnits": 1.0,
+                      "maxUnits": 1.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "f79fd4e1-d51d-4ebb-36c5-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 296726,
+                      "courseTitle": "Agribusiness Financial Accounting",
+                      "courseNumber": "214",
+                      "prefix": "AGB",
+                      "prefixParentId": 9351,
+                      "prefixDescription": "Agribusiness",
+                      "departmentParentId": 304,
+                      "department": "Agribusiness",
+                      "begin": "Su2007",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "51e23bab-eade-4542-36c6-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 4,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 330190,
+                      "courseTitle": "Introductory Animal Nutrition and Feeding",
+                      "courseNumber": "220",
+                      "prefix": "ASCI",
+                      "prefixParentId": 2334,
+                      "prefixDescription": "Animal Science",
+                      "departmentParentId": 671,
+                      "department": "Animal Science",
+                      "begin": "F2000",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "c59bbfd2-a019-4837-36c7-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 28,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 351799,
+                      "courseTitle": "Soil Health and Plant Nutrition",
+                      "courseNumber": "221",
+                      "prefix": "SS",
+                      "prefixParentId": 5138,
+                      "prefixDescription": "Soil Science",
+                      "departmentParentId": 9598,
+                      "department": "Natural Resources Management and Environmental Sciences",
+                      "begin": "F2017",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "b591d3ce-14b0-4793-36c8-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 9,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 156524,
+                      "courseTitle": "Livestock Evaluation",
+                      "courseNumber": "226",
+                      "prefix": "ASCI",
+                      "prefixParentId": 2334,
+                      "prefixDescription": "Animal Science",
+                      "departmentParentId": 671,
+                      "department": "Animal Science",
+                      "begin": "F2000",
+                      "end": "",
+                      "minUnits": 3.0,
+                      "maxUnits": 3.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "d4599969-5949-47ca-36c9-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 24,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 273353,
+                      "courseTitle": "Forage Crops",
+                      "courseNumber": "150",
+                      "prefix": "PLSC",
+                      "prefixParentId": 15712,
+                      "prefixDescription": "Plant Sciences",
+                      "departmentParentId": 14223,
+                      "department": "Plant Sciences",
+                      "begin": "F2022",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "64a25e18-da92-455d-36ca-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 16,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 54036,
+                      "courseTitle": "3-D Solids Modeling",
+                      "courseNumber": "152",
+                      "prefix": "BRAE",
+                      "prefixParentId": 12123,
+                      "prefixDescription": "Bioresource and Agricultural Engineering",
+                      "departmentParentId": 1787,
+                      "department": "Bioresource and Agricultural Engineering",
+                      "begin": "Su2005",
+                      "end": "",
+                      "minUnits": 1.0,
+                      "maxUnits": 1.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "e9272493-bbab-4138-36cb-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 21,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 352020,
+                      "courseTitle": "Dendrology",
+                      "courseNumber": "208",
+                      "prefix": "NR",
+                      "prefixParentId": 2176,
+                      "prefixDescription": "Natural Resources",
+                      "departmentParentId": 9598,
+                      "department": "Natural Resources Management and Environmental Sciences",
+                      "begin": "S2017",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "56e1be24-12ba-489f-36cc-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 23,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 273626,
+                      "courseTitle": "Plant Propagation",
+                      "courseNumber": "124",
+                      "prefix": "PLSC",
+                      "prefixParentId": 15712,
+                      "prefixDescription": "Plant Sciences",
+                      "departmentParentId": 14223,
+                      "department": "Plant Sciences",
+                      "begin": "F2022",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "1be95842-692a-4fcb-36cd-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 2,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 158530,
+                      "courseTitle": "Meat Science",
+                      "courseNumber": "211",
+                      "prefix": "ASCI",
+                      "prefixParentId": 2334,
+                      "prefixDescription": "Animal Science",
+                      "departmentParentId": 671,
+                      "department": "Animal Science",
+                      "begin": "Su2005",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "a432d10e-e70a-405c-36ce-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 5,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 266280,
+                      "courseTitle": "Introduction to Beef Production",
+                      "courseNumber": "221",
+                      "prefix": "ASCI",
+                      "prefixParentId": 2334,
+                      "prefixDescription": "Animal Science",
+                      "departmentParentId": 671,
+                      "department": "Animal Science",
+                      "begin": "Su2003",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "da244f78-d0c2-446a-36cf-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 15,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 374972,
+                      "courseTitle": "Design Graphics and CAD for Agricultural Engineering",
+                      "courseNumber": "150",
+                      "prefix": "BRAE",
+                      "prefixParentId": 12123,
+                      "prefixDescription": "Bioresource and Agricultural Engineering",
+                      "departmentParentId": 1787,
+                      "department": "Bioresource and Agricultural Engineering",
+                      "begin": "Su2019",
+                      "end": "",
+                      "minUnits": 2.0,
+                      "maxUnits": 2.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "30042b19-ec45-41d2-36d0-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 11,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 374667,
+                      "courseTitle": "Principles of Rangeland Management",
+                      "courseNumber": "239",
+                      "prefix": "ASCI",
+                      "prefixParentId": 2334,
+                      "prefixDescription": "Animal Science",
+                      "departmentParentId": 671,
+                      "department": "Animal Science",
+                      "begin": "Su2019",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "2891bb0a-8705-45fa-36d1-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 26,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 245362,
+                      "courseTitle": "Commercial Seed Production",
+                      "courseNumber": "240",
+                      "prefix": "PLSC",
+                      "prefixParentId": 15712,
+                      "prefixDescription": "Plant Sciences",
+                      "departmentParentId": 14223,
+                      "department": "Plant Sciences",
+                      "begin": "F2022",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "5330799f-1dce-4001-36d2-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 6,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 356311,
+                      "courseTitle": "Systems of Swine Production",
+                      "courseNumber": "222",
+                      "prefix": "ASCI",
+                      "prefixParentId": 2334,
+                      "prefixDescription": "Animal Science",
+                      "departmentParentId": 671,
+                      "department": "Animal Science",
+                      "begin": "Su2003",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "e646e16d-9235-4258-36d3-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 3,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 121030,
+                      "courseTitle": "Livestock Show Management",
+                      "courseNumber": "212",
+                      "prefix": "ASCI",
+                      "prefixParentId": 2334,
+                      "prefixDescription": "Animal Science",
+                      "departmentParentId": 671,
+                      "department": "Animal Science",
+                      "begin": "Su2003",
+                      "end": "",
+                      "minUnits": 3.0,
+                      "maxUnits": 3.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "d20807a6-dbec-44ee-36d4-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 25,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 299052,
+                      "courseTitle": "California Vegetable Production",
+                      "courseNumber": "190",
+                      "prefix": "PLSC",
+                      "prefixParentId": 15712,
+                      "prefixDescription": "Plant Sciences",
+                      "departmentParentId": 14223,
+                      "department": "Plant Sciences",
+                      "begin": "F2022",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "eb1e25dd-f1b8-4af2-36d5-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 18,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 276634,
+                      "courseTitle": "General Dairy Husbandry",
+                      "courseNumber": "230",
+                      "prefix": "DSCI",
+                      "prefixParentId": 9367,
+                      "prefixDescription": "Dairy Science",
+                      "departmentParentId": 671,
+                      "department": "Animal Science",
+                      "begin": "F2016",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "d8ed9bec-c8e0-4ff1-36d6-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 20,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 136729,
+                      "courseTitle": "Environmental Management",
+                      "courseNumber": "142",
+                      "prefix": "NR",
+                      "prefixParentId": 2176,
+                      "prefixDescription": "Natural Resources",
+                      "departmentParentId": 9598,
+                      "department": "Natural Resources Management and Environmental Sciences",
+                      "begin": "F2009",
+                      "end": "",
+                      "minUnits": 3.0,
+                      "maxUnits": 3.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "17e5fda9-1eeb-4df2-36d7-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 19,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 104305,
+                      "courseTitle": "Dairy Cattle Selection, Breeds, Fitting and Showing",
+                      "courseNumber": "241",
+                      "prefix": "DSCI",
+                      "prefixParentId": 9367,
+                      "prefixDescription": "Dairy Science",
+                      "departmentParentId": 671,
+                      "department": "Animal Science",
+                      "begin": "F2016",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "0484ba6a-a4d3-4fe8-36d8-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 13,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 245716,
+                      "courseTitle": "General Botany",
+                      "courseNumber": "121",
+                      "prefix": "BOT",
+                      "prefixParentId": 142,
+                      "prefixDescription": "Botany",
+                      "departmentParentId": 13319,
+                      "department": "Biological Sciences",
+                      "begin": "F2016",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "ce9c6592-4f31-47e4-36d9-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 17,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 273385,
+                      "courseTitle": "Precision Farming",
+                      "courseNumber": "244",
+                      "prefix": "BRAE",
+                      "prefixParentId": 12123,
+                      "prefixDescription": "Bioresource and Agricultural Engineering",
+                      "departmentParentId": 1787,
+                      "department": "Bioresource and Agricultural Engineering",
+                      "begin": "F2015",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [
+                      {
+                        "course": {
+                          "courseIdentifierParentId": 273387,
+                          "courseTitle": "Precision Farming",
+                          "courseNumber": "244",
+                          "prefix": "PLSC",
+                          "prefixParentId": 15712,
+                          "prefixDescription": "Plant Sciences",
+                          "departmentParentId": 14223,
+                          "department": "Plant Sciences",
+                          "begin": "F2022",
+                          "end": "",
+                          "minUnits": 4.0,
+                          "maxUnits": 4.0,
+                          "pathways": []
+                        }
+                      }
+                    ],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "9e2ef098-33c1-495f-36da-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 7,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 266283,
+                      "courseTitle": "Systems of Small Ruminant Management",
+                      "courseNumber": "223",
+                      "prefix": "ASCI",
+                      "prefixParentId": 2334,
+                      "prefixDescription": "Animal Science",
+                      "departmentParentId": 671,
+                      "department": "Animal Science",
+                      "begin": "F2015",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "ab9b273b-b0ab-4621-36db-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 8,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 136487,
+                      "courseTitle": "Introduction to Poultry Management",
+                      "courseNumber": "225",
+                      "prefix": "ASCI",
+                      "prefixParentId": 2334,
+                      "prefixDescription": "Animal Science",
+                      "departmentParentId": 671,
+                      "department": "Animal Science",
+                      "begin": "F2011",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "7ccd71c7-979c-4436-36dc-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 302249,
+                      "courseTitle": "Agribusiness Data Literacy",
+                      "courseNumber": "260",
+                      "prefix": "AGB",
+                      "prefixParentId": 9351,
+                      "prefixDescription": "Agribusiness",
+                      "departmentParentId": 304,
+                      "department": "Agribusiness",
+                      "begin": "F2015",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "50fcbfde-c418-459e-36dd-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 14,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 355394,
+                      "courseTitle": "Agricultural Power and Machinery Mangement",
+                      "courseNumber": "142",
+                      "prefix": "BRAE",
+                      "prefixParentId": 12123,
+                      "prefixDescription": "Bioresource and Agricultural Engineering",
+                      "departmentParentId": 1787,
+                      "department": "Bioresource and Agricultural Engineering",
+                      "begin": "F1998",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "3e6ca70f-3fa8-4a2b-36de-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 27,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 207693,
+                      "courseTitle": "Horticultural Production Techniques",
+                      "courseNumber": "245",
+                      "prefix": "PLSC",
+                      "prefixParentId": 15712,
+                      "prefixDescription": "Plant Sciences",
+                      "departmentParentId": 14223,
+                      "department": "Plant Sciences",
+                      "begin": "F2022",
+                      "end": "",
+                      "minUnits": 3.0,
+                      "maxUnits": 3.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "d7a7dee4-d9d2-4bf1-36df-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 12,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 294860,
+                      "courseTitle": "Wildlife Conservation Biology",
+                      "courseNumber": "227",
+                      "prefix": "BIO",
+                      "prefixParentId": 4835,
+                      "prefixDescription": "Biology",
+                      "departmentParentId": 13319,
+                      "department": "Biological Sciences",
+                      "begin": "S2017",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "33ad970f-4081-432e-36e0-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 22,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 99131,
+                      "courseTitle": "Landscape Installation and Maintenance",
+                      "courseNumber": "123",
+                      "prefix": "PLSC",
+                      "prefixParentId": 15712,
+                      "prefixDescription": "Plant Sciences",
+                      "departmentParentId": 14223,
+                      "department": "Plant Sciences",
+                      "begin": "F2022",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "b896b5a3-f53d-4574-36e1-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 0,
+            "attributes": []
+          }
+        ],
+        "attributes": [
+          {
+            "position": 1,
+            "content": "**REFER TO CATALOG**"
+          },
+          {
+            "position": 0,
+            "content": "**REFER TO TOP OF AGREEMENT**"
+          }
+        ],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": null,
+        "advisements": [],
+        "groupId": "a6db7145-6887-ef11-8474-000d3a37e3b6",
+        "position": 5,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementTitle",
+        "content": "OTHER COURSES (CONCENTRATION/EMPHASIS/ELECTIVES)",
+        "groupId": "61017745-6887-ef11-8474-000d3a37e3b6",
+        "position": 4,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementTitle",
+        "content": "SUPPORT COURSES",
+        "groupId": "2f467945-6887-ef11-8474-000d3a37e3b6",
+        "position": 2,
+        "area": "Requirements"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<h2><span style=\"font-size: 20px;\">Thank you for your interest in Cal Poly San Luis Obispo!</span></h2><p>This articulation agreement displays the lower-division courses required in&nbsp;major and support. Students are advised to complete as much lower-division course preparation as possible prior to transfer. Cal Poly has specific selection criteria for transfer students for admissions, and we encourage you to check the selection criteria for the major you are interested in.&nbsp;</p><h1><span style=\"color: rgb(41, 98, 255); font-size: 16px;\">GENERAL INFORMATION</span></h1><ul><li><a href=\"https://catalog.calpoly.edu/\" rel=\"noopener noreferrer\" target=\"_blank\">University Catalog </a>for the full listing of degree requirements for this major</li><li><a href=\"https://www.calpoly.edu/admissions/transfer-student/how-to-apply\" rel=\"noopener noreferrer\" target=\"_blank\">Admissions website</a> for current transfer admission requirements</li><li><a href=\"https://www.calpoly.edu/\" rel=\"noopener noreferrer\" target=\"_blank\">Cal Poly website</a> for information on our campus</li></ul><p><br></p><h1><span style=\"font-size: 16px; color: rgb(41, 98, 255);\">ACADEMIC INFORMATION</span></h1><ul><li><a href=\"https://flowcharts.calpoly.edu/\" rel=\"noopener noreferrer\" target=\"_blank\">Curriculum sheets &amp; flowcharts</a> for Cal Poly majors | this will show you information about concentrations if applicable in your major</li><li><a href=\"https://registrar.calpoly.edu/other_ac_credit\" rel=\"noopener noreferrer\" target=\"_blank\">AP/IB exams and test credits earned</a> &amp; <a href=\"https://catalog.calpoly.edu/academicstandardsandpolicies/evaluationoftransfercredit/#otheracademicredit\" rel=\"noopener noreferrer\" target=\"_blank\">policies on college-level examination program exams</a>&nbsp;&nbsp;</li><li><a href=\"https://advising.calpoly.edu/\" rel=\"noopener noreferrer\" target=\"_blank\">Academic Advising</a>&nbsp;&nbsp;</li><li><a href=\"https://registrar.calpoly.edu/how-use-assist\" rel=\"noopener noreferrer\" target=\"_blank\">How to use Assist.org</a>&nbsp;</li></ul><p><br></p><p><em>This major has no concentrations. This major has 6 areas of emphasis; Agricultural Engineering Technology, Agribusiness, Animal Science, Crop and Soil Science, Forestry and Natural Resource, and Ornamental Horticulture. This major has 24 units of approved electives, grouped according to area of emphasis. Although not listed here, this major has 22 units of free electives.&nbsp;Please refer to curriculum sheets and flowcharts link above.</em></p>",
+        "groupId": "a7db7145-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "General"
+      },
+      {
+        "type": "GeneralTitle",
+        "content": "TRANSFER INFORMATION & RESOURCES",
+        "groupId": "a8db7145-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "General"
+      },
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": true,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 274137,
+                      "courseTitle": "General Dairy Manufacturing",
+                      "courseNumber": "229",
+                      "prefix": "DSCI",
+                      "prefixParentId": 9367,
+                      "prefixDescription": "Dairy Science",
+                      "departmentParentId": 671,
+                      "department": "Animal Science",
+                      "begin": "F2022",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "aa812d48-7c29-4642-36e2-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 351791,
+                      "courseTitle": "Elements of Food Processing",
+                      "courseNumber": "230",
+                      "prefix": "FSN",
+                      "prefixParentId": 955,
+                      "prefixDescription": "Food Science and Nutrition",
+                      "departmentParentId": 5798,
+                      "department": "Food Science and Nutrition",
+                      "begin": "F2000",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "5db37816-9413-4d6a-36e3-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [
+              {
+                "type": "NFollowing",
+                "amount": 1.0,
+                "amountUnitType": "Course",
+                "position": 0,
+                "selectionType": "Select"
+              }
+            ],
+            "position": 2,
+            "attributes": []
+          },
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 299052,
+                      "courseTitle": "California Vegetable Production",
+                      "courseNumber": "190",
+                      "prefix": "PLSC",
+                      "prefixParentId": 15712,
+                      "prefixDescription": "Plant Sciences",
+                      "departmentParentId": 14223,
+                      "department": "Plant Sciences",
+                      "begin": "F2022",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "34a725ca-1e3f-4209-36e4-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 135659,
+                      "courseTitle": "Environmental Horticulture",
+                      "courseNumber": "230",
+                      "prefix": "PLSC",
+                      "prefixParentId": 15712,
+                      "prefixDescription": "Plant Sciences",
+                      "departmentParentId": 14223,
+                      "department": "Plant Sciences",
+                      "begin": "F2022",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "3e29b642-0216-42db-36e5-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 2,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 245362,
+                      "courseTitle": "Commercial Seed Production",
+                      "courseNumber": "240",
+                      "prefix": "PLSC",
+                      "prefixParentId": 15712,
+                      "prefixDescription": "Plant Sciences",
+                      "departmentParentId": 14223,
+                      "department": "Plant Sciences",
+                      "begin": "F2022",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "8c2d651e-bdfb-44dd-36e6-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 3,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 207693,
+                      "courseTitle": "Horticultural Production Techniques",
+                      "courseNumber": "245",
+                      "prefix": "PLSC",
+                      "prefixParentId": 15712,
+                      "prefixDescription": "Plant Sciences",
+                      "departmentParentId": 14223,
+                      "department": "Plant Sciences",
+                      "begin": "F2022",
+                      "end": "",
+                      "minUnits": 3.0,
+                      "maxUnits": 3.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "c0f70ad6-6a4c-41db-36e7-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [
+              {
+                "type": "NFollowing",
+                "amount": 1.0,
+                "amountUnitType": "Course",
+                "position": 0,
+                "selectionType": "Select"
+              }
+            ],
+            "position": 3,
+            "attributes": []
+          },
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 281905,
+                      "courseTitle": "Introductory Soil Science",
+                      "courseNumber": "120",
+                      "prefix": "SS",
+                      "prefixParentId": 5138,
+                      "prefixDescription": "Soil Science",
+                      "departmentParentId": 9598,
+                      "department": "Natural Resources Management and Environmental Sciences",
+                      "begin": "Su2019",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "1633b1a3-8abc-4e11-36e8-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 298476,
+                      "courseTitle": "Soils in Environmental and Agricultural Systems",
+                      "courseNumber": "130",
+                      "prefix": "SS",
+                      "prefixParentId": 5138,
+                      "prefixDescription": "Soil Science",
+                      "departmentParentId": 9598,
+                      "department": "Natural Resources Management and Environmental Sciences",
+                      "begin": "Su2019",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "39ea4050-9ae0-4630-36e9-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [
+              {
+                "type": "NFollowing",
+                "amount": 1.0,
+                "amountUnitType": "Course",
+                "position": 0,
+                "selectionType": "Select"
+              }
+            ],
+            "position": 4,
+            "attributes": []
+          },
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 266280,
+                      "courseTitle": "Introduction to Beef Production",
+                      "courseNumber": "221",
+                      "prefix": "ASCI",
+                      "prefixParentId": 2334,
+                      "prefixDescription": "Animal Science",
+                      "departmentParentId": 671,
+                      "department": "Animal Science",
+                      "begin": "Su2003",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "7ae53679-617f-4034-36ea-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 2,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 266283,
+                      "courseTitle": "Systems of Small Ruminant Management",
+                      "courseNumber": "223",
+                      "prefix": "ASCI",
+                      "prefixParentId": 2334,
+                      "prefixDescription": "Animal Science",
+                      "departmentParentId": 671,
+                      "department": "Animal Science",
+                      "begin": "F2015",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "d09251ef-278f-40c7-36eb-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 4,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 136487,
+                      "courseTitle": "Introduction to Poultry Management",
+                      "courseNumber": "225",
+                      "prefix": "ASCI",
+                      "prefixParentId": 2334,
+                      "prefixDescription": "Animal Science",
+                      "departmentParentId": 671,
+                      "department": "Animal Science",
+                      "begin": "F2011",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "018c7d5a-bfcf-43c5-36ec-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 356311,
+                      "courseTitle": "Systems of Swine Production",
+                      "courseNumber": "222",
+                      "prefix": "ASCI",
+                      "prefixParentId": 2334,
+                      "prefixDescription": "Animal Science",
+                      "departmentParentId": 671,
+                      "department": "Animal Science",
+                      "begin": "Su2003",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "5aca4e54-3d59-4574-36ed-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 5,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 276634,
+                      "courseTitle": "General Dairy Husbandry",
+                      "courseNumber": "230",
+                      "prefix": "DSCI",
+                      "prefixParentId": 9367,
+                      "prefixDescription": "Dairy Science",
+                      "departmentParentId": 671,
+                      "department": "Animal Science",
+                      "begin": "F2016",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "a4dcc3e1-9eda-4808-36ee-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 3,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 356312,
+                      "courseTitle": "Equine Science",
+                      "courseNumber": "224",
+                      "prefix": "ASCI",
+                      "prefixParentId": 2334,
+                      "prefixDescription": "Animal Science",
+                      "departmentParentId": 671,
+                      "department": "Animal Science",
+                      "begin": "Su2003",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "3a40e32d-d3d9-4678-36ef-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [
+              {
+                "type": "NFollowing",
+                "amount": 2.0,
+                "amountUnitType": "Course",
+                "position": 0,
+                "selectionType": "Select"
+              }
+            ],
+            "position": 1,
+            "attributes": []
+          },
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 4,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 322359,
+                      "courseTitle": "Agricultural Mechanics",
+                      "courseNumber": "121",
+                      "prefix": "BRAE",
+                      "prefixParentId": 12123,
+                      "prefixDescription": "Bioresource and Agricultural Engineering",
+                      "departmentParentId": 1787,
+                      "department": "Bioresource and Agricultural Engineering",
+                      "begin": "F2000",
+                      "end": "",
+                      "minUnits": 2.0,
+                      "maxUnits": 2.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "64e8f237-6cc8-44d9-36f0-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 3,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 298079,
+                      "courseTitle": "Principles of Animal Science",
+                      "courseNumber": "112",
+                      "prefix": "ASCI",
+                      "prefixParentId": 2334,
+                      "prefixDescription": "Animal Science",
+                      "departmentParentId": 671,
+                      "department": "Animal Science",
+                      "begin": "Su2005",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "d804061f-69c1-456d-36f1-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 2,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 259854,
+                      "courseTitle": "Agricultural Economics",
+                      "courseNumber": "212",
+                      "prefix": "AGB",
+                      "prefixParentId": 9351,
+                      "prefixDescription": "Agribusiness",
+                      "departmentParentId": 304,
+                      "department": "Agribusiness",
+                      "begin": "S2017",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "87301ae2-97fb-45df-36f2-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 7,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 269226,
+                      "courseTitle": "Principles of Horticulture and Crop Science",
+                      "courseNumber": "120",
+                      "prefix": "PLSC",
+                      "prefixParentId": 15712,
+                      "prefixDescription": "Plant Sciences",
+                      "departmentParentId": 14223,
+                      "department": "Plant Sciences",
+                      "begin": "F2022",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "7f72572d-feae-4dcb-36f3-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 355688,
+                      "courseTitle": "Introduction to Sales",
+                      "courseNumber": "202",
+                      "prefix": "AGB",
+                      "prefixParentId": 9351,
+                      "prefixDescription": "Agribusiness",
+                      "departmentParentId": 304,
+                      "department": "Agribusiness",
+                      "begin": "F2015",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "cf3b749a-7951-4e52-36f4-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 6,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 356056,
+                      "courseTitle": "Elements of Food Safety",
+                      "courseNumber": "275",
+                      "prefix": "FSN",
+                      "prefixParentId": 955,
+                      "prefixDescription": "Food Science and Nutrition",
+                      "departmentParentId": 5798,
+                      "department": "Food Science and Nutrition",
+                      "begin": "F2013",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "54b57cd1-d66f-4a68-36f5-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 5,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 170762,
+                      "courseTitle": "Agricultural Machinery Safety",
+                      "courseNumber": "141",
+                      "prefix": "BRAE",
+                      "prefixParentId": 12123,
+                      "prefixDescription": "Bioresource and Agricultural Engineering",
+                      "departmentParentId": 1787,
+                      "department": "Bioresource and Agricultural Engineering",
+                      "begin": "F2000",
+                      "end": "",
+                      "minUnits": 3.0,
+                      "maxUnits": 3.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "1dca8efc-685d-46d4-36f6-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 326527,
+                      "courseTitle": "Orientation to Agricultural Communication & Agricultural Science",
+                      "courseNumber": "102",
+                      "prefix": "AGC",
+                      "prefixParentId": 14,
+                      "prefixDescription": "Agricultural Communication",
+                      "departmentParentId": 320,
+                      "department": "Agricultural Education and Communication",
+                      "begin": "F2022",
+                      "end": "",
+                      "minUnits": 2.0,
+                      "maxUnits": 2.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "6cf3157f-d8f2-48d1-36f7-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 0,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": null,
+        "advisements": [],
+        "groupId": "a9db7145-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementTitle",
+        "content": "MAJOR COURSES",
+        "groupId": "121a7945-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "Requirements"
+      },
+      {
+        "type": "GeneralTitle",
+        "content": "ADMISSIONS INFORMATION",
+        "groupId": "a9d9aaf0-c3ae-46db-8c33-01997ceaa4d3",
+        "position": 2,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p>To be a competitive transfer applicant, it\u2019s important to start by reviewing Cal Poly\u2019s <a href=\"https://www.calpoly.edu/admissions/transfer-student/selection-criteria\" rel=\"noopener noreferrer\" target=\"_blank\">Selection Criteria for Transfer Students</a> for your major of interest. This page outlines general admissions requirements for all transfer applicants and the required and desired courses for admissions to Cal Poly San Luis Obispo.&nbsp;&nbsp;</p><p><br></p><p>Once you know which courses are expected, use ASSIST to see how your completed or planned courses match Cal Poly\u2019s. You can search articulation agreements by major, department, or course prefix. Keep in mind that credit is granted based on the academic year in which you took the course.&nbsp;</p><p><br></p><p>Note: Not all articulated courses listed in ASSIST are required to be a competitive applicant\u2014but completing the required courses in the selection criteria&nbsp;and as many recommended courses as possible will strengthen your application.&nbsp;</p><p class=\"ql-indent-1\"><span style=\"font-size: 16px;\">&nbsp;&nbsp;</span></p><p><strong><em>This is not a static document; new articulation may be added at any time. The information provided herein is subject to change without notice and does not constitute a contract or the terms and conditions of a contract between the student and the institution or the California State University.</em>&nbsp;</strong></p>",
+        "groupId": "b17fb683-3f39-4c2f-b9a8-01997ceaa4d3",
+        "position": 3,
+        "area": "General"
+      },
+      {
+        "type": "GeneralTitle",
+        "content": "SEMESTER CONVERSION",
+        "groupId": "6e946f95-30ab-4dcf-b1ca-01997ceaa4d3",
+        "position": 4,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p>Cal Poly is currently on the quarter system, and all Cal Poly course units reflect that format. Starting Fall 2026, the university will switch to the semester system. If you begin at Cal Poly in Fall 2025, Cal Poly will make every effort to ensure a seamless transfer of your community college work, so that you make progress-to-degree.&nbsp;ASSIST agreements, flowcharts, curriculum sheets, and planning tools haven\u2019t been updated yet to show semester-based information. For latest updates, visit Cal Poly\u2019s official semester conversion page:&nbsp;</p><p><br></p><ul><li><a href=\"https://www.calpoly.edu/semester-conversion\" rel=\"noopener noreferrer\" target=\"_blank\">Semester conversion website</a>&nbsp;</li><li><a href=\"https://semesters.calpoly.edu/student-advising\" rel=\"noopener noreferrer\" target=\"_blank\">Specific College semester conversion websites</a>&nbsp;</li></ul><p><br></p>",
+        "groupId": "bc75a852-7ec5-4426-aeee-01997ceaa4d3",
+        "position": 5,
+        "area": "General"
+      }
+    ],
+    "articulations": [
+      {
+        "templateCellId": "f1dfff5a-7d3e-44e2-36bc-08ddf49aba51",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 275908,
+            "courseTitle": "College Physics I",
+            "courseNumber": "121",
+            "prefix": "PHYS",
+            "prefixParentId": 192,
+            "prefixDescription": "Physics",
+            "departmentParentId": 10752,
+            "department": "Physics",
+            "begin": "Su2005",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 303424,
+                    "courseTitle": "General Physics I ",
+                    "courseNumber": "2A",
+                    "prefix": "PHYS",
+                    "prefixParentId": 300,
+                    "prefixDescription": "Physics",
+                    "departmentParentId": 10814,
+                    "department": "Physics",
+                    "begin": "F2025",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "a0d94743-10a3-4659-36bd-08ddf49aba51",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 289305,
+            "courseTitle": "World of Chemistry",
+            "courseNumber": "110",
+            "prefix": "CHEM",
+            "prefixParentId": 3754,
+            "prefixDescription": "Chemistry",
+            "departmentParentId": 2273,
+            "department": "Chemistry and Biochemistry",
+            "begin": "F2001",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 359144,
+                    "courseTitle": "Introduction to General, Organic and Biochemistry I",
+                    "courseNumber": "30A",
+                    "prefix": "CHEM",
+                    "prefixParentId": 3854,
+                    "prefixDescription": "Chemistry",
+                    "departmentParentId": 2358,
+                    "department": "Chemistry",
+                    "begin": "F2024",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 1,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 359076,
+                    "courseTitle": "Introductory Chemistry",
+                    "courseNumber": "10",
+                    "prefix": "CHEM",
+                    "prefixParentId": 3854,
+                    "prefixDescription": "Chemistry",
+                    "departmentParentId": 2358,
+                    "department": "Chemistry",
+                    "begin": "F1995",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [
+              {
+                "id": "caf4cb3e-7c72-4d90-8fbe-08ddf49accf2",
+                "sendingArticulationId": "f64d5d63-3256-42dd-92de-08ddf49acc21",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 0,
+                "sendingCourseGroupEndPosition": 1
+              }
+            ],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "4ec4d926-f9c3-46f8-36be-08ddf49aba51",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 245719,
+            "courseTitle": "General Chemistry for Agriculture and Life Science I",
+            "courseNumber": "127",
+            "prefix": "CHEM",
+            "prefixParentId": 3754,
+            "prefixDescription": "Chemistry",
+            "departmentParentId": 2273,
+            "department": "Chemistry and Biochemistry",
+            "begin": "F2015",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 359228,
+                    "courseTitle": "General Chemistry I",
+                    "courseNumber": "1A",
+                    "prefix": "CHEM",
+                    "prefixParentId": 3854,
+                    "prefixDescription": "Chemistry",
+                    "departmentParentId": 2358,
+                    "department": "Chemistry",
+                    "begin": "F2024",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 295,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 368022,
+                    "courseTitle": "General Chemistry I - HONORS",
+                    "courseNumber": "1AH",
+                    "prefix": "CHEM",
+                    "prefixParentId": 3854,
+                    "prefixDescription": "Chemistry",
+                    "departmentParentId": 2358,
+                    "department": "Chemistry",
+                    "begin": "F2024",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 295,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 1,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [
+              {
+                "id": "a0865230-6262-43ad-8727-08de00f70b2d",
+                "sendingArticulationId": "4084e759-70b4-4551-9267-08ddf49acc21",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 0,
+                "sendingCourseGroupEndPosition": 1
+              }
+            ],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "3618381e-8e4f-44e6-36c2-08ddf49aba51",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 281890,
+            "courseTitle": "Calculus I",
+            "courseNumber": "141",
+            "prefix": "MATH",
+            "prefixParentId": 9918,
+            "prefixDescription": "Mathematics",
+            "departmentParentId": 8956,
+            "department": "Mathematics",
+            "begin": "F2000",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [
+            {
+              "courseIdentifierParentId": 357056,
+              "courseTitle": "Calculus I",
+              "courseNumber": "141",
+              "prefix": "HNRS",
+              "prefixParentId": 16,
+              "prefixDescription": "Honors",
+              "departmentParentId": 7099,
+              "department": "Honors",
+              "begin": "F2015",
+              "end": "",
+              "minUnits": 4.0,
+              "maxUnits": 4.0,
+              "pathways": []
+            }
+          ],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 281397,
+                    "courseTitle": "Calculus I",
+                    "courseNumber": "1A",
+                    "prefix": "MATH",
+                    "prefixParentId": 10025,
+                    "prefixDescription": "Mathematics",
+                    "departmentParentId": 9040,
+                    "department": "Mathematics",
+                    "begin": "F2024",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "f4bc2d4a-7594-49bd-36c3-08ddf49aba51",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 356063,
+            "courseTitle": "Calculus for the Life Sciences I",
+            "courseNumber": "161",
+            "prefix": "MATH",
+            "prefixParentId": 9918,
+            "prefixDescription": "Mathematics",
+            "departmentParentId": 8956,
+            "department": "Mathematics",
+            "begin": "F2001",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 281397,
+                    "courseTitle": "Calculus I",
+                    "courseNumber": "1A",
+                    "prefix": "MATH",
+                    "prefixParentId": 10025,
+                    "prefixDescription": "Mathematics",
+                    "departmentParentId": 9040,
+                    "department": "Mathematics",
+                    "begin": "F2024",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 295,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 288768,
+                    "courseTitle": "Calculus I - HONORS",
+                    "courseNumber": "1AH",
+                    "prefix": "MATH",
+                    "prefixParentId": 10025,
+                    "prefixDescription": "Mathematics",
+                    "departmentParentId": 9040,
+                    "department": "Mathematics",
+                    "begin": "F2024",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 295,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 1,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [
+              {
+                "id": "a847234e-a71a-4ade-847a-08de00f70b2d",
+                "sendingArticulationId": "f10fce52-beb0-491d-92b0-08ddf49acc21",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 0,
+                "sendingCourseGroupEndPosition": 1
+              }
+            ],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "d5aa4237-bcfb-4999-36c4-08ddf49aba51",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 281888,
+            "courseTitle": "Calculus for Business and Economics",
+            "courseNumber": "221",
+            "prefix": "MATH",
+            "prefixParentId": 9918,
+            "prefixDescription": "Mathematics",
+            "departmentParentId": 8956,
+            "department": "Mathematics",
+            "begin": "F2000",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 281397,
+                    "courseTitle": "Calculus I",
+                    "courseNumber": "1A",
+                    "prefix": "MATH",
+                    "prefixParentId": 10025,
+                    "prefixDescription": "Mathematics",
+                    "departmentParentId": 9040,
+                    "department": "Mathematics",
+                    "begin": "F2024",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 295,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 1,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 359048,
+                    "courseTitle": "Introductory Calculus for Business and Social Science",
+                    "courseNumber": "12",
+                    "prefix": "MATH",
+                    "prefixParentId": 10025,
+                    "prefixDescription": "Mathematics",
+                    "departmentParentId": 9040,
+                    "department": "Mathematics",
+                    "begin": "F1995",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 179,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 288768,
+                    "courseTitle": "Calculus I - HONORS",
+                    "courseNumber": "1AH",
+                    "prefix": "MATH",
+                    "prefixParentId": 10025,
+                    "prefixDescription": "Mathematics",
+                    "departmentParentId": 9040,
+                    "department": "Mathematics",
+                    "begin": "F2024",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 295,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 2,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [
+              {
+                "id": "79d124c9-30ec-4a44-8f94-08ddf49accf2",
+                "sendingArticulationId": "815af01f-52bb-4d66-9288-08ddf49acc21",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 0,
+                "sendingCourseGroupEndPosition": 1
+              },
+              {
+                "id": "6d7e94a9-8e7a-404e-84a1-08de00f70b2d",
+                "sendingArticulationId": "815af01f-52bb-4d66-9288-08ddf49acc21",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 1,
+                "sendingCourseGroupEndPosition": 2
+              }
+            ],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "17e5fda9-1eeb-4df2-36d7-08ddf49aba51",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 136729,
+            "courseTitle": "Environmental Management",
+            "courseNumber": "142",
+            "prefix": "NR",
+            "prefixParentId": 2176,
+            "prefixDescription": "Natural Resources",
+            "departmentParentId": 9598,
+            "department": "Natural Resources Management and Environmental Sciences",
+            "begin": "F2009",
+            "end": "",
+            "minUnits": 3.0,
+            "maxUnits": 3.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 289208,
+                    "courseTitle": "Introduction to Environmental Studies",
+                    "courseNumber": "1",
+                    "prefix": "E S",
+                    "prefixParentId": 10925,
+                    "prefixDescription": "Environmental Studies",
+                    "departmentParentId": 5301,
+                    "department": "Environmental Studies",
+                    "begin": "F1995",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      }
+    ],
+    "catalogYear": "{\"receivingCatalogYearBegin\":2025,\"receivingCatalogYearEnd\":2026,\"sendingCatalogYearBegin\":2025,\"sendingCatalogYearEnd\":2026}"
+  },
+  "validationFailure": null,
+  "isSuccessful": true
+}

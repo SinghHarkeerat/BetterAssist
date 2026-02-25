@@ -1,0 +1,1389 @@
+{
+  "result": {
+    "name": "ENGLISH, B.A.",
+    "type": "Major",
+    "publishDate": "2026-02-06T23:22:14.2638163",
+    "receivingInstitution": "{\"id\":11,\"code\":\"CPSLO   \",\"isCommunityCollege\":false,\"category\":\"CSU\",\"termType\":\"Quarter\",\"names\":[{\"name\":\"California Polytechnic University, San Luis Obispo\",\"hasDepartments\":true,\"fromYear\":0,\"hideInList\":false}],\"termTypeAcademicYears\":[{\"termType\":\"Semester\",\"fromYear\":2026},{\"termType\":\"Quarter\",\"fromYear\":1980}],\"beginId\":31,\"endId\":null}",
+    "sendingInstitution": "{\"id\":113,\"code\":\"DAC     \",\"isCommunityCollege\":true,\"category\":\"CCC\",\"termType\":\"Quarter\",\"names\":[{\"name\":\"De Anza College\",\"hasDepartments\":true,\"fromYear\":0,\"hideInList\":false}],\"termTypeAcademicYears\":[{\"termType\":\"Quarter\",\"fromYear\":1980}],\"beginId\":31,\"endId\":null}",
+    "academicYear": "{\"id\":76,\"code\":\"2025-2026\",\"beginDate\":\"2025-10-01T00:00:00\",\"endDate\":\"2026-10-01T00:00:00\",\"isOpenForMaintenance\":true,\"isOpenForPublic\":true,\"isOpenForReporting\":true,\"isLocked\":false}",
+    "templateAssets": [
+      {
+        "type": "RequirementTitle",
+        "content": "MAJOR COURSES",
+        "groupId": "0c1a7945-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": true,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 374684,
+                      "courseTitle": "Introduction to Writing Studies",
+                      "courseNumber": "220",
+                      "prefix": "ENGL",
+                      "prefixParentId": 2635,
+                      "prefixDescription": "English",
+                      "departmentParentId": 4960,
+                      "department": "English",
+                      "begin": "Su2019",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "e09aad4c-c743-4119-373d-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 364437,
+                      "courseTitle": "Introduction to Technical and Professional Communication",
+                      "courseNumber": "221",
+                      "prefix": "ENGL",
+                      "prefixParentId": 2635,
+                      "prefixDescription": "English",
+                      "departmentParentId": 4960,
+                      "department": "English",
+                      "begin": "F2017",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "ad140ac4-21fd-4b17-373e-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [
+              {
+                "type": "NFollowing",
+                "amount": 1.0,
+                "amountUnitType": "Course",
+                "position": 0,
+                "selectionType": "Select"
+              }
+            ],
+            "position": 1,
+            "attributes": []
+          },
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 5,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 351801,
+                      "courseTitle": "Introduction to Linguistics",
+                      "courseNumber": "290",
+                      "prefix": "ENGL",
+                      "prefixParentId": 2635,
+                      "prefixDescription": "English",
+                      "departmentParentId": 4960,
+                      "department": "English",
+                      "begin": "F2000",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "654dde08-c421-4c64-373f-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 4,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 171731,
+                      "courseTitle": "Introduction to Classical Literature",
+                      "courseNumber": "251",
+                      "prefix": "ENGL",
+                      "prefixParentId": 2635,
+                      "prefixDescription": "English",
+                      "departmentParentId": 4960,
+                      "department": "English",
+                      "begin": "Su2019",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [
+                      {
+                        "course": {
+                          "courseIdentifierParentId": 294982,
+                          "courseTitle": "Introduction to Classical Literature",
+                          "courseNumber": "251",
+                          "prefix": "HNRS",
+                          "prefixParentId": 16,
+                          "prefixDescription": "Honors",
+                          "departmentParentId": 7099,
+                          "department": "Honors",
+                          "begin": "Su2019",
+                          "end": "",
+                          "minUnits": 4.0,
+                          "maxUnits": 4.0,
+                          "pathways": []
+                        }
+                      }
+                    ],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "db6dba0b-216a-4e12-3740-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 261987,
+                      "courseTitle": "Sequence I: Fifth Century to Fifteenth Century",
+                      "courseNumber": "203",
+                      "prefix": "ENGL",
+                      "prefixParentId": 2635,
+                      "prefixDescription": "English",
+                      "departmentParentId": 4960,
+                      "department": "English",
+                      "begin": "Su2019",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "e45c65ab-fc28-401c-3741-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 2,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 259877,
+                      "courseTitle": "Sequence II: Sixteenth Century to Late Seventeenth Century",
+                      "courseNumber": "204",
+                      "prefix": "ENGL",
+                      "prefixParentId": 2635,
+                      "prefixDescription": "English",
+                      "departmentParentId": 4960,
+                      "department": "English",
+                      "begin": "Su2019",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "e19c9f51-d614-4f50-3742-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 298597,
+                      "courseTitle": "Introduction to Literary Studies",
+                      "courseNumber": "202",
+                      "prefix": "ENGL",
+                      "prefixParentId": 2635,
+                      "prefixDescription": "English",
+                      "departmentParentId": 4960,
+                      "department": "English",
+                      "begin": "F2011",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "e5b200a9-0e83-41a5-3743-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 3,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 355194,
+                      "courseTitle": "Sequence III: Mid-Seventeenth to Late Eighteenth Century",
+                      "courseNumber": "205",
+                      "prefix": "ENGL",
+                      "prefixParentId": 2635,
+                      "prefixDescription": "English",
+                      "departmentParentId": 4960,
+                      "department": "English",
+                      "begin": "Su2019",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "7f77069c-6b56-48bb-3744-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 0,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": null,
+        "advisements": [],
+        "groupId": "98db7145-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": true,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 299347,
+                      "courseTitle": "Intermediate Mandarin Chinese I",
+                      "courseNumber": "201",
+                      "prefix": "CHIN",
+                      "prefixParentId": 15140,
+                      "prefixDescription": "Chinese",
+                      "departmentParentId": 9330,
+                      "department": "World Languages and Cultures",
+                      "begin": "F2016",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "69fc492f-1c26-4744-3745-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 303944,
+                      "courseTitle": "Intermediate Mandarin Chinese II",
+                      "courseNumber": "202",
+                      "prefix": "CHIN",
+                      "prefixParentId": 15140,
+                      "prefixDescription": "Chinese",
+                      "departmentParentId": 9330,
+                      "department": "World Languages and Cultures",
+                      "begin": "F2016",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "23859047-ed6c-4da2-3746-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 2,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 257666,
+                      "courseTitle": "Intermediate French I",
+                      "courseNumber": "201",
+                      "prefix": "FR",
+                      "prefixParentId": 6721,
+                      "prefixDescription": "French",
+                      "departmentParentId": 9330,
+                      "department": "World Languages and Cultures",
+                      "begin": "F2016",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "b185c627-1ea9-4456-3747-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 9,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 275868,
+                      "courseTitle": "Intermediate Spanish II",
+                      "courseNumber": "202",
+                      "prefix": "SPAN",
+                      "prefixParentId": 3100,
+                      "prefixDescription": "Spanish",
+                      "departmentParentId": 9330,
+                      "department": "World Languages and Cultures",
+                      "begin": "F2016",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "bddb8cb5-d46a-418d-3748-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 4,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 275818,
+                      "courseTitle": "Intermediate German I",
+                      "courseNumber": "201",
+                      "prefix": "GER",
+                      "prefixParentId": 7774,
+                      "prefixDescription": "German",
+                      "departmentParentId": 9330,
+                      "department": "World Languages and Cultures",
+                      "begin": "F2016",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "286dc5d6-b5c3-47c9-3749-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 3,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 245630,
+                      "courseTitle": "Intermediate French II",
+                      "courseNumber": "202",
+                      "prefix": "FR",
+                      "prefixParentId": 6721,
+                      "prefixDescription": "French",
+                      "departmentParentId": 9330,
+                      "department": "World Languages and Cultures",
+                      "begin": "F2016",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "7b576fac-58e9-496b-374a-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 8,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 259528,
+                      "courseTitle": "Intermediate Spanish I",
+                      "courseNumber": "201",
+                      "prefix": "SPAN",
+                      "prefixParentId": 3100,
+                      "prefixDescription": "Spanish",
+                      "departmentParentId": 9330,
+                      "department": "World Languages and Cultures",
+                      "begin": "F2016",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "cdccbf86-0009-4957-374b-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 6,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 304108,
+                      "courseTitle": "Intermediate Italian I",
+                      "courseNumber": "201",
+                      "prefix": "ITAL",
+                      "prefixParentId": 1684,
+                      "prefixDescription": "Italian",
+                      "departmentParentId": 9330,
+                      "department": "World Languages and Cultures",
+                      "begin": "F2016",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "324f9abb-fb63-457e-374c-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 5,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 272274,
+                      "courseTitle": "Intermediate German II",
+                      "courseNumber": "202",
+                      "prefix": "GER",
+                      "prefixParentId": 7774,
+                      "prefixDescription": "German",
+                      "departmentParentId": 9330,
+                      "department": "World Languages and Cultures",
+                      "begin": "F2016",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "77c47da0-e4dd-461f-374d-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 7,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 357596,
+                      "courseTitle": "Intermediate Japanese I",
+                      "courseNumber": "201",
+                      "prefix": "JPNS",
+                      "prefixParentId": 9517,
+                      "prefixDescription": "Japanese",
+                      "departmentParentId": 9330,
+                      "department": "World Languages and Cultures",
+                      "begin": "F2016",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "a5682cd1-cc3c-4bfb-374e-08ddf49aba51",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [
+              {
+                "type": "NFollowing",
+                "amount": 1.0,
+                "amountUnitType": "Course",
+                "position": 0,
+                "selectionType": "Select"
+              }
+            ],
+            "position": 0,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": null,
+        "advisements": [],
+        "groupId": "99db7145-6887-ef11-8474-000d3a37e3b6",
+        "position": 3,
+        "area": "Requirements"
+      },
+      {
+        "type": "GeneralTitle",
+        "content": "TRANSFER INFORMATION & RESOURCES",
+        "groupId": "9adb7145-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "General"
+      },
+      {
+        "type": "RequirementTitle",
+        "content": "SUPPORT COURSES",
+        "groupId": "2c467945-6887-ef11-8474-000d3a37e3b6",
+        "position": 2,
+        "area": "Requirements"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<h2><span style=\"font-size: 20px;\">Thank you for your interest in Cal Poly San Luis Obispo!</span></h2><p>This articulation agreement displays the lower-division courses required in&nbsp;major and support. Students are advised to complete as much lower-division course preparation as possible prior to transfer. Cal Poly has specific selection criteria for transfer students for admissions, and we encourage you to check the selection criteria for the major you are interested in.&nbsp;</p><h1><span style=\"color: rgb(41, 98, 255); font-size: 16px;\">GENERAL INFORMATION</span></h1><ul><li><a href=\"https://catalog.calpoly.edu/\" rel=\"noopener noreferrer\" target=\"_blank\">University Catalog </a>for the full listing of degree requirements for this major</li><li><a href=\"https://www.calpoly.edu/admissions/transfer-student/how-to-apply\" rel=\"noopener noreferrer\" target=\"_blank\">Admissions website</a> for current transfer admission requirements</li><li><a href=\"https://www.calpoly.edu/\" rel=\"noopener noreferrer\" target=\"_blank\">Cal Poly website</a> for information on our campus</li></ul><p><br></p><h1><span style=\"font-size: 16px; color: rgb(41, 98, 255);\">ACADEMIC INFORMATION</span></h1><ul><li><a href=\"https://flowcharts.calpoly.edu/\" rel=\"noopener noreferrer\" target=\"_blank\">Curriculum sheets &amp; flowcharts</a> for Cal Poly majors | this will show you information about concentrations if applicable in your major</li><li><a href=\"https://registrar.calpoly.edu/other_ac_credit\" rel=\"noopener noreferrer\" target=\"_blank\">AP/IB exams and test credits earned</a> &amp; <a href=\"https://catalog.calpoly.edu/academicstandardsandpolicies/evaluationoftransfercredit/#otheracademicredit\" rel=\"noopener noreferrer\" target=\"_blank\">policies on college-level examination program exams</a>&nbsp;&nbsp;</li><li><a href=\"https://advising.calpoly.edu/\" rel=\"noopener noreferrer\" target=\"_blank\">Academic Advising</a>&nbsp;&nbsp;</li><li><a href=\"https://registrar.calpoly.edu/how-use-assist\" rel=\"noopener noreferrer\" target=\"_blank\">How to use Assist.org</a>&nbsp;</li></ul><p><br></p><p><em>The Other Courses section is omitted for this major as there are no concentrations; the two optional areas of emphasis, Fiction Writing and Poetry Writing, do not have lower division courses; and this major has no lower division electives. Although not listed here, this major has 28 units of free electives.&nbsp;Please refer to curriculum sheets and flowcharts link above.</em>&nbsp;</p>",
+        "groupId": "9bdb7145-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "General"
+      },
+      {
+        "type": "GeneralTitle",
+        "content": "ADMISSIONS INFORMATION",
+        "groupId": "ceff1e87-f2dc-4852-abbd-01997d343526",
+        "position": 2,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p>To be a competitive transfer applicant, it\u2019s important to start by reviewing Cal Poly\u2019s <a href=\"https://www.calpoly.edu/admissions/transfer-student/selection-criteria\" rel=\"noopener noreferrer\" target=\"_blank\">Selection Criteria for Transfer Students</a> for your major of interest. This page outlines general admissions requirements for all transfer applicants and the required and desired courses for admissions to Cal Poly San Luis Obispo.&nbsp;&nbsp;Once you know which courses are expected, use ASSIST to see how your completed or planned courses match Cal Poly\u2019s. You can search articulation agreements by major, department, or course prefix. Keep in mind that credit is granted based on the academic year in which you took the course.&nbsp;</p><p><br></p><p>Note: Not all articulated courses listed in ASSIST are required to be a competitive applicant\u2014but completing the required courses in the selection criteria&nbsp;and as many recommended courses as possible will strengthen your application.&nbsp;</p><p class=\"ql-indent-1\"><span style=\"font-size: 16px;\">&nbsp;&nbsp;</span></p><p><strong><em>This is not a static document; new articulation may be added at any time. The information provided herein is subject to change without notice and does not constitute a contract or the terms and conditions of a contract between the student and the institution or the California State University.</em>&nbsp;</strong></p>",
+        "groupId": "3db9e8fd-0a30-42ff-9818-01997d343526",
+        "position": 3,
+        "area": "General"
+      },
+      {
+        "type": "GeneralTitle",
+        "content": "SEMESTER CONVERSION",
+        "groupId": "d526fe69-c97c-42a9-84e3-01997d343526",
+        "position": 4,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p>Cal Poly is currently on the quarter system, and all Cal Poly course units reflect that format. Starting Fall 2026, the university will switch to the semester system. If you begin at Cal Poly in Fall 2025, Cal Poly will make every effort to ensure a seamless transfer of your community college work, so that you make progress-to-degree.&nbsp;ASSIST agreements, flowcharts, curriculum sheets, and planning tools haven\u2019t been updated yet to show semester-based information. For latest updates, visit Cal Poly\u2019s official semester conversion page:&nbsp;</p><p><br></p><ul><li><a href=\"https://www.calpoly.edu/semester-conversion\" rel=\"noopener noreferrer\" target=\"_blank\">Semester conversion website</a>&nbsp;</li><li><a href=\"https://semesters.calpoly.edu/student-advising\" rel=\"noopener noreferrer\" target=\"_blank\">Specific College semester conversion websites</a>&nbsp;</li></ul>",
+        "groupId": "2f1640aa-f6d0-4968-9b66-01997d343526",
+        "position": 5,
+        "area": "General"
+      }
+    ],
+    "articulations": [
+      {
+        "templateCellId": "654dde08-c421-4c64-373f-08ddf49aba51",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 351801,
+            "courseTitle": "Introduction to Linguistics",
+            "courseNumber": "290",
+            "prefix": "ENGL",
+            "prefixParentId": 2635,
+            "prefixDescription": "English",
+            "departmentParentId": 4960,
+            "department": "English",
+            "begin": "F2000",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 290833,
+                    "courseTitle": "Introduction to Linguistics",
+                    "courseNumber": "1",
+                    "prefix": "LING",
+                    "prefixParentId": 2581,
+                    "prefixDescription": "Linguistics",
+                    "departmentParentId": 8639,
+                    "department": "Linguistics",
+                    "begin": "F1995",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "e45c65ab-fc28-401c-3741-08ddf49aba51",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 261987,
+            "courseTitle": "Sequence I: Fifth Century to Fifteenth Century",
+            "courseNumber": "203",
+            "prefix": "ENGL",
+            "prefixParentId": 2635,
+            "prefixDescription": "English",
+            "departmentParentId": 4960,
+            "department": "English",
+            "begin": "Su2019",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "Or",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 353362,
+                    "courseTitle": "Major British Writers (Medieval and Renaissance)",
+                    "courseNumber": "46A",
+                    "prefix": "ELIT",
+                    "prefixParentId": 4816,
+                    "prefixDescription": "English (Literature)",
+                    "departmentParentId": 5069,
+                    "department": "English (Literature)",
+                    "begin": "F1999",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 195,
+                    "position": 0,
+                    "type": "Course"
+                  },
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 363594,
+                    "courseTitle": "Major British Writers (Medieval and Renaissance) - HONORS",
+                    "courseNumber": "46AH",
+                    "prefix": "ELIT",
+                    "prefixParentId": 4816,
+                    "prefixDescription": "English (Literature)",
+                    "departmentParentId": 5069,
+                    "department": "English (Literature)",
+                    "begin": "F2018",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 271,
+                    "position": 1,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "Or",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 289056,
+                    "courseTitle": "Major British Writers (Neo-Classical and Romantic)",
+                    "courseNumber": "46B",
+                    "prefix": "ELIT",
+                    "prefixParentId": 4816,
+                    "prefixDescription": "English (Literature)",
+                    "departmentParentId": 5069,
+                    "department": "English (Literature)",
+                    "begin": "F1999",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 195,
+                    "position": 0,
+                    "type": "Course"
+                  },
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 363600,
+                    "courseTitle": "Major British Writers (Neo-Classical and Romantic) - HONORS",
+                    "courseNumber": "46BH",
+                    "prefix": "ELIT",
+                    "prefixParentId": 4816,
+                    "prefixDescription": "English (Literature)",
+                    "departmentParentId": 5069,
+                    "department": "English (Literature)",
+                    "begin": "F2018",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 271,
+                    "position": 1,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 1,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [
+              {
+                "id": "b67b32d8-82f0-46bc-8422-08ddf49accf2",
+                "sendingArticulationId": "2bb33e64-7944-4e91-5118-08ddf49acc21",
+                "groupConjunction": "And",
+                "sendingCourseGroupBeginPosition": 0,
+                "sendingCourseGroupEndPosition": 1
+              }
+            ],
+            "type": "SendingArticulation",
+            "attributes": [
+              {
+                "position": 0,
+                "content": "Acceptable substitute"
+              }
+            ]
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "e19c9f51-d614-4f50-3742-08ddf49aba51",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 259877,
+            "courseTitle": "Sequence II: Sixteenth Century to Late Seventeenth Century",
+            "courseNumber": "204",
+            "prefix": "ENGL",
+            "prefixParentId": 2635,
+            "prefixDescription": "English",
+            "departmentParentId": 4960,
+            "department": "English",
+            "begin": "Su2019",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "Or",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 353362,
+                    "courseTitle": "Major British Writers (Medieval and Renaissance)",
+                    "courseNumber": "46A",
+                    "prefix": "ELIT",
+                    "prefixParentId": 4816,
+                    "prefixDescription": "English (Literature)",
+                    "departmentParentId": 5069,
+                    "department": "English (Literature)",
+                    "begin": "F1999",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 195,
+                    "position": 0,
+                    "type": "Course"
+                  },
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 363594,
+                    "courseTitle": "Major British Writers (Medieval and Renaissance) - HONORS",
+                    "courseNumber": "46AH",
+                    "prefix": "ELIT",
+                    "prefixParentId": 4816,
+                    "prefixDescription": "English (Literature)",
+                    "departmentParentId": 5069,
+                    "department": "English (Literature)",
+                    "begin": "F2018",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 271,
+                    "position": 1,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [
+                  {
+                    "position": 0,
+                    "content": "Preferred course"
+                  }
+                ],
+                "position": 0,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "Or",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 289056,
+                    "courseTitle": "Major British Writers (Neo-Classical and Romantic)",
+                    "courseNumber": "46B",
+                    "prefix": "ELIT",
+                    "prefixParentId": 4816,
+                    "prefixDescription": "English (Literature)",
+                    "departmentParentId": 5069,
+                    "department": "English (Literature)",
+                    "begin": "F1999",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 195,
+                    "position": 0,
+                    "type": "Course"
+                  },
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 363600,
+                    "courseTitle": "Major British Writers (Neo-Classical and Romantic) - HONORS",
+                    "courseNumber": "46BH",
+                    "prefix": "ELIT",
+                    "prefixParentId": 4816,
+                    "prefixDescription": "English (Literature)",
+                    "departmentParentId": 5069,
+                    "department": "English (Literature)",
+                    "begin": "F2018",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 271,
+                    "position": 1,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 1,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [
+              {
+                "id": "e608cfee-d933-4332-8423-08ddf49accf2",
+                "sendingArticulationId": "41a42a4d-3118-4ac1-5119-08ddf49acc21",
+                "groupConjunction": "And",
+                "sendingCourseGroupBeginPosition": 0,
+                "sendingCourseGroupEndPosition": 1
+              }
+            ],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "e5b200a9-0e83-41a5-3743-08ddf49aba51",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 298597,
+            "courseTitle": "Introduction to Literary Studies",
+            "courseNumber": "202",
+            "prefix": "ENGL",
+            "prefixParentId": 2635,
+            "prefixDescription": "English",
+            "departmentParentId": 4960,
+            "department": "English",
+            "begin": "F2011",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 302735,
+                    "courseTitle": "Literature and Composition",
+                    "courseNumber": "1C",
+                    "prefix": "EWRT",
+                    "prefixParentId": 1402,
+                    "prefixDescription": "English (Writing)",
+                    "departmentParentId": 5070,
+                    "department": "English (Writing)",
+                    "begin": "F1999",
+                    "end": "F2026",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 195,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "bddb8cb5-d46a-418d-3748-08ddf49aba51",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 275868,
+            "courseTitle": "Intermediate Spanish II",
+            "courseNumber": "202",
+            "prefix": "SPAN",
+            "prefixParentId": 3100,
+            "prefixDescription": "Spanish",
+            "departmentParentId": 9330,
+            "department": "World Languages and Cultures",
+            "begin": "F2016",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 358905,
+                    "courseTitle": "Intermediate Spanish (Third Quarter)",
+                    "courseNumber": "6",
+                    "prefix": "SPAN",
+                    "prefixParentId": 3206,
+                    "prefixDescription": "Spanish",
+                    "departmentParentId": 12290,
+                    "department": "Spanish",
+                    "begin": "F2005",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 1,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 280845,
+                    "courseTitle": "Intermediate Spanish (Second Quarter)",
+                    "courseNumber": "5",
+                    "prefix": "SPAN",
+                    "prefixParentId": 3206,
+                    "prefixDescription": "Spanish",
+                    "departmentParentId": 12290,
+                    "department": "Spanish",
+                    "begin": "F2005",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [
+              {
+                "id": "fbe496f7-9738-42ba-8f8d-08ddf49accf2",
+                "sendingArticulationId": "faaa9af8-96f8-472e-9279-08ddf49acc21",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 0,
+                "sendingCourseGroupEndPosition": 1
+              }
+            ],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "286dc5d6-b5c3-47c9-3749-08ddf49aba51",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 275818,
+            "courseTitle": "Intermediate German I",
+            "courseNumber": "201",
+            "prefix": "GER",
+            "prefixParentId": 7774,
+            "prefixDescription": "German",
+            "departmentParentId": 9330,
+            "department": "World Languages and Cultures",
+            "begin": "F2016",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 307795,
+                    "courseTitle": "Intermediate German (First Quarter)",
+                    "courseNumber": "4",
+                    "prefix": "GERM",
+                    "prefixParentId": 7873,
+                    "prefixDescription": "German",
+                    "departmentParentId": 6461,
+                    "department": "German",
+                    "begin": "F2005",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "cdccbf86-0009-4957-374b-08ddf49aba51",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 259528,
+            "courseTitle": "Intermediate Spanish I",
+            "courseNumber": "201",
+            "prefix": "SPAN",
+            "prefixParentId": 3100,
+            "prefixDescription": "Spanish",
+            "departmentParentId": 9330,
+            "department": "World Languages and Cultures",
+            "begin": "F2016",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 307801,
+                    "courseTitle": "Intermediate Spanish (First Quarter)",
+                    "courseNumber": "4",
+                    "prefix": "SPAN",
+                    "prefixParentId": 3206,
+                    "prefixDescription": "Spanish",
+                    "departmentParentId": 12290,
+                    "department": "Spanish",
+                    "begin": "F2005",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 219,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      }
+    ],
+    "catalogYear": "{\"receivingCatalogYearBegin\":2025,\"receivingCatalogYearEnd\":2026,\"sendingCatalogYearBegin\":2025,\"sendingCatalogYearEnd\":2026}"
+  },
+  "validationFailure": null,
+  "isSuccessful": true
+}

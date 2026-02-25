@@ -1,0 +1,841 @@
+{
+  "result": {
+    "name": "Public Health, B.S.",
+    "type": "Major",
+    "publishDate": "2025-10-07T17:26:22.1700244",
+    "receivingInstitution": "{\"id\":21,\"code\":\"CSUHAY\",\"isCommunityCollege\":false,\"category\":\"CSU\",\"termType\":\"Quarter\",\"names\":[{\"name\":\"California State University, Hayward\",\"hasDepartments\":true,\"fromYear\":0,\"hideInList\":false},{\"name\":\"California State University, East Bay\",\"hasDepartments\":true,\"fromYear\":2005,\"hideInList\":false}],\"termTypeAcademicYears\":[{\"termType\":\"Semester\",\"fromYear\":2018},{\"termType\":\"Quarter\",\"fromYear\":2005},{\"termType\":\"Quarter\",\"fromYear\":1980}],\"beginId\":31,\"endId\":null}",
+    "sendingInstitution": "{\"id\":113,\"code\":\"DAC     \",\"isCommunityCollege\":true,\"category\":\"CCC\",\"termType\":\"Quarter\",\"names\":[{\"name\":\"De Anza College\",\"hasDepartments\":true,\"fromYear\":0,\"hideInList\":false}],\"termTypeAcademicYears\":[{\"termType\":\"Quarter\",\"fromYear\":1980}],\"beginId\":31,\"endId\":null}",
+    "academicYear": "{\"id\":76,\"code\":\"2025-2026\",\"beginDate\":\"2025-10-01T00:00:00\",\"endDate\":\"2026-10-01T00:00:00\",\"isOpenForMaintenance\":true,\"isOpenForPublic\":true,\"isOpenForReporting\":true,\"isLocked\":false}",
+    "templateAssets": [
+      {
+        "type": "GeneralTitle",
+        "content": "Public Health, B.S. PROGRAM (120 Units)",
+        "groupId": "9aab6f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p><br></p><p class=\"ql-align-justify\"><strong style=\"color: rgb(29, 32, 36); font-size: 16px;\">PLEASE NOTE: The Public Health B.S. is NOT compatible with the ADT in Public Health and is not part of the ADT to BS program.&nbsp;</strong></p><p class=\"ql-align-justify\"><strong style=\"font-size: 16px;\">Transfer students interested in the Public Health B.S. should contact the </strong><a href=\"https://www.csueastbay.edu/health/\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 16px;\"><strong>Department of Public Health</strong></a><strong style=\"font-size: 16px;\"> prior to enrollment at Phone: 510-885-3885 Email: ph@csueastbay.edu</strong></p><p class=\"ql-align-justify\"><strong style=\"font-size: 16px;\">The Department of Public Health does administer the HEALTH SCIENCE B.S. which is compatible with the ADT in Public Health. </strong></p>",
+        "groupId": "9dab6f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 3,
+        "area": "General"
+      },
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": false,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 285310,
+                      "courseTitle": "Introduction to Clinical Microbiology",
+                      "courseNumber": "230",
+                      "prefix": "BIOL",
+                      "prefixParentId": 9246,
+                      "prefixDescription": "Biological Science",
+                      "departmentParentId": 1620,
+                      "department": "Biological Science",
+                      "begin": "F2018",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "c7bce2f3-b1a2-4764-9f40-08dda831fbfa",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 0,
+            "attributes": []
+          },
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 388124,
+                      "courseTitle": "ENVIRONMENTAL HEALTH MICROBIOLOGY",
+                      "courseNumber": "232",
+                      "prefix": "BIOL",
+                      "prefixParentId": 9246,
+                      "prefixDescription": "Biological Science",
+                      "departmentParentId": 1620,
+                      "department": "Biological Science",
+                      "begin": "F2023",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "e11b1f9a-ffcb-47c3-9f41-08dda831fbfa",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 1,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": {
+          "type": "Conjunction",
+          "conjunction": "Or",
+          "id": "72c5475b-ddba-4475-9a3d-08dda831fbeb",
+          "selectionType": "Select"
+        },
+        "advisements": [],
+        "groupId": "acab6f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementTitle",
+        "content": "LOWER DIVISION ELECTIVES",
+        "groupId": "fe0e7745-6887-ef11-8474-000d3a37e3b6",
+        "position": 3,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": false,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 353971,
+                      "courseTitle": "Human Health and Wellness ",
+                      "courseNumber": "115",
+                      "prefix": "PH",
+                      "prefixParentId": 17013,
+                      "prefixDescription": "Public Health",
+                      "departmentParentId": 14112,
+                      "department": "Public Health",
+                      "begin": "F2022",
+                      "end": "",
+                      "minUnits": 3.0,
+                      "maxUnits": 3.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "ab64974e-8501-41c4-9f42-08dda831fbfa",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 365273,
+                      "courseTitle": "Investigating Disease Outbreaks and Epidemics ",
+                      "courseNumber": "270",
+                      "prefix": "PH",
+                      "prefixParentId": 17013,
+                      "prefixDescription": "Public Health",
+                      "departmentParentId": 14112,
+                      "department": "Public Health",
+                      "begin": "F2022",
+                      "end": "",
+                      "minUnits": 3.0,
+                      "maxUnits": 3.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "8194228d-ac57-4ef9-9f43-08dda831fbfa",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 0,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": {
+          "type": "NFromArea",
+          "amount": 1.0,
+          "amountQuantifier": "None",
+          "amountUnitType": "Course",
+          "toAmountDeterminer": "None",
+          "toAmount": 1.0,
+          "areaType": "None",
+          "id": "db1541a0-c6ec-4c5f-9a3e-08dda831fbeb",
+          "selectionType": "Complete"
+        },
+        "advisements": [],
+        "groupId": "b9ab6f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 4,
+        "area": "Requirements"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p>Program Description</p><p>Degree programs within the Department are some of the fastest-growing programs at Cal State East Bay. Students majoring in Public Health and Health Sciences are driven to improve the health of their communities and California. They are preparing for careers in fields such as public health, health policy, law, health education, program planning and evaluation, community health, behavioral health, occupational safety, and more.</p><p><br></p><p>The Department\u2019s programs focus on understanding human health from a population perspective with a strong emphasis on health equity, social justice, and the health effects of dynamic physical, social, and political environments. It asks students to think critically and to explore health from a variety of perspectives and to understand the role that culture has in constructing health.</p><p><br></p><p>The Department also emphasizes problem-based learning which is core to its approach. The Department\u2019s goal is to help students develop critical thinking, effective teamwork, and strong problem-solving skills.</p><p><br></p><p>The BS in Public Health reflects the core mission and values of the Department.&nbsp;This degree is designed to provide students with core competencies in the field of public health, as well as the application of theories, models, and methods for persistent and emerging public health issues.&nbsp;This degree is intended to provide rapid entry into the expanding public health labor market which provides tremendous opportunities for career advancement and social mobility.&nbsp;Most importantly, those holding a BS in Public Health will be part of multi-level strategies to protect and promote public health, while advancing health equity for vulnerable and disadvantaged communities.</p><p><br></p><p>This degree program also provides an opportunity for students to prepare themselves for clinical careers, although additional courses may need to be taken to meet any specific prerequisites for particular graduate or professional degree programs post-graduation.</p><p><br></p>",
+        "groupId": "c0ab6f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 2,
+        "area": "General"
+      },
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": false,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 2,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 365366,
+                      "courseTitle": "Health Humanities",
+                      "courseNumber": "130",
+                      "prefix": "PH",
+                      "prefixParentId": 17013,
+                      "prefixDescription": "Public Health",
+                      "departmentParentId": 14112,
+                      "department": "Public Health",
+                      "begin": "F2022",
+                      "end": "",
+                      "minUnits": 3.0,
+                      "maxUnits": 3.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "8972b889-fa44-426c-9f44-08dda831fbfa",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 256795,
+                      "courseTitle": "First Year Seminar in Health Sciences",
+                      "courseNumber": "100",
+                      "prefix": "PH",
+                      "prefixParentId": 17013,
+                      "prefixDescription": "Public Health",
+                      "departmentParentId": 14112,
+                      "department": "Public Health",
+                      "begin": "F2022",
+                      "end": "",
+                      "minUnits": 3.0,
+                      "maxUnits": 3.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "dba0c935-a471-49f4-9f45-08dda831fbfa",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 4,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 256774,
+                      "courseTitle": "AMERICAN POLITICAL INSTITUTIONS",
+                      "courseNumber": "101",
+                      "prefix": "POSC",
+                      "prefixParentId": 1910,
+                      "prefixDescription": "Political Science",
+                      "departmentParentId": 11065,
+                      "department": "Political Science",
+                      "begin": "F2018",
+                      "end": "",
+                      "minUnits": 3.0,
+                      "maxUnits": 3.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "4bcdbef4-819e-4955-9f46-08dda831fbfa",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 5,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 308306,
+                      "courseTitle": "ELEMENTS OF PROBABILITY AND STATISTICS",
+                      "courseNumber": "100",
+                      "prefix": "STAT",
+                      "prefixParentId": 3351,
+                      "prefixDescription": "Statistics",
+                      "departmentParentId": 12562,
+                      "department": "Statistics and Biostatistics",
+                      "begin": "F2018",
+                      "end": "",
+                      "minUnits": 3.0,
+                      "maxUnits": 3.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "5cd01fc8-b30e-405b-9f47-08dda831fbfa",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 365271,
+                      "courseTitle": "Introduction to Health Systems & Social Determinants of Health ",
+                      "courseNumber": "110",
+                      "prefix": "PH",
+                      "prefixParentId": 17013,
+                      "prefixDescription": "Public Health",
+                      "departmentParentId": 14112,
+                      "department": "Public Health",
+                      "begin": "F2022",
+                      "end": "",
+                      "minUnits": 3.0,
+                      "maxUnits": 3.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "88bb3646-7c89-4c43-9f48-08dda831fbfa",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 3,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 365272,
+                      "courseTitle": "Health Disparities and Health Equity",
+                      "courseNumber": "250",
+                      "prefix": "PH",
+                      "prefixParentId": 17013,
+                      "prefixDescription": "Public Health",
+                      "departmentParentId": 14112,
+                      "department": "Public Health",
+                      "begin": "F2022",
+                      "end": "",
+                      "minUnits": 3.0,
+                      "maxUnits": 3.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "ba7af9f9-9dff-4dfd-9f49-08dda831fbfa",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 0,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": {
+          "type": "Following",
+          "id": "86b22feb-8253-4845-9a3f-08dda831fbeb",
+          "selectionType": "Complete"
+        },
+        "advisements": [],
+        "groupId": "c3ab6f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 2,
+        "area": "Requirements"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p>PLEASE NOTE: ASSIST does not replace the assistance of meeting with an adviser. Please contact CSU East Bay at (510) 885-2556 for an advising appointment. The most accurate and up to date transfer information for transfer courses accepted by CSU East Bay is available at this link: <a href=\"https://tes.collegesource.com/publicview/TES_publicview01.aspx?rid=b75e02ac-0916-413d-8adf-f8011538371f&amp;aid=c79a2650-be66-45fb-9aff-c6f976fd20ff\" rel=\"noopener noreferrer\" target=\"_blank\">CSUEB Equivalencies </a>All California Community College transfer students are encouraged to complete their CSU General Education Breadth or CALGETC pattern at their Community College prior to enrollment at CSU, East Bay.  ASSOCIATE DEGREE FOR TRANSFER similarity matches with CSUEB DEGREES can be found here:  <a href=\"https://www.csueastbay.edu/aps/academic-services/articulation-and-transfer/associate-degrees-for-transfer.html\" rel=\"noopener noreferrer\" target=\"_blank\">ASSOCIATE DEGREES FOR TRANSFER CHART</a></p>",
+        "groupId": "c5ab6f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "General"
+      },
+      {
+        "type": "RequirementTitle",
+        "content": "LOWER DIVISION CORE",
+        "groupId": "2ffe7645-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "Requirements"
+      }
+    ],
+    "articulations": [
+      {
+        "templateCellId": "c7bce2f3-b1a2-4764-9f40-08dda831fbfa",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 285310,
+            "courseTitle": "Introduction to Clinical Microbiology",
+            "courseNumber": "230",
+            "prefix": "BIOL",
+            "prefixParentId": 9246,
+            "prefixDescription": "Biological Science",
+            "departmentParentId": 1620,
+            "department": "Biological Science",
+            "begin": "F2018",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 276918,
+                    "courseTitle": "Introductory Microbiology",
+                    "courseNumber": "26",
+                    "prefix": "BIOL",
+                    "prefixParentId": 4926,
+                    "prefixDescription": "Biology",
+                    "departmentParentId": 1741,
+                    "department": "Biology",
+                    "begin": "F2002",
+                    "end": "",
+                    "minUnits": 6.0,
+                    "maxUnits": 6.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "ab64974e-8501-41c4-9f42-08dda831fbfa",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 353971,
+            "courseTitle": "Human Health and Wellness ",
+            "courseNumber": "115",
+            "prefix": "PH",
+            "prefixParentId": 17013,
+            "prefixDescription": "Public Health",
+            "departmentParentId": 14112,
+            "department": "Public Health",
+            "begin": "F2022",
+            "end": "",
+            "minUnits": 3.0,
+            "maxUnits": 3.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 160030,
+                    "courseTitle": "Contemporary Health Concerns",
+                    "courseNumber": "21",
+                    "prefix": "HLTH",
+                    "prefixParentId": 2110,
+                    "prefixDescription": "Health",
+                    "departmentParentId": 6700,
+                    "department": "Health",
+                    "begin": "F1996",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "4bcdbef4-819e-4955-9f46-08dda831fbfa",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 256774,
+            "courseTitle": "AMERICAN POLITICAL INSTITUTIONS",
+            "courseNumber": "101",
+            "prefix": "POSC",
+            "prefixParentId": 1910,
+            "prefixDescription": "Political Science",
+            "departmentParentId": 11065,
+            "department": "Political Science",
+            "begin": "F2018",
+            "end": "",
+            "minUnits": 3.0,
+            "maxUnits": 3.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 282754,
+                    "courseTitle": "American Government and Politics",
+                    "courseNumber": "C1000",
+                    "prefix": "POLS",
+                    "prefixParentId": 18724,
+                    "prefixDescription": "Political Science",
+                    "departmentParentId": 11018,
+                    "department": "Political Science",
+                    "begin": "F2025",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 299,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 363587,
+                    "courseTitle": "American Government and Politics - HONORS",
+                    "courseNumber": "C1000H",
+                    "prefix": "POLS",
+                    "prefixParentId": 18724,
+                    "prefixDescription": "Political Science",
+                    "departmentParentId": 11018,
+                    "department": "Political Science",
+                    "begin": "F2025",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 299,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 1,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [
+              {
+                "id": "ca20cdd1-bfdf-495c-84f0-08de00f70b2d",
+                "sendingArticulationId": "c964d2f1-b7a4-496c-3fc9-08dda8322596",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 0,
+                "sendingCourseGroupEndPosition": 1
+              }
+            ],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "5cd01fc8-b30e-405b-9f47-08dda831fbfa",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 308306,
+            "courseTitle": "ELEMENTS OF PROBABILITY AND STATISTICS",
+            "courseNumber": "100",
+            "prefix": "STAT",
+            "prefixParentId": 3351,
+            "prefixDescription": "Statistics",
+            "departmentParentId": 12562,
+            "department": "Statistics and Biostatistics",
+            "begin": "F2018",
+            "end": "",
+            "minUnits": 3.0,
+            "maxUnits": 3.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 288705,
+                    "courseTitle": "Introduction to Statistics - HONORS",
+                    "courseNumber": "C1000H",
+                    "prefix": "STAT",
+                    "prefixParentId": 18723,
+                    "prefixDescription": "Statistics",
+                    "departmentParentId": 15393,
+                    "department": "Statistics",
+                    "begin": "F2025",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 1,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 358922,
+                    "courseTitle": "Introduction to Statistics",
+                    "courseNumber": "C1000",
+                    "prefix": "STAT",
+                    "prefixParentId": 18723,
+                    "prefixDescription": "Statistics",
+                    "departmentParentId": 15393,
+                    "department": "Statistics",
+                    "begin": "F2025",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 309383,
+                    "courseTitle": "Integrated Statistics 2",
+                    "courseNumber": "17",
+                    "prefix": "MATH",
+                    "prefixParentId": 10025,
+                    "prefixDescription": "Mathematics",
+                    "departmentParentId": 9040,
+                    "department": "Mathematics",
+                    "begin": "F2016",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 2,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [
+              {
+                "id": "1de39f1d-39cd-4503-61ec-08dda83225b1",
+                "sendingArticulationId": "ffcfa333-6b5e-4d2c-3fb3-08dda8322596",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 0,
+                "sendingCourseGroupEndPosition": 1
+              },
+              {
+                "id": "d06e9a02-9967-4767-61ed-08dda83225b1",
+                "sendingArticulationId": "ffcfa333-6b5e-4d2c-3fb3-08dda8322596",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 1,
+                "sendingCourseGroupEndPosition": 2
+              }
+            ],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      }
+    ],
+    "catalogYear": "{\"receivingCatalogYearBegin\":2025,\"receivingCatalogYearEnd\":2026,\"sendingCatalogYearBegin\":2025,\"sendingCatalogYearEnd\":2026}"
+  },
+  "validationFailure": null,
+  "isSuccessful": true
+}

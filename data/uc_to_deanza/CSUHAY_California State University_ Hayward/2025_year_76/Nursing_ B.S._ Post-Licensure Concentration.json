@@ -1,0 +1,2737 @@
+{
+  "result": {
+    "name": "Nursing, B.S.: Post-Licensure Concentration",
+    "type": "Major",
+    "publishDate": "2025-10-14T18:19:45.5100049",
+    "receivingInstitution": "{\"id\":21,\"code\":\"CSUHAY\",\"isCommunityCollege\":false,\"category\":\"CSU\",\"termType\":\"Quarter\",\"names\":[{\"name\":\"California State University, Hayward\",\"hasDepartments\":true,\"fromYear\":0,\"hideInList\":false},{\"name\":\"California State University, East Bay\",\"hasDepartments\":true,\"fromYear\":2005,\"hideInList\":false}],\"termTypeAcademicYears\":[{\"termType\":\"Semester\",\"fromYear\":2018},{\"termType\":\"Quarter\",\"fromYear\":2005},{\"termType\":\"Quarter\",\"fromYear\":1980}],\"beginId\":31,\"endId\":null}",
+    "sendingInstitution": "{\"id\":113,\"code\":\"DAC     \",\"isCommunityCollege\":true,\"category\":\"CCC\",\"termType\":\"Quarter\",\"names\":[{\"name\":\"De Anza College\",\"hasDepartments\":true,\"fromYear\":0,\"hideInList\":false}],\"termTypeAcademicYears\":[{\"termType\":\"Quarter\",\"fromYear\":1980}],\"beginId\":31,\"endId\":null}",
+    "academicYear": "{\"id\":76,\"code\":\"2025-2026\",\"beginDate\":\"2025-10-01T00:00:00\",\"endDate\":\"2026-10-01T00:00:00\",\"isOpenForMaintenance\":true,\"isOpenForPublic\":true,\"isOpenForReporting\":true,\"isLocked\":false}",
+    "templateAssets": [
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": false,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Series",
+                    "series": {
+                      "conjunction": "And",
+                      "name": "BIOL 270, BIOL 271",
+                      "courses": [
+                        {
+                          "id": "64ff3c9f-d93f-4010-b491-08dda831f292",
+                          "position": 0,
+                          "courseIdentifierParentId": 281912,
+                          "courseTitle": "HUMAN PHYSIOLOGY AND ANATOMY I",
+                          "courseNumber": "270",
+                          "prefix": "BIOL",
+                          "prefixParentId": 9246,
+                          "prefixDescription": "Biological Science",
+                          "departmentParentId": 1620,
+                          "department": "Biological Science",
+                          "begin": "F2018",
+                          "end": "",
+                          "minUnits": 5.0,
+                          "maxUnits": 5.0,
+                          "pathways": []
+                        },
+                        {
+                          "id": "470b089b-6694-4704-b492-08dda831f292",
+                          "position": 1,
+                          "courseIdentifierParentId": 308296,
+                          "courseTitle": "HUMAN PHYSIOLOGY AND ANATOMY II",
+                          "courseNumber": "271",
+                          "prefix": "BIOL",
+                          "prefixParentId": 9246,
+                          "prefixDescription": "Biological Science",
+                          "departmentParentId": 1620,
+                          "department": "Biological Science",
+                          "begin": "F2018",
+                          "end": "",
+                          "minUnits": 4.0,
+                          "maxUnits": 4.0,
+                          "pathways": []
+                        }
+                      ],
+                      "seriesPathways": []
+                    },
+                    "requisites": [],
+                    "visibleCrossListedCourses": [],
+                    "seriesAttributes": [],
+                    "courseAttributes": [],
+                    "id": "b992965d-1503-4981-9c8d-08dda831fbfa",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 0,
+            "attributes": []
+          },
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 281912,
+                      "courseTitle": "HUMAN PHYSIOLOGY AND ANATOMY I",
+                      "courseNumber": "270",
+                      "prefix": "BIOL",
+                      "prefixParentId": 9246,
+                      "prefixDescription": "Biological Science",
+                      "departmentParentId": 1620,
+                      "department": "Biological Science",
+                      "begin": "F2018",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "f7bd21a3-1efe-4563-9c8e-08dda831fbfa",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 308296,
+                      "courseTitle": "HUMAN PHYSIOLOGY AND ANATOMY II",
+                      "courseNumber": "271",
+                      "prefix": "BIOL",
+                      "prefixParentId": 9246,
+                      "prefixDescription": "Biological Science",
+                      "departmentParentId": 1620,
+                      "department": "Biological Science",
+                      "begin": "F2018",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "f6289b4d-e3e4-4c3b-9c8f-08dda831fbfa",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 1,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": {
+          "type": "Conjunction",
+          "conjunction": "Or",
+          "id": "5daf62b6-820d-474e-99bd-08dda831fbeb",
+          "selectionType": "Select"
+        },
+        "advisements": [],
+        "groupId": "bbbf6f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 3,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": false,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 294746,
+                      "courseTitle": "Public Speaking",
+                      "courseNumber": "100",
+                      "prefix": "COMM",
+                      "prefixParentId": 5121,
+                      "prefixDescription": "Communication",
+                      "departmentParentId": 2795,
+                      "department": "Communication",
+                      "begin": "F2018",
+                      "end": "",
+                      "minUnits": 3.0,
+                      "maxUnits": 3.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "88715c96-30f6-4cf9-9c90-08dda831fbfa",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 0,
+            "attributes": []
+          },
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 377523,
+                      "courseTitle": "Any A1 Course",
+                      "courseNumber": "XA1",
+                      "prefix": "SUBC",
+                      "prefixParentId": 16811,
+                      "prefixDescription": "Substitute Course",
+                      "departmentParentId": 13926,
+                      "department": "Substitute Course",
+                      "begin": "F2020",
+                      "end": "",
+                      "minUnits": 3.0,
+                      "maxUnits": 3.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "be207867-60f0-485e-9c91-08dda831fbfa",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 1,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": {
+          "type": "Conjunction",
+          "conjunction": "Or",
+          "id": "94c45fc6-2214-4631-99be-08dda831fbeb",
+          "selectionType": "Select"
+        },
+        "advisements": [],
+        "groupId": "bebf6f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 4,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": false,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 284419,
+                      "courseTitle": "WORKSHOP IN CRITICAL THINKING",
+                      "courseNumber": "100",
+                      "prefix": "PHIL",
+                      "prefixParentId": 5395,
+                      "prefixDescription": "Philosophy",
+                      "departmentParentId": 15665,
+                      "department": "Philosophy ad Religious Studies",
+                      "begin": "F2025",
+                      "end": "",
+                      "minUnits": 3.0,
+                      "maxUnits": 3.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "4ad37031-c742-4f88-9c92-08dda831fbfa",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 0,
+            "attributes": []
+          },
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 377499,
+                      "courseTitle": "Any A3 course",
+                      "courseNumber": "XA3",
+                      "prefix": "SUBC",
+                      "prefixParentId": 16811,
+                      "prefixDescription": "Substitute Course",
+                      "departmentParentId": 13926,
+                      "department": "Substitute Course",
+                      "begin": "F2020",
+                      "end": "",
+                      "minUnits": 3.0,
+                      "maxUnits": 3.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "8baf2b02-c666-4bc1-9c93-08dda831fbfa",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 1,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": {
+          "type": "Conjunction",
+          "conjunction": "Or",
+          "id": "a9614860-8378-49aa-99bf-08dda831fbeb",
+          "selectionType": "Select"
+        },
+        "advisements": [],
+        "groupId": "c0bf6f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 5,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": false,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 364993,
+                      "courseTitle": "Accelerated College Writing ",
+                      "courseNumber": "102",
+                      "prefix": "ENGL",
+                      "prefixParentId": 2645,
+                      "prefixDescription": "English",
+                      "departmentParentId": 4967,
+                      "department": "English",
+                      "begin": "F2018",
+                      "end": "",
+                      "minUnits": 3.0,
+                      "maxUnits": 3.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "90e11b68-bb98-4a50-9c94-08dda831fbfa",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 0,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": {
+          "type": "Following",
+          "id": "82c0279d-91ae-4662-99c0-08dda831fbeb",
+          "selectionType": "Complete"
+        },
+        "advisements": [],
+        "groupId": "c3bf6f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 6,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": false,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 359316,
+                      "courseTitle": "GENERAL PSYCHOLOGY",
+                      "courseNumber": "100",
+                      "prefix": "PSYC",
+                      "prefixParentId": 4610,
+                      "prefixDescription": "Psychology",
+                      "departmentParentId": 11228,
+                      "department": "Psychology",
+                      "begin": "F2018",
+                      "end": "",
+                      "minUnits": 3.0,
+                      "maxUnits": 3.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "985abce5-31a9-49e2-9c95-08dda831fbfa",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 0,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": {
+          "type": "Following",
+          "id": "de6aae96-85b3-4f26-99c1-08dda831fbeb",
+          "selectionType": "Complete"
+        },
+        "advisements": [],
+        "groupId": "c6bf6f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 9,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": false,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 305909,
+                      "courseTitle": "Basic Chemistry for Health Sciences",
+                      "courseNumber": "161",
+                      "prefix": "CHEM",
+                      "prefixParentId": 3762,
+                      "prefixDescription": "Chemistry",
+                      "departmentParentId": 15664,
+                      "department": "Chemistry and Biochemistry",
+                      "begin": "F2025",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "6e31df5c-0005-4dad-9c96-08dda831fbfa",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 0,
+            "attributes": []
+          },
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 377500,
+                      "courseTitle": "ANY CSU ARTICULATED CHEMISTRY",
+                      "courseNumber": "XCHEM",
+                      "prefix": "SUBC",
+                      "prefixParentId": 16811,
+                      "prefixDescription": "Substitute Course",
+                      "departmentParentId": 13926,
+                      "department": "Substitute Course",
+                      "begin": "F2020",
+                      "end": "",
+                      "minUnits": 3.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "a9ec7afc-8f2a-4056-9c97-08dda831fbfa",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 1,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": {
+          "type": "Conjunction",
+          "conjunction": "Or",
+          "id": "44a1ce1f-796e-436f-99c2-08dda831fbeb",
+          "selectionType": "Select"
+        },
+        "advisements": [],
+        "groupId": "cabf6f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 2,
+        "area": "Requirements"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p>Program Description</p><p>The Department of Nursing offers an undergraduate program that leads to the Bachelor of Science degree with a major in Nursing. There are two concentrations within the major: the Pre-Licensure concentration and the Post-Licensure concentration.</p><p><br></p><p>Program Learning Outcomes</p><p>Students graduating with a B.S. in Nursing will be able to:</p><ol><li>Synthesize knowledge from the natural sciences, behavioral sciences and the humanities with current nursing knowledge and theory to deliver nursing care;</li><li>Provide safe, compassionate nursing care to diverse populations;</li><li>Use critical thinking and communication skills to develop partnerships with clients and other healthcare professionals;</li><li>Demonstrate responsibility and accountability for design, delivery, and evaluation of client care;</li><li>Demonstrate professional behaviors in interactions with individuals, families, colleagues, and the community.</li></ol><p><br></p>",
+        "groupId": "cdbf6f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 2,
+        "area": "General"
+      },
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": false,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 285310,
+                      "courseTitle": "Introduction to Clinical Microbiology",
+                      "courseNumber": "230",
+                      "prefix": "BIOL",
+                      "prefixParentId": 9246,
+                      "prefixDescription": "Biological Science",
+                      "departmentParentId": 1620,
+                      "department": "Biological Science",
+                      "begin": "F2018",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "826de3b0-b596-49f7-9c99-08dda831fbfa",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 0,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": {
+          "type": "Following",
+          "id": "7e2b122c-c23e-4ddc-99c3-08dda831fbeb",
+          "selectionType": "Complete"
+        },
+        "advisements": [],
+        "groupId": "d2bf6f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "Requirements"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p>PLEASE NOTE: ASSIST does not replace the assistance of meeting with an adviser. Please contact CSU East Bay at (510) 885-2556 for an advising appointment. The most accurate and up to date transfer information for transfer courses accepted by CSU East Bay is available at this link: <a href=\"https://tes.collegesource.com/publicview/TES_publicview01.aspx?rid=b75e02ac-0916-413d-8adf-f8011538371f&amp;aid=c79a2650-be66-45fb-9aff-c6f976fd20ff\" rel=\"noopener noreferrer\" target=\"_blank\">CSUEB Equivalencies </a>All California Community College transfer students are encouraged to complete their CSU General Education Breadth or CALGETC pattern at their Community College prior to enrollment at CSU, East Bay.  ASSOCIATE DEGREE FOR TRANSFER similarity matches with CSUEB DEGREES can be found here:  <a href=\"https://www.csueastbay.edu/aps/academic-services/articulation-and-transfer/associate-degrees-for-transfer.html\" rel=\"noopener noreferrer\" target=\"_blank\">ASSOCIATE DEGREES FOR TRANSFER CHART</a></p>",
+        "groupId": "d5bf6f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "General"
+      },
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": false,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 256832,
+                      "courseTitle": "INTRODUCTION TO CULTURAL ANTHROPOLOGY",
+                      "courseNumber": "130",
+                      "prefix": "ANTH",
+                      "prefixParentId": 10699,
+                      "prefixDescription": "Anthropology",
+                      "departmentParentId": 702,
+                      "department": "Anthropology",
+                      "begin": "F2018",
+                      "end": "",
+                      "minUnits": 3.0,
+                      "maxUnits": 3.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "a382316e-53fc-44de-9c9a-08dda831fbfa",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 256766,
+                      "courseTitle": "INTRODUCTION TO ANTHROPOLOGY",
+                      "courseNumber": "100",
+                      "prefix": "ANTH",
+                      "prefixParentId": 10699,
+                      "prefixDescription": "Anthropology",
+                      "departmentParentId": 702,
+                      "department": "Anthropology",
+                      "begin": "F2018",
+                      "end": "",
+                      "minUnits": 3.0,
+                      "maxUnits": 3.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "6c1a3e3b-442d-4517-9c9b-08dda831fbfa",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 2,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 284357,
+                      "courseTitle": "INTRODUCTION TO SOCIOLOGY",
+                      "courseNumber": "100",
+                      "prefix": "SOC",
+                      "prefixParentId": 8995,
+                      "prefixDescription": "Sociology and Social Sciences",
+                      "departmentParentId": 12177,
+                      "department": "Sociology and Social Sciences",
+                      "begin": "F2018",
+                      "end": "",
+                      "minUnits": 3.0,
+                      "maxUnits": 3.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "96ab6021-8568-4aa2-9c9c-08dda831fbfa",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 0,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": {
+          "type": "NFromArea",
+          "amount": 1.0,
+          "amountQuantifier": "None",
+          "amountUnitType": "Course",
+          "toAmountDeterminer": "None",
+          "toAmount": 1.0,
+          "areaType": "None",
+          "id": "91d8549d-b0e8-4c17-99c4-08dda831fbeb",
+          "selectionType": "Select"
+        },
+        "advisements": [],
+        "groupId": "d7bf6f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 10,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementTitle",
+        "content": "LOWER DIVISION CORE",
+        "groupId": "12007745-6887-ef11-8474-000d3a37e3b6",
+        "position": 8,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementTitle",
+        "content": "PREREQUISITES FOR THE MAJOR",
+        "groupId": "f4ff7845-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "Requirements"
+      },
+      {
+        "type": "GeneralTitle",
+        "content": "Nursing, B.S. Program (120 units)",
+        "groupId": "d9bf6f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "General"
+      },
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": false,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 308306,
+                      "courseTitle": "ELEMENTS OF PROBABILITY AND STATISTICS",
+                      "courseNumber": "100",
+                      "prefix": "STAT",
+                      "prefixParentId": 3351,
+                      "prefixDescription": "Statistics",
+                      "departmentParentId": 12562,
+                      "department": "Statistics and Biostatistics",
+                      "begin": "F2018",
+                      "end": "",
+                      "minUnits": 3.0,
+                      "maxUnits": 3.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "20e2266e-4b81-4517-86cb-08de00ff42ca",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 0,
+            "attributes": []
+          },
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 303201,
+                      "courseTitle": "ELEMENTS OF STATISTICS FOR BUSINESS AND ECONOMICS",
+                      "courseNumber": "110",
+                      "prefix": "STAT",
+                      "prefixParentId": 3351,
+                      "prefixDescription": "Statistics",
+                      "departmentParentId": 12562,
+                      "department": "Statistics and Biostatistics",
+                      "begin": "F2018",
+                      "end": "",
+                      "minUnits": 3.0,
+                      "maxUnits": 3.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "e8e5d41c-f982-4b05-86cc-08de00ff42ca",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 1,
+            "attributes": []
+          },
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 418902,
+                      "courseTitle": "INTRODUCTION TO STATISTICS IN SOCIAL SCIENCES",
+                      "courseNumber": "125",
+                      "prefix": "STAT",
+                      "prefixParentId": 3351,
+                      "prefixDescription": "Statistics",
+                      "departmentParentId": 12562,
+                      "department": "Statistics and Biostatistics",
+                      "begin": "F2025",
+                      "end": "",
+                      "minUnits": 3.0,
+                      "maxUnits": 3.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "4875a118-11f4-4b0d-86d2-08de00ff42ca",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 2,
+            "attributes": []
+          },
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 418903,
+                      "courseTitle": "STATISTICS ",
+                      "courseNumber": "XSTAT",
+                      "prefix": "SUBC",
+                      "prefixParentId": 16811,
+                      "prefixDescription": "Substitute Course",
+                      "departmentParentId": 13926,
+                      "department": "Substitute Course",
+                      "begin": "F2025",
+                      "end": "",
+                      "minUnits": 3.0,
+                      "maxUnits": 3.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "b8eeae5a-851e-42ea-86d3-08de00ff42ca",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 3,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": true,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": {
+          "type": "Conjunction",
+          "conjunction": "Or",
+          "id": "8fa30bd8-70b3-4e06-ec25-08de00ff6dae",
+          "selectionType": "Select"
+        },
+        "advisements": [],
+        "groupId": "88385e12-4686-4332-9971-0199e3e29a75",
+        "position": 7,
+        "area": "Requirements"
+      }
+    ],
+    "articulations": [
+      {
+        "templateCellId": "f7bd21a3-1efe-4563-9c8e-08dda831fbfa",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 281912,
+            "courseTitle": "HUMAN PHYSIOLOGY AND ANATOMY I",
+            "courseNumber": "270",
+            "prefix": "BIOL",
+            "prefixParentId": 9246,
+            "prefixDescription": "Biological Science",
+            "departmentParentId": 1620,
+            "department": "Biological Science",
+            "begin": "F2018",
+            "end": "",
+            "minUnits": 5.0,
+            "maxUnits": 5.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": "Articulates as a Series Only",
+            "deniedCourses": [],
+            "items": [],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "f6289b4d-e3e4-4c3b-9c8f-08dda831fbfa",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 308296,
+            "courseTitle": "HUMAN PHYSIOLOGY AND ANATOMY II",
+            "courseNumber": "271",
+            "prefix": "BIOL",
+            "prefixParentId": 9246,
+            "prefixDescription": "Biological Science",
+            "departmentParentId": 1620,
+            "department": "Biological Science",
+            "begin": "F2018",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": "Articulates as a Series Only",
+            "deniedCourses": [],
+            "items": [],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "88715c96-30f6-4cf9-9c90-08dda831fbfa",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 294746,
+            "courseTitle": "Public Speaking",
+            "courseNumber": "100",
+            "prefix": "COMM",
+            "prefixParentId": 5121,
+            "prefixDescription": "Communication",
+            "departmentParentId": 2795,
+            "department": "Communication",
+            "begin": "F2018",
+            "end": "",
+            "minUnits": 3.0,
+            "maxUnits": 3.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 305270,
+                    "courseTitle": "Introduction to Public Speaking - Honors",
+                    "courseNumber": "C1000H",
+                    "prefix": "COMM",
+                    "prefixParentId": 4367,
+                    "prefixDescription": "Communication Studies",
+                    "departmentParentId": 13310,
+                    "department": "Communication Studies",
+                    "begin": "F2025",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 1,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 253717,
+                    "courseTitle": "Introduction to Public Speaking",
+                    "courseNumber": "C1000",
+                    "prefix": "COMM",
+                    "prefixParentId": 4367,
+                    "prefixDescription": "Communication Studies",
+                    "departmentParentId": 13310,
+                    "department": "Communication Studies",
+                    "begin": "F2025",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 281189,
+                    "courseTitle": "Fundamentals of Oral Communication",
+                    "courseNumber": "10",
+                    "prefix": "COMM",
+                    "prefixParentId": 4367,
+                    "prefixDescription": "Communication Studies",
+                    "departmentParentId": 13310,
+                    "department": "Communication Studies",
+                    "begin": "F2017",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 2,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 305274,
+                    "courseTitle": "Fundamentals of Oral Communication - HONORS",
+                    "courseNumber": "10H",
+                    "prefix": "COMM",
+                    "prefixParentId": 4367,
+                    "prefixDescription": "Communication Studies",
+                    "departmentParentId": 13310,
+                    "department": "Communication Studies",
+                    "begin": "F2017",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 3,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [
+              {
+                "id": "390c9e50-f7f8-455d-5aa2-08dda83225b1",
+                "sendingArticulationId": "15ae4af4-e039-4713-25b9-08dda8322596",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 0,
+                "sendingCourseGroupEndPosition": 1
+              },
+              {
+                "id": "3dfd204d-3f2f-40dc-5aa3-08dda83225b1",
+                "sendingArticulationId": "15ae4af4-e039-4713-25b9-08dda8322596",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 1,
+                "sendingCourseGroupEndPosition": 2
+              },
+              {
+                "id": "2a074f8b-7229-4c84-5aa4-08dda83225b1",
+                "sendingArticulationId": "15ae4af4-e039-4713-25b9-08dda8322596",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 2,
+                "sendingCourseGroupEndPosition": 3
+              }
+            ],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "be207867-60f0-485e-9c91-08dda831fbfa",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 377523,
+            "courseTitle": "Any A1 Course",
+            "courseNumber": "XA1",
+            "prefix": "SUBC",
+            "prefixParentId": 16811,
+            "prefixDescription": "Substitute Course",
+            "departmentParentId": 13926,
+            "department": "Substitute Course",
+            "begin": "F2020",
+            "end": "",
+            "minUnits": 3.0,
+            "maxUnits": 3.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": "Articulates as Course-to-Course Only",
+            "deniedCourses": [],
+            "items": [],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "4ad37031-c742-4f88-9c92-08dda831fbfa",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 284419,
+            "courseTitle": "WORKSHOP IN CRITICAL THINKING",
+            "courseNumber": "100",
+            "prefix": "PHIL",
+            "prefixParentId": 5395,
+            "prefixDescription": "Philosophy",
+            "departmentParentId": 15665,
+            "department": "Philosophy ad Religious Studies",
+            "begin": "F2025",
+            "end": "",
+            "minUnits": 3.0,
+            "maxUnits": 3.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 290438,
+                    "courseTitle": "Critical Thinking",
+                    "courseNumber": "4",
+                    "prefix": "PHIL",
+                    "prefixParentId": 5487,
+                    "prefixDescription": "Philosophy",
+                    "departmentParentId": 10175,
+                    "department": "Philosophy",
+                    "begin": "F1995",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "8baf2b02-c666-4bc1-9c93-08dda831fbfa",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 377499,
+            "courseTitle": "Any A3 course",
+            "courseNumber": "XA3",
+            "prefix": "SUBC",
+            "prefixParentId": 16811,
+            "prefixDescription": "Substitute Course",
+            "departmentParentId": 13926,
+            "department": "Substitute Course",
+            "begin": "F2020",
+            "end": "",
+            "minUnits": 3.0,
+            "maxUnits": 3.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 360067,
+                    "courseTitle": "Critical Thinking and Writing - HONORS ",
+                    "courseNumber": "C1001H",
+                    "prefix": "ENGL",
+                    "prefixParentId": 18741,
+                    "prefixDescription": "English",
+                    "departmentParentId": 15392,
+                    "department": "English",
+                    "begin": "F2025",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 1,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 363590,
+                    "courseTitle": "Argumentation: Analysis of Oral and Written Communication - HONORS",
+                    "courseNumber": "9H",
+                    "prefix": "COMM",
+                    "prefixParentId": 4367,
+                    "prefixDescription": "Communication Studies",
+                    "departmentParentId": 13310,
+                    "department": "Communication Studies",
+                    "begin": "F2018",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 5,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 288767,
+                    "courseTitle": "Argumentation and Critical Inquiry in Oral Communication - HONORS",
+                    "courseNumber": "8H",
+                    "prefix": "COMM",
+                    "prefixParentId": 4367,
+                    "prefixDescription": "Communication Studies",
+                    "departmentParentId": 13310,
+                    "department": "Communication Studies",
+                    "begin": "F2017",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 3,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 368049,
+                    "courseTitle": "Deductive Logic - HONORS",
+                    "courseNumber": "7H",
+                    "prefix": "PHIL",
+                    "prefixParentId": 5487,
+                    "prefixDescription": "Philosophy",
+                    "departmentParentId": 10175,
+                    "department": "Philosophy",
+                    "begin": "F2019",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 10,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 253714,
+                    "courseTitle": "Argumentation and Critical Inquiry in Oral Communication",
+                    "courseNumber": "8",
+                    "prefix": "COMM",
+                    "prefixParentId": 4367,
+                    "prefixDescription": "Communication Studies",
+                    "departmentParentId": 13310,
+                    "department": "Communication Studies",
+                    "begin": "F2017",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 2,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 288525,
+                    "courseTitle": "Critical Decision-Making in Groups",
+                    "courseNumber": "15",
+                    "prefix": "COMM",
+                    "prefixParentId": 4367,
+                    "prefixDescription": "Communication Studies",
+                    "departmentParentId": 13310,
+                    "department": "Communication Studies",
+                    "begin": "F2024",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 6,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 305275,
+                    "courseTitle": "Critical Decision-Making in Groups - HONORS",
+                    "courseNumber": "15H",
+                    "prefix": "COMM",
+                    "prefixParentId": 4367,
+                    "prefixDescription": "Communication Studies",
+                    "departmentParentId": 13310,
+                    "department": "Communication Studies",
+                    "begin": "F2024",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 7,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 308237,
+                    "courseTitle": " Critical Thinking and Writing ",
+                    "courseNumber": "C1001",
+                    "prefix": "ENGL",
+                    "prefixParentId": 18741,
+                    "prefixDescription": "English",
+                    "departmentParentId": 15392,
+                    "department": "English",
+                    "begin": "F2025",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 253827,
+                    "courseTitle": "Deductive Logic",
+                    "courseNumber": "7",
+                    "prefix": "PHIL",
+                    "prefixParentId": 5487,
+                    "prefixDescription": "Philosophy",
+                    "departmentParentId": 10175,
+                    "department": "Philosophy",
+                    "begin": "F1995",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 9,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 302737,
+                    "courseTitle": "Critical Thinking and Writing",
+                    "courseNumber": "3",
+                    "prefix": "PHIL",
+                    "prefixParentId": 5487,
+                    "prefixDescription": "Philosophy",
+                    "departmentParentId": 10175,
+                    "department": "Philosophy",
+                    "begin": "F1995",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 8,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 280473,
+                    "courseTitle": "Argumentation: Analysis of Oral and Written Communication",
+                    "courseNumber": "9",
+                    "prefix": "COMM",
+                    "prefixParentId": 4367,
+                    "prefixDescription": "Communication Studies",
+                    "departmentParentId": 13310,
+                    "department": "Communication Studies",
+                    "begin": "F2017",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 4,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [
+              {
+                "id": "3da83980-295a-40c1-5a8f-08dda83225b1",
+                "sendingArticulationId": "3d06e7cc-2209-4a43-258f-08dda8322596",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 0,
+                "sendingCourseGroupEndPosition": 1
+              },
+              {
+                "id": "c185ac7e-09f4-4850-5a90-08dda83225b1",
+                "sendingArticulationId": "3d06e7cc-2209-4a43-258f-08dda8322596",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 1,
+                "sendingCourseGroupEndPosition": 2
+              },
+              {
+                "id": "ad19d4a9-7541-4de5-5a91-08dda83225b1",
+                "sendingArticulationId": "3d06e7cc-2209-4a43-258f-08dda8322596",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 2,
+                "sendingCourseGroupEndPosition": 3
+              },
+              {
+                "id": "0fdd6b5e-dfed-4d7d-5a92-08dda83225b1",
+                "sendingArticulationId": "3d06e7cc-2209-4a43-258f-08dda8322596",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 3,
+                "sendingCourseGroupEndPosition": 4
+              },
+              {
+                "id": "e7845b96-44d1-4123-5a93-08dda83225b1",
+                "sendingArticulationId": "3d06e7cc-2209-4a43-258f-08dda8322596",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 4,
+                "sendingCourseGroupEndPosition": 5
+              },
+              {
+                "id": "e19ce7fb-af15-4fea-5a94-08dda83225b1",
+                "sendingArticulationId": "3d06e7cc-2209-4a43-258f-08dda8322596",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 5,
+                "sendingCourseGroupEndPosition": 6
+              },
+              {
+                "id": "b98dbf63-be63-42fb-5a95-08dda83225b1",
+                "sendingArticulationId": "3d06e7cc-2209-4a43-258f-08dda8322596",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 6,
+                "sendingCourseGroupEndPosition": 7
+              },
+              {
+                "id": "616bc9ff-a98f-4b71-5a96-08dda83225b1",
+                "sendingArticulationId": "3d06e7cc-2209-4a43-258f-08dda8322596",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 7,
+                "sendingCourseGroupEndPosition": 8
+              },
+              {
+                "id": "ed6f9578-d50c-4bdd-5a97-08dda83225b1",
+                "sendingArticulationId": "3d06e7cc-2209-4a43-258f-08dda8322596",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 8,
+                "sendingCourseGroupEndPosition": 9
+              },
+              {
+                "id": "6539d1a2-9849-480e-5a98-08dda83225b1",
+                "sendingArticulationId": "3d06e7cc-2209-4a43-258f-08dda8322596",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 9,
+                "sendingCourseGroupEndPosition": 10
+              }
+            ],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "90e11b68-bb98-4a50-9c94-08dda831fbfa",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 364993,
+            "courseTitle": "Accelerated College Writing ",
+            "courseNumber": "102",
+            "prefix": "ENGL",
+            "prefixParentId": 2645,
+            "prefixDescription": "English",
+            "departmentParentId": 4967,
+            "department": "English",
+            "begin": "F2018",
+            "end": "",
+            "minUnits": 3.0,
+            "maxUnits": 3.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 359063,
+                    "courseTitle": "Advanced Composition and Reading",
+                    "courseNumber": "5",
+                    "prefix": "ESL",
+                    "prefixParentId": 4209,
+                    "prefixDescription": "English As a Second Language",
+                    "departmentParentId": 5143,
+                    "department": "English As a Second Language",
+                    "begin": "F1995",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 2,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 281338,
+                    "courseTitle": "Academic Reading and Writing",
+                    "courseNumber": "C1000",
+                    "prefix": "ENGL",
+                    "prefixParentId": 18741,
+                    "prefixDescription": "English",
+                    "departmentParentId": 15392,
+                    "department": "English",
+                    "begin": "F2025",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 360066,
+                    "courseTitle": "Academic Reading and Writing - HONORS",
+                    "courseNumber": "C1000H",
+                    "prefix": "ENGL",
+                    "prefixParentId": 18741,
+                    "prefixDescription": "English",
+                    "departmentParentId": 15392,
+                    "department": "English",
+                    "begin": "F2025",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 1,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [
+              {
+                "id": "6c9b2af8-75f7-4620-5a8c-08dda83225b1",
+                "sendingArticulationId": "b8957066-2173-446e-258d-08dda8322596",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 0,
+                "sendingCourseGroupEndPosition": 1
+              },
+              {
+                "id": "f103c335-9e2b-4a0c-5a8d-08dda83225b1",
+                "sendingArticulationId": "b8957066-2173-446e-258d-08dda8322596",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 1,
+                "sendingCourseGroupEndPosition": 2
+              }
+            ],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "985abce5-31a9-49e2-9c95-08dda831fbfa",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 359316,
+            "courseTitle": "GENERAL PSYCHOLOGY",
+            "courseNumber": "100",
+            "prefix": "PSYC",
+            "prefixParentId": 4610,
+            "prefixDescription": "Psychology",
+            "departmentParentId": 11228,
+            "department": "Psychology",
+            "begin": "F2018",
+            "end": "",
+            "minUnits": 3.0,
+            "maxUnits": 3.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 281450,
+                    "courseTitle": "Introduction to Psychology",
+                    "courseNumber": "C1000",
+                    "prefix": "PSYC",
+                    "prefixParentId": 4716,
+                    "prefixDescription": "Psychology",
+                    "departmentParentId": 11251,
+                    "department": "Psychology",
+                    "begin": "F2025",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "6e31df5c-0005-4dad-9c96-08dda831fbfa",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 305909,
+            "courseTitle": "Basic Chemistry for Health Sciences",
+            "courseNumber": "161",
+            "prefix": "CHEM",
+            "prefixParentId": 3762,
+            "prefixDescription": "Chemistry",
+            "departmentParentId": 15664,
+            "department": "Chemistry and Biochemistry",
+            "begin": "F2025",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 359076,
+                    "courseTitle": "Introductory Chemistry",
+                    "courseNumber": "10",
+                    "prefix": "CHEM",
+                    "prefixParentId": 3854,
+                    "prefixDescription": "Chemistry",
+                    "departmentParentId": 2358,
+                    "department": "Chemistry",
+                    "begin": "F1995",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 1,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 309434,
+                    "courseTitle": "Preparation Course for General Chemistry",
+                    "courseNumber": "25",
+                    "prefix": "CHEM",
+                    "prefixParentId": 3854,
+                    "prefixDescription": "Chemistry",
+                    "departmentParentId": 2358,
+                    "department": "Chemistry",
+                    "begin": "F2015",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 2,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 359144,
+                    "courseTitle": "Introduction to General, Organic and Biochemistry I",
+                    "courseNumber": "30A",
+                    "prefix": "CHEM",
+                    "prefixParentId": 3854,
+                    "prefixDescription": "Chemistry",
+                    "departmentParentId": 2358,
+                    "department": "Chemistry",
+                    "begin": "F2024",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [
+              {
+                "id": "21d1e146-c90f-45eb-61e9-08dda83225b1",
+                "sendingArticulationId": "abb6b7fd-5de9-49d6-3faf-08dda8322596",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 0,
+                "sendingCourseGroupEndPosition": 1
+              },
+              {
+                "id": "fa7b60b9-9a65-44e2-61ea-08dda83225b1",
+                "sendingArticulationId": "abb6b7fd-5de9-49d6-3faf-08dda8322596",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 1,
+                "sendingCourseGroupEndPosition": 2
+              }
+            ],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "a9ec7afc-8f2a-4056-9c97-08dda831fbfa",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 377500,
+            "courseTitle": "ANY CSU ARTICULATED CHEMISTRY",
+            "courseNumber": "XCHEM",
+            "prefix": "SUBC",
+            "prefixParentId": 16811,
+            "prefixDescription": "Substitute Course",
+            "departmentParentId": 13926,
+            "department": "Substitute Course",
+            "begin": "F2020",
+            "end": "",
+            "minUnits": 3.0,
+            "maxUnits": 5.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 359228,
+                    "courseTitle": "General Chemistry I",
+                    "courseNumber": "1A",
+                    "prefix": "CHEM",
+                    "prefixParentId": 3854,
+                    "prefixDescription": "Chemistry",
+                    "departmentParentId": 2358,
+                    "department": "Chemistry",
+                    "begin": "F2024",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 368022,
+                    "courseTitle": "General Chemistry I - HONORS",
+                    "courseNumber": "1AH",
+                    "prefix": "CHEM",
+                    "prefixParentId": 3854,
+                    "prefixDescription": "Chemistry",
+                    "departmentParentId": 2358,
+                    "department": "Chemistry",
+                    "begin": "F2024",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 1,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [
+              {
+                "id": "df728cdc-0654-44bd-61f5-08dda83225b1",
+                "sendingArticulationId": "d0ed3c87-95ba-4c4b-3fca-08dda8322596",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 0,
+                "sendingCourseGroupEndPosition": 1
+              }
+            ],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "826de3b0-b596-49f7-9c99-08dda831fbfa",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 285310,
+            "courseTitle": "Introduction to Clinical Microbiology",
+            "courseNumber": "230",
+            "prefix": "BIOL",
+            "prefixParentId": 9246,
+            "prefixDescription": "Biological Science",
+            "departmentParentId": 1620,
+            "department": "Biological Science",
+            "begin": "F2018",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 276918,
+                    "courseTitle": "Introductory Microbiology",
+                    "courseNumber": "26",
+                    "prefix": "BIOL",
+                    "prefixParentId": 4926,
+                    "prefixDescription": "Biology",
+                    "departmentParentId": 1741,
+                    "department": "Biology",
+                    "begin": "F2002",
+                    "end": "",
+                    "minUnits": 6.0,
+                    "maxUnits": 6.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "a382316e-53fc-44de-9c9a-08dda831fbfa",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 256832,
+            "courseTitle": "INTRODUCTION TO CULTURAL ANTHROPOLOGY",
+            "courseNumber": "130",
+            "prefix": "ANTH",
+            "prefixParentId": 10699,
+            "prefixDescription": "Anthropology",
+            "departmentParentId": 702,
+            "department": "Anthropology",
+            "begin": "F2018",
+            "end": "",
+            "minUnits": 3.0,
+            "maxUnits": 3.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 282442,
+                    "courseTitle": "Cultural Anthropology",
+                    "courseNumber": "2",
+                    "prefix": "ANTH",
+                    "prefixParentId": 10801,
+                    "prefixDescription": "Anthropology",
+                    "departmentParentId": 749,
+                    "department": "Anthropology",
+                    "begin": "F1995",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 274005,
+                    "courseTitle": "Cultural Anthropology - HONORS",
+                    "courseNumber": "2H",
+                    "prefix": "ANTH",
+                    "prefixParentId": 10801,
+                    "prefixDescription": "Anthropology",
+                    "departmentParentId": 749,
+                    "department": "Anthropology",
+                    "begin": "F2016",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 1,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [
+              {
+                "id": "62cc2c1b-943d-43c2-5a9e-08dda83225b1",
+                "sendingArticulationId": "df324c3c-a81c-4635-25b0-08dda8322596",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 0,
+                "sendingCourseGroupEndPosition": 1
+              }
+            ],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "96ab6021-8568-4aa2-9c9c-08dda831fbfa",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 284357,
+            "courseTitle": "INTRODUCTION TO SOCIOLOGY",
+            "courseNumber": "100",
+            "prefix": "SOC",
+            "prefixParentId": 8995,
+            "prefixDescription": "Sociology and Social Sciences",
+            "departmentParentId": 12177,
+            "department": "Sociology and Social Sciences",
+            "begin": "F2018",
+            "end": "",
+            "minUnits": 3.0,
+            "maxUnits": 3.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 254964,
+                    "courseTitle": "Introduction to Sociology",
+                    "courseNumber": "1",
+                    "prefix": "SOC",
+                    "prefixParentId": 9095,
+                    "prefixDescription": "Sociology",
+                    "departmentParentId": 12108,
+                    "department": "Sociology",
+                    "begin": "F1995",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "20e2266e-4b81-4517-86cb-08de00ff42ca",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 308306,
+            "courseTitle": "ELEMENTS OF PROBABILITY AND STATISTICS",
+            "courseNumber": "100",
+            "prefix": "STAT",
+            "prefixParentId": 3351,
+            "prefixDescription": "Statistics",
+            "departmentParentId": 12562,
+            "department": "Statistics and Biostatistics",
+            "begin": "F2018",
+            "end": "",
+            "minUnits": 3.0,
+            "maxUnits": 3.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 288705,
+                    "courseTitle": "Introduction to Statistics - HONORS",
+                    "courseNumber": "C1000H",
+                    "prefix": "STAT",
+                    "prefixParentId": 18723,
+                    "prefixDescription": "Statistics",
+                    "departmentParentId": 15393,
+                    "department": "Statistics",
+                    "begin": "F2025",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 1,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 358922,
+                    "courseTitle": "Introduction to Statistics",
+                    "courseNumber": "C1000",
+                    "prefix": "STAT",
+                    "prefixParentId": 18723,
+                    "prefixDescription": "Statistics",
+                    "departmentParentId": 15393,
+                    "department": "Statistics",
+                    "begin": "F2025",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 309383,
+                    "courseTitle": "Integrated Statistics 2",
+                    "courseNumber": "17",
+                    "prefix": "MATH",
+                    "prefixParentId": 10025,
+                    "prefixDescription": "Mathematics",
+                    "departmentParentId": 9040,
+                    "department": "Mathematics",
+                    "begin": "F2016",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 2,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [
+              {
+                "id": "1de39f1d-39cd-4503-61ec-08dda83225b1",
+                "sendingArticulationId": "ffcfa333-6b5e-4d2c-3fb3-08dda8322596",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 0,
+                "sendingCourseGroupEndPosition": 1
+              },
+              {
+                "id": "d06e9a02-9967-4767-61ed-08dda83225b1",
+                "sendingArticulationId": "ffcfa333-6b5e-4d2c-3fb3-08dda8322596",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 1,
+                "sendingCourseGroupEndPosition": 2
+              }
+            ],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "b992965d-1503-4981-9c8d-08dda831fbfa",
+        "articulation": {
+          "type": "Series",
+          "series": {
+            "conjunction": "And",
+            "name": "BIOL 270, BIOL 271",
+            "courses": [
+              {
+                "id": "64ff3c9f-d93f-4010-b491-08dda831f292",
+                "position": 0,
+                "courseIdentifierParentId": 281912,
+                "courseTitle": "HUMAN PHYSIOLOGY AND ANATOMY I",
+                "courseNumber": "270",
+                "prefix": "BIOL",
+                "prefixParentId": 9246,
+                "prefixDescription": "Biological Science",
+                "departmentParentId": 1620,
+                "department": "Biological Science",
+                "begin": "F2018",
+                "end": "",
+                "minUnits": 5.0,
+                "maxUnits": 5.0,
+                "pathways": []
+              },
+              {
+                "id": "470b089b-6694-4704-b492-08dda831f292",
+                "position": 1,
+                "courseIdentifierParentId": 308296,
+                "courseTitle": "HUMAN PHYSIOLOGY AND ANATOMY II",
+                "courseNumber": "271",
+                "prefix": "BIOL",
+                "prefixParentId": 9246,
+                "prefixDescription": "Biological Science",
+                "departmentParentId": 1620,
+                "department": "Biological Science",
+                "begin": "F2018",
+                "end": "",
+                "minUnits": 4.0,
+                "maxUnits": 4.0,
+                "pathways": []
+              }
+            ],
+            "seriesPathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "seriesAttributes": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 277589,
+                    "courseTitle": "Human Anatomy and Physiology III",
+                    "courseNumber": "40C",
+                    "prefix": "BIOL",
+                    "prefixParentId": 4926,
+                    "prefixDescription": "Biology",
+                    "departmentParentId": 1741,
+                    "department": "Biology",
+                    "begin": "F2025",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 2,
+                    "type": "Course"
+                  },
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 277593,
+                    "courseTitle": "Human Anatomy and Physiology I",
+                    "courseNumber": "40A",
+                    "prefix": "BIOL",
+                    "prefixParentId": 4926,
+                    "prefixDescription": "Biology",
+                    "departmentParentId": 1741,
+                    "department": "Biology",
+                    "begin": "F2025",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  },
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 247110,
+                    "courseTitle": "Human Anatomy and Physiology II",
+                    "courseNumber": "40B",
+                    "prefix": "BIOL",
+                    "prefixParentId": 4926,
+                    "prefixDescription": "Biology",
+                    "departmentParentId": 1741,
+                    "department": "Biology",
+                    "begin": "F2025",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 1,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Series",
+          "seriesAttributes": [],
+          "seriesCourseAttributes": [],
+          "attributes": []
+        }
+      }
+    ],
+    "catalogYear": "{\"receivingCatalogYearBegin\":2025,\"receivingCatalogYearEnd\":2026,\"sendingCatalogYearBegin\":2025,\"sendingCatalogYearEnd\":2026}"
+  },
+  "validationFailure": null,
+  "isSuccessful": true
+}

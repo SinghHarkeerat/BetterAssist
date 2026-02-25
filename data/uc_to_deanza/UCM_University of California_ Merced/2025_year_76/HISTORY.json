@@ -1,0 +1,4173 @@
+{
+  "result": {
+    "name": "HISTORY, B.A. ",
+    "type": "Major",
+    "publishDate": "2026-02-06T17:22:20.1485017",
+    "receivingInstitution": "{\"id\":144,\"code\":\"UCM     \",\"isCommunityCollege\":false,\"category\":\"UC\",\"termType\":\"Semester\",\"names\":[{\"name\":\"University of California, Merced\",\"hasDepartments\":true,\"fromYear\":0,\"hideInList\":false}],\"termTypeAcademicYears\":[{\"termType\":\"Semester\",\"fromYear\":2002}],\"beginId\":53,\"endId\":null}",
+    "sendingInstitution": "{\"id\":113,\"code\":\"DAC     \",\"isCommunityCollege\":true,\"category\":\"CCC\",\"termType\":\"Quarter\",\"names\":[{\"name\":\"De Anza College\",\"hasDepartments\":true,\"fromYear\":0,\"hideInList\":false}],\"termTypeAcademicYears\":[{\"termType\":\"Quarter\",\"fromYear\":1980}],\"beginId\":31,\"endId\":null}",
+    "academicYear": "{\"id\":76,\"code\":\"2025-2026\",\"beginDate\":\"2025-10-01T00:00:00\",\"endDate\":\"2026-10-01T00:00:00\",\"isOpenForMaintenance\":true,\"isOpenForPublic\":true,\"isOpenForReporting\":true,\"isLocked\":false}",
+    "templateAssets": [
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": true,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 380302,
+                      "courseTitle": "Music of the Caribbean World",
+                      "courseNumber": "070",
+                      "prefix": "CRES",
+                      "prefixParentId": 16184,
+                      "prefixDescription": "Critical Race and Ethnic Studies",
+                      "departmentParentId": 13384,
+                      "department": "Critical Race and Ethnic Studies",
+                      "begin": "F2021",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [
+                      {
+                        "course": {
+                          "courseIdentifierParentId": 274044,
+                          "courseTitle": "Music of the Caribbean World",
+                          "courseNumber": "070C",
+                          "prefix": "GASP",
+                          "prefixParentId": 15849,
+                          "prefixDescription": "Global Arts Study Program",
+                          "departmentParentId": 6543,
+                          "department": "Global Arts Study Program",
+                          "begin": "F2021",
+                          "end": "",
+                          "minUnits": 4.0,
+                          "maxUnits": 4.0,
+                          "pathways": []
+                        }
+                      }
+                    ],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "615b28b7-7ff9-4204-6863-08dd9e07c4d5",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 296892,
+                      "courseTitle": "History of Cartography",
+                      "courseNumber": "005",
+                      "prefix": "HIST",
+                      "prefixParentId": 13953,
+                      "prefixDescription": "History",
+                      "departmentParentId": 7035,
+                      "department": "History",
+                      "begin": "F2019",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "76bf9a8f-6ff5-4735-6864-08dd9e07c4d5",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 2,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 360730,
+                      "courseTitle": "Topics in World History",
+                      "courseNumber": "008",
+                      "prefix": "HIST",
+                      "prefixParentId": 13953,
+                      "prefixDescription": "History",
+                      "departmentParentId": 7035,
+                      "department": "History",
+                      "begin": "F2019",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "212c39e5-d65d-4238-6865-08dd9e07c4d5",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 3,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 269479,
+                      "courseTitle": "Introduction to World History to 1500",
+                      "courseNumber": "010",
+                      "prefix": "HIST",
+                      "prefixParentId": 13953,
+                      "prefixDescription": "History",
+                      "departmentParentId": 7035,
+                      "department": "History",
+                      "begin": "F2019",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": [
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 13,
+                          "pathwayName": "History",
+                          "pathwayCode": "History",
+                          "expectationId": 63,
+                          "expectationName": "C1-World History/Western Civ Seq.",
+                          "subexpectationId": 0,
+                          "subexpectationName": null
+                        }
+                      ]
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "406d0eda-5aa8-42e4-6866-08dd9e07c4d5",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 4,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 296242,
+                      "courseTitle": "Introduction to World History Since 1500",
+                      "courseNumber": "011",
+                      "prefix": "HIST",
+                      "prefixParentId": 13953,
+                      "prefixDescription": "History",
+                      "departmentParentId": 7035,
+                      "department": "History",
+                      "begin": "F2019",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": [
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 13,
+                          "pathwayName": "History",
+                          "pathwayCode": "History",
+                          "expectationId": 63,
+                          "expectationName": "C1-World History/Western Civ Seq.",
+                          "subexpectationId": 0,
+                          "subexpectationName": null
+                        }
+                      ]
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "dcaea64c-9aac-4d98-6867-08dd9e07c4d5",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 5,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 301695,
+                      "courseTitle": "Early Modern Europe",
+                      "courseNumber": "030B",
+                      "prefix": "HIST",
+                      "prefixParentId": 13953,
+                      "prefixDescription": "History",
+                      "departmentParentId": 7035,
+                      "department": "History",
+                      "begin": "F2019",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": [
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 13,
+                          "pathwayName": "History",
+                          "pathwayCode": "History",
+                          "expectationId": 63,
+                          "expectationName": "C1-World History/Western Civ Seq.",
+                          "subexpectationId": 0,
+                          "subexpectationName": null
+                        }
+                      ]
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "6d059f19-87bc-4397-6868-08dd9e07c4d5",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 6,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 271718,
+                      "courseTitle": "History of Technology in Society I",
+                      "courseNumber": "040",
+                      "prefix": "HIST",
+                      "prefixParentId": 13953,
+                      "prefixDescription": "History",
+                      "departmentParentId": 7035,
+                      "department": "History",
+                      "begin": "F2019",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [
+                      {
+                        "course": {
+                          "courseIdentifierParentId": 271717,
+                          "courseTitle": "History of Technology in Society I",
+                          "courseNumber": "040",
+                          "prefix": "ENGR",
+                          "prefixParentId": 13951,
+                          "prefixDescription": "Engineering",
+                          "departmentParentId": 4824,
+                          "department": "Engineering",
+                          "begin": "F2019",
+                          "end": "",
+                          "minUnits": 4.0,
+                          "maxUnits": 4.0,
+                          "pathways": []
+                        }
+                      }
+                    ],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "7ce21184-2935-44f6-6869-08dd9e07c4d5",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 7,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 357279,
+                      "courseTitle": "History of Technology in Society II",
+                      "courseNumber": "041",
+                      "prefix": "HIST",
+                      "prefixParentId": 13953,
+                      "prefixDescription": "History",
+                      "departmentParentId": 7035,
+                      "department": "History",
+                      "begin": "F2019",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [
+                      {
+                        "course": {
+                          "courseIdentifierParentId": 357278,
+                          "courseTitle": "History of Technology in Society II",
+                          "courseNumber": "041",
+                          "prefix": "ENGR",
+                          "prefixParentId": 13951,
+                          "prefixDescription": "Engineering",
+                          "departmentParentId": 4824,
+                          "department": "Engineering",
+                          "begin": "F2019",
+                          "end": "",
+                          "minUnits": 4.0,
+                          "maxUnits": 4.0,
+                          "pathways": []
+                        }
+                      }
+                    ],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "4d59c890-9b7c-461d-686a-08dd9e07c4d5",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 8,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 273303,
+                      "courseTitle": "The Body in Health and Disease \u2013 An Introduction to the History of Medicine",
+                      "courseNumber": "042",
+                      "prefix": "HIST",
+                      "prefixParentId": 13953,
+                      "prefixDescription": "History",
+                      "departmentParentId": 7035,
+                      "department": "History",
+                      "begin": "F2019",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "9a66718d-5092-4968-686b-08dd9e07c4d5",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 9,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 375148,
+                      "courseTitle": "The History of Things: A History of the Contemporary World",
+                      "courseNumber": "051",
+                      "prefix": "HIST",
+                      "prefixParentId": 13953,
+                      "prefixDescription": "History",
+                      "departmentParentId": 7035,
+                      "department": "History",
+                      "begin": "F2019",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [
+                      {
+                        "course": {
+                          "courseIdentifierParentId": 380298,
+                          "courseTitle": "The History of Things: A History of the Contemporary World",
+                          "courseNumber": "051",
+                          "prefix": "CRES",
+                          "prefixParentId": 16184,
+                          "prefixDescription": "Critical Race and Ethnic Studies",
+                          "departmentParentId": 13384,
+                          "department": "Critical Race and Ethnic Studies",
+                          "begin": "F2021",
+                          "end": "",
+                          "minUnits": 4.0,
+                          "maxUnits": 4.0,
+                          "pathways": []
+                        }
+                      }
+                    ],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "262ed6f1-4f17-41bd-686c-08dd9e07c4d5",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 10,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 270285,
+                      "courseTitle": "The Silk Road",
+                      "courseNumber": "060",
+                      "prefix": "HIST",
+                      "prefixParentId": 13953,
+                      "prefixDescription": "History",
+                      "departmentParentId": 7035,
+                      "department": "History",
+                      "begin": "F2019",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "343b47d4-90e7-4587-686d-08dd9e07c4d5",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 11,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 356913,
+                      "courseTitle": "History of the Middle East to 1500",
+                      "courseNumber": "070",
+                      "prefix": "HIST",
+                      "prefixParentId": 13953,
+                      "prefixDescription": "History",
+                      "departmentParentId": 7035,
+                      "department": "History",
+                      "begin": "F2019",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "b2a0b257-063c-4b74-686e-08dd9e07c4d5",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 12,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 270464,
+                      "courseTitle": "History of the Middle East since 1500",
+                      "courseNumber": "071",
+                      "prefix": "HIST",
+                      "prefixParentId": 13953,
+                      "prefixDescription": "History",
+                      "departmentParentId": 7035,
+                      "department": "History",
+                      "begin": "F2019",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "ba49c577-7d62-4f70-686f-08dd9e07c4d5",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 0,
+            "attributes": []
+          }
+        ],
+        "attributes": [
+          {
+            "position": 0,
+            "content": "Course(s) can only fulfill one requirement within the major"
+          }
+        ],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": {
+          "type": "NFromArea",
+          "amount": 1.0,
+          "amountQuantifier": "None",
+          "amountUnitType": "Course",
+          "toAmountDeterminer": "None",
+          "toAmount": 0.0,
+          "areaType": "None",
+          "id": "42460735-0f97-42ce-4f2e-08dd9e07c4d2",
+          "selectionType": "Complete"
+        },
+        "advisements": [],
+        "groupId": "1da514d9-2663-4cf1-be2c-0193db793c40",
+        "position": 3,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": true,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 296892,
+                      "courseTitle": "History of Cartography",
+                      "courseNumber": "005",
+                      "prefix": "HIST",
+                      "prefixParentId": 13953,
+                      "prefixDescription": "History",
+                      "departmentParentId": 7035,
+                      "department": "History",
+                      "begin": "F2019",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "2f05def6-5b33-4623-6870-08dd9e07c4d5",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 360730,
+                      "courseTitle": "Topics in World History",
+                      "courseNumber": "008",
+                      "prefix": "HIST",
+                      "prefixParentId": 13953,
+                      "prefixDescription": "History",
+                      "departmentParentId": 7035,
+                      "department": "History",
+                      "begin": "F2019",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "ba83982c-ae3d-4292-6871-08dd9e07c4d5",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 2,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 269479,
+                      "courseTitle": "Introduction to World History to 1500",
+                      "courseNumber": "010",
+                      "prefix": "HIST",
+                      "prefixParentId": 13953,
+                      "prefixDescription": "History",
+                      "departmentParentId": 7035,
+                      "department": "History",
+                      "begin": "F2019",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": [
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 13,
+                          "pathwayName": "History",
+                          "pathwayCode": "History",
+                          "expectationId": 63,
+                          "expectationName": "C1-World History/Western Civ Seq.",
+                          "subexpectationId": 0,
+                          "subexpectationName": null
+                        }
+                      ]
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "dba737a3-6969-4e58-6872-08dd9e07c4d5",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 3,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 296242,
+                      "courseTitle": "Introduction to World History Since 1500",
+                      "courseNumber": "011",
+                      "prefix": "HIST",
+                      "prefixParentId": 13953,
+                      "prefixDescription": "History",
+                      "departmentParentId": 7035,
+                      "department": "History",
+                      "begin": "F2019",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": [
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 13,
+                          "pathwayName": "History",
+                          "pathwayCode": "History",
+                          "expectationId": 63,
+                          "expectationName": "C1-World History/Western Civ Seq.",
+                          "subexpectationId": 0,
+                          "subexpectationName": null
+                        }
+                      ]
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "241f1be3-7dd9-4ba8-6873-08dd9e07c4d5",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 4,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 296243,
+                      "courseTitle": "Forging of the United States, 1607-1877",
+                      "courseNumber": "016",
+                      "prefix": "HIST",
+                      "prefixParentId": 13953,
+                      "prefixDescription": "History",
+                      "departmentParentId": 7035,
+                      "department": "History",
+                      "begin": "F2019",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": [
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 13,
+                          "pathwayName": "History",
+                          "pathwayCode": "History",
+                          "expectationId": 64,
+                          "expectationName": "C2-US History",
+                          "subexpectationId": 0,
+                          "subexpectationName": null
+                        }
+                      ]
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "75722633-e0cb-41cb-6874-08dd9e07c4d5",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 5,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 299515,
+                      "courseTitle": "Twentieth-Century America",
+                      "courseNumber": "017",
+                      "prefix": "HIST",
+                      "prefixParentId": 13953,
+                      "prefixDescription": "History",
+                      "departmentParentId": 7035,
+                      "department": "History",
+                      "begin": "F2019",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": [
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 13,
+                          "pathwayName": "History",
+                          "pathwayCode": "History",
+                          "expectationId": 64,
+                          "expectationName": "C2-US History",
+                          "subexpectationId": 0,
+                          "subexpectationName": null
+                        }
+                      ]
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "c3193fe3-1339-4457-6875-08dd9e07c4d5",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 6,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 356656,
+                      "courseTitle": "History of the American West, 1500-1849",
+                      "courseNumber": "020",
+                      "prefix": "HIST",
+                      "prefixParentId": 13953,
+                      "prefixDescription": "History",
+                      "departmentParentId": 7035,
+                      "department": "History",
+                      "begin": "F2019",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "7ee1fc94-1d4d-46c1-6876-08dd9e07c4d5",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 7,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 269480,
+                      "courseTitle": "History of the American West, 1850-2000",
+                      "courseNumber": "021",
+                      "prefix": "HIST",
+                      "prefixParentId": 13953,
+                      "prefixDescription": "History",
+                      "departmentParentId": 7035,
+                      "department": "History",
+                      "begin": "F2019",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "15b597c7-31ff-4002-6877-08dd9e07c4d5",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 8,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 304677,
+                      "courseTitle": "Local Harvest, Global Industry: History of the Production and Consumption of Food",
+                      "courseNumber": "027",
+                      "prefix": "HIST",
+                      "prefixParentId": 13953,
+                      "prefixDescription": "History",
+                      "departmentParentId": 7035,
+                      "department": "History",
+                      "begin": "F2019",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [
+                      {
+                        "course": {
+                          "courseIdentifierParentId": 375118,
+                          "courseTitle": "Local Harvest, Global Industry: History of the Production and Consumption of Food",
+                          "courseNumber": "027",
+                          "prefix": "CRES",
+                          "prefixParentId": 16184,
+                          "prefixDescription": "Critical Race and Ethnic Studies",
+                          "departmentParentId": 13384,
+                          "department": "Critical Race and Ethnic Studies",
+                          "begin": "F2019",
+                          "end": "",
+                          "minUnits": 4.0,
+                          "maxUnits": 4.0,
+                          "pathways": []
+                        }
+                      }
+                    ],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "01ad6269-91f9-45b2-6878-08dd9e07c4d5",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 9,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 301695,
+                      "courseTitle": "Early Modern Europe",
+                      "courseNumber": "030B",
+                      "prefix": "HIST",
+                      "prefixParentId": 13953,
+                      "prefixDescription": "History",
+                      "departmentParentId": 7035,
+                      "department": "History",
+                      "begin": "F2019",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": [
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 13,
+                          "pathwayName": "History",
+                          "pathwayCode": "History",
+                          "expectationId": 63,
+                          "expectationName": "C1-World History/Western Civ Seq.",
+                          "subexpectationId": 0,
+                          "subexpectationName": null
+                        }
+                      ]
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "8294f2f1-a08d-4f0d-6879-08dd9e07c4d5",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 10,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 375143,
+                      "courseTitle": "Making of the Atlantic World, 1450-1800",
+                      "courseNumber": "035",
+                      "prefix": "HIST",
+                      "prefixParentId": 13953,
+                      "prefixDescription": "History",
+                      "departmentParentId": 7035,
+                      "department": "History",
+                      "begin": "F2019",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "29561f64-556c-4f8a-687a-08dd9e07c4d5",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 11,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 360731,
+                      "courseTitle": "Topics in U.S. History & CRES",
+                      "courseNumber": "039",
+                      "prefix": "HIST",
+                      "prefixParentId": 13953,
+                      "prefixDescription": "History",
+                      "departmentParentId": 7035,
+                      "department": "History",
+                      "begin": "F2025",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [
+                      {
+                        "course": {
+                          "courseIdentifierParentId": 418590,
+                          "courseTitle": "Topics in U.S. History & CRES",
+                          "courseNumber": "039",
+                          "prefix": "CRES",
+                          "prefixParentId": 16184,
+                          "prefixDescription": "Critical Race and Ethnic Studies",
+                          "departmentParentId": 13384,
+                          "department": "Critical Race and Ethnic Studies",
+                          "begin": "F2025",
+                          "end": "",
+                          "minUnits": 4.0,
+                          "maxUnits": 4.0,
+                          "pathways": []
+                        }
+                      }
+                    ],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "9d60302b-9c95-412f-687b-08dd9e07c4d5",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 12,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 271718,
+                      "courseTitle": "History of Technology in Society I",
+                      "courseNumber": "040",
+                      "prefix": "HIST",
+                      "prefixParentId": 13953,
+                      "prefixDescription": "History",
+                      "departmentParentId": 7035,
+                      "department": "History",
+                      "begin": "F2019",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [
+                      {
+                        "course": {
+                          "courseIdentifierParentId": 271717,
+                          "courseTitle": "History of Technology in Society I",
+                          "courseNumber": "040",
+                          "prefix": "ENGR",
+                          "prefixParentId": 13951,
+                          "prefixDescription": "Engineering",
+                          "departmentParentId": 4824,
+                          "department": "Engineering",
+                          "begin": "F2019",
+                          "end": "",
+                          "minUnits": 4.0,
+                          "maxUnits": 4.0,
+                          "pathways": []
+                        }
+                      }
+                    ],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "e0c708ad-03ab-4620-687c-08dd9e07c4d5",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 13,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 357279,
+                      "courseTitle": "History of Technology in Society II",
+                      "courseNumber": "041",
+                      "prefix": "HIST",
+                      "prefixParentId": 13953,
+                      "prefixDescription": "History",
+                      "departmentParentId": 7035,
+                      "department": "History",
+                      "begin": "F2019",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [
+                      {
+                        "course": {
+                          "courseIdentifierParentId": 357278,
+                          "courseTitle": "History of Technology in Society II",
+                          "courseNumber": "041",
+                          "prefix": "ENGR",
+                          "prefixParentId": 13951,
+                          "prefixDescription": "Engineering",
+                          "departmentParentId": 4824,
+                          "department": "Engineering",
+                          "begin": "F2019",
+                          "end": "",
+                          "minUnits": 4.0,
+                          "maxUnits": 4.0,
+                          "pathways": []
+                        }
+                      }
+                    ],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "76f3a758-a9df-4307-687d-08dd9e07c4d5",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 14,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 273303,
+                      "courseTitle": "The Body in Health and Disease \u2013 An Introduction to the History of Medicine",
+                      "courseNumber": "042",
+                      "prefix": "HIST",
+                      "prefixParentId": 13953,
+                      "prefixDescription": "History",
+                      "departmentParentId": 7035,
+                      "department": "History",
+                      "begin": "F2019",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "59431872-85ce-47bd-687e-08dd9e07c4d5",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 15,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 375147,
+                      "courseTitle": "African Civilization",
+                      "courseNumber": "043",
+                      "prefix": "HIST",
+                      "prefixParentId": 13953,
+                      "prefixDescription": "History",
+                      "departmentParentId": 7035,
+                      "department": "History",
+                      "begin": "F2021",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [
+                      {
+                        "course": {
+                          "courseIdentifierParentId": 375119,
+                          "courseTitle": "African Civilization",
+                          "courseNumber": "043",
+                          "prefix": "CRES",
+                          "prefixParentId": 16184,
+                          "prefixDescription": "Critical Race and Ethnic Studies",
+                          "departmentParentId": 13384,
+                          "department": "Critical Race and Ethnic Studies",
+                          "begin": "F2021",
+                          "end": "",
+                          "minUnits": 4.0,
+                          "maxUnits": 4.0,
+                          "pathways": []
+                        }
+                      }
+                    ],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "4e11655f-e50e-4dda-687f-08dd9e07c4d5",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 16,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 375148,
+                      "courseTitle": "The History of Things: A History of the Contemporary World",
+                      "courseNumber": "051",
+                      "prefix": "HIST",
+                      "prefixParentId": 13953,
+                      "prefixDescription": "History",
+                      "departmentParentId": 7035,
+                      "department": "History",
+                      "begin": "F2019",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [
+                      {
+                        "course": {
+                          "courseIdentifierParentId": 380298,
+                          "courseTitle": "The History of Things: A History of the Contemporary World",
+                          "courseNumber": "051",
+                          "prefix": "CRES",
+                          "prefixParentId": 16184,
+                          "prefixDescription": "Critical Race and Ethnic Studies",
+                          "departmentParentId": 13384,
+                          "department": "Critical Race and Ethnic Studies",
+                          "begin": "F2021",
+                          "end": "",
+                          "minUnits": 4.0,
+                          "maxUnits": 4.0,
+                          "pathways": []
+                        }
+                      }
+                    ],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "af3a5d00-a441-43f9-6880-08dd9e07c4d5",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 17,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 377477,
+                      "courseTitle": "Power in Film",
+                      "courseNumber": "052",
+                      "prefix": "HIST",
+                      "prefixParentId": 13953,
+                      "prefixDescription": "History",
+                      "departmentParentId": 7035,
+                      "department": "History",
+                      "begin": "F2020",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [
+                      {
+                        "course": {
+                          "courseIdentifierParentId": 377474,
+                          "courseTitle": "Power in Film",
+                          "courseNumber": "064B",
+                          "prefix": "GASP",
+                          "prefixParentId": 15849,
+                          "prefixDescription": "Global Arts Study Program",
+                          "departmentParentId": 6543,
+                          "department": "Global Arts Study Program",
+                          "begin": "F2020",
+                          "end": "",
+                          "minUnits": 4.0,
+                          "maxUnits": 4.0,
+                          "pathways": []
+                        }
+                      },
+                      {
+                        "course": {
+                          "courseIdentifierParentId": 377470,
+                          "courseTitle": "Power in Film",
+                          "courseNumber": "052",
+                          "prefix": "CRES",
+                          "prefixParentId": 16184,
+                          "prefixDescription": "Critical Race and Ethnic Studies",
+                          "departmentParentId": 13384,
+                          "department": "Critical Race and Ethnic Studies",
+                          "begin": "F2020",
+                          "end": "",
+                          "minUnits": 4.0,
+                          "maxUnits": 4.0,
+                          "pathways": []
+                        }
+                      }
+                    ],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "7c0673e5-4645-44a4-6881-08dd9e07c4d5",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 18,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 360733,
+                      "courseTitle": "Arts of the Islamic World",
+                      "courseNumber": "055",
+                      "prefix": "HIST",
+                      "prefixParentId": 13953,
+                      "prefixDescription": "History",
+                      "departmentParentId": 7035,
+                      "department": "History",
+                      "begin": "F2019",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [
+                      {
+                        "course": {
+                          "courseIdentifierParentId": 360732,
+                          "courseTitle": "Arts of the Islamic World",
+                          "courseNumber": "055B",
+                          "prefix": "GASP",
+                          "prefixParentId": 15849,
+                          "prefixDescription": "Global Arts Study Program",
+                          "departmentParentId": 6543,
+                          "department": "Global Arts Study Program",
+                          "begin": "F2019",
+                          "end": "",
+                          "minUnits": 4.0,
+                          "maxUnits": 4.0,
+                          "pathways": []
+                        }
+                      }
+                    ],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "fdb60311-0eab-4a09-6882-08dd9e07c4d5",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 19,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 375149,
+                      "courseTitle": "Arts of Asia",
+                      "courseNumber": "055A",
+                      "prefix": "HIST",
+                      "prefixParentId": 13953,
+                      "prefixDescription": "History",
+                      "departmentParentId": 7035,
+                      "department": "History",
+                      "begin": "F2021",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [
+                      {
+                        "course": {
+                          "courseIdentifierParentId": 364279,
+                          "courseTitle": "Arts of Asia",
+                          "courseNumber": "055A",
+                          "prefix": "GASP",
+                          "prefixParentId": 15849,
+                          "prefixDescription": "Global Arts Study Program",
+                          "departmentParentId": 6543,
+                          "department": "Global Arts Study Program",
+                          "begin": "F2021",
+                          "end": "",
+                          "minUnits": 4.0,
+                          "maxUnits": 4.0,
+                          "pathways": []
+                        }
+                      }
+                    ],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "6fd859c9-6099-40ef-6883-08dd9e07c4d5",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 20,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 270285,
+                      "courseTitle": "The Silk Road",
+                      "courseNumber": "060",
+                      "prefix": "HIST",
+                      "prefixParentId": 13953,
+                      "prefixDescription": "History",
+                      "departmentParentId": 7035,
+                      "department": "History",
+                      "begin": "F2019",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "69e51765-dec1-4f4d-6884-08dd9e07c4d5",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 21,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 356913,
+                      "courseTitle": "History of the Middle East to 1500",
+                      "courseNumber": "070",
+                      "prefix": "HIST",
+                      "prefixParentId": 13953,
+                      "prefixDescription": "History",
+                      "departmentParentId": 7035,
+                      "department": "History",
+                      "begin": "F2019",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "164e709b-ef29-460c-6885-08dd9e07c4d5",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 22,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 270464,
+                      "courseTitle": "History of the Middle East since 1500",
+                      "courseNumber": "071",
+                      "prefix": "HIST",
+                      "prefixParentId": 13953,
+                      "prefixDescription": "History",
+                      "departmentParentId": 7035,
+                      "department": "History",
+                      "begin": "F2019",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "128cd355-ad3f-414b-6886-08dd9e07c4d5",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 0,
+            "attributes": []
+          }
+        ],
+        "attributes": [
+          {
+            "position": 0,
+            "content": "Course(s) can only fulfill one requirement within the major"
+          }
+        ],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": {
+          "type": "NFromArea",
+          "amount": 3.0,
+          "amountQuantifier": "None",
+          "amountUnitType": "Course",
+          "toAmountDeterminer": "None",
+          "toAmount": 0.0,
+          "areaType": "None",
+          "id": "01654293-aa21-4535-4f2f-08dd9e07c4d2",
+          "selectionType": "Complete"
+        },
+        "advisements": [],
+        "groupId": "65b52a98-cf52-4c9f-9721-0193db793c40",
+        "position": 4,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": true,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 269491,
+                      "courseTitle": "Academic Writing",
+                      "courseNumber": "001",
+                      "prefix": "WRI",
+                      "prefixParentId": 13965,
+                      "prefixDescription": "Writing",
+                      "departmentParentId": 13255,
+                      "department": "Writing",
+                      "begin": "F2019",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": [
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 4,
+                          "pathwayName": "Business Administration",
+                          "pathwayCode": "Business-Administration",
+                          "expectationId": 19,
+                          "expectationName": "C8-English Reading & Comp",
+                          "subexpectationId": 0,
+                          "subexpectationName": null
+                        }
+                      ]
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [
+                      {
+                        "position": 0,
+                        "content": "Minimum grade required: C or better"
+                      }
+                    ],
+                    "id": "f5a3ee74-900e-4209-6887-08dd9e07c4d5",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 0,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": {
+          "type": "Following",
+          "id": "aa24e8d7-0fa3-4337-4f30-08dd9e07c4d2",
+          "selectionType": "Complete"
+        },
+        "advisements": [],
+        "groupId": "193cbbb7-94af-4b3f-8eff-0193db793c40",
+        "position": 6,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": true,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 296253,
+                      "courseTitle": "College Reading and Composition",
+                      "courseNumber": "010",
+                      "prefix": "WRI",
+                      "prefixParentId": 13965,
+                      "prefixDescription": "Writing",
+                      "departmentParentId": 13255,
+                      "department": "Writing",
+                      "begin": "F2019",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": [
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 4,
+                          "pathwayName": "Business Administration",
+                          "pathwayCode": "Business-Administration",
+                          "expectationId": 19,
+                          "expectationName": "C8-English Reading & Comp",
+                          "subexpectationId": 0,
+                          "subexpectationName": null
+                        }
+                      ]
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [
+                      {
+                        "position": 0,
+                        "content": "Minimum grade required: C or better"
+                      }
+                    ],
+                    "id": "e6767e16-0ff9-4520-6888-08dd9e07c4d5",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 0,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": {
+          "type": "Following",
+          "id": "f3f0846a-bd89-4798-4f31-08dd9e07c4d2",
+          "selectionType": "Complete"
+        },
+        "advisements": [],
+        "groupId": "36314b80-5062-47b7-84ab-0193db793c40",
+        "position": 8,
+        "area": "Requirements"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p class=\"ql-align-center\"><strong style=\"color: rgb(22, 43, 132); font-size: 24px;\">Between the Fall 2025 and Fall 2027 application cycles, the School of Social Sciences, Humanities and Arts </strong></p><p class=\"ql-align-center\"><strong style=\"color: rgb(22, 43, 132); font-size: 24px;\">will not require transfer students to complete major specific selection criteria to be admitted to <em>this</em> major*. </strong></p><p class=\"ql-align-center\"><strong style=\"color: rgb(22, 43, 132); font-size: 24px;\">Students wanting to enroll in this major will be admitted using UC Merced's general transfer requirements**. </strong></p><p><br></p><p><strong style=\"font-size: 14px;\">* This only applies to certain SSHA majors.</strong></p><p><strong>** The General Transfer Requirements are as f</strong><strong style=\"font-size: 14px;\">ol</strong><strong>lows:</strong></p><p><br></p><p class=\"ql-indent-3\"><strong>Units and GPA</strong></p><ul><li class=\"ql-indent-3\">Complete 60 semester (90 quarter) units of UC-transferable college credit</li><li class=\"ql-indent-3\">Earn a minimum grade point average of 2.40 (nonresident: 2.80) in UC-transferable courses</li><li class=\"ql-indent-3\">Take no more than 14 semester (21 quarter) units as&nbsp;Pass/Not Pass</li></ul><p class=\"ql-indent-3\"><br></p><p class=\"ql-indent-3\"><strong>Course Requirements/Subject Requirements</strong></p><p class=\"ql-indent-3\"><span style=\"color: rgb(29, 32, 36);\">Complete the following seven-course pattern, earning a grade of C- or better in each course:</span></p><ul><li class=\"ql-indent-3\">Two transferable English composition courses</li><li class=\"ql-indent-3\">One transferable mathematical concepts and quantitative reasoning course that has a published prerequisite of intermediate algebra</li><li class=\"ql-indent-3\">Four transferable courses chosen from at least two of the following areas: Arts and Humanities, Behavioral and Social Sciences, Biological and Physical Sciences</li></ul><p><br></p><p><span style=\"color: rgb(29, 32, 36);\">While major courses are not</span><strong style=\"color: rgb(22, 43, 132);\"> </strong><em>required</em> for admissions, it is highly recommended to complete as many of the recommended major preparatory courses as possible before transferring to ensure timely progress to degree. Any major courses not completed prior to enrollment at UC Merced must be completed upon enrollment at UC Merced to ensure time to degree and graduation.</p><p><strong> </strong></p><p><strong>Recommended, but not Required Prior to Transfer:</strong></p><p><br></p><ul><li>At least two UC-Transferrable Courses in History</li></ul><ol><li class=\"ql-indent-1\">Students are strongly encouraged to complete two courses that have been approved as equivalents to specific UC Merced courses, including at least one world history course, as this will prepare for upper division courses at UC Merced.</li><li class=\"ql-indent-1\">These courses may also fulfill the Additional courses listed below.</li></ol><p><br></p><ul><li>Complete one (1) Non-United States History Course<strong>:</strong> CRES 070 or HIST 005 or HIST 008 or HIST 010 or HIST 011 or HIST 030B or HIST 040 or HIST 041 or HIST 042 or HIST 051 or HIST 060 or HIST 070 or HIST 071</li></ul><p><br></p><ul><li>Complete Three (3) Additional History Courses<strong>:</strong> HIST 005 or HIST 008 or HIST 010 or HIST 011 or HIST 016 or HIST 017 or HIST 020 or HIST 021 or HIST 027 or HIST 030B or HIST 035 or HIST 039 or HIST 040 or HIST 041 or HIST 042 or HIST 043 or HIST 051 or HIST 052 or HIST 055 or HIST 055A or HIST 060 or HIST 070 or HIST 071</li></ul><p><br></p><p>Courses in the major must be taken for a letter grade and may not be taken on a pass/no pass basis unless the course is only offered on a pass/no pass basis.</p><p><br></p><p><strong>AP Exam Score &amp; Course Exemptions</strong></p><ul><li>AP History: European History: score of 4 or 5 exempts HIST 030B</li><li>AP History: US History: score of 4 or 5 exempts HIST 016 and HIST 017</li><li>AP History: World History: Modern: score of 4 or 5 exempts HIST 010 or HIST 011</li></ul><p><br></p><p>UC Merced Advance Placement (AP) and International Baccalaureate (IB) credit policies are detailed in the link below:</p><p><a href=\"https://catalog.ucmerced.edu/content.php?catoid=21&amp;navoid=1967#apib\" rel=\"noopener noreferrer\" target=\"_blank\">A</a><a href=\"https://catalog.ucmerced.edu/content.php?catoid=22&amp;navoid=2146#apib\" rel=\"noopener noreferrer\" target=\"_blank\">dvance Placement (AP) and International Baccalaureate (IB) Examinations </a></p><p><br></p><p>Please read the <a href=\"https://catalog.ucmerced.edu/preview_entity.php?catoid=24&amp;ent_oid=1049\" rel=\"noopener noreferrer\" target=\"_blank\">catalog</a> page for more information about the <strong>History </strong>major.</p><p><br></p><p>For more questions about admissions, please email: <a href=\"mailto:transfer@ucmerced.edu\" rel=\"noopener noreferrer\" target=\"_blank\">transfer@ucmerced.edu</a>.</p>",
+        "groupId": "9257f027-d8f6-4f33-afbb-0193db793c40",
+        "position": 1,
+        "area": "General"
+      },
+      {
+        "type": "RequirementTitle",
+        "content": "RECOMMENDED TO COMPLETE PRIOR TO TRANSFER",
+        "groupId": "057fed99-8b18-4a42-b662-0193db793c40",
+        "position": 0,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": false,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Requirement",
+                    "requirement": {
+                      "name": "UC-Transferable Courses in History"
+                    },
+                    "requirementAttributes": [],
+                    "id": "37003efb-9fc3-48c2-6889-08dd9e07c4d5",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 0,
+            "attributes": []
+          }
+        ],
+        "attributes": [
+          {
+            "position": 0,
+            "content": "**REFER TO TOP OF AGREEMENT**"
+          },
+          {
+            "position": 1,
+            "content": "Minimum grade required: C- or better"
+          }
+        ],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": {
+          "type": "NFromArea",
+          "amount": 2.0,
+          "amountQuantifier": "AtLeast",
+          "amountUnitType": "Course",
+          "toAmountDeterminer": "None",
+          "toAmount": 0.0,
+          "areaType": "None",
+          "id": "874af01f-1a3f-48c6-4f32-08dd9e07c4d2",
+          "selectionType": "Complete"
+        },
+        "advisements": [],
+        "groupId": "1cd3f882-4736-4a88-bd42-0193db793c40",
+        "position": 2,
+        "area": "Requirements"
+      },
+      {
+        "type": "GeneralText",
+        "content": "History majors are encouraged (but not required) to exceed the General Education language requirement. Advanced language skills are necessary for those interested in pursuing graduate training in History. History Majors may exchange up to 8 units of advanced language classes (at UC Merced or approved courses offered elsewhere including in summer language institutes) for their Additional History Courses Requirement with consent of Chair.",
+        "groupId": "f98d67ac-b011-4931-9731-0193db793c40",
+        "position": 5,
+        "area": "General"
+      },
+      {
+        "type": "GeneralTitle",
+        "content": "Language Recommendation",
+        "groupId": "254eb99b-ecf6-4a21-b82b-0193db793c40",
+        "position": 4,
+        "area": "General"
+      },
+      {
+        "type": "RequirementTitle",
+        "content": "ENGLISH COMPOSITION",
+        "groupId": "1348eef2-6e35-4622-aeb8-0193db793c40",
+        "position": 5,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementTitle",
+        "content": "SECOND COURSE IN ENGLISH COMPOSITION",
+        "groupId": "74cafc8e-0f11-443a-88cb-0193db793c40",
+        "position": 7,
+        "area": "Requirements"
+      },
+      {
+        "type": "GeneralTitle",
+        "content": "NEW ADMISSIONS CRITERIA",
+        "groupId": "f0027a50-cd3c-4fa9-8e53-0193db793c40",
+        "position": 0,
+        "area": "General"
+      },
+      {
+        "type": "RequirementTitle",
+        "content": "RECOMMENDED BUT NOT REQUIRED",
+        "groupId": "565e69de-b652-48a8-a574-0193dc57e5eb",
+        "position": 1,
+        "area": "Requirements"
+      }
+    ],
+    "articulations": [
+      {
+        "templateCellId": "e6767e16-0ff9-4520-6888-08dd9e07c4d5",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 296253,
+            "courseTitle": "College Reading and Composition",
+            "courseNumber": "010",
+            "prefix": "WRI",
+            "prefixParentId": 13965,
+            "prefixDescription": "Writing",
+            "departmentParentId": 13255,
+            "department": "Writing",
+            "begin": "F2019",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": [
+              {
+                "begin": null,
+                "beginDate": null,
+                "beginTermId": null,
+                "end": null,
+                "endDate": null,
+                "endTermId": null,
+                "pathwayId": 4,
+                "pathwayName": "Business Administration",
+                "pathwayCode": "Business-Administration",
+                "expectationId": 19,
+                "expectationName": "C8-English Reading & Comp",
+                "subexpectationId": 0,
+                "subexpectationName": null
+              }
+            ]
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 302737,
+                    "courseTitle": "Critical Thinking and Writing",
+                    "courseNumber": "3",
+                    "prefix": "PHIL",
+                    "prefixParentId": 5487,
+                    "prefixDescription": "Philosophy",
+                    "departmentParentId": 10175,
+                    "department": "Philosophy",
+                    "begin": "F1995",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 6,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 302735,
+                    "courseTitle": "Literature and Composition",
+                    "courseNumber": "1C",
+                    "prefix": "EWRT",
+                    "prefixParentId": 1402,
+                    "prefixDescription": "English (Writing)",
+                    "departmentParentId": 5070,
+                    "department": "English (Writing)",
+                    "begin": "F1999",
+                    "end": "F2026",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 3,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 363590,
+                    "courseTitle": "Argumentation: Analysis of Oral and Written Communication - HONORS",
+                    "courseNumber": "9H",
+                    "prefix": "COMM",
+                    "prefixParentId": 4367,
+                    "prefixDescription": "Communication Studies",
+                    "departmentParentId": 13310,
+                    "department": "Communication Studies",
+                    "begin": "F2018",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 1,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 280473,
+                    "courseTitle": "Argumentation: Analysis of Oral and Written Communication",
+                    "courseNumber": "9",
+                    "prefix": "COMM",
+                    "prefixParentId": 4367,
+                    "prefixDescription": "Communication Studies",
+                    "departmentParentId": 13310,
+                    "department": "Communication Studies",
+                    "begin": "F2017",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 280460,
+                    "courseTitle": "Reading, Writing and Research",
+                    "courseNumber": "1B",
+                    "prefix": "EWRT",
+                    "prefixParentId": 1402,
+                    "prefixDescription": "English (Writing)",
+                    "departmentParentId": 5070,
+                    "department": "English (Writing)",
+                    "begin": "F1999",
+                    "end": "F2026",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 2,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 308237,
+                    "courseTitle": " Critical Thinking and Writing ",
+                    "courseNumber": "C1001",
+                    "prefix": "ENGL",
+                    "prefixParentId": 18741,
+                    "prefixDescription": "English",
+                    "departmentParentId": 15392,
+                    "department": "English",
+                    "begin": "F2025",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 4,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 360067,
+                    "courseTitle": "Critical Thinking and Writing - HONORS ",
+                    "courseNumber": "C1001H",
+                    "prefix": "ENGL",
+                    "prefixParentId": 18741,
+                    "prefixDescription": "English",
+                    "departmentParentId": 15392,
+                    "department": "English",
+                    "begin": "F2025",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 5,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [
+              {
+                "id": "b5f6b160-27d7-41e8-75fb-08dd9e080278",
+                "sendingArticulationId": "f93c2a3c-50c2-4720-b44c-08dd9e07e359",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 0,
+                "sendingCourseGroupEndPosition": 1
+              },
+              {
+                "id": "4500bc54-6f52-4fb5-75fc-08dd9e080278",
+                "sendingArticulationId": "f93c2a3c-50c2-4720-b44c-08dd9e07e359",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 1,
+                "sendingCourseGroupEndPosition": 2
+              },
+              {
+                "id": "6310d9f6-7abe-4489-75fd-08dd9e080278",
+                "sendingArticulationId": "f93c2a3c-50c2-4720-b44c-08dd9e07e359",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 2,
+                "sendingCourseGroupEndPosition": 3
+              },
+              {
+                "id": "c064427b-3f89-4ce6-75fe-08dd9e080278",
+                "sendingArticulationId": "f93c2a3c-50c2-4720-b44c-08dd9e07e359",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 3,
+                "sendingCourseGroupEndPosition": 4
+              },
+              {
+                "id": "fd0ce6e5-d89f-49a3-75ff-08dd9e080278",
+                "sendingArticulationId": "f93c2a3c-50c2-4720-b44c-08dd9e07e359",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 4,
+                "sendingCourseGroupEndPosition": 5
+              },
+              {
+                "id": "5b050b76-b94f-408e-7600-08dd9e080278",
+                "sendingArticulationId": "f93c2a3c-50c2-4720-b44c-08dd9e07e359",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 5,
+                "sendingCourseGroupEndPosition": 6
+              }
+            ],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "f5a3ee74-900e-4209-6887-08dd9e07c4d5",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 269491,
+            "courseTitle": "Academic Writing",
+            "courseNumber": "001",
+            "prefix": "WRI",
+            "prefixParentId": 13965,
+            "prefixDescription": "Writing",
+            "departmentParentId": 13255,
+            "department": "Writing",
+            "begin": "F2019",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": [
+              {
+                "begin": null,
+                "beginDate": null,
+                "beginTermId": null,
+                "end": null,
+                "endDate": null,
+                "endTermId": null,
+                "pathwayId": 4,
+                "pathwayName": "Business Administration",
+                "pathwayCode": "Business-Administration",
+                "expectationId": 19,
+                "expectationName": "C8-English Reading & Comp",
+                "subexpectationId": 0,
+                "subexpectationName": null
+              }
+            ]
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 281338,
+                    "courseTitle": "Academic Reading and Writing",
+                    "courseNumber": "C1000",
+                    "prefix": "ENGL",
+                    "prefixParentId": 18741,
+                    "prefixDescription": "English",
+                    "departmentParentId": 15392,
+                    "department": "English",
+                    "begin": "F2025",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 195,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 1,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 359063,
+                    "courseTitle": "Advanced Composition and Reading",
+                    "courseNumber": "5",
+                    "prefix": "ESL",
+                    "prefixParentId": 4209,
+                    "prefixDescription": "English As a Second Language",
+                    "departmentParentId": 5143,
+                    "department": "English As a Second Language",
+                    "begin": "F1995",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 179,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 360066,
+                    "courseTitle": "Academic Reading and Writing - HONORS",
+                    "courseNumber": "C1000H",
+                    "prefix": "ENGL",
+                    "prefixParentId": 18741,
+                    "prefixDescription": "English",
+                    "departmentParentId": 15392,
+                    "department": "English",
+                    "begin": "F2025",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 259,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 2,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [
+              {
+                "id": "f788514f-0ca1-4779-7602-08dd9e080278",
+                "sendingArticulationId": "6d209251-1eca-4580-b44e-08dd9e07e359",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 0,
+                "sendingCourseGroupEndPosition": 1
+              },
+              {
+                "id": "39225ac1-219d-461a-7603-08dd9e080278",
+                "sendingArticulationId": "6d209251-1eca-4580-b44e-08dd9e07e359",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 1,
+                "sendingCourseGroupEndPosition": 2
+              }
+            ],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "dba737a3-6969-4e58-6872-08dd9e07c4d5",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 269479,
+            "courseTitle": "Introduction to World History to 1500",
+            "courseNumber": "010",
+            "prefix": "HIST",
+            "prefixParentId": 13953,
+            "prefixDescription": "History",
+            "departmentParentId": 7035,
+            "department": "History",
+            "begin": "F2019",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": [
+              {
+                "begin": null,
+                "beginDate": null,
+                "beginTermId": null,
+                "end": null,
+                "endDate": null,
+                "endTermId": null,
+                "pathwayId": 13,
+                "pathwayName": "History",
+                "pathwayCode": "History",
+                "expectationId": 63,
+                "expectationName": "C1-World History/Western Civ Seq.",
+                "subexpectationId": 0,
+                "subexpectationName": null
+              }
+            ]
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 294888,
+                    "courseTitle": "World History from Prehistory to 750 CE",
+                    "courseNumber": "3A",
+                    "prefix": "HIST",
+                    "prefixParentId": 3013,
+                    "prefixDescription": "History",
+                    "departmentParentId": 7009,
+                    "department": "History",
+                    "begin": "F2015",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  },
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 294870,
+                    "courseTitle": "World History from 750 to 1750 CE",
+                    "courseNumber": "3B",
+                    "prefix": "HIST",
+                    "prefixParentId": 3013,
+                    "prefixDescription": "History",
+                    "departmentParentId": 7009,
+                    "department": "History",
+                    "begin": "F2020",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 1,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "241f1be3-7dd9-4ba8-6873-08dd9e07c4d5",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 296242,
+            "courseTitle": "Introduction to World History Since 1500",
+            "courseNumber": "011",
+            "prefix": "HIST",
+            "prefixParentId": 13953,
+            "prefixDescription": "History",
+            "departmentParentId": 7035,
+            "department": "History",
+            "begin": "F2019",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": [
+              {
+                "begin": null,
+                "beginDate": null,
+                "beginTermId": null,
+                "end": null,
+                "endDate": null,
+                "endTermId": null,
+                "pathwayId": 13,
+                "pathwayName": "History",
+                "pathwayCode": "History",
+                "expectationId": 63,
+                "expectationName": "C1-World History/Western Civ Seq.",
+                "subexpectationId": 0,
+                "subexpectationName": null
+              }
+            ]
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 289302,
+                    "courseTitle": "World History from 1750 CE to the Present",
+                    "courseNumber": "3C",
+                    "prefix": "HIST",
+                    "prefixParentId": 3013,
+                    "prefixDescription": "History",
+                    "departmentParentId": 7009,
+                    "department": "History",
+                    "begin": "F2015",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "75722633-e0cb-41cb-6874-08dd9e07c4d5",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 296243,
+            "courseTitle": "Forging of the United States, 1607-1877",
+            "courseNumber": "016",
+            "prefix": "HIST",
+            "prefixParentId": 13953,
+            "prefixDescription": "History",
+            "departmentParentId": 7035,
+            "department": "History",
+            "begin": "F2019",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": [
+              {
+                "begin": null,
+                "beginDate": null,
+                "beginTermId": null,
+                "end": null,
+                "endDate": null,
+                "endTermId": null,
+                "pathwayId": 13,
+                "pathwayName": "History",
+                "pathwayCode": "History",
+                "expectationId": 64,
+                "expectationName": "C2-US History",
+                "subexpectationId": 0,
+                "subexpectationName": null
+              }
+            ]
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 290436,
+                    "courseTitle": "History of the United States to Early National Era",
+                    "courseNumber": "17A",
+                    "prefix": "HIST",
+                    "prefixParentId": 3013,
+                    "prefixDescription": "History",
+                    "departmentParentId": 7009,
+                    "department": "History",
+                    "begin": "F2000",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  },
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 353102,
+                    "courseTitle": "History of the United States from 1800 to 1900",
+                    "courseNumber": "17B",
+                    "prefix": "HIST",
+                    "prefixParentId": 3013,
+                    "prefixDescription": "History",
+                    "departmentParentId": 7009,
+                    "department": "History",
+                    "begin": "F2000",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 1,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "c3193fe3-1339-4457-6875-08dd9e07c4d5",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 299515,
+            "courseTitle": "Twentieth-Century America",
+            "courseNumber": "017",
+            "prefix": "HIST",
+            "prefixParentId": 13953,
+            "prefixDescription": "History",
+            "departmentParentId": 7035,
+            "department": "History",
+            "begin": "F2019",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": [
+              {
+                "begin": null,
+                "beginDate": null,
+                "beginTermId": null,
+                "end": null,
+                "endDate": null,
+                "endTermId": null,
+                "pathwayId": 13,
+                "pathwayName": "History",
+                "pathwayCode": "History",
+                "expectationId": 64,
+                "expectationName": "C2-US History",
+                "subexpectationId": 0,
+                "subexpectationName": null
+              }
+            ]
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 353021,
+                    "courseTitle": "History of the United States From 1900 to the Present",
+                    "courseNumber": "17C",
+                    "prefix": "HIST",
+                    "prefixParentId": 3013,
+                    "prefixDescription": "History",
+                    "departmentParentId": 7009,
+                    "department": "History",
+                    "begin": "F2006",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "6fd859c9-6099-40ef-6883-08dd9e07c4d5",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 375149,
+            "courseTitle": "Arts of Asia",
+            "courseNumber": "055A",
+            "prefix": "HIST",
+            "prefixParentId": 13953,
+            "prefixDescription": "History",
+            "departmentParentId": 7035,
+            "department": "History",
+            "begin": "F2021",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [
+            {
+              "courseIdentifierParentId": 364279,
+              "courseTitle": "Arts of Asia",
+              "courseNumber": "055A",
+              "prefix": "GASP",
+              "prefixParentId": 15849,
+              "prefixDescription": "Global Arts Study Program",
+              "departmentParentId": 6543,
+              "department": "Global Arts Study Program",
+              "begin": "F2021",
+              "end": "",
+              "minUnits": 4.0,
+              "maxUnits": 4.0,
+              "pathways": []
+            }
+          ],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [
+                      {
+                        "id": "436061c1-101a-4ed8-88a7-08dd9e07e400",
+                        "publishedCourseIdentifierYearTermId": null,
+                        "courseIdentifierParentId": 353552,
+                        "courseTitle": "History of Art: Arts of Asia",
+                        "courseNumber": "40",
+                        "prefix": "ASAM",
+                        "prefixParentId": 16555,
+                        "prefixDescription": "Asian American and Asian Studies",
+                        "departmentParentId": 13706,
+                        "department": "Asian American and Asian Studies",
+                        "begin": "F2021",
+                        "end": "",
+                        "minUnits": 4.0,
+                        "maxUnits": 4.0,
+                        "pathways": []
+                      }
+                    ],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 353553,
+                    "courseTitle": "History of Art: Arts of Asia",
+                    "courseNumber": "2G",
+                    "prefix": "ARTS",
+                    "prefixParentId": 4538,
+                    "prefixDescription": "Arts",
+                    "departmentParentId": 1240,
+                    "department": "Arts",
+                    "begin": "F2016",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "406d0eda-5aa8-42e4-6866-08dd9e07c4d5",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 269479,
+            "courseTitle": "Introduction to World History to 1500",
+            "courseNumber": "010",
+            "prefix": "HIST",
+            "prefixParentId": 13953,
+            "prefixDescription": "History",
+            "departmentParentId": 7035,
+            "department": "History",
+            "begin": "F2019",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": [
+              {
+                "begin": null,
+                "beginDate": null,
+                "beginTermId": null,
+                "end": null,
+                "endDate": null,
+                "endTermId": null,
+                "pathwayId": 13,
+                "pathwayName": "History",
+                "pathwayCode": "History",
+                "expectationId": 63,
+                "expectationName": "C1-World History/Western Civ Seq.",
+                "subexpectationId": 0,
+                "subexpectationName": null
+              }
+            ]
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 294888,
+                    "courseTitle": "World History from Prehistory to 750 CE",
+                    "courseNumber": "3A",
+                    "prefix": "HIST",
+                    "prefixParentId": 3013,
+                    "prefixDescription": "History",
+                    "departmentParentId": 7009,
+                    "department": "History",
+                    "begin": "F2015",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  },
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 294870,
+                    "courseTitle": "World History from 750 to 1750 CE",
+                    "courseNumber": "3B",
+                    "prefix": "HIST",
+                    "prefixParentId": 3013,
+                    "prefixDescription": "History",
+                    "departmentParentId": 7009,
+                    "department": "History",
+                    "begin": "F2020",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 1,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "dcaea64c-9aac-4d98-6867-08dd9e07c4d5",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 296242,
+            "courseTitle": "Introduction to World History Since 1500",
+            "courseNumber": "011",
+            "prefix": "HIST",
+            "prefixParentId": 13953,
+            "prefixDescription": "History",
+            "departmentParentId": 7035,
+            "department": "History",
+            "begin": "F2019",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": [
+              {
+                "begin": null,
+                "beginDate": null,
+                "beginTermId": null,
+                "end": null,
+                "endDate": null,
+                "endTermId": null,
+                "pathwayId": 13,
+                "pathwayName": "History",
+                "pathwayCode": "History",
+                "expectationId": 63,
+                "expectationName": "C1-World History/Western Civ Seq.",
+                "subexpectationId": 0,
+                "subexpectationName": null
+              }
+            ]
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 289302,
+                    "courseTitle": "World History from 1750 CE to the Present",
+                    "courseNumber": "3C",
+                    "prefix": "HIST",
+                    "prefixParentId": 3013,
+                    "prefixDescription": "History",
+                    "departmentParentId": 7009,
+                    "department": "History",
+                    "begin": "F2015",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "37003efb-9fc3-48c2-6889-08dd9e07c4d5",
+        "articulation": {
+          "type": "Requirement",
+          "requirement": {
+            "name": "UC-Transferable Courses in History"
+          },
+          "requirementAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 266601,
+                    "courseTitle": "History of Asian Civilization: China and Japan (19th - 21st Centuries)",
+                    "courseNumber": "19B",
+                    "prefix": "HIST",
+                    "prefixParentId": 3013,
+                    "prefixDescription": "History",
+                    "departmentParentId": 7009,
+                    "department": "History",
+                    "begin": "F2025",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 299,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 32,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 281472,
+                    "courseTitle": "Ethnic Studies and the Historical Experiences of Native Americans",
+                    "courseNumber": "12",
+                    "prefix": "NAIS",
+                    "prefixParentId": 16887,
+                    "prefixDescription": "Native American and Indigenous Studies",
+                    "departmentParentId": 13992,
+                    "department": "Native American and Indigenous Studies",
+                    "begin": "F2022",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 287,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 35,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 353021,
+                    "courseTitle": "History of the United States From 1900 to the Present",
+                    "courseNumber": "17C",
+                    "prefix": "HIST",
+                    "prefixParentId": 3013,
+                    "prefixDescription": "History",
+                    "departmentParentId": 7009,
+                    "department": "History",
+                    "begin": "F2006",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 223,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 21,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [
+                      {
+                        "id": "b27737e2-0aa1-47b8-867f-08dd9e07e400",
+                        "publishedCourseIdentifierYearTermId": 283,
+                        "courseIdentifierParentId": 288577,
+                        "courseTitle": "African American History Since 1865",
+                        "courseNumber": "12B",
+                        "prefix": "AFAM",
+                        "prefixParentId": 16884,
+                        "prefixDescription": "African American Studies",
+                        "departmentParentId": 13989,
+                        "department": "African American Studies",
+                        "begin": "F2021",
+                        "end": "F2026",
+                        "minUnits": 4.0,
+                        "maxUnits": 4.0,
+                        "pathways": []
+                      }
+                    ],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 288576,
+                    "courseTitle": "African American History Since 1865",
+                    "courseNumber": "18B",
+                    "prefix": "HIST",
+                    "prefixParentId": 3013,
+                    "prefixDescription": "History",
+                    "departmentParentId": 7009,
+                    "department": "History",
+                    "begin": "F2010",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 239,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 24,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 294888,
+                    "courseTitle": "World History from Prehistory to 750 CE",
+                    "courseNumber": "3A",
+                    "prefix": "HIST",
+                    "prefixParentId": 3013,
+                    "prefixDescription": "History",
+                    "departmentParentId": 7009,
+                    "department": "History",
+                    "begin": "F2015",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 259,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 357850,
+                    "courseTitle": "History of Western Civilization: Pre-History to 750 C.E. - HONORS",
+                    "courseNumber": "6AH",
+                    "prefix": "HIST",
+                    "prefixParentId": 3013,
+                    "prefixDescription": "History",
+                    "departmentParentId": 7009,
+                    "department": "History",
+                    "begin": "F2019",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 275,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 7,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 282130,
+                    "courseTitle": "History of Asian Civilization: China and Japan (to the 19th Century)",
+                    "courseNumber": "19A",
+                    "prefix": "HIST",
+                    "prefixParentId": 3013,
+                    "prefixDescription": "History",
+                    "departmentParentId": 7009,
+                    "department": "History",
+                    "begin": "F2015",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 259,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 31,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [
+                      {
+                        "id": "9fb5b0ef-8011-4657-8682-08dd9e07e400",
+                        "publishedCourseIdentifierYearTermId": 263,
+                        "courseIdentifierParentId": 274009,
+                        "courseTitle": "Women in American History - HONORS",
+                        "courseNumber": "9H",
+                        "prefix": "WMST",
+                        "prefixParentId": 11816,
+                        "prefixDescription": "Women's Studies",
+                        "departmentParentId": 13150,
+                        "department": "Women's Studies",
+                        "begin": "F2016",
+                        "end": "",
+                        "minUnits": 4.0,
+                        "maxUnits": 4.0,
+                        "pathways": []
+                      }
+                    ],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 274008,
+                    "courseTitle": "Women in American History - HONORS",
+                    "courseNumber": "9H",
+                    "prefix": "HIST",
+                    "prefixParentId": 3013,
+                    "prefixDescription": "History",
+                    "departmentParentId": 7009,
+                    "department": "History",
+                    "begin": "F2016",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 263,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 34,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [
+                      {
+                        "id": "5d14c78f-b0c6-456f-8683-08dd9e07e400",
+                        "publishedCourseIdentifierYearTermId": 283,
+                        "courseIdentifierParentId": 353461,
+                        "courseTitle": "African American History to 1865",
+                        "courseNumber": "12A",
+                        "prefix": "AFAM",
+                        "prefixParentId": 16884,
+                        "prefixDescription": "African American Studies",
+                        "departmentParentId": 13989,
+                        "department": "African American Studies",
+                        "begin": "F2021",
+                        "end": "F2026",
+                        "minUnits": 4.0,
+                        "maxUnits": 4.0,
+                        "pathways": []
+                      }
+                    ],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 353460,
+                    "courseTitle": "African American History to 1865",
+                    "courseNumber": "18A",
+                    "prefix": "HIST",
+                    "prefixParentId": 3013,
+                    "prefixDescription": "History",
+                    "departmentParentId": 7009,
+                    "department": "History",
+                    "begin": "F2015",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 259,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 28,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 353582,
+                    "courseTitle": "Chicanx and Latinx History",
+                    "courseNumber": "12",
+                    "prefix": "CHLX",
+                    "prefixParentId": 16885,
+                    "prefixDescription": "Chicanx/Latinx Studies",
+                    "departmentParentId": 13990,
+                    "department": "Chicanx/Latinx Studies",
+                    "begin": "F2021",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 283,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 30,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 254986,
+                    "courseTitle": "History of Africa to 1800",
+                    "courseNumber": "16A",
+                    "prefix": "HIST",
+                    "prefixParentId": 3013,
+                    "prefixDescription": "History",
+                    "departmentParentId": 7009,
+                    "department": "History",
+                    "begin": "F1995",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 179,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 16,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 266601,
+                    "courseTitle": "History of Asian Civilization: China and Japan (19th - 21st Centuries)",
+                    "courseNumber": "19B",
+                    "prefix": "HIST",
+                    "prefixParentId": 3013,
+                    "prefixDescription": "History",
+                    "departmentParentId": 7009,
+                    "department": "History",
+                    "begin": "F2025",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 299,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 26,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 305663,
+                    "courseTitle": "History of the United States to Early National Era - HONORS",
+                    "courseNumber": "17AH",
+                    "prefix": "HIST",
+                    "prefixParentId": 3013,
+                    "prefixDescription": "History",
+                    "departmentParentId": 7009,
+                    "department": "History",
+                    "begin": "F2016",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 263,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 18,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 357849,
+                    "courseTitle": "World History from 750 to 1750 CE - HONORS",
+                    "courseNumber": "3BH",
+                    "prefix": "HIST",
+                    "prefixParentId": 3013,
+                    "prefixDescription": "History",
+                    "departmentParentId": 7009,
+                    "department": "History",
+                    "begin": "F2020",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 279,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 3,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [
+                      {
+                        "id": "d4c46b66-c19d-499f-8686-08dd9e07e400",
+                        "publishedCourseIdentifierYearTermId": 283,
+                        "courseIdentifierParentId": 353461,
+                        "courseTitle": "African American History to 1865",
+                        "courseNumber": "12A",
+                        "prefix": "AFAM",
+                        "prefixParentId": 16884,
+                        "prefixDescription": "African American Studies",
+                        "departmentParentId": 13989,
+                        "department": "African American Studies",
+                        "begin": "F2021",
+                        "end": "F2026",
+                        "minUnits": 4.0,
+                        "maxUnits": 4.0,
+                        "pathways": []
+                      }
+                    ],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 353460,
+                    "courseTitle": "African American History to 1865",
+                    "courseNumber": "18A",
+                    "prefix": "HIST",
+                    "prefixParentId": 3013,
+                    "prefixDescription": "History",
+                    "departmentParentId": 7009,
+                    "department": "History",
+                    "begin": "F2015",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 259,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 23,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 300286,
+                    "courseTitle": "History of the United States from 1800 to 1900 - HONORS",
+                    "courseNumber": "17BH",
+                    "prefix": "HIST",
+                    "prefixParentId": 3013,
+                    "prefixDescription": "History",
+                    "departmentParentId": 7009,
+                    "department": "History",
+                    "begin": "F2016",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 263,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 20,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 273040,
+                    "courseTitle": "History of Western Civilization: 750 C.E. to 1750 C.E.",
+                    "courseNumber": "6B",
+                    "prefix": "HIST",
+                    "prefixParentId": 3013,
+                    "prefixDescription": "History",
+                    "departmentParentId": 7009,
+                    "department": "History",
+                    "begin": "F2019",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 275,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 8,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 289302,
+                    "courseTitle": "World History from 1750 CE to the Present",
+                    "courseNumber": "3C",
+                    "prefix": "HIST",
+                    "prefixParentId": 3013,
+                    "prefixDescription": "History",
+                    "departmentParentId": 7009,
+                    "department": "History",
+                    "begin": "F2015",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 259,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 4,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 305662,
+                    "courseTitle": "World History from 1750 CE to the Present - Honors",
+                    "courseNumber": "3CH",
+                    "prefix": "HIST",
+                    "prefixParentId": 3013,
+                    "prefixDescription": "History",
+                    "departmentParentId": 7009,
+                    "department": "History",
+                    "begin": "F2016",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 263,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 5,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 357632,
+                    "courseTitle": "History of Western Civilization: 1750 C.E. to Present",
+                    "courseNumber": "6C",
+                    "prefix": "HIST",
+                    "prefixParentId": 3013,
+                    "prefixDescription": "History",
+                    "departmentParentId": 7009,
+                    "department": "History",
+                    "begin": "F2019",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 275,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 10,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [
+                      {
+                        "id": "c9d85114-6006-4b46-8688-08dd9e07e400",
+                        "publishedCourseIdentifierYearTermId": 195,
+                        "courseIdentifierParentId": 289220,
+                        "courseTitle": "Women in American History",
+                        "courseNumber": "9",
+                        "prefix": "WMST",
+                        "prefixParentId": 11816,
+                        "prefixDescription": "Women's Studies",
+                        "departmentParentId": 13150,
+                        "department": "Women's Studies",
+                        "begin": "F1999",
+                        "end": "",
+                        "minUnits": 4.0,
+                        "maxUnits": 4.0,
+                        "pathways": []
+                      }
+                    ],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 289219,
+                    "courseTitle": "Women in American History",
+                    "courseNumber": "9",
+                    "prefix": "HIST",
+                    "prefixParentId": 3013,
+                    "prefixDescription": "History",
+                    "departmentParentId": 7009,
+                    "department": "History",
+                    "begin": "F1995",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 179,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 12,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 274006,
+                    "courseTitle": "World History from Prehistory to 750 CE - HONORS",
+                    "courseNumber": "3AH",
+                    "prefix": "HIST",
+                    "prefixParentId": 3013,
+                    "prefixDescription": "History",
+                    "departmentParentId": 7009,
+                    "department": "History",
+                    "begin": "F2016",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 263,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 1,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [
+                      {
+                        "id": "bd291468-a644-4001-8689-08dd9e07e400",
+                        "publishedCourseIdentifierYearTermId": 195,
+                        "courseIdentifierParentId": 289220,
+                        "courseTitle": "Women in American History",
+                        "courseNumber": "9",
+                        "prefix": "WMST",
+                        "prefixParentId": 11816,
+                        "prefixDescription": "Women's Studies",
+                        "departmentParentId": 13150,
+                        "department": "Women's Studies",
+                        "begin": "F1999",
+                        "end": "",
+                        "minUnits": 4.0,
+                        "maxUnits": 4.0,
+                        "pathways": []
+                      }
+                    ],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 289219,
+                    "courseTitle": "Women in American History",
+                    "courseNumber": "9",
+                    "prefix": "HIST",
+                    "prefixParentId": 3013,
+                    "prefixDescription": "History",
+                    "departmentParentId": 7009,
+                    "department": "History",
+                    "begin": "F1995",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 179,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 33,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 294870,
+                    "courseTitle": "World History from 750 to 1750 CE",
+                    "courseNumber": "3B",
+                    "prefix": "HIST",
+                    "prefixParentId": 3013,
+                    "prefixDescription": "History",
+                    "departmentParentId": 7009,
+                    "department": "History",
+                    "begin": "F2020",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 279,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 2,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 282059,
+                    "courseTitle": "History of California",
+                    "courseNumber": "10",
+                    "prefix": "HIST",
+                    "prefixParentId": 3013,
+                    "prefixDescription": "History",
+                    "departmentParentId": 7009,
+                    "department": "History",
+                    "begin": "F1995",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 179,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 14,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [
+                      {
+                        "id": "ac3a8707-18c9-4864-868b-08dd9e07e400",
+                        "publishedCourseIdentifierYearTermId": 263,
+                        "courseIdentifierParentId": 274009,
+                        "courseTitle": "Women in American History - HONORS",
+                        "courseNumber": "9H",
+                        "prefix": "WMST",
+                        "prefixParentId": 11816,
+                        "prefixDescription": "Women's Studies",
+                        "departmentParentId": 13150,
+                        "department": "Women's Studies",
+                        "begin": "F2016",
+                        "end": "",
+                        "minUnits": 4.0,
+                        "maxUnits": 4.0,
+                        "pathways": []
+                      }
+                    ],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 274008,
+                    "courseTitle": "Women in American History - HONORS",
+                    "courseNumber": "9H",
+                    "prefix": "HIST",
+                    "prefixParentId": 3013,
+                    "prefixDescription": "History",
+                    "departmentParentId": 7009,
+                    "department": "History",
+                    "begin": "F2016",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 263,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 13,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 273041,
+                    "courseTitle": "History of Western Civilization: Pre-History to 750 C.E.",
+                    "courseNumber": "6A",
+                    "prefix": "HIST",
+                    "prefixParentId": 3013,
+                    "prefixDescription": "History",
+                    "departmentParentId": 7009,
+                    "department": "History",
+                    "begin": "F2019",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 275,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 6,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 305661,
+                    "courseTitle": "History of Western Civilization: 750 C.E. to 1750 C.E. - HONORS",
+                    "courseNumber": "6BH",
+                    "prefix": "HIST",
+                    "prefixParentId": 3013,
+                    "prefixDescription": "History",
+                    "departmentParentId": 7009,
+                    "department": "History",
+                    "begin": "F2019",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 275,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 9,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 353102,
+                    "courseTitle": "History of the United States from 1800 to 1900",
+                    "courseNumber": "17B",
+                    "prefix": "HIST",
+                    "prefixParentId": 3013,
+                    "prefixDescription": "History",
+                    "departmentParentId": 7009,
+                    "department": "History",
+                    "begin": "F2000",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 199,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 19,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 282130,
+                    "courseTitle": "History of Asian Civilization: China and Japan (to the 19th Century)",
+                    "courseNumber": "19A",
+                    "prefix": "HIST",
+                    "prefixParentId": 3013,
+                    "prefixDescription": "History",
+                    "departmentParentId": 7009,
+                    "department": "History",
+                    "begin": "F2015",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 259,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 25,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 300287,
+                    "courseTitle": "History of the United States From 1900 to the Present - HONORS",
+                    "courseNumber": "17CH",
+                    "prefix": "HIST",
+                    "prefixParentId": 3013,
+                    "prefixDescription": "History",
+                    "departmentParentId": 7009,
+                    "department": "History",
+                    "begin": "F2016",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 263,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 22,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 274007,
+                    "courseTitle": "History of Western Civilization: 1750 C.E. to Present - HONORS",
+                    "courseNumber": "6CH",
+                    "prefix": "HIST",
+                    "prefixParentId": 3013,
+                    "prefixDescription": "History",
+                    "departmentParentId": 7009,
+                    "department": "History",
+                    "begin": "F2019",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 275,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 11,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 254986,
+                    "courseTitle": "History of Africa to 1800",
+                    "courseNumber": "16A",
+                    "prefix": "HIST",
+                    "prefixParentId": 3013,
+                    "prefixDescription": "History",
+                    "departmentParentId": 7009,
+                    "department": "History",
+                    "begin": "F1995",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 179,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 27,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 357851,
+                    "courseTitle": "History of California - HONORS",
+                    "courseNumber": "10H",
+                    "prefix": "HIST",
+                    "prefixParentId": 3013,
+                    "prefixDescription": "History",
+                    "departmentParentId": 7009,
+                    "department": "History",
+                    "begin": "F2016",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 263,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 15,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [
+                      {
+                        "id": "aed0feee-9091-47aa-8691-08dd9e07e400",
+                        "publishedCourseIdentifierYearTermId": 283,
+                        "courseIdentifierParentId": 288577,
+                        "courseTitle": "African American History Since 1865",
+                        "courseNumber": "12B",
+                        "prefix": "AFAM",
+                        "prefixParentId": 16884,
+                        "prefixDescription": "African American Studies",
+                        "departmentParentId": 13989,
+                        "department": "African American Studies",
+                        "begin": "F2021",
+                        "end": "F2026",
+                        "minUnits": 4.0,
+                        "maxUnits": 4.0,
+                        "pathways": []
+                      }
+                    ],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 288576,
+                    "courseTitle": "African American History Since 1865",
+                    "courseNumber": "18B",
+                    "prefix": "HIST",
+                    "prefixParentId": 3013,
+                    "prefixDescription": "History",
+                    "departmentParentId": 7009,
+                    "department": "History",
+                    "begin": "F2010",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 239,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 29,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 290436,
+                    "courseTitle": "History of the United States to Early National Era",
+                    "courseNumber": "17A",
+                    "prefix": "HIST",
+                    "prefixParentId": 3013,
+                    "prefixDescription": "History",
+                    "departmentParentId": 7009,
+                    "department": "History",
+                    "begin": "F2000",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 199,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 17,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Requirement",
+          "requirementAttributes": [],
+          "attributes": []
+        }
+      }
+    ],
+    "catalogYear": "{\"receivingCatalogYearBegin\":2025,\"receivingCatalogYearEnd\":2026,\"sendingCatalogYearBegin\":2025,\"sendingCatalogYearEnd\":2026}"
+  },
+  "validationFailure": null,
+  "isSuccessful": true
+}

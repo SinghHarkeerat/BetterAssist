@@ -1,0 +1,1867 @@
+{
+  "result": {
+    "name": "Electrical Engineering, BS",
+    "type": "Major",
+    "publishDate": "2025-10-06T23:39:37.8631445",
+    "receivingInstitution": "{\"id\":98,\"code\":\"CSUB    \",\"isCommunityCollege\":false,\"category\":\"CSU\",\"termType\":\"Semester\",\"names\":[{\"name\":\"California State University, Bakersfield\",\"hasDepartments\":true,\"fromYear\":0,\"hideInList\":false}],\"termTypeAcademicYears\":[{\"termType\":\"Semester\",\"fromYear\":1980}],\"beginId\":31,\"endId\":null}",
+    "sendingInstitution": "{\"id\":113,\"code\":\"DAC     \",\"isCommunityCollege\":true,\"category\":\"CCC\",\"termType\":\"Quarter\",\"names\":[{\"name\":\"De Anza College\",\"hasDepartments\":true,\"fromYear\":0,\"hideInList\":false}],\"termTypeAcademicYears\":[{\"termType\":\"Quarter\",\"fromYear\":1980}],\"beginId\":31,\"endId\":null}",
+    "academicYear": "{\"id\":76,\"code\":\"2025-2026\",\"beginDate\":\"2025-10-01T00:00:00\",\"endDate\":\"2026-10-01T00:00:00\",\"isOpenForMaintenance\":true,\"isOpenForPublic\":true,\"isOpenForReporting\":true,\"isLocked\":false}",
+    "templateAssets": [
+      {
+        "type": "RequirementTitle",
+        "content": "COGNATE COURSES",
+        "groupId": "6a0c7945-6887-ef11-8474-000d3a37e3b6",
+        "position": 2,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": false,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 274024,
+                      "courseTitle": "Single Variable Calculus I for Engineers",
+                      "courseNumber": "2310",
+                      "prefix": "MATH",
+                      "prefixParentId": 10010,
+                      "prefixDescription": "Mathematics",
+                      "departmentParentId": 9026,
+                      "department": "Mathematics",
+                      "begin": "F2016",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "65053e2a-5226-4a88-b0d9-08ddb3499770",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 300303,
+                      "courseTitle": "Single Variable Calculus I",
+                      "courseNumber": "2510",
+                      "prefix": "MATH",
+                      "prefixParentId": 10010,
+                      "prefixDescription": "Mathematics",
+                      "departmentParentId": 9026,
+                      "department": "Mathematics",
+                      "begin": "F2016",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "bfc6be90-33a7-40ea-b0da-08ddb3499770",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [
+              {
+                "type": "NFollowing",
+                "amount": 1.0,
+                "amountUnitType": "Course",
+                "position": 0,
+                "selectionType": "Select"
+              }
+            ],
+            "position": 0,
+            "attributes": [
+              {
+                "position": 0,
+                "content": "Minimum grade required: C- or better"
+              }
+            ]
+          },
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 305678,
+                      "courseTitle": "Single Variable Calculus II for Engineers",
+                      "courseNumber": "2320",
+                      "prefix": "MATH",
+                      "prefixParentId": 10010,
+                      "prefixDescription": "Mathematics",
+                      "departmentParentId": 9026,
+                      "department": "Mathematics",
+                      "begin": "F2016",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "7906568e-4cb3-427d-b0db-08ddb3499770",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 300304,
+                      "courseTitle": "Single Variable Calculus II",
+                      "courseNumber": "2520",
+                      "prefix": "MATH",
+                      "prefixParentId": 10010,
+                      "prefixDescription": "Mathematics",
+                      "departmentParentId": 9026,
+                      "department": "Mathematics",
+                      "begin": "F2016",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "558b110c-3b73-4ca8-b0dc-08ddb3499770",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [
+              {
+                "type": "NFollowing",
+                "amount": 1.0,
+                "amountUnitType": "Course",
+                "position": 0,
+                "selectionType": "Select"
+              }
+            ],
+            "position": 1,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": {
+          "type": "Following",
+          "id": "d2b696c8-39ad-4344-61d4-08ddb3499762",
+          "selectionType": "Complete"
+        },
+        "advisements": [],
+        "groupId": "492d6645-6887-ef11-8474-000d3a37e3b6",
+        "position": 3,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": false,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 305648,
+                      "courseTitle": "Linear Algebra I",
+                      "courseNumber": "2610",
+                      "prefix": "MATH",
+                      "prefixParentId": 10010,
+                      "prefixDescription": "Mathematics",
+                      "departmentParentId": 9026,
+                      "department": "Mathematics",
+                      "begin": "F2016",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "7cb5984f-e412-4941-b0dd-08ddb3499770",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 274977,
+                      "courseTitle": "Foundations of Chemistry",
+                      "courseNumber": "1000",
+                      "prefix": "CHEM",
+                      "prefixParentId": 3839,
+                      "prefixDescription": "Chemistry",
+                      "departmentParentId": 2345,
+                      "department": "Chemistry",
+                      "begin": "F2016",
+                      "end": "",
+                      "minUnits": 3.0,
+                      "maxUnits": 3.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "9b8a7407-01b3-4d26-b0de-08ddb3499770",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 2,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 289602,
+                      "courseTitle": "Calculus-Based Physics I",
+                      "courseNumber": "2210",
+                      "prefix": "PHYS",
+                      "prefixParentId": 283,
+                      "prefixDescription": "Physics",
+                      "departmentParentId": 10805,
+                      "department": "Physics",
+                      "begin": "F2016",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "37d0fb7f-cf84-405e-b0df-08ddb3499770",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 3,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 305387,
+                      "courseTitle": "Calculus-Based Physics II",
+                      "courseNumber": "2220",
+                      "prefix": "PHYS",
+                      "prefixParentId": 283,
+                      "prefixDescription": "Physics",
+                      "departmentParentId": 10805,
+                      "department": "Physics",
+                      "begin": "F2016",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "7fa56ccd-f65c-4ea6-b0e0-08ddb3499770",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 0,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": true,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": {
+          "type": "Following",
+          "id": "d07d08de-a6ec-4eb8-61d5-08ddb3499762",
+          "selectionType": "Complete"
+        },
+        "advisements": [],
+        "groupId": "cf4b6845-6887-ef11-8474-000d3a37e3b6",
+        "position": 5,
+        "area": "Requirements"
+      },
+      {
+        "type": "GeneralTitle",
+        "content": "General Information",
+        "groupId": "81387445-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p><strong>Articulation Agreement Overview</strong></p><p>This agreement outlines lower-division course requirements specific to the major. Students are strongly encouraged to consult an academic advisor to ensure they meet all degree requirements for their intended baccalaureate program.</p><p><br></p><p><strong>Helpful Resources:</strong></p><ul><li><a href=\"https://catalog.csub.edu/\" rel=\"noopener noreferrer\" target=\"_blank\">CSUB Catalog</a></li><li><a href=\"https://www.csub.edu/admissions/transfer\" rel=\"noopener noreferrer\" target=\"_blank\">Transfer Admission Requirements</a></li><li><a href=\"https://www.csub.edu/advising\" rel=\"noopener noreferrer\" target=\"_blank\">Academic Advising Student Centers</a></li><li><a href=\"https://www.csub.edu/ppm\" rel=\"noopener noreferrer\" target=\"_blank\">CSUB Program Pathways Mapper</a></li></ul><p><br></p><p><strong>Course Equivalency Information for 4-Year Institutions</strong></p><p>Students and staff can explore course transfer equivalencies through the <a href=\"https://tes.collegesource.com/publicview/TES_publicview01.aspx?rid=7ea49506-39bf-4815-8199-734369e7a30c&amp;aid=ccc830a2-2435-4dd6-b352-a586b4575654\" rel=\"noopener noreferrer\" target=\"_blank\">Transfer Evaluation System (TES)</a>. Equivalency agreements are updated regularly and subject to change. For the most current information, please refer to TES or contact the <a href=\"https://www.csub.edu/articulation/\" rel=\"noopener noreferrer\" target=\"_blank\">Articulation Office</a>.</p>",
+        "groupId": "cb347445-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "General"
+      },
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": false,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 117105,
+                      "courseTitle": "Introduction to Engineering II",
+                      "courseNumber": "1628",
+                      "prefix": "ENGR",
+                      "prefixParentId": 12584,
+                      "prefixDescription": "Engineering",
+                      "departmentParentId": 14472,
+                      "department": "Engineering",
+                      "begin": "F2023",
+                      "end": "",
+                      "minUnits": 2.0,
+                      "maxUnits": 2.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [
+                      {
+                        "course": {
+                          "courseIdentifierParentId": 117107,
+                          "courseTitle": "Introduction to Engineering II",
+                          "courseNumber": "1628",
+                          "prefix": "ECE",
+                          "prefixParentId": 15415,
+                          "prefixDescription": "Electrical & Computer Engineering",
+                          "departmentParentId": 15326,
+                          "department": "Electrical & Computer Engineering",
+                          "begin": "F2023",
+                          "end": "",
+                          "minUnits": 2.0,
+                          "maxUnits": 2.0,
+                          "pathways": []
+                        }
+                      }
+                    ],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "9499be78-8997-4b2f-b0e1-08ddb3499770",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 133008,
+                      "courseTitle": "Introduction to Engineering I",
+                      "courseNumber": "1618",
+                      "prefix": "ENGR",
+                      "prefixParentId": 12584,
+                      "prefixDescription": "Engineering",
+                      "departmentParentId": 14472,
+                      "department": "Engineering",
+                      "begin": "F2023",
+                      "end": "",
+                      "minUnits": 2.0,
+                      "maxUnits": 2.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [
+                      {
+                        "course": {
+                          "courseIdentifierParentId": 133012,
+                          "courseTitle": "Introduction to Engineering I",
+                          "courseNumber": "1618",
+                          "prefix": "ECE",
+                          "prefixParentId": 15415,
+                          "prefixDescription": "Electrical & Computer Engineering",
+                          "departmentParentId": 15326,
+                          "department": "Electrical & Computer Engineering",
+                          "begin": "F2023",
+                          "end": "",
+                          "minUnits": 2.0,
+                          "maxUnits": 2.0,
+                          "pathways": []
+                        }
+                      }
+                    ],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "458db311-b713-4196-b0e2-08ddb3499770",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 3,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 357862,
+                      "courseTitle": "Programming I: Programming Fundamentals",
+                      "courseNumber": "2010",
+                      "prefix": "CMPS",
+                      "prefixParentId": 536,
+                      "prefixDescription": "Computer Science",
+                      "departmentParentId": 3238,
+                      "department": "Computer Science",
+                      "begin": "F2016",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "37013901-218b-4c34-b0e3-08ddb3499770",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 2,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 281656,
+                      "courseTitle": "Electric Circuits",
+                      "courseNumber": "2070",
+                      "prefix": "ENGR",
+                      "prefixParentId": 12584,
+                      "prefixDescription": "Engineering",
+                      "departmentParentId": 14472,
+                      "department": "Engineering",
+                      "begin": "F2023",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [
+                      {
+                        "course": {
+                          "courseIdentifierParentId": 281660,
+                          "courseTitle": "Electric Circuits",
+                          "courseNumber": "2070",
+                          "prefix": "ECE",
+                          "prefixParentId": 15415,
+                          "prefixDescription": "Electrical & Computer Engineering",
+                          "departmentParentId": 15326,
+                          "department": "Electrical & Computer Engineering",
+                          "begin": "F2023",
+                          "end": "",
+                          "minUnits": 4.0,
+                          "maxUnits": 4.0,
+                          "pathways": []
+                        }
+                      },
+                      {
+                        "course": {
+                          "courseIdentifierParentId": 286498,
+                          "courseTitle": "Electric Circuits",
+                          "courseNumber": "2070",
+                          "prefix": "PHYS",
+                          "prefixParentId": 283,
+                          "prefixDescription": "Physics",
+                          "departmentParentId": 10805,
+                          "department": "Physics",
+                          "begin": "F2016",
+                          "end": "",
+                          "minUnits": 4.0,
+                          "maxUnits": 4.0,
+                          "pathways": []
+                        }
+                      }
+                    ],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "fdf59d4f-bdac-45c3-b0e4-08ddb3499770",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 0,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": {
+          "type": "Following",
+          "id": "5db34cc1-7783-4441-61d6-08ddb3499762",
+          "selectionType": "Complete"
+        },
+        "advisements": [],
+        "groupId": "5cea6545-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementTitle",
+        "content": "MAJOR REQUIREMENTS",
+        "groupId": "f2917645-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "Requirements"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p>Electrical Engineering is a large and expanding field that is concerned with the following fundamental areas: digital signal processing, semiconductor electronics, microprocessors, and embedded systems, VSLI design, cyber-physical systems, data communications, energy systems and power electronics, transmission and distribution, RF and microwave, robotics and control system design, electromechanics and mechatronics, computer networks, digital design, image processing, computer vision and is accredited by the Engineering Accreditation Commission of ABET, www.abet.org. If computer science can be regarded to be on the information processing side of computer engineering, then electrical engineering can be regarded to be on the side that builds upon the fundamental physical properties of electricity and magnetism. Electrical engineers often work with other engineers, physical scientists, and computer scientists.</p><p><br></p><p>The Computer and Electrical Engineering and Computer Science Department moved into a new building in the Fall of 2008. The department administers its local area network which includes multiple Unix/Linux servers, two software programming labs, a walk-in lab/tutoring center, one advanced workstation lab, an isolated network lab, an AI/visualization lab, a DSP/communications lab, one digital electronics hardware lab, a power systems/electronics lab, and a robotics/control systems lab. There is also a department library/major study room with computers available to students.</p><p><br></p><p>An important goal of the department is to enable students to work much more closely with faculty than they would be able to at larger universities. A detailed description of student learning goals and objectives can be found at https://www.cs.csub.edu/abet/.</p><p><br></p><p>For additional information, visit the following:</p><p>Department of <a href=\"https://www.cs.csub.edu/index.php\" rel=\"noopener noreferrer\" target=\"_blank\">Computer &amp; Electrical Engineering and Computer Science</a></p><p>Program Requirements - <a href=\"https://catalog.csub.edu/academic-degrees-programs/undergraduate-majors/electrical-engineering-bs/\" rel=\"noopener noreferrer\" target=\"_blank\">Electrical Engineering, BS</a></p>",
+        "groupId": "acf77845-6887-ef11-8474-000d3a37e3b6",
+        "position": 3,
+        "area": "General"
+      },
+      {
+        "type": "GeneralTitle",
+        "content": "About the Major",
+        "groupId": "42d37645-6887-ef11-8474-000d3a37e3b6",
+        "position": 2,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<ul><li>A modification to the standard GE program has been approved that allows the possibility of satisfying some GE requirements through the major. Please see the Electrical Engineering General Education Courses and Notes in the CSUB catalog for further information.</li></ul>",
+        "groupId": "77db7645-6887-ef11-8474-000d3a37e3b6",
+        "position": 5,
+        "area": "General"
+      },
+      {
+        "type": "GeneralTitle",
+        "content": "Important Note",
+        "groupId": "fb3e7445-6887-ef11-8474-000d3a37e3b6",
+        "position": 4,
+        "area": "General"
+      },
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": false,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 273971,
+                      "courseTitle": "Multivariable and Vector Calculus",
+                      "courseNumber": "2533",
+                      "prefix": "MATH",
+                      "prefixParentId": 10010,
+                      "prefixDescription": "Mathematics",
+                      "departmentParentId": 9026,
+                      "department": "Mathematics",
+                      "begin": "F2019",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "a038c04f-5fd2-4b36-b0e5-08ddb3499770",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 0,
+            "attributes": []
+          },
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 274304,
+                      "courseTitle": "Multivariable and Vector Calculus for Engineers",
+                      "courseNumber": "2330",
+                      "prefix": "MATH",
+                      "prefixParentId": 10010,
+                      "prefixDescription": "Mathematics",
+                      "departmentParentId": 9026,
+                      "department": "Mathematics",
+                      "begin": "F2016",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "28ad585f-2fe0-4ce7-b0e6-08ddb3499770",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 1,
+            "attributes": []
+          },
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 274305,
+                      "courseTitle": "Multivariable Calculus",
+                      "courseNumber": "2531",
+                      "prefix": "MATH",
+                      "prefixParentId": 10010,
+                      "prefixDescription": "Mathematics",
+                      "departmentParentId": 9026,
+                      "department": "Mathematics",
+                      "begin": "F2016",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "c250c568-7773-435b-b0e7-08ddb3499770",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 133092,
+                      "courseTitle": "Vector Calculus",
+                      "courseNumber": "2532",
+                      "prefix": "MATH",
+                      "prefixParentId": 10010,
+                      "prefixDescription": "Mathematics",
+                      "departmentParentId": 9026,
+                      "department": "Mathematics",
+                      "begin": "F2016",
+                      "end": "",
+                      "minUnits": 2.0,
+                      "maxUnits": 2.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "b51ffe43-f623-4e54-b0e8-08ddb3499770",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 2,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": true,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": {
+          "type": "Conjunction",
+          "conjunction": "Or",
+          "id": "c472200b-cf16-4946-61d7-08ddb3499762",
+          "selectionType": "Select"
+        },
+        "advisements": [],
+        "groupId": "cdde4deb-a71a-4c24-b0b8-019514829f9d",
+        "position": 4,
+        "area": "Requirements"
+      }
+    ],
+    "articulations": [
+      {
+        "templateCellId": "bfc6be90-33a7-40ea-b0da-08ddb3499770",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 300303,
+            "courseTitle": "Single Variable Calculus I",
+            "courseNumber": "2510",
+            "prefix": "MATH",
+            "prefixParentId": 10010,
+            "prefixDescription": "Mathematics",
+            "departmentParentId": 9026,
+            "department": "Mathematics",
+            "begin": "F2016",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [
+                      {
+                        "position": 0,
+                        "content": "Course cannot  be dual counted"
+                      }
+                    ],
+                    "courseIdentifierParentId": 281397,
+                    "courseTitle": "Calculus I",
+                    "courseNumber": "1A",
+                    "prefix": "MATH",
+                    "prefixParentId": 10025,
+                    "prefixDescription": "Mathematics",
+                    "departmentParentId": 9040,
+                    "department": "Mathematics",
+                    "begin": "F2024",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 179,
+                    "position": 0,
+                    "type": "Course"
+                  },
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [
+                      {
+                        "position": 0,
+                        "content": "Course cannot  be dual counted"
+                      }
+                    ],
+                    "courseIdentifierParentId": 307949,
+                    "courseTitle": "Calculus II",
+                    "courseNumber": "1B",
+                    "prefix": "MATH",
+                    "prefixParentId": 10025,
+                    "prefixDescription": "Mathematics",
+                    "departmentParentId": 9040,
+                    "department": "Mathematics",
+                    "begin": "F2024",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 179,
+                    "position": 1,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [
+                  {
+                    "position": 0,
+                    "content": "Articulates as a sequence only"
+                  }
+                ],
+                "position": 0,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [
+                      {
+                        "position": 0,
+                        "content": "Course cannot  be dual counted"
+                      }
+                    ],
+                    "courseIdentifierParentId": 288768,
+                    "courseTitle": "Calculus I - HONORS",
+                    "courseNumber": "1AH",
+                    "prefix": "MATH",
+                    "prefixParentId": 10025,
+                    "prefixDescription": "Mathematics",
+                    "departmentParentId": 9040,
+                    "department": "Mathematics",
+                    "begin": "F2024",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 263,
+                    "position": 0,
+                    "type": "Course"
+                  },
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [
+                      {
+                        "position": 0,
+                        "content": "Course cannot  be dual counted"
+                      }
+                    ],
+                    "courseIdentifierParentId": 288769,
+                    "courseTitle": "Calculus II - HONORS",
+                    "courseNumber": "1BH",
+                    "prefix": "MATH",
+                    "prefixParentId": 10025,
+                    "prefixDescription": "Mathematics",
+                    "departmentParentId": 9040,
+                    "department": "Mathematics",
+                    "begin": "F2024",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 263,
+                    "position": 1,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [
+                  {
+                    "position": 0,
+                    "content": "Articulates as a sequence only"
+                  }
+                ],
+                "position": 1,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [
+              {
+                "id": "533cae82-2a7d-47b0-95f5-08ddb349d5ca",
+                "sendingArticulationId": "563e2d21-c8cc-449d-8f05-08ddb349be3d",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 0,
+                "sendingCourseGroupEndPosition": 1
+              }
+            ],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "558b110c-3b73-4ca8-b0dc-08ddb3499770",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 300304,
+            "courseTitle": "Single Variable Calculus II",
+            "courseNumber": "2520",
+            "prefix": "MATH",
+            "prefixParentId": 10010,
+            "prefixDescription": "Mathematics",
+            "departmentParentId": 9026,
+            "department": "Mathematics",
+            "begin": "F2016",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [
+                      {
+                        "position": 0,
+                        "content": "Course cannot  be dual counted"
+                      }
+                    ],
+                    "courseIdentifierParentId": 288769,
+                    "courseTitle": "Calculus II - HONORS",
+                    "courseNumber": "1BH",
+                    "prefix": "MATH",
+                    "prefixParentId": 10025,
+                    "prefixDescription": "Mathematics",
+                    "departmentParentId": 9040,
+                    "department": "Mathematics",
+                    "begin": "F2024",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 263,
+                    "position": 0,
+                    "type": "Course"
+                  },
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [
+                      {
+                        "position": 0,
+                        "content": "Course cannot  be dual counted"
+                      }
+                    ],
+                    "courseIdentifierParentId": 309559,
+                    "courseTitle": "Calculus III - HONORS",
+                    "courseNumber": "1CH",
+                    "prefix": "MATH",
+                    "prefixParentId": 10025,
+                    "prefixDescription": "Mathematics",
+                    "departmentParentId": 9040,
+                    "department": "Mathematics",
+                    "begin": "F2024",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 263,
+                    "position": 1,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [
+                  {
+                    "position": 0,
+                    "content": "Articulates as a sequence only"
+                  }
+                ],
+                "position": 1,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [
+                      {
+                        "position": 0,
+                        "content": "Course cannot  be dual counted"
+                      }
+                    ],
+                    "courseIdentifierParentId": 307949,
+                    "courseTitle": "Calculus II",
+                    "courseNumber": "1B",
+                    "prefix": "MATH",
+                    "prefixParentId": 10025,
+                    "prefixDescription": "Mathematics",
+                    "departmentParentId": 9040,
+                    "department": "Mathematics",
+                    "begin": "F2024",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 179,
+                    "position": 0,
+                    "type": "Course"
+                  },
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [
+                      {
+                        "position": 0,
+                        "content": "Course cannot  be dual counted"
+                      }
+                    ],
+                    "courseIdentifierParentId": 359110,
+                    "courseTitle": "Calculus III",
+                    "courseNumber": "1C",
+                    "prefix": "MATH",
+                    "prefixParentId": 10025,
+                    "prefixDescription": "Mathematics",
+                    "departmentParentId": 9040,
+                    "department": "Mathematics",
+                    "begin": "F2024",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 179,
+                    "position": 1,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [
+                  {
+                    "position": 0,
+                    "content": "Articulates as a sequence only"
+                  }
+                ],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [
+              {
+                "id": "049d43cc-5141-4bd7-93b0-08ddb349d5ca",
+                "sendingArticulationId": "8c688ec1-509c-4a64-8691-08ddb349be3d",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 0,
+                "sendingCourseGroupEndPosition": 1
+              }
+            ],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "7cb5984f-e412-4941-b0dd-08ddb3499770",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 305648,
+            "courseTitle": "Linear Algebra I",
+            "courseNumber": "2610",
+            "prefix": "MATH",
+            "prefixParentId": 10010,
+            "prefixDescription": "Mathematics",
+            "departmentParentId": 9026,
+            "department": "Mathematics",
+            "begin": "F2016",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 302590,
+                    "courseTitle": "Linear Algebra",
+                    "courseNumber": "2B",
+                    "prefix": "MATH",
+                    "prefixParentId": 10025,
+                    "prefixDescription": "Mathematics",
+                    "departmentParentId": 9040,
+                    "department": "Mathematics",
+                    "begin": "F1995",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 179,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 363589,
+                    "courseTitle": "Linear Algebra - HONORS",
+                    "courseNumber": "2BH",
+                    "prefix": "MATH",
+                    "prefixParentId": 10025,
+                    "prefixDescription": "Mathematics",
+                    "departmentParentId": 9040,
+                    "department": "Mathematics",
+                    "begin": "F2018",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 271,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 1,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [
+              {
+                "id": "636b88d7-8965-40f3-848b-08de00f70b2d",
+                "sendingArticulationId": "32748127-428b-41d8-4a8f-08ddb349be3d",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 0,
+                "sendingCourseGroupEndPosition": 1
+              }
+            ],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "9b8a7407-01b3-4d26-b0de-08ddb3499770",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 274977,
+            "courseTitle": "Foundations of Chemistry",
+            "courseNumber": "1000",
+            "prefix": "CHEM",
+            "prefixParentId": 3839,
+            "prefixDescription": "Chemistry",
+            "departmentParentId": 2345,
+            "department": "Chemistry",
+            "begin": "F2016",
+            "end": "",
+            "minUnits": 3.0,
+            "maxUnits": 3.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [
+                      {
+                        "position": 0,
+                        "content": "Course is articulated in more than one agreement but credit can only apply to one"
+                      }
+                    ],
+                    "courseIdentifierParentId": 359228,
+                    "courseTitle": "General Chemistry I",
+                    "courseNumber": "1A",
+                    "prefix": "CHEM",
+                    "prefixParentId": 3854,
+                    "prefixDescription": "Chemistry",
+                    "departmentParentId": 2358,
+                    "department": "Chemistry",
+                    "begin": "F2024",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 179,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [
+                      {
+                        "position": 0,
+                        "content": "Course is articulated in more than one agreement but credit can only apply to one"
+                      }
+                    ],
+                    "courseIdentifierParentId": 368022,
+                    "courseTitle": "General Chemistry I - HONORS",
+                    "courseNumber": "1AH",
+                    "prefix": "CHEM",
+                    "prefixParentId": 3854,
+                    "prefixDescription": "Chemistry",
+                    "departmentParentId": 2358,
+                    "department": "Chemistry",
+                    "begin": "F2024",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 275,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 1,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [
+              {
+                "id": "9553e146-71eb-4c99-93c3-08ddb349d5ca",
+                "sendingArticulationId": "5ee32c03-1062-40b3-86d5-08ddb349be3d",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 0,
+                "sendingCourseGroupEndPosition": 1
+              }
+            ],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "37d0fb7f-cf84-405e-b0df-08ddb3499770",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 289602,
+            "courseTitle": "Calculus-Based Physics I",
+            "courseNumber": "2210",
+            "prefix": "PHYS",
+            "prefixParentId": 283,
+            "prefixDescription": "Physics",
+            "departmentParentId": 10805,
+            "department": "Physics",
+            "begin": "F2016",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 305519,
+                    "courseTitle": "Physics for Scientists and Engineers: Mechanics",
+                    "courseNumber": "4A",
+                    "prefix": "PHYS",
+                    "prefixParentId": 300,
+                    "prefixDescription": "Physics",
+                    "departmentParentId": 10814,
+                    "department": "Physics",
+                    "begin": "F1998",
+                    "end": "",
+                    "minUnits": 6.0,
+                    "maxUnits": 6.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "7fa56ccd-f65c-4ea6-b0e0-08ddb3499770",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 305387,
+            "courseTitle": "Calculus-Based Physics II",
+            "courseNumber": "2220",
+            "prefix": "PHYS",
+            "prefixParentId": 283,
+            "prefixDescription": "Physics",
+            "departmentParentId": 10805,
+            "department": "Physics",
+            "begin": "F2016",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 276901,
+                    "courseTitle": "Physics for Scientists and Engineers: Electricity and Magnetism",
+                    "courseNumber": "4B",
+                    "prefix": "PHYS",
+                    "prefixParentId": 300,
+                    "prefixDescription": "Physics",
+                    "departmentParentId": 10814,
+                    "department": "Physics",
+                    "begin": "F1998",
+                    "end": "",
+                    "minUnits": 6.0,
+                    "maxUnits": 6.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "37013901-218b-4c34-b0e3-08ddb3499770",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 357862,
+            "courseTitle": "Programming I: Programming Fundamentals",
+            "courseNumber": "2010",
+            "prefix": "CMPS",
+            "prefixParentId": 536,
+            "prefixDescription": "Computer Science",
+            "departmentParentId": 3238,
+            "department": "Computer Science",
+            "begin": "F2016",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 275613,
+                    "courseTitle": "Beginning Programming Methodologies in C++",
+                    "courseNumber": "22A",
+                    "prefix": "CIS",
+                    "prefixParentId": 2242,
+                    "prefixDescription": "Computer Information Systems",
+                    "departmentParentId": 3124,
+                    "department": "Computer Science and Information Systems",
+                    "begin": "F2013",
+                    "end": "",
+                    "minUnits": 4.5,
+                    "maxUnits": 4.5,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 275526,
+                    "courseTitle": "Java Programming",
+                    "courseNumber": "35A",
+                    "prefix": "CIS",
+                    "prefixParentId": 2242,
+                    "prefixDescription": "Computer Information Systems",
+                    "departmentParentId": 3124,
+                    "department": "Computer Science and Information Systems",
+                    "begin": "F2015",
+                    "end": "",
+                    "minUnits": 4.5,
+                    "maxUnits": 4.5,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 1,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 300746,
+                    "courseTitle": "Introduction to Computer Programming Using Java",
+                    "courseNumber": "36A",
+                    "prefix": "CIS",
+                    "prefixParentId": 2242,
+                    "prefixDescription": "Computer Information Systems",
+                    "departmentParentId": 3124,
+                    "department": "Computer Science and Information Systems",
+                    "begin": "F2013",
+                    "end": "",
+                    "minUnits": 4.5,
+                    "maxUnits": 4.5,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 2,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [
+              {
+                "id": "b2c9b1f0-54b6-4a30-8b2e-08ddb349d5ca",
+                "sendingArticulationId": "91a3511e-7e57-4ed7-6395-08ddb349be3d",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 0,
+                "sendingCourseGroupEndPosition": 1
+              },
+              {
+                "id": "c70d951a-6c67-436a-8b2f-08ddb349d5ca",
+                "sendingArticulationId": "91a3511e-7e57-4ed7-6395-08ddb349be3d",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 1,
+                "sendingCourseGroupEndPosition": 2
+              }
+            ],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "fdf59d4f-bdac-45c3-b0e4-08ddb3499770",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 281656,
+            "courseTitle": "Electric Circuits",
+            "courseNumber": "2070",
+            "prefix": "ENGR",
+            "prefixParentId": 12584,
+            "prefixDescription": "Engineering",
+            "departmentParentId": 14472,
+            "department": "Engineering",
+            "begin": "F2023",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [
+            {
+              "courseIdentifierParentId": 281660,
+              "courseTitle": "Electric Circuits",
+              "courseNumber": "2070",
+              "prefix": "ECE",
+              "prefixParentId": 15415,
+              "prefixDescription": "Electrical & Computer Engineering",
+              "departmentParentId": 15326,
+              "department": "Electrical & Computer Engineering",
+              "begin": "F2023",
+              "end": "",
+              "minUnits": 4.0,
+              "maxUnits": 4.0,
+              "pathways": []
+            },
+            {
+              "courseIdentifierParentId": 286498,
+              "courseTitle": "Electric Circuits",
+              "courseNumber": "2070",
+              "prefix": "PHYS",
+              "prefixParentId": 283,
+              "prefixDescription": "Physics",
+              "departmentParentId": 10805,
+              "department": "Physics",
+              "begin": "F2016",
+              "end": "",
+              "minUnits": 4.0,
+              "maxUnits": 4.0,
+              "pathways": []
+            }
+          ],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 307940,
+                    "courseTitle": "Introduction to Circuit Analysis",
+                    "courseNumber": "37",
+                    "prefix": "ENGR",
+                    "prefixParentId": 3570,
+                    "prefixDescription": "Engineering",
+                    "departmentParentId": 4803,
+                    "department": "Engineering",
+                    "begin": "F1995",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 179,
+                    "position": 0,
+                    "type": "Course"
+                  },
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 410704,
+                    "courseTitle": "Introduction to Circuit Analysis Laboratory",
+                    "courseNumber": "37L",
+                    "prefix": "ENGR",
+                    "prefixParentId": 3570,
+                    "prefixDescription": "Engineering",
+                    "departmentParentId": 4803,
+                    "department": "Engineering",
+                    "begin": "F2025",
+                    "end": "",
+                    "minUnits": 2.0,
+                    "maxUnits": 2.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 299,
+                    "position": 1,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [
+                  {
+                    "position": 0,
+                    "content": "Articulates as a sequence only"
+                  }
+                ],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "a038c04f-5fd2-4b36-b0e5-08ddb3499770",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 273971,
+            "courseTitle": "Multivariable and Vector Calculus",
+            "courseNumber": "2533",
+            "prefix": "MATH",
+            "prefixParentId": 10010,
+            "prefixDescription": "Mathematics",
+            "departmentParentId": 9026,
+            "department": "Mathematics",
+            "begin": "F2019",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [
+                      {
+                        "position": 0,
+                        "content": "Course cannot  be dual counted"
+                      }
+                    ],
+                    "courseIdentifierParentId": 359110,
+                    "courseTitle": "Calculus III",
+                    "courseNumber": "1C",
+                    "prefix": "MATH",
+                    "prefixParentId": 10025,
+                    "prefixDescription": "Mathematics",
+                    "departmentParentId": 9040,
+                    "department": "Mathematics",
+                    "begin": "F2024",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 179,
+                    "position": 0,
+                    "type": "Course"
+                  },
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [
+                      {
+                        "position": 0,
+                        "content": "Course cannot  be dual counted"
+                      }
+                    ],
+                    "courseIdentifierParentId": 302624,
+                    "courseTitle": "Calculus IV",
+                    "courseNumber": "1D",
+                    "prefix": "MATH",
+                    "prefixParentId": 10025,
+                    "prefixDescription": "Mathematics",
+                    "departmentParentId": 9040,
+                    "department": "Mathematics",
+                    "begin": "F2024",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 179,
+                    "position": 1,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [
+                  {
+                    "position": 0,
+                    "content": "Articulates as a sequence only"
+                  }
+                ],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      }
+    ],
+    "catalogYear": "{\"receivingCatalogYearBegin\":2025,\"receivingCatalogYearEnd\":2026,\"sendingCatalogYearBegin\":2025,\"sendingCatalogYearEnd\":2026}"
+  },
+  "validationFailure": null,
+  "isSuccessful": true
+}

@@ -1,0 +1,570 @@
+{
+  "result": {
+    "name": "Earth Sciences Minor",
+    "type": "Major",
+    "publishDate": "2025-11-17T22:43:37.2170756",
+    "receivingInstitution": "{\"id\":132,\"code\":\"UCSC    \",\"isCommunityCollege\":false,\"category\":\"UC\",\"termType\":\"Quarter\",\"names\":[{\"name\":\"University of California, Santa Cruz\",\"hasDepartments\":true,\"fromYear\":0,\"hideInList\":false}],\"termTypeAcademicYears\":[{\"termType\":\"Quarter\",\"fromYear\":1980}],\"beginId\":31,\"endId\":null}",
+    "sendingInstitution": "{\"id\":113,\"code\":\"DAC     \",\"isCommunityCollege\":true,\"category\":\"CCC\",\"termType\":\"Quarter\",\"names\":[{\"name\":\"De Anza College\",\"hasDepartments\":true,\"fromYear\":0,\"hideInList\":false}],\"termTypeAcademicYears\":[{\"termType\":\"Quarter\",\"fromYear\":1980}],\"beginId\":31,\"endId\":null}",
+    "academicYear": "{\"id\":76,\"code\":\"2025-2026\",\"beginDate\":\"2025-10-01T00:00:00\",\"endDate\":\"2026-10-01T00:00:00\",\"isOpenForMaintenance\":true,\"isOpenForPublic\":true,\"isOpenForReporting\":true,\"isLocked\":false}",
+    "templateAssets": [
+      {
+        "type": "GeneralText",
+        "content": "<p><span style=\"font-size: 14px;\">UC Santa Cruz students may complete one or more minors, provided they can finish all required coursework within their maximum enrollment terms and credit limits. Minors are recorded on the official transcript but do not appear on the diploma. Pursuing a minor is optional and should align with a student\u2019s academic interests and career goals.</span></p><p><br></p><p><span style=\"font-size: 14px;\">Students do not apply for minors as part of their UC Santa Cruz admission application. Transfer students interested in a minor should reach out to the department that offers it for advising during their first quarter of enrollment.</span></p>",
+        "groupId": "90c86f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "General"
+      },
+      {
+        "type": "GeneralTitle",
+        "content": "Earth Sciences Minor",
+        "groupId": "50756f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 2,
+        "area": "General"
+      },
+      {
+        "type": "GeneralTitle",
+        "content": "GENERAL INFORMATION FOR ALL MINORS",
+        "groupId": "51756f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "General"
+      },
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": false,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 307142,
+                      "courseTitle": "How the Earth Works",
+                      "courseNumber": "10",
+                      "prefix": "EART",
+                      "prefixParentId": 9885,
+                      "prefixDescription": "Earth Sciences",
+                      "departmentParentId": 4133,
+                      "department": "Earth and Planetary Sciences",
+                      "begin": "F2025",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "dfeed4d5-a596-4e1c-ef72-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 29378,
+                      "courseTitle": "Geologic Principles Laboratory",
+                      "courseNumber": "10L",
+                      "prefix": "EART",
+                      "prefixParentId": 9885,
+                      "prefixDescription": "Earth Sciences",
+                      "departmentParentId": 4133,
+                      "department": "Earth and Planetary Sciences",
+                      "begin": "F2006",
+                      "end": "",
+                      "minUnits": 1.0,
+                      "maxUnits": 1.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "936e4f06-698e-4730-ef73-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 1,
+            "attributes": []
+          },
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 303700,
+                      "courseTitle": "Environmental Geology",
+                      "courseNumber": "20",
+                      "prefix": "EART",
+                      "prefixParentId": 9885,
+                      "prefixDescription": "Earth Sciences",
+                      "departmentParentId": 4133,
+                      "department": "Earth and Planetary Sciences",
+                      "begin": "F2006",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "5355211c-ce9a-4bfe-ef74-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 47769,
+                      "courseTitle": "Environmental Geology Laboratory",
+                      "courseNumber": "20L",
+                      "prefix": "EART",
+                      "prefixParentId": 9885,
+                      "prefixDescription": "Earth Sciences",
+                      "departmentParentId": 4133,
+                      "department": "Earth and Planetary Sciences",
+                      "begin": "F2006",
+                      "end": "",
+                      "minUnits": 1.0,
+                      "maxUnits": 1.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "44cca2a4-ccdb-4bf3-ef75-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 2,
+            "attributes": []
+          },
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 48500,
+                      "courseTitle": "California Geology Laboratory",
+                      "courseNumber": "5L",
+                      "prefix": "EART",
+                      "prefixParentId": 9885,
+                      "prefixDescription": "Earth Sciences",
+                      "departmentParentId": 4133,
+                      "department": "Earth and Planetary Sciences",
+                      "begin": "F2006",
+                      "end": "",
+                      "minUnits": 1.0,
+                      "maxUnits": 1.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "bb3d40c9-62fc-453e-ef76-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 358525,
+                      "courseTitle": "California Geology",
+                      "courseNumber": "5",
+                      "prefix": "EART",
+                      "prefixParentId": 9885,
+                      "prefixDescription": "Earth Sciences",
+                      "departmentParentId": 4133,
+                      "department": "Earth and Planetary Sciences",
+                      "begin": "F2006",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "cd104c65-91e4-43ee-ef77-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 0,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": true,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": {
+          "type": "Conjunction",
+          "conjunction": "Or",
+          "id": "2063b14d-09b2-4e27-6a31-08ddcb96dfa1",
+          "selectionType": "Complete"
+        },
+        "advisements": [],
+        "groupId": "53756f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "Requirements"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<h2><strong>PREPARATION FOR THE MINOR</strong></h2><p><br></p><p><strong style=\"font-size: 14px;\">One of the following options:</strong></p><p><br></p><ul><li><span style=\"font-size: 14px;\">EART 5: California Geology </span><strong style=\"font-size: 14px;\"><u>AND</u></strong><span style=\"font-size: 14px;\"> EART 5L: California Geology Laboratory</span></li><li><span style=\"font-size: 14px;\">EART 10: How the Earth Works </span><strong style=\"font-size: 14px;\"><u>AND</u></strong><span style=\"font-size: 14px;\"> EART 10L: Geologic Principles Laboratory</span></li><li><span style=\"font-size: 14px;\">EART 20: Environmental Geology </span><strong style=\"font-size: 14px;\"><u>AND</u></strong><span style=\"font-size: 14px;\"> EART 20L: Environmental Geology Laboratory</span></li></ul><p><br></p><p><br></p><p><span style=\"font-size: 14px;\">Please visit the </span><a href=\"https://eps.ucsc.edu/\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 14px;\">Earth &amp; Planetary Sciences website</a><span style=\"font-size: 14px;\"> to learn more about this minor.</span></p><p><a href=\"https://catalog.ucsc.edu/en/current/general-catalog/academic-units/physical-and-biological-sciences-division/earth-and-planetary-sciences/earth-sciences-minor/\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 14px;\">UC Santa Cruz General Catalog: Earth Sciences Minor Program Statement</a></p>",
+        "groupId": "54756f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 3,
+        "area": "General"
+      },
+      {
+        "type": "RequirementTitle",
+        "content": "PREPARATION FOR THE MINOR",
+        "groupId": "1bfd7845-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "Requirements"
+      }
+    ],
+    "articulations": [
+      {
+        "templateCellId": "dfeed4d5-a596-4e1c-ef72-08ddcb96dfae",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 307142,
+            "courseTitle": "How the Earth Works",
+            "courseNumber": "10",
+            "prefix": "EART",
+            "prefixParentId": 9885,
+            "prefixDescription": "Earth Sciences",
+            "departmentParentId": 4133,
+            "department": "Earth and Planetary Sciences",
+            "begin": "F2025",
+            "end": "",
+            "minUnits": 5.0,
+            "maxUnits": 5.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 308128,
+                    "courseTitle": "Introductory Geology",
+                    "courseNumber": "10",
+                    "prefix": "GEOL",
+                    "prefixParentId": 11330,
+                    "prefixDescription": "Geology",
+                    "departmentParentId": 6352,
+                    "department": "Geology",
+                    "begin": "F1995",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "936e4f06-698e-4730-ef73-08ddcb96dfae",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 29378,
+            "courseTitle": "Geologic Principles Laboratory",
+            "courseNumber": "10L",
+            "prefix": "EART",
+            "prefixParentId": 9885,
+            "prefixDescription": "Earth Sciences",
+            "departmentParentId": 4133,
+            "department": "Earth and Planetary Sciences",
+            "begin": "F2006",
+            "end": "",
+            "minUnits": 1.0,
+            "maxUnits": 1.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 308128,
+                    "courseTitle": "Introductory Geology",
+                    "courseNumber": "10",
+                    "prefix": "GEOL",
+                    "prefixParentId": 11330,
+                    "prefixDescription": "Geology",
+                    "departmentParentId": 6352,
+                    "department": "Geology",
+                    "begin": "F1995",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "5355211c-ce9a-4bfe-ef74-08ddcb96dfae",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 303700,
+            "courseTitle": "Environmental Geology",
+            "courseNumber": "20",
+            "prefix": "EART",
+            "prefixParentId": 9885,
+            "prefixDescription": "Earth Sciences",
+            "departmentParentId": 4133,
+            "department": "Earth and Planetary Sciences",
+            "begin": "F2006",
+            "end": "",
+            "minUnits": 5.0,
+            "maxUnits": 5.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": "No Course Articulated",
+            "deniedCourses": [],
+            "items": [],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "44cca2a4-ccdb-4bf3-ef75-08ddcb96dfae",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 47769,
+            "courseTitle": "Environmental Geology Laboratory",
+            "courseNumber": "20L",
+            "prefix": "EART",
+            "prefixParentId": 9885,
+            "prefixDescription": "Earth Sciences",
+            "departmentParentId": 4133,
+            "department": "Earth and Planetary Sciences",
+            "begin": "F2006",
+            "end": "",
+            "minUnits": 1.0,
+            "maxUnits": 1.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": "No Course Articulated",
+            "deniedCourses": [],
+            "items": [],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "bb3d40c9-62fc-453e-ef76-08ddcb96dfae",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 48500,
+            "courseTitle": "California Geology Laboratory",
+            "courseNumber": "5L",
+            "prefix": "EART",
+            "prefixParentId": 9885,
+            "prefixDescription": "Earth Sciences",
+            "departmentParentId": 4133,
+            "department": "Earth and Planetary Sciences",
+            "begin": "F2006",
+            "end": "",
+            "minUnits": 1.0,
+            "maxUnits": 1.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": "No Course Articulated",
+            "deniedCourses": [],
+            "items": [],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "cd104c65-91e4-43ee-ef77-08ddcb96dfae",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 358525,
+            "courseTitle": "California Geology",
+            "courseNumber": "5",
+            "prefix": "EART",
+            "prefixParentId": 9885,
+            "prefixDescription": "Earth Sciences",
+            "departmentParentId": 4133,
+            "department": "Earth and Planetary Sciences",
+            "begin": "F2006",
+            "end": "",
+            "minUnits": 5.0,
+            "maxUnits": 5.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": "No Course Articulated",
+            "deniedCourses": [],
+            "items": [],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      }
+    ],
+    "catalogYear": "{\"receivingCatalogYearBegin\":2025,\"receivingCatalogYearEnd\":2026,\"sendingCatalogYearBegin\":2025,\"sendingCatalogYearEnd\":2026}"
+  },
+  "validationFailure": null,
+  "isSuccessful": true
+}

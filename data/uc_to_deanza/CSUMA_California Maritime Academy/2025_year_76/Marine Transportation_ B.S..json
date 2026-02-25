@@ -1,0 +1,543 @@
+{
+  "result": {
+    "name": "Marine Transportation, B.S.",
+    "type": "Major",
+    "publishDate": "2025-11-15T00:28:29.6832482",
+    "receivingInstitution": "{\"id\":1,\"code\":\"CSUMA   \",\"isCommunityCollege\":false,\"category\":\"CSU\",\"termType\":\"Semester\",\"names\":[{\"name\":\"California Maritime Academy\",\"hasDepartments\":true,\"fromYear\":0,\"hideInList\":false},{\"name\":\"California State University, Maritime Academy\",\"hasDepartments\":true,\"fromYear\":2015,\"hideInList\":false}],\"termTypeAcademicYears\":[{\"termType\":\"Semester\",\"fromYear\":2015},{\"termType\":\"Semester\",\"fromYear\":1980}],\"beginId\":31,\"endId\":null}",
+    "sendingInstitution": "{\"id\":113,\"code\":\"DAC     \",\"isCommunityCollege\":true,\"category\":\"CCC\",\"termType\":\"Quarter\",\"names\":[{\"name\":\"De Anza College\",\"hasDepartments\":true,\"fromYear\":0,\"hideInList\":false}],\"termTypeAcademicYears\":[{\"termType\":\"Quarter\",\"fromYear\":1980}],\"beginId\":31,\"endId\":null}",
+    "academicYear": "{\"id\":76,\"code\":\"2025-2026\",\"beginDate\":\"2025-10-01T00:00:00\",\"endDate\":\"2026-10-01T00:00:00\",\"isOpenForMaintenance\":true,\"isOpenForPublic\":true,\"isOpenForReporting\":true,\"isLocked\":false}",
+    "templateAssets": [
+      {
+        "type": "GeneralText",
+        "content": "<p><span style=\"font-size: 16px;\">The California State University (CSU) system is in transition to 22 universities. California Polytechnic State University, San Luis Obispo and California State University Maritime Academy (Cal Maritime) are integrating into one university with two locations. The maritime campus in Solano County will be known as Cal Poly Solano Campus and will house the Cal Poly Maritime Academy. The first Cal Poly Maritime Academy and Cal Poly Solano Campus students enrolling as Cal Poly students will take place in fall of 2026.</span></p><p><br></p><p><span style=\"font-size: 16px;\">For integration updates, visit our </span><a href=\"https://www.calpoly.edu/maritime/faq\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 16px;\">Maritime Integration</a><span style=\"font-size: 16px;\"> page.</span></p>",
+        "groupId": "c10637b4-7529-4a08-a009-019a4ba8c67e",
+        "position": 5,
+        "area": "General"
+      },
+      {
+        "type": "GeneralTitle",
+        "content": "Cal Poly and Cal Maritime Integration Information",
+        "groupId": "181fd71c-847e-4502-bd35-019a4bb06f21",
+        "position": 4,
+        "area": "General"
+      },
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": false,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 249820,
+                      "courseTitle": "Macroeconomics",
+                      "courseNumber": "100",
+                      "prefix": "ECO",
+                      "prefixParentId": 12462,
+                      "prefixDescription": "Economics",
+                      "departmentParentId": 4206,
+                      "department": "Economics",
+                      "begin": "F2008",
+                      "end": "",
+                      "minUnits": 3.0,
+                      "maxUnits": 3.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "d02e4759-91fe-4110-6b6d-08de17efe8dc",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 301052,
+                      "courseTitle": "College Algebra and Trigonometry",
+                      "courseNumber": "100",
+                      "prefix": "MTH",
+                      "prefixParentId": 12513,
+                      "prefixDescription": "Mathematics",
+                      "departmentParentId": 9078,
+                      "department": "Mathematics",
+                      "begin": "F2016",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [
+                      {
+                        "position": 0,
+                        "content": "Minimum grade required: C- or better"
+                      }
+                    ],
+                    "id": "74b8b50d-e03b-485a-6b6e-08de17efe8dc",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 2,
+                "cells": [
+                  {
+                    "type": "Series",
+                    "series": {
+                      "conjunction": "And",
+                      "name": "PHY 100, PHY 100L",
+                      "courses": [
+                        {
+                          "id": "0da085d1-7a7e-4bbb-73a1-08de17ffb862",
+                          "position": 0,
+                          "courseIdentifierParentId": 219315,
+                          "courseTitle": "Physics I",
+                          "courseNumber": "100",
+                          "prefix": "PHY",
+                          "prefixParentId": 12529,
+                          "prefixDescription": "Physics",
+                          "departmentParentId": 10724,
+                          "department": "Physics",
+                          "begin": "F2016",
+                          "end": "",
+                          "minUnits": 3.0,
+                          "maxUnits": 3.0,
+                          "pathways": []
+                        },
+                        {
+                          "id": "a993e23a-8312-4b01-73a2-08de17ffb862",
+                          "position": 1,
+                          "courseIdentifierParentId": 316074,
+                          "courseTitle": "Physics I Lab",
+                          "courseNumber": "100L",
+                          "prefix": "PHY",
+                          "prefixParentId": 12529,
+                          "prefixDescription": "Physics",
+                          "departmentParentId": 10724,
+                          "department": "Physics",
+                          "begin": "F2016",
+                          "end": "",
+                          "minUnits": 1.0,
+                          "maxUnits": 1.0,
+                          "pathways": []
+                        }
+                      ],
+                      "seriesPathways": []
+                    },
+                    "requisites": [],
+                    "visibleCrossListedCourses": [],
+                    "seriesAttributes": [
+                      {
+                        "position": 0,
+                        "content": "Minimum grade required: C- or better"
+                      }
+                    ],
+                    "courseAttributes": [],
+                    "id": "a2fa2983-499b-4d9c-823d-08de17ffc190",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 0,
+            "attributes": []
+          }
+        ],
+        "attributes": [
+          {
+            "position": 0,
+            "content": "Highly recommended"
+          },
+          {
+            "position": 1,
+            "content": "Prerequisite(s) for upper division course(s) in this major, concentration or track"
+          }
+        ],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": {
+          "type": "Following",
+          "id": "ccb0751d-9371-40ad-0618-08de177eea87",
+          "selectionType": "Complete"
+        },
+        "advisements": [],
+        "groupId": "ad776f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "Requirements"
+      },
+      {
+        "type": "GeneralTitle",
+        "content": "Program overview",
+        "groupId": "ae776f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 2,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p><span style=\"font-size: 16px;\">The Bachelor of Science in Marine Transportation requires a minimum of 148 units consisting of general education, major, and graduation requirements. Due to STCW requirements, some lower division courses in the major must be completed at Cal Maritime.&nbsp;</span></p><p><br></p><p><br></p><p><span style=\"font-size: 16px;\">\ufeffThe MT curriculum includes three practical training experiences: two sea training periods aboard the Training Ship GOLDEN BEAR, and one sea training period aboard a military or commercial vessel. The MT program also requires satisfactory completion of a qualifying examination administered by the U.S. Coast Guard to obtain a Third Mate, Unlimited, Any Ocean license, which is essential to gaining employment as a licensed deck officer on a commercial vessel. This agreement only lists the lower division major requirements. Due to STCW requirements, all lower division courses in the major must be completed at Cal Maritime. The courses below are recommended in order to fulfill GE requirements and/or upper division course prerequisites in the major.</span></p>",
+        "groupId": "af776f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 3,
+        "area": "General"
+      },
+      {
+        "type": "RequirementTitle",
+        "content": "LOWER DIVISION MAJOR REQUIREMENTS",
+        "groupId": "85f87845-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "Requirements"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p><span style=\"font-size: 16px;\">Refer to the </span><a href=\"https://maritime-archive.calpoly.edu/registrar/catalog/index.html\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 16px;\">CSU Maritime Academy Catalog</a><span style=\"font-size: 16px;\"> for a full description of the program and degree requirements. Refer to the </span><a href=\"https://maritime.calpoly.edu/admissions\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 16px;\">Admissions Office</a><span style=\"font-size: 16px;\"> website for admission requirements and information.</span></p>",
+        "groupId": "b0776f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "General"
+      },
+      {
+        "type": "GeneralTitle",
+        "content": "general information",
+        "groupId": "b1776f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "General"
+      }
+    ],
+    "articulations": [
+      {
+        "templateCellId": "d02e4759-91fe-4110-6b6d-08de17efe8dc",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 249820,
+            "courseTitle": "Macroeconomics",
+            "courseNumber": "100",
+            "prefix": "ECO",
+            "prefixParentId": 12462,
+            "prefixDescription": "Economics",
+            "departmentParentId": 4206,
+            "department": "Economics",
+            "begin": "F2008",
+            "end": "",
+            "minUnits": 3.0,
+            "maxUnits": 3.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 357742,
+                    "courseTitle": "Principles of Macroeconomics - HONORS",
+                    "courseNumber": "1H",
+                    "prefix": "ECON",
+                    "prefixParentId": 1291,
+                    "prefixDescription": "Economics",
+                    "departmentParentId": 4312,
+                    "department": "Economics",
+                    "begin": "F2015",
+                    "end": "F2026",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 1,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 253845,
+                    "courseTitle": "Principles of Macroeconomics",
+                    "courseNumber": "1",
+                    "prefix": "ECON",
+                    "prefixParentId": 1291,
+                    "prefixDescription": "Economics",
+                    "departmentParentId": 4312,
+                    "department": "Economics",
+                    "begin": "F1995",
+                    "end": "F2026",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [
+              {
+                "id": "1f3c1096-51cf-4016-9b06-08de17ffdb31",
+                "sendingArticulationId": "bc1b1ba8-a37b-459d-40cf-08de17ffdb2e",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 0,
+                "sendingCourseGroupEndPosition": 1
+              }
+            ],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "74b8b50d-e03b-485a-6b6e-08de17efe8dc",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 301052,
+            "courseTitle": "College Algebra and Trigonometry",
+            "courseNumber": "100",
+            "prefix": "MTH",
+            "prefixParentId": 12513,
+            "prefixDescription": "Mathematics",
+            "departmentParentId": 9078,
+            "department": "Mathematics",
+            "begin": "F2016",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 368045,
+                    "courseTitle": "Precalculus I",
+                    "courseNumber": "31",
+                    "prefix": "MATH",
+                    "prefixParentId": 10025,
+                    "prefixDescription": "Mathematics",
+                    "departmentParentId": 9040,
+                    "department": "Mathematics",
+                    "begin": "F2019",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 275,
+                    "position": 0,
+                    "type": "Course"
+                  },
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 368048,
+                    "courseTitle": "Precalculus II",
+                    "courseNumber": "32",
+                    "prefix": "MATH",
+                    "prefixParentId": 10025,
+                    "prefixDescription": "Mathematics",
+                    "departmentParentId": 9040,
+                    "department": "Mathematics",
+                    "begin": "F2019",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 275,
+                    "position": 1,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "a2fa2983-499b-4d9c-823d-08de17ffc190",
+        "articulation": {
+          "type": "Series",
+          "series": {
+            "conjunction": "And",
+            "name": "PHY 100, PHY 100L",
+            "courses": [
+              {
+                "id": "0da085d1-7a7e-4bbb-73a1-08de17ffb862",
+                "position": 0,
+                "courseIdentifierParentId": 219315,
+                "courseTitle": "Physics I",
+                "courseNumber": "100",
+                "prefix": "PHY",
+                "prefixParentId": 12529,
+                "prefixDescription": "Physics",
+                "departmentParentId": 10724,
+                "department": "Physics",
+                "begin": "F2016",
+                "end": "",
+                "minUnits": 3.0,
+                "maxUnits": 3.0,
+                "pathways": []
+              },
+              {
+                "id": "a993e23a-8312-4b01-73a2-08de17ffb862",
+                "position": 1,
+                "courseIdentifierParentId": 316074,
+                "courseTitle": "Physics I Lab",
+                "courseNumber": "100L",
+                "prefix": "PHY",
+                "prefixParentId": 12529,
+                "prefixDescription": "Physics",
+                "departmentParentId": 10724,
+                "department": "Physics",
+                "begin": "F2016",
+                "end": "",
+                "minUnits": 1.0,
+                "maxUnits": 1.0,
+                "pathways": []
+              }
+            ],
+            "seriesPathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "seriesAttributes": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 277391,
+                    "courseTitle": "General Physics II",
+                    "courseNumber": "2B",
+                    "prefix": "PHYS",
+                    "prefixParentId": 300,
+                    "prefixDescription": "Physics",
+                    "departmentParentId": 10814,
+                    "department": "Physics",
+                    "begin": "F2025",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 1,
+                    "type": "Course"
+                  },
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 303424,
+                    "courseTitle": "General Physics I ",
+                    "courseNumber": "2A",
+                    "prefix": "PHYS",
+                    "prefixParentId": 300,
+                    "prefixDescription": "Physics",
+                    "departmentParentId": 10814,
+                    "department": "Physics",
+                    "begin": "F2025",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Series",
+          "seriesAttributes": [],
+          "seriesCourseAttributes": [],
+          "attributes": []
+        }
+      }
+    ],
+    "catalogYear": "{\"receivingCatalogYearBegin\":2025,\"receivingCatalogYearEnd\":2026,\"sendingCatalogYearBegin\":2025,\"sendingCatalogYearEnd\":2026}"
+  },
+  "validationFailure": null,
+  "isSuccessful": true
+}

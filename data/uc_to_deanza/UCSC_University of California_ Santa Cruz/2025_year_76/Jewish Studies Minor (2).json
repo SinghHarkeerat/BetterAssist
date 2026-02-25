@@ -1,0 +1,899 @@
+{
+  "result": {
+    "name": "Jewish Studies Minor",
+    "type": "Major",
+    "publishDate": "2025-11-17T22:44:21.6031238",
+    "receivingInstitution": "{\"id\":132,\"code\":\"UCSC    \",\"isCommunityCollege\":false,\"category\":\"UC\",\"termType\":\"Quarter\",\"names\":[{\"name\":\"University of California, Santa Cruz\",\"hasDepartments\":true,\"fromYear\":0,\"hideInList\":false}],\"termTypeAcademicYears\":[{\"termType\":\"Quarter\",\"fromYear\":1980}],\"beginId\":31,\"endId\":null}",
+    "sendingInstitution": "{\"id\":113,\"code\":\"DAC     \",\"isCommunityCollege\":true,\"category\":\"CCC\",\"termType\":\"Quarter\",\"names\":[{\"name\":\"De Anza College\",\"hasDepartments\":true,\"fromYear\":0,\"hideInList\":false}],\"termTypeAcademicYears\":[{\"termType\":\"Quarter\",\"fromYear\":1980}],\"beginId\":31,\"endId\":null}",
+    "academicYear": "{\"id\":76,\"code\":\"2025-2026\",\"beginDate\":\"2025-10-01T00:00:00\",\"endDate\":\"2026-10-01T00:00:00\",\"isOpenForMaintenance\":true,\"isOpenForPublic\":true,\"isOpenForReporting\":true,\"isLocked\":false}",
+    "templateAssets": [
+      {
+        "type": "GeneralText",
+        "content": "<p><span style=\"font-size: 14px;\">UC Santa Cruz students may complete one or more minors, provided they can finish all required coursework within their maximum enrollment terms and credit limits. Minors are recorded on the official transcript but do not appear on the diploma. Pursuing a minor is optional and should align with a student\u2019s academic interests and career goals.</span></p><p><br></p><p><span style=\"font-size: 14px;\">Students do not apply for minors as part of their UC Santa Cruz admission application. Transfer students interested in a minor should reach out to the department that offers it for advising during their first quarter of enrollment.</span></p>",
+        "groupId": "90c86f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "General"
+      },
+      {
+        "type": "GeneralTitle",
+        "content": "Jewish Studies Minor",
+        "groupId": "82756f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 2,
+        "area": "General"
+      },
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": false,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 359832,
+                      "courseTitle": "The World to 1500",
+                      "courseNumber": "2A",
+                      "prefix": "HIS",
+                      "prefixParentId": 3032,
+                      "prefixDescription": "History",
+                      "departmentParentId": 6918,
+                      "department": "History",
+                      "begin": "F2008",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": [
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 13,
+                          "pathwayName": "History",
+                          "pathwayCode": "History",
+                          "expectationId": 63,
+                          "expectationName": "C1-World History/Western Civ Seq.",
+                          "subexpectationId": 130,
+                          "subexpectationName": "A-World History Seq."
+                        }
+                      ]
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "4aeef688-ff26-4fc9-ef15-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 309184,
+                      "courseTitle": "The World since 1500",
+                      "courseNumber": "2B",
+                      "prefix": "HIS",
+                      "prefixParentId": 3032,
+                      "prefixDescription": "History",
+                      "departmentParentId": 6918,
+                      "department": "History",
+                      "begin": "F2008",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": [
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 13,
+                          "pathwayName": "History",
+                          "pathwayCode": "History",
+                          "expectationId": 63,
+                          "expectationName": "C1-World History/Western Civ Seq.",
+                          "subexpectationId": 130,
+                          "subexpectationName": "A-World History Seq."
+                        }
+                      ]
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "712ef62a-d370-4707-ef16-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 3,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 307050,
+                      "courseTitle": "Modern European History, 1500-1815",
+                      "courseNumber": "70A",
+                      "prefix": "HIS",
+                      "prefixParentId": 3032,
+                      "prefixDescription": "History",
+                      "departmentParentId": 6918,
+                      "department": "History",
+                      "begin": "F2012",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": [
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 13,
+                          "pathwayName": "History",
+                          "pathwayCode": "History",
+                          "expectationId": 63,
+                          "expectationName": "C1-World History/Western Civ Seq.",
+                          "subexpectationId": 131,
+                          "subexpectationName": "B-Western Civ Seq"
+                        }
+                      ]
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "b6c22d29-463e-40d8-ef17-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 4,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 307058,
+                      "courseTitle": "Modern European History, 1815-Present",
+                      "courseNumber": "70B",
+                      "prefix": "HIS",
+                      "prefixParentId": 3032,
+                      "prefixDescription": "History",
+                      "departmentParentId": 6918,
+                      "department": "History",
+                      "begin": "F2012",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": [
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 13,
+                          "pathwayName": "History",
+                          "pathwayCode": "History",
+                          "expectationId": 63,
+                          "expectationName": "C1-World History/Western Civ Seq.",
+                          "subexpectationId": 131,
+                          "subexpectationName": "B-Western Civ Seq"
+                        }
+                      ]
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "c36fa34a-a219-4b7d-ef18-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 5,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 377560,
+                      "courseTitle": "Modern Authoritarianism in Europe and Beyond",
+                      "courseNumber": "78",
+                      "prefix": "HIS",
+                      "prefixParentId": 3032,
+                      "prefixDescription": "History",
+                      "departmentParentId": 6918,
+                      "department": "History",
+                      "begin": "F2020",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "6e7fd659-2086-4ad2-ef19-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 6,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 387520,
+                      "courseTitle": "Music of Modern Israel",
+                      "courseNumber": "80I",
+                      "prefix": "MUSC",
+                      "prefixParentId": 6645,
+                      "prefixDescription": "Music",
+                      "departmentParentId": 9462,
+                      "department": "Music",
+                      "begin": "F2023",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "92197822-5c9c-4181-ef1a-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 9,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 387521,
+                      "courseTitle": "History of Jewish Music",
+                      "courseNumber": "81P",
+                      "prefix": "MUSC",
+                      "prefixParentId": 6645,
+                      "prefixDescription": "Music",
+                      "departmentParentId": 9462,
+                      "department": "Music",
+                      "begin": "F2023",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "2ab25bfb-db26-45b5-ef1b-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 7,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 387523,
+                      "courseTitle": "Mizrach: Jewish Music in the Lands of Islam",
+                      "courseNumber": "80T",
+                      "prefix": "MUSC",
+                      "prefixParentId": 6645,
+                      "prefixDescription": "Music",
+                      "departmentParentId": 9462,
+                      "department": "Music",
+                      "begin": "F2023",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "39d6d63a-a4a4-4a31-ef1c-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 8,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 387522,
+                      "courseTitle": "Music, Anti-Semitism, and the Holocaust",
+                      "courseNumber": "80Y",
+                      "prefix": "MUSC",
+                      "prefixParentId": 6645,
+                      "prefixDescription": "Music",
+                      "departmentParentId": 9462,
+                      "department": "Music",
+                      "begin": "F2023",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "eed21584-5655-4e2d-ef1d-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 2,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 387516,
+                      "courseTitle": "The Bible in History, Culture, and Controversy",
+                      "courseNumber": "5C",
+                      "prefix": "HIS",
+                      "prefixParentId": 3032,
+                      "prefixDescription": "History",
+                      "departmentParentId": 6918,
+                      "department": "History",
+                      "begin": "F2025",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "7e598024-aac3-443e-6629-08ddedcf49dc",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [
+              {
+                "type": "NFromUnits",
+                "amount": 2.0,
+                "amountQuantifier": "UpTo",
+                "amountUnitType": "Course",
+                "position": 0,
+                "selectionType": "Complete"
+              }
+            ],
+            "position": 1,
+            "attributes": [
+              {
+                "position": 0,
+                "content": "**REFER TO TOP OF AGREEMENT**"
+              }
+            ]
+          },
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 4,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 360119,
+                      "courseTitle": "Introduction to the Holocaust",
+                      "courseNumber": "76",
+                      "prefix": "HIS",
+                      "prefixParentId": 3032,
+                      "prefixDescription": "History",
+                      "departmentParentId": 6918,
+                      "department": "History",
+                      "begin": "F2025",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "674493df-be55-4729-ef1e-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 309187,
+                      "courseTitle": "Introduction to Jewish History and Cultures",
+                      "courseNumber": "74",
+                      "prefix": "HIS",
+                      "prefixParentId": 3032,
+                      "prefixDescription": "History",
+                      "departmentParentId": 6918,
+                      "department": "History",
+                      "begin": "F2012",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "111c4032-4f41-49ec-ef1f-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 2,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 360118,
+                      "courseTitle": "Introduction To Middle Eastern And North African Jewish History, 1500-2000",
+                      "courseNumber": "74B",
+                      "prefix": "HIS",
+                      "prefixParentId": 3032,
+                      "prefixDescription": "History",
+                      "departmentParentId": 6918,
+                      "department": "History",
+                      "begin": "F2016",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "6f37fef4-5987-4cfc-ef20-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 5,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 286531,
+                      "courseTitle": "Introduction to Jewish Literature and Culture",
+                      "courseNumber": "61J",
+                      "prefix": "LIT",
+                      "prefixParentId": 4578,
+                      "prefixDescription": "Literature",
+                      "departmentParentId": 8662,
+                      "department": "Literature",
+                      "begin": "F2009",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "ac37ea5f-7889-4c55-ef21-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 309583,
+                      "courseTitle": "Introduction To Middle Eastern and North African Jewish History: Ancient To Early Modern",
+                      "courseNumber": "74A",
+                      "prefix": "HIS",
+                      "prefixParentId": 3032,
+                      "prefixDescription": "History",
+                      "departmentParentId": 6918,
+                      "department": "History",
+                      "begin": "F2016",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "d3b5565e-2110-4a29-ef22-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 3,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 359913,
+                      "courseTitle": "Film and the Holocaust",
+                      "courseNumber": "75",
+                      "prefix": "HIS",
+                      "prefixParentId": 3032,
+                      "prefixDescription": "History",
+                      "departmentParentId": 6918,
+                      "department": "History",
+                      "begin": "F2010",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "2b3997e6-edd6-499c-ef23-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [
+              {
+                "type": "NFromUnits",
+                "amount": 1.0,
+                "amountQuantifier": "None",
+                "amountUnitType": "Course",
+                "position": 0,
+                "selectionType": "Complete"
+              }
+            ],
+            "position": 0,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": true,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": {
+          "type": "Conjunction",
+          "conjunction": "And",
+          "id": "dc653d92-5fee-4f70-6a24-08ddcb96dfa1",
+          "selectionType": "Complete"
+        },
+        "advisements": [],
+        "groupId": "83756f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "Requirements"
+      },
+      {
+        "type": "GeneralTitle",
+        "content": "GENERAL INFORMATION FOR ALL MINORS",
+        "groupId": "85756f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p><span style=\"font-size: 14px;\">Transfer students interested in this minor are encouraged to complete the articulated equivalents of the following </span><strong style=\"font-size: 14px;\">THREE</strong><span style=\"font-size: 14px;\"> course requirements prior to transfer:</span></p><p><br></p><ul><li><strong style=\"font-size: 14px;\">ONE</strong><span style=\"font-size: 14px;\"> lower-division Jewish studies core course (section A below)</span></li><li><strong style=\"font-size: 14px;\">TWO</strong><span style=\"font-size: 14px;\"> lower-division electives (section B below)*</span></li></ul><p class=\"ql-indent-1\"><em style=\"font-size: 12px;\">*May be additional core courses from section A</em></p><p><br></p><p><span style=\"font-size: 14px;\">Refer to the \"</span><strong style=\"font-size: 14px;\">Preparation for the Minor</strong><span style=\"font-size: 14px;\">\" section below for courses approved to articulate to these requirements.</span></p><p><br></p><p><br></p><p><span style=\"font-size: 14px;\">Visit the </span><a href=\"https://jewishstudies.ucsc.edu/\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 14px;\">Jewish Studies website</a><span style=\"font-size: 14px;\"> to learn more about this minor.</span></p><p><a href=\"https://catalog.ucsc.edu/en/current/general-catalog/academic-units/humanities-division/history/jewish-studies-minor/\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 14px;\">UC Santa Cruz General Catalog: Jewish Studies Minor Program Statement</a></p>",
+        "groupId": "86756f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 3,
+        "area": "General"
+      },
+      {
+        "type": "RequirementTitle",
+        "content": "PREPARATION FOR THE MINOR",
+        "groupId": "23fd7845-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "Requirements"
+      }
+    ],
+    "articulations": [
+      {
+        "templateCellId": "4aeef688-ff26-4fc9-ef15-08ddcb96dfae",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 359832,
+            "courseTitle": "The World to 1500",
+            "courseNumber": "2A",
+            "prefix": "HIS",
+            "prefixParentId": 3032,
+            "prefixDescription": "History",
+            "departmentParentId": 6918,
+            "department": "History",
+            "begin": "F2008",
+            "end": "",
+            "minUnits": 5.0,
+            "maxUnits": 5.0,
+            "pathways": [
+              {
+                "begin": null,
+                "beginDate": null,
+                "beginTermId": null,
+                "end": null,
+                "endDate": null,
+                "endTermId": null,
+                "pathwayId": 13,
+                "pathwayName": "History",
+                "pathwayCode": "History",
+                "expectationId": 63,
+                "expectationName": "C1-World History/Western Civ Seq.",
+                "subexpectationId": 130,
+                "subexpectationName": "A-World History Seq."
+              }
+            ]
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 294888,
+                    "courseTitle": "World History from Prehistory to 750 CE",
+                    "courseNumber": "3A",
+                    "prefix": "HIST",
+                    "prefixParentId": 3013,
+                    "prefixDescription": "History",
+                    "departmentParentId": 7009,
+                    "department": "History",
+                    "begin": "F2015",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 259,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 274006,
+                    "courseTitle": "World History from Prehistory to 750 CE - HONORS",
+                    "courseNumber": "3AH",
+                    "prefix": "HIST",
+                    "prefixParentId": 3013,
+                    "prefixDescription": "History",
+                    "departmentParentId": 7009,
+                    "department": "History",
+                    "begin": "F2016",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 263,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 1,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [
+              {
+                "id": "8de919a5-e73e-427e-ef09-08ddcb9717a5",
+                "sendingArticulationId": "cfdf0ef9-997f-43c1-1e4d-08ddcb97173b",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 0,
+                "sendingCourseGroupEndPosition": 1
+              }
+            ],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "712ef62a-d370-4707-ef16-08ddcb96dfae",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 309184,
+            "courseTitle": "The World since 1500",
+            "courseNumber": "2B",
+            "prefix": "HIS",
+            "prefixParentId": 3032,
+            "prefixDescription": "History",
+            "departmentParentId": 6918,
+            "department": "History",
+            "begin": "F2008",
+            "end": "",
+            "minUnits": 5.0,
+            "maxUnits": 5.0,
+            "pathways": [
+              {
+                "begin": null,
+                "beginDate": null,
+                "beginTermId": null,
+                "end": null,
+                "endDate": null,
+                "endTermId": null,
+                "pathwayId": 13,
+                "pathwayName": "History",
+                "pathwayCode": "History",
+                "expectationId": 63,
+                "expectationName": "C1-World History/Western Civ Seq.",
+                "subexpectationId": 130,
+                "subexpectationName": "A-World History Seq."
+              }
+            ]
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 289302,
+                    "courseTitle": "World History from 1750 CE to the Present",
+                    "courseNumber": "3C",
+                    "prefix": "HIST",
+                    "prefixParentId": 3013,
+                    "prefixDescription": "History",
+                    "departmentParentId": 7009,
+                    "department": "History",
+                    "begin": "F2015",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 259,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 305662,
+                    "courseTitle": "World History from 1750 CE to the Present - Honors",
+                    "courseNumber": "3CH",
+                    "prefix": "HIST",
+                    "prefixParentId": 3013,
+                    "prefixDescription": "History",
+                    "departmentParentId": 7009,
+                    "department": "History",
+                    "begin": "F2016",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 263,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 1,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [
+              {
+                "id": "357291cd-f755-4d7a-f48b-08ddcb9717a5",
+                "sendingArticulationId": "a2c7c07c-005c-4b6d-3795-08ddcb97173b",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 0,
+                "sendingCourseGroupEndPosition": 1
+              }
+            ],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      }
+    ],
+    "catalogYear": "{\"receivingCatalogYearBegin\":2025,\"receivingCatalogYearEnd\":2026,\"sendingCatalogYearBegin\":2025,\"sendingCatalogYearEnd\":2026}"
+  },
+  "validationFailure": null,
+  "isSuccessful": true
+}
