@@ -1,5 +1,5 @@
 :root{
-  --bg:#f5f5f7;
+  --bg:#e6e6f3;
   --card:#ffffff;
   --border:#e5e5ea;
   --divider:#ececf0;
@@ -25,7 +25,7 @@ body{
   position:fixed;
   inset:0;
   background:
-    radial-gradient(700px 400px at 10% 10%, rgba(0,0,0,.04), transparent 60%),
+    radial-gradient(700px 400px at 10% 10%, rgba(241, 8, 8, 0.04), transparent 60%),
     radial-gradient(700px 400px at 90% 90%, rgba(0,0,0,.03), transparent 60%);
   z-index:-1;
 }
@@ -33,28 +33,24 @@ body{
 .container{
   max-width:760px;
   margin:auto;
-  padding:80px 20px 120px;
+  padding:0px 20px 120px;
 }
-
 .hero{
-  text-align:center;
-  margin-bottom:60px;
+  text-align: center;
+  overflow: hidden;
 }
 
-.logo{
-  width:56px;
-  height:56px;
-  border-radius:16px;
-  margin:auto;
-  background:linear-gradient(135deg,#2c2c2e,#8e8e93);
+.hero img{
+  width: 300px;
+  height: auto;
+  display: block;
+  margin: -120px auto -100px; /* trim top + bottom empty area visually */
 }
 
 .hero h1{
-  margin:20px 0 8px;
-  font-size:34px;
-  font-weight:600;
-  letter-spacing:-.02em;
+  margin: 0 0 8px;
 }
+
 
 .hero p{
   margin:0;

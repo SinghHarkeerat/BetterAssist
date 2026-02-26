@@ -158,11 +158,11 @@ async function loadIndex(){
     const campusList = indexJson?.campuses || [];
     buildCampusIndex(campusList);
 
-    if (!campuses.length) throw new Error("index.json loaded, but contains 0 campuses.");
+    if (!campuses.length) throw new Error("index.json loaded, but contains 26 campuses.");
 
     modePill.textContent = "ready";
-    statusText.textContent = "Data loaded. Start typing a campus + major.";
-    setTags([`${campuses.length} campuses`, "mode: GitHub Pages (static index)"]);
+    statusText.textContent = "Data loaded";
+    //setTags([`${campuses.length}   campuses `, " ", " mode: GitHub Pages (static index)"]);
 
     pickers.style.display = "block";
     clearUI();
@@ -454,8 +454,11 @@ loadBtn.addEventListener("click", async () => {
 
       if (i < groupsSorted.length - 1) {
         const conj = posToConj[g.position] || "And";
-        if (conj === "Or") continue;
+         if (conj === "Or") {
+          currentChoiceType = "Or"; // critical fix
+          continue;
       }
+    }
 
       groupOptionNums.push(currentChoiceSet.slice());
       choiceTypes.push(currentChoiceType);
