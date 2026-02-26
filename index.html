@@ -14,14 +14,27 @@
   <div class="container">
 
     <header class="hero">
-      <!-- <div class="logo"></div> -->
-       <img src="99b99103-7d84-4611-9517-28d0fb076714-removebg-preview.png" alt="logo" width="500" height="800" left ="200">
-      <h1>Better Assist</h1>
-      <p>Find UC transfer requirements in seconds</p>
-      <br>
-      <p>By Noam Kofman & Harkeerat Singh</p>
-      <br>
-    </header>
+      <div class="heroTop">
+      <img class="heroLogo"
+         src="99b99103-7d84-4611-9517-28d0fb076714-removebg-preview.png"
+         alt="Better Assist logo">
+      <div class="heroText">
+      <h1 class="heroTitle">
+        Better <span class="heroAccent">Assist</span>
+      </h1>
+      <div class="heroTagline">UC Transfer Requirement Finder</div>
+      </div>
+  </div>
+
+  <p class="heroSub">
+    Find UC transfer requirements in seconds — no digging through PDFs.
+  </p>
+
+  <p class="heroBy">
+    Built by Noam Kofman & Harkeerat Singh
+  </p>
+
+  </header>
 
     <section class="card" id="statusCard">
       <div class="cardHead">
@@ -63,7 +76,16 @@
       <div class="cardHead">
         <h2>Requirements</h2>
         <div>
-          <button id="finalBtn">Generate</button>
+          <button id="finalBtn" class="tiltBtn">
+            <span class="tiltZone tl"></span>
+            <span class="tiltZone tr"></span>
+            <span class="tiltZone bl"></span>
+            <span class="tiltZone br"></span>
+
+            <span class="tiltInner btnGlow">
+            <span class="btnText">Generate</span>
+            </span>
+          </button>
           <button id="copyBtn" class="ghost">Copy</button>
         </div>
       </div>

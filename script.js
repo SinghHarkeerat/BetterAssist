@@ -30,6 +30,16 @@ let selectedYear = "";
 let majorsForCampus = []; // [{id, pretty, path}]
 let fuseMajors = null;
 
+loadBtn.classList.add("btnGrow");
+finalBtn.classList.add("btnGrow");
+
+if (!clearBtn.querySelector("span")) {
+  clearBtn.innerHTML = `<span>${clearBtn.textContent.trim() || "Clear"}</span>`;
+}
+clearBtn.classList.add("btnClearX");
+
+if (!copyBtn.classList.contains("ghost")) copyBtn.classList.add("ghost");
+
 function ensureSuggestUI(inputEl) {
   if (inputEl.parentElement?.classList?.contains("suggestWrap")) return;
 

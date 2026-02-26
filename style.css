@@ -37,29 +37,74 @@ body{
 }
 
 .hero{
-  text-align:center;
-  margin-bottom:60px;
+  margin-bottom:48px;
+  padding-top:20px;
+  animation: heroIn .6s ease both;
 }
 
-.logo{
-  width:56px;
-  height:56px;
-  border-radius:16px;
-  margin:auto;
-  background:linear-gradient(135deg,#2c2c2e,#8e8e93);
+@keyframes heroIn{
+  from{ opacity:0; transform: translateY(8px); }
+  to{ opacity:1; transform: translateY(0); }
 }
 
-.hero h1{
-  margin:20px 0 8px;
-  font-size:34px;
-  font-weight:600;
-  letter-spacing:-.02em;
+.heroTop{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:18px;
 }
 
-.hero p{
+.heroLogo{
+  width:70px;   /* smaller logo */
+  height:auto;
+  transition:.25s ease;
+}
+
+.heroLogo:hover{
+  transform: translateY(-2px);
+}
+
+.heroText{
+  display:flex;
+  flex-direction:column;
+  align-items:flex-start;
+}
+
+.heroTitle{
   margin:0;
-  color:var(--muted);
+  font-size:36px;
+  font-weight:800;
+  letter-spacing:-.03em;
+  line-height:1;
+}
+
+.heroAccent{
+  background: linear-gradient(90deg, #007aff, #5856d6);
+  -webkit-background-clip:text;
+  background-clip:text;
+  color:transparent;
+}
+
+.heroTagline{
+  font-size:13px;
+  color:#6e6e73;
+  margin-top:4px;
+  letter-spacing:.02em;
+}
+
+.heroSub{
+  margin:20px auto 0;
+  max-width:600px;
+  text-align:center;
   font-size:17px;
+  color:#5f6368;
+}
+
+.heroBy{
+  margin-top:14px;
+  text-align:center;
+  font-size:14px;
+  color:#8e8e93;
 }
 
 .card{
@@ -297,3 +342,151 @@ pre{
 .req div:has(+ .row){
   margin-bottom:6px;
 }
+
+  button{
+    position:relative;
+    overflow:hidden;
+    transform: translateY(0) scale(1);
+    transition:
+      transform .18s ease,
+      box-shadow .18s ease,
+      background .18s ease,
+      color .18s ease,
+      filter .18s ease;
+    will-change: transform;
+  }
+
+  button.btnGrow{
+    box-shadow: 0 10px 26px rgba(0,0,0,.10);
+  }
+
+  button.btnGrow:hover{
+    transform: translateY(-2px) scale(1.04);
+    box-shadow: 0 16px 36px rgba(0,0,0,.14);
+  }
+
+  button.btnGrow:active{
+    transform: translateY(0) scale(1.01);
+    box-shadow: 0 10px 24px rgba(0,0,0,.10);
+  }
+
+  button.ghost{
+    box-shadow: 0 8px 22px rgba(0,0,0,.06);
+  }
+
+  button.ghost:hover{
+    transform: translateY(-1px);
+    box-shadow: 0 12px 28px rgba(0,0,0,.09);
+  }
+
+  button.btnClearX::before{
+    content:"✕";
+    position:absolute;
+    inset:0;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    font-size:46px;       
+    font-weight:800;
+
+    color: rgba(0,0,0,.08);  
+    opacity:0;
+    transform: scale(.85) rotate(-10deg);
+    transition: opacity .18s ease, transform .18s ease;
+    pointer-events:none;
+  }
+
+  button.btnClearX:hover::before{
+    opacity:1;
+    transform: scale(1) rotate(0deg);
+  }
+
+  button.btnClearX{
+    z-index:0;
+  }
+  button.btnClearX > span{
+    position:relative;
+    z-index:1;
+  }
+
+  button:focus{ outline:none; }
+  button:focus-visible{
+    box-shadow: 0 0 0 4px rgba(0,0,0,.12), 0 12px 28px rgba(0,0,0,.10);
+  }
+
+  @media (prefers-reduced-motion: reduce){
+    button, button.btnClearX::before{
+      transition:none !important;
+    }
+  }
+
+  .btnGlow{
+    position:relative;
+    /* background:#111827; */
+    overflow:hidden;
+  }
+
+  .btnGlow .btnText{
+    position:relative;
+    z-index:5;
+    color:#f9fafb;
+    font-weight:800;
+    font-size:16px;
+    transition: color .3s ease;
+  }
+
+  .btnGlow::before{
+    content:"";
+    position:absolute;
+    width:60px;
+    height:60px;
+    border-radius:50%;
+    background:#7c3aed;
+    filter:blur(20px);
+    top:6px;
+    right:6px;
+    transition: all .6s cubic-bezier(.2,.8,.2,1);
+    z-index:1;
+  }
+
+  .btnGlow::after{
+    content:"";
+    position:absolute;
+    width:85px;
+    height:85px;
+    border-radius:50%;
+    background:#fb7185;
+    filter:blur(26px);
+    top:12px;
+    right:42px;
+    transition: all .6s cubic-bezier(.2,.8,.2,1);
+    z-index:1;
+  }
+
+  /* .tiltBtn:hover .btnGlow{
+    border-color:#fda4af;
+  }
+  .tiltBtn:hover .btnGlow .btnText{
+    color:#fecdd3;
+  } */
+
+  /*
+  i cant get rid of the fucking box around generate
+  */
+  .tiltBtn:hover .btnGlow::before{
+    right:140px;
+    top:32px;
+    transform: scale(1.25);
+  }
+  .tiltBtn:hover .btnGlow::after{
+    right:-18px;
+    top:-20px;
+    transform: scale(1.15);
+  }
+
+  @media (prefers-reduced-motion: reduce){
+    .tiltInner, .btnGlow::before, .btnGlow::after, .btnGlow .btnText{
+      transition:none !important;
+    }
+  }
