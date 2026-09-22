@@ -1,101 +1,546 @@
-<!doctype html>
-<html>
-<head>
-  <meta charset="utf-8" />
-  <title>Better Assist</title>
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <link rel="stylesheet" href="./style.css" />
-  <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2"></script> 
-</head>
-<body>
-
-  <div class="bg-gradient"></div>
-
-  <div class="container">
-
-    <header class="hero">
-      <div class="heroTop">
-      <img class="heroLogo"
-         src="99b99103-7d84-4611-9517-28d0fb076714-removebg-preview.png"
-         alt="Better Assist logo">
-      <div class="heroText">
-      <h1 class="heroTitle">
-        Better <span class="heroAccent">Assist</span>
-      </h1>
-      <div class="heroTagline">UC Transfer Requirement Finder</div>
-      </div>
-  </div>
-
-  <p class="heroSub">
-    Find UC transfer requirements in seconds — no digging through PDFs.
-  </p>
-
-  <p class="heroBy">
-    Built by Noam Kofman & Harkeerat Singh
-  </p>
-
-  </header>
-
-    <section class="card" id="statusCard">
-      <div class="cardHead">
-        <h2>Data</h2>
-        <span class="pill" id="modePill">loading…</span>
-      </div>
-      <div id="statusText" class="muted">Loading bundle.json…</div>
-      <div id="statusTags" class="tags" style="display:none;"></div>
-      <div id="retryRow" style="display:none;">
-        <button id="retryBtn">Retry</button>
-      </div>
-      <div id="helpText" class="muted" style="display:none;"></div>
-    </section>
-
-    <section class="card" id="pickers" style="display:none;">
-      <h2 class="sectionTitle">Search</h2>
-
-      <div class="field">
-        <label>Campus</label>
-        <input id="schoolInput" type="text" placeholder="College Name" />
-      </div>
-
-      <div class="field">
-        <label>Major</label>
-        <input id="majorInput" type="text" placeholder="Major" />
-      </div>
-
-      <div class="actions">
-        <button id="loadBtn">Show Requirements</button>
-        <button id="clearBtn" class="ghost">Clear</button>
-      </div>
-
-      <div id="schoolSug" class="suggestions"></div>
-      <br>
-      <div id="majorSug" class="suggestions"></div>
-    </section>
-
-    <section class="card" id="results" style="display:none;">
-      <div class="cardHead">
-        <h2>Requirements</h2>
-        <div>
-          <button id="finalBtn" class="tiltBtn">
-            <span class="tiltZone tl"></span>
-            <span class="tiltZone tr"></span>
-            <span class="tiltZone bl"></span>
-            <span class="tiltZone br"></span>
-
-            <span class="tiltInner btnGlow">
-            <span class="btnText">Generate</span>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1" name="viewport"/>
+    <meta content="A clearer path from community college to university. Explore course matches and build your transfer checklist." name="description"/>
+    <meta content="#205a4d" name="theme-color"/>
+    <title>
+      Better Assist · Your transfer, made clearer
+    </title>
+    <link href="./style.css" rel="stylesheet"/>
+    <script defer="" src="./script.js">
+    </script>
+  </head>
+  <body>
+    <a class="skip-link" href="#planner">
+      Skip to transfer planner
+    </a>
+    <header class="site-header">
+      <a aria-label="Better Assist home" class="brand" href="./">
+        <span aria-hidden="true" class="brand-icon">
+          ↗
+        </span>
+        better
+        <span>
+          assist
+        </span>
+        <span class="beta">
+          BETA
+        </span>
+      </a>
+      <nav aria-label="Main navigation">
+        <a class="nav-active" href="#planner">
+          Transfer planner
+        </a>
+        <a href="#how-it-works">
+          How it works
+        </a>
+        <a href="https://assist.org" rel="noopener noreferrer" target="_blank">
+          Open ASSIST ↗
+        </a>
+      </nav>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="hero-copy">
+          <div class="eyebrow">
+            <span class="dot">
             </span>
-          </button>
-          <button id="copyBtn" class="ghost">Copy</button>
+            A LITTLE CLARITY FOR YOUR NEXT CHAPTER
+          </div>
+          <h1>
+            Big transfer plans.
+            <br/>
+            <span>
+              Clear next steps.
+            </span>
+          </h1>
+          <p>
+            Find the courses that connect your community college
+            <br class="desktop-break"/>
+            to your next campus. Build a plan that makes sense to you.
+          </p>
+          <a class="hero-link" href="#planner">
+            Let’s find your path
+            <span aria-hidden="true">
+              ↗
+            </span>
+          </a>
         </div>
+        <div aria-label="Your path from community college to university" class="journey">
+          <div class="journey-top">
+            <span class="mini-label">
+              YOUR NEXT CHAPTER
+            </span>
+            <span aria-hidden="true" class="journey-star">
+              ✳
+            </span>
+          </div>
+          <div class="journey-stop">
+            <span aria-hidden="true" class="stop-icon">
+              ⌂
+            </span>
+            <div>
+              <small>
+                START HERE
+              </small>
+              <strong>
+                Community college
+              </strong>
+            </div>
+            <span aria-hidden="true" class="stop-check">
+              ✓
+            </span>
+          </div>
+          <div class="journey-line">
+            Your courses. Your pace.
+          </div>
+          <div class="journey-stop destination">
+            <span aria-hidden="true" class="stop-icon">
+              ⚑
+            </span>
+            <div>
+              <small>
+                GO SOMEWHERE GREAT
+              </small>
+              <strong>
+                Your future campus
+              </strong>
+            </div>
+            <span aria-hidden="true">
+              ↗
+            </span>
+          </div>
+          <div class="journey-footer">
+            <span class="dot">
+            </span>
+            A clearer path starts with a plan.
+          </div>
+        </div>
+      </section>
+      <section aria-label="Transfer planner" class="workspace" id="planner">
+        <aside class="finder panel">
+          <div class="section-kicker">
+            01 / FIND YOUR PATH
+          </div>
+          <h2>
+            Where are you headed?
+          </h2>
+          <p class="muted">
+            A few details. A lot more clarity.
+          </p>
+          <form id="finderForm">
+            <label for="collegeInput">
+              Your community college
+            </label>
+            <select id="collegeInput">
+              <option value="deanza">
+                De Anza College
+              </option>
+              <option value="foothill">
+                Foothill College
+              </option>
+            </select>
+            <div class="notice" hidden="" id="collegeNotice">
+              Foothill agreements aren’t included yet. Look up Foothill on
+              <a href="https://assist.org" rel="noopener noreferrer" target="_blank">
+                ASSIST ↗
+              </a>
+              .
+            </div>
+            <label for="schoolInput">
+              Destination campus
+            </label>
+            <select disabled="" id="schoolInput">
+              <option value="">
+                Choose a campus
+              </option>
+            </select>
+            <label for="yearInput">
+              Agreement year
+            </label>
+            <select disabled="" id="yearInput">
+              <option value="">
+                Choose a campus first
+              </option>
+            </select>
+            <label for="majorInput">
+              Find your major
+            </label>
+            <div class="search-field">
+              <span aria-hidden="true">
+                ⌕
+              </span>
+              <input aria-controls="majorSelect" autocomplete="off" disabled="" id="majorInput" placeholder="Search majors…" type="search"/>
+            </div>
+            <label class="sr-only" for="majorSelect">
+              Matching major
+            </label>
+            <select disabled="" id="majorSelect">
+              <option value="">
+                Choose a major
+              </option>
+            </select>
+            <p class="field-hint" id="majorHint">
+              Choose a campus to see its majors.
+            </p>
+            <button class="primary full-width" disabled="" id="loadBtn" type="submit">
+              Show my course matches
+              <span aria-hidden="true">
+                →
+              </span>
+            </button>
+            <button class="text-button full-width" id="clearBtn" type="button">
+              Reset search
+            </button>
+          </form>
+          <div class="data-status" id="status" role="status">
+            <span class="dot">
+            </span>
+            <span id="statusText">
+              Loading available agreements…
+            </span>
+          </div>
+          <button class="secondary" hidden="" id="retryBtn">
+            Try again
+          </button>
+          <div class="notice error" hidden="" id="formError" role="alert">
+          </div>
+        </aside>
+        <div class="main-column">
+          <section class="panel welcome" id="welcome">
+            <div class="section-kicker">
+              YOUR TRANSFER, AT A GLANCE
+            </div>
+            <h2>
+              A little planning.
+              <br/>
+              A lot of possibility.
+            </h2>
+            <p>
+              Start with a campus and major. We’ll turn the agreement into an easy-to-read course chart.
+            </p>
+            <div aria-hidden="true" class="empty-chart">
+              <div>
+                <span>
+                  YOUR COLLEGE
+                </span>
+                <span>
+                  YOUR UNIVERSITY
+                </span>
+              </div>
+              <div>
+                <i>
+                </i>
+                <b>
+                  →
+                </b>
+                <i>
+                </i>
+              </div>
+              <div>
+                <i>
+                </i>
+                <b>
+                  →
+                </b>
+                <i>
+                </i>
+              </div>
+              <div>
+                <i>
+                </i>
+                <b>
+                  →
+                </b>
+                <i>
+                </i>
+              </div>
+            </div>
+            <div class="welcome-bottom">
+              <span class="circle-number">
+                1
+              </span>
+              Choose your destination to get started
+            </div>
+          </section>
+          <section aria-label="Course matches" hidden="" id="results">
+            <div class="results-heading">
+              <div>
+                <div class="section-kicker" id="resultCampus">
+                </div>
+                <h2 id="resultMajor">
+                </h2>
+                <p class="muted" id="resultMeta">
+                </p>
+              </div>
+              <span class="year-badge" id="resultYear">
+              </span>
+            </div>
+            <div class="stats">
+              <div>
+                <span id="matchCount">
+                  0
+                </span>
+                <small>
+                  course matches
+                </small>
+              </div>
+              <div>
+                <span id="reviewCount">
+                  0
+                </span>
+                <small>
+                  need a closer look
+                </small>
+              </div>
+              <div>
+                <span id="savedCount">
+                  0
+                </span>
+                <small>
+                  courses in your plan
+                </small>
+              </div>
+            </div>
+            <div class="panel chart-panel">
+              <div class="chart-heading">
+                <div>
+                  <h3>
+                    Your course match chart
+                  </h3>
+                  <p>
+                    Explore the options, then add courses to your plan.
+                  </p>
+                </div>
+                <span aria-hidden="true" class="chart-mark">
+                  ⇄
+                </span>
+              </div>
+              <div class="chart-tools">
+                <div class="search-field">
+                  <span aria-hidden="true">
+                    ⌕
+                  </span>
+                  <input aria-label="Filter course matches" id="courseSearch" placeholder="Filter by course or subject…" type="search"/>
+                </div>
+                <label class="sr-only" for="matchFilter">
+                  Match status
+                </label>
+                <select id="matchFilter">
+                  <option value="all">
+                    All matches
+                  </option>
+                  <option value="available">
+                    Courses available
+                  </option>
+                  <option value="review">
+                    Needs review
+                  </option>
+                </select>
+              </div>
+              <div class="chart-scroll">
+                <table>
+                  <caption class="sr-only">
+                    Community college courses and corresponding university courses. AND means take all; OR means choose an alternative.
+                  </caption>
+                  <thead>
+                    <tr>
+                      <th id="sourceHeading" scope="col">
+                        AT DE ANZA
+                      </th>
+                      <th id="targetHeading" scope="col">
+                        AT YOUR UNIVERSITY
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody id="chartBody">
+                  </tbody>
+                </table>
+              </div>
+              <p class="no-matches" hidden="" id="noMatches">
+                No matches here. Try another subject or clear the filters.
+              </p>
+              <div class="chart-footnote">
+                Course matches can include alternatives and recommendations. Read the agreement notes before deciding what to take.
+              </div>
+            </div>
+            <details class="panel agreement-notes">
+              <summary>
+                Read the agreement notes
+                <span>
+                  Requirements, context & exceptions
+                </span>
+              </summary>
+              <div id="agreementNotes">
+              </div>
+            </details>
+          </section>
+        </div>
+        <aside aria-labelledby="planHeading" class="plan panel" id="course-plan">
+          <div class="plan-heading">
+            <span class="section-kicker">
+              02 / MAKE IT YOURS
+            </span>
+            <span aria-hidden="true" class="plan-icon">
+              ▤
+            </span>
+          </div>
+          <h2 id="planHeading">
+            My course plan
+          </h2>
+          <p class="muted" id="planContext">
+            Your next steps, all in one place.
+          </p>
+          <div class="progress-block">
+            <div aria-label="No planned courses completed" class="progress-ring" id="progressRing" role="img">
+              <div>
+                <strong id="progressPercent">
+                  0%
+                </strong>
+                <small>
+                  completed
+                </small>
+              </div>
+            </div>
+            <div class="progress-caption">
+              <strong id="progressCount">
+                0 of 0 courses
+              </strong>
+              <span>
+                One course at a time.
+                <br/>
+                You’ve got this.
+              </span>
+            </div>
+          </div>
+          <div id="planEmpty">
+            <div aria-hidden="true" class="plan-empty-icon">
+              +
+            </div>
+            <h3>
+              Room for your next steps
+            </h3>
+            <p>
+              Add courses from the chart.
+              <br/>
+              Check them off as you finish.
+            </p>
+          </div>
+          <ul class="plan-list" id="planList">
+          </ul>
+          <p class="plan-units" hidden="" id="planUnits">
+          </p>
+          <div class="plan-actions">
+            <button class="secondary full-width" disabled="" id="copyBtn">
+              Copy course plan ⧉
+            </button>
+            <button class="text-button full-width" disabled="" id="printBtn">
+              Print / save as PDF ↗
+            </button>
+          </div>
+          <div class="save-note" id="saveNote">
+            Saved in this browser as you go.
+          </div>
+          <p class="plan-disclaimer">
+            Progress tracks your personal checklist, not admission eligibility.
+          </p>
+        </aside>
+      </section>
+      <section class="how-section" id="how-it-works">
+        <div class="how-title">
+          <div class="section-kicker">
+            LESS GUESSWORK. MORE DIRECTION.
+          </div>
+          <h2>
+            From “where do I start?”
+            <br/>
+            to “I have a plan.”
+          </h2>
+        </div>
+        <div class="how-step">
+          <span>
+            01
+          </span>
+          <h3>
+            Find your destination
+          </h3>
+          <p>
+            Pick your college, university, agreement year, and major.
+          </p>
+        </div>
+        <div class="how-step">
+          <span>
+            02
+          </span>
+          <h3>
+            Connect the courses
+          </h3>
+          <p>
+            See which classes match. Watch for sequences and alternative options.
+          </p>
+        </div>
+        <div class="how-step">
+          <span>
+            03
+          </span>
+          <h3>
+            Make your next move
+          </h3>
+          <p>
+            Build a checklist, then review the full agreement with your counselor.
+          </p>
+        </div>
+      </section>
+      <div class="source-note">
+        <span aria-hidden="true">
+          ⓘ
+        </span>
+        <p>
+          An independent planning helper using saved ASSIST agreements. Availability depends on the included college and year. Check
+          <a href="https://assist.org" rel="noopener noreferrer" target="_blank">
+            the official agreement ↗
+          </a>
+          for complete and current requirements.
+        </p>
       </div>
-
-      <pre id="finalOut"></pre>
-      <div id="parsedArea"></div>
-    </section>
-
-  </div>
-
-  <script src="./script.js"></script>
-</body>
+    </main>
+    <footer>
+      <a class="brand footer-brand" href="./">
+        <span aria-hidden="true" class="brand-icon">
+          ↗
+        </span>
+        better
+        <span>
+          assist
+        </span>
+      </a>
+      <span>
+        A clearer path forward.
+      </span>
+      <span>
+        Made by
+        <strong>
+          Harkeerat Singh
+        </strong>
+      </span>
+    </footer>
+    <a class="mobile-plan-bar" hidden="" href="#course-plan" id="mobilePlanBar">
+      My course plan
+      <span id="mobilePlanCount">
+        0 courses
+      </span>
+      <span aria-hidden="true">
+        ↗
+      </span>
+    </a>
+    <div class="toast" hidden="" id="toast" role="status">
+    </div>
+    <noscript>
+      <p class="notice">
+        Turn on JavaScript to search agreements and build your course plan.
+      </p>
+    </noscript>
+  </body>
 </html>

@@ -1,69 +1,70 @@
+"""Build a static index from actual major agreements, excluding report metadata."""
 from pathlib import Path
 import json
 import re
 
 ROOT = Path(__file__).resolve().parent
-DATA_ROOT = ROOT / "data" / "uc_to_deanza"
-OUT_FILE = ROOT / "data" / "index.json"
+OUT_FILE = ROOT / 'data' / 'index.json'
+YEAR_RE = re.compile(r'^(\d{4})_year_(\d+)$')
+SOURCES = [('deanza', 'De Anza College', 'uc_to_deanza'),
+           ('foothill', 'Foothill College', 'uc_to_foothill')]
 
-YEAR_RE = re.compile(r"^(\d{4})_year_(\d+)$")
+
+def decoded(value):
+    return json.loads(value) if isinstance(value, str) else (value or {})
+
 
 def pick_latest_year(years):
-    def k(y):
-        m = YEAR_RE.match(y)
-        if not m:
-            return (-1, -1)
-        return (int(m.group(1)), int(m.group(2)))
-    valid = [y for y in years if YEAR_RE.match(y)]
-    if not valid:
-        return years[0] if years else ""
-    return sorted(valid, key=k, reverse=True)[0]
+    return max(years, key=lambda year: tuple(map(int, YEAR_RE.fullmatch(year).groups())), default='')
+
+
+def build_college(college_id, name, folder):
+    root = ROOT / 'data' / folder
+    campuses = []
+    if root.is_dir():
+        for campus_dir in sorted(root.iterdir()):
+            if not campus_dir.is_dir():
+                continue
+            year_map = {}
+            institution = {}
+            for year_dir in sorted(campus_dir.iterdir()):
+                if not year_dir.is_dir() or not YEAR_RE.fullmatch(year_dir.name):
+                    continue
+                majors = []
+                for file in sorted(year_dir.glob('*.json')):
+                    payload = json.loads(file.read_text(encoding='utf-8-sig'))
+                    result = payload.get('result', payload) if isinstance(payload, dict) else {}
+                    if result.get('type') != 'Major' or not isinstance(result.get('articulations'), list):
+                        continue
+                    sender = decoded(result.get('sendingInstitution'))
+                    sender_names = [n.get('name') for n in sender.get('names', [])]
+                    if name not in sender_names:
+                        raise ValueError(f'{file}: agreement is not from {name}')
+                    institution = decoded(result.get('receivingInstitution'))
+                    majors.append({'id': file.stem, 'pretty': result.get('name') or file.stem.replace('_', ' '),
+                                   'path': file.relative_to(ROOT).as_posix()})
+                if majors:
+                    year_map[year_dir.name] = sorted(majors, key=lambda major: (major['pretty'].casefold(), major['id']))
+            if not year_map:
+                continue
+            names = institution.get('names') or []
+            pretty = max(names, key=lambda item: item.get('fromYear', 0)).get('name') if names else campus_dir.name.replace('_', ' ')
+            campuses.append({'id': campus_dir.name, 'code': institution.get('code', '').strip() or campus_dir.name.split('_')[0],
+                             'pretty': pretty, 'category': institution.get('category', 'University'),
+                             'years': sorted(year_map, reverse=True), 'latestYear': pick_latest_year(year_map), 'yearMap': year_map})
+    return {'id': college_id, 'name': name, 'campuses': sorted(campuses, key=lambda campus: campus['pretty'].casefold())}
+
 
 def main():
-    if not DATA_ROOT.exists():
-        raise SystemExit(f"Missing folder: {DATA_ROOT}")
-
-    campuses = []
-    campus_dirs = sorted([p for p in DATA_ROOT.iterdir() if p.is_dir()], key=lambda p: p.name.lower())
-
-    for cdir in campus_dirs:
-        campus_id = cdir.name
-        code = campus_id.split("_", 1)[0] if "_" in campus_id else campus_id
-        pretty = campus_id.replace("_", " ")
-
-        years = sorted([p.name for p in cdir.iterdir() if p.is_dir()], key=lambda s: s.lower())
-        latest = pick_latest_year(years)
-
-        year_map = {}
-        for y in years:
-            ydir = cdir / y
-            majors = []
-            for f in ydir.iterdir():
-                if f.is_file() and f.suffix.lower() == ".json":
-                    major_id = f.stem  # filename without .json
-                    majors.append({
-                        "id": major_id,                         # exact filename base
-                        "pretty": major_id.replace("_", " "),   # display
-                        "path": f"data/uc_to_deanza/{campus_id}/{y}/{f.name}"
-                    })
-            majors.sort(key=lambda m: m["pretty"].lower())
-            year_map[y] = majors
-
-        campuses.append({
-            "id": campus_id,
-            "code": code,
-            "pretty": pretty,
-            "years": years,
-            "latestYear": latest,
-            "yearMap": year_map
-        })
-
+    colleges = [build_college(*source) for source in SOURCES]
+    if not any(college['campuses'] for college in colleges):
+        raise SystemExit('No major agreements found under data/.')
     OUT_FILE.parent.mkdir(parents=True, exist_ok=True)
-    OUT_FILE.write_text(json.dumps({"campuses": campuses}, ensure_ascii=False), encoding="utf-8")
+    OUT_FILE.write_text(json.dumps({'colleges': colleges}, ensure_ascii=False), encoding='utf-8')
+    for college in colleges:
+        count = sum(len(majors) for campus in college['campuses'] for majors in campus['yearMap'].values())
+        print(f"{college['name']}: {len(college['campuses'])} campuses, {count} major agreements")
 
-    print("Wrote:", OUT_FILE)
-    print("Campuses:", len(campuses))
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     main()
-    

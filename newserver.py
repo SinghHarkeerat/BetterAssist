@@ -69,7 +69,6 @@ class Handler(SimpleHTTPRequestHandler):
 
         path = urlparse(path).path
         path = unquote(path)
-        path = path.split("?", 1)[0].split("#", 1)[0]
         rel = Path(path.lstrip("/"))
         full = (ROOT / rel).resolve()
         if safe_relpath(full, ROOT) == "":
@@ -98,9 +97,9 @@ class Handler(SimpleHTTPRequestHandler):
         if u.path == "/api/campus":
             q = parse_qs(u.query)
             campus = q.get("campus", [""])[0]
-            campus = unquote(campus)
-
-            campus_dir = (DATA_DIR / campus)
+            campus_dir = (DATA_DIR / campus).resolve()
+            if not campus or campus_dir.parent != DATA_DIR.resolve():
+                return self._json({"error": "campus_not_found"}, 404)
             if not campus_dir.exists() or not campus_dir.is_dir():
                 return self._json({"error": "campus_not_found"}, 404)
 
@@ -118,12 +117,17 @@ class Handler(SimpleHTTPRequestHandler):
 
         if u.path == "/api/major":
             q = parse_qs(u.query)
-            campus = unquote(q.get("campus", [""])[0])
-            year = unquote(q.get("year", [""])[0])
-            major = unquote(q.get("major", [""])[0])
+            campus = q.get("campus", [""])[0]
+            year = q.get("year", [""])[0]
+            major = q.get("major", [""])[0]
 
-            base = DATA_DIR / campus / year
-            f = base / f"{major}.json"
+            campus_dir = (DATA_DIR / campus).resolve()
+            base = (campus_dir / year).resolve()
+            f = (base / f"{major}.json").resolve()
+            if (not all((campus, year, major))
+                    or campus_dir.parent != DATA_DIR.resolve()
+                    or base.parent != campus_dir or f.parent != base):
+                return self._json({"error": "major_not_found"}, 404)
 
             if not f.exists() or not f.is_file():
                 return self._json({"error": "major_not_found"}, 404)

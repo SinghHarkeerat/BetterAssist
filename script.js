@@ -1,561 +1,542 @@
-const statusText = document.getElementById("statusText");
-const modePill   = document.getElementById("modePill");
-const statusTags = document.getElementById("statusTags");
-const retryRow   = document.getElementById("retryRow");
-const retryBtn   = document.getElementById("retryBtn");
-const helpText   = document.getElementById("helpText");
+'use strict';
 
-const pickers     = document.getElementById("pickers");
-const schoolInput = document.getElementById("schoolInput");
-const majorInput  = document.getElementById("majorInput");
-const schoolSug   = document.getElementById("schoolSug");
-const majorSug    = document.getElementById("majorSug");
-const loadBtn     = document.getElementById("loadBtn");
-const clearBtn    = document.getElementById("clearBtn");
-
-const results     = document.getElementById("results");
-const parsedArea  = document.getElementById("parsedArea");
-const finalBtn    = document.getElementById("finalBtn");
-const copyBtn     = document.getElementById("copyBtn");
-const finalOut    = document.getElementById("finalOut");
-
-let indexJson = null;
-
-let campuses = [];     // [{id, code, pretty, years, latestYear, yearMap}]
-let fuseCampus = null;
-
-// selected
-let selectedCampus = "";
-let selectedYear = "";
-let majorsForCampus = []; // [{id, pretty, path}]
-let fuseMajors = null;
-
-loadBtn.classList.add("btnGrow");
-finalBtn.classList.add("btnGrow");
-
-if (!clearBtn.querySelector("span")) {
-  clearBtn.innerHTML = `<span>${clearBtn.textContent.trim() || "Clear"}</span>`;
-}
-clearBtn.classList.add("btnClearX");
-
-if (!copyBtn.classList.contains("ghost")) copyBtn.classList.add("ghost");
-
-function ensureSuggestUI(inputEl) {
-  if (inputEl.parentElement?.classList?.contains("suggestWrap")) return;
-
-  const wrap = document.createElement("div");
-  wrap.className = "suggestWrap";
-  inputEl.parentNode.insertBefore(wrap, inputEl);
-  wrap.appendChild(inputEl);
-
-  const box = document.createElement("div");
-  box.className = "suggestBox";
-  wrap.appendChild(box);
-
-  return box;
+const $ = id => document.getElementById(id);
+const STORAGE_KEY = 'better-assist.plans.v1';
+let colleges = [],
+  active = null,
+  rows = [],
+  plan = [],
+  requestVersion = 0,
+  controller;
+let saved = {
+    plans: {},
+    last: null
+  },
+  storageAvailable = true,
+  toastTimer;
+try {
+  const data = JSON.parse(localStorage.getItem(STORAGE_KEY) || 'null');
+  if (data && typeof data.plans === 'object' && data.plans && !Array.isArray(data.plans)) saved = data;
+} catch {
+  storageAvailable = false;
 }
 
-const schoolBox = ensureSuggestUI(schoolInput);
-const majorBox  = ensureSuggestUI(majorInput);
-
-function showBox(box, show) {
-  if (!box) return;
-  box.classList.toggle("show", !!show);
-}
-
-function renderSuggestions(box, items, onPick) {
-  if (!box) return;
-
-  box.innerHTML = "";
-  if (!items.length) {
-    showBox(box, false);
-    return;
+const el = (tag, className, text) => {
+  const node = document.createElement(tag);
+  if (className) node.className = className;
+  if (text !== undefined) node.textContent = text;
+  return node;
+};
+const sorted = items => [...(items || [])].sort((a, b) => (a.position || 0) - (b.position || 0));
+const decode = value => {
+  try {
+    return typeof value === 'string' ? JSON.parse(value) : value || {};
+  } catch {
+    return {};
   }
+};
+const college = () => colleges.find(c => c.id === $('collegeInput').value);
+const campus = () => college()?.campuses.find(c => c.id === $('schoolInput').value);
+const majors = () => campus()?.yearMap[$('yearInput').value] || [];
+const courseCode = c => `${c.prefix || ''} ${c.courseNumber || ''}`.trim();
+const courseKey = c => courseCode(c).toUpperCase();
+const yearLabel = year => /^\d{4}/.test(year) ? `${year.slice(0, 4)}–${Number(year.slice(0, 4)) + 1}` : year;
+const normalize = text => String(text).normalize('NFKD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+const hasCourse = c => Boolean(c && courseCode(c));
+const units = c => Number.isFinite(c.minUnits) ? (Number.isFinite(c.maxUnits) && c.maxUnits !== c.minUnits ? `${c.minUnits}–${c.maxUnits}` : String(c.minUnits)) : '';
 
-  for (const it of items) {
-    const row = document.createElement("div");
-    row.className = "suggestItem";
-
-    const left = document.createElement("div");
-    left.className = "suggestLeft";
-
-    const title = document.createElement("div");
-    title.className = "suggestTitle";
-    title.textContent = it.title;
-
-    const sub = document.createElement("div");
-    sub.className = "suggestSub";
-    sub.textContent = it.sub || "";
-
-    left.appendChild(title);
-    left.appendChild(sub);
-
-    const meta = document.createElement("div");
-    meta.className = "suggestMeta";
-    meta.textContent = it.meta || "";
-
-    row.appendChild(left);
-    if (it.meta) row.appendChild(meta);
-
-    row.addEventListener("click", () => onPick(it));
-    box.appendChild(row);
-  }
-
-  showBox(box, true);
+function options(select, placeholder, list) {
+  select.replaceChildren(new Option(placeholder, ''));
+  for (const [value, label] of list) select.add(new Option(label, value));
 }
 
-function closeAllSuggest() {
-  showBox(schoolBox, false);
-  showBox(majorBox, false);
+function toast(message) {
+  clearTimeout(toastTimer);
+  $('toast').textContent = message;
+  $('toast').hidden = false;
+  toastTimer = setTimeout(() => {
+    $('toast').hidden = true;
+  }, 3500);
 }
 
-document.addEventListener("click", (e) => {
-  const inSchool = schoolInput.parentElement.contains(e.target);
-  const inMajor  = majorInput.parentElement.contains(e.target);
-  if (!inSchool && !inMajor) closeAllSuggest();
-});
-
-function setTags(list){
-  statusTags.innerHTML = "";
-  for (const t of list){
-    const el = document.createElement("span");
-    el.className = "tag";
-    el.innerHTML = `<i></i>${t}`;
-    statusTags.appendChild(el);
-  }
-  statusTags.style.display = "flex";
+function error(message = '') {
+  $('formError').textContent = message;
+  $('formError').hidden = !message;
 }
 
-function clearUI(){
-  selectedCampus = "";
-  selectedYear = "";
-  majorsForCampus = [];
-  fuseMajors = null;
-
-  schoolInput.value = "";
-  majorInput.value = "";
-  delete majorInput.dataset.majorId;
-
-  schoolSug.textContent = "";
-  majorSug.textContent = "Pick a campus first to see major suggestions.";
-
-  parsedArea.innerHTML = "";
-  finalOut.textContent = "";
-  results.style.display = "none";
-  closeAllSuggest();
-}
-
-function buildCampusIndex(campusList){
-  campuses = campusList || [];
-  fuseCampus = new Fuse(
-    campuses.map(c => ({ ...c, label: c.id })),
-    { keys:["code","pretty","id","label"], threshold:0.35 }
-  );
-}
-
-async function loadIndex(){
-  modePill.textContent = "loading…";
-  statusText.textContent = "Loading data/index.json…";
-  retryRow.style.display = "none";
-  helpText.style.display = "none";
-  statusTags.style.display = "none";
-
-  try{
-    const res = await fetch("./data/index.json", { cache: "no-store" });
-    if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    indexJson = await res.json();
-
-    const campusList = indexJson?.campuses || [];
-    buildCampusIndex(campusList);
-
-    if (!campuses.length) throw new Error("index.json loaded, but contains 26 campuses.");
-
-    modePill.textContent = "ready";
-    statusText.textContent = "Data loaded";
-    //setTags([`${campuses.length}   campuses `, " ", " mode: GitHub Pages (static index)"]);
-
-    pickers.style.display = "block";
-    clearUI();
-  } catch (e){
-    modePill.textContent = "failed";
-    statusText.textContent = "Could not load data/index.json.";
-    retryRow.style.display = "flex";
-    helpText.style.display = "block";
-    helpText.textContent =
-      `Fix: Make sure ./data/index.json exists and you are serving via GitHub Pages or a local server.
-Error: ${String(e.message || e)}`;
-  }
-}
-
-function updateSchoolSuggestions(){
-  const q = schoolInput.value.trim();
-  if (!q || !fuseCampus) {
-    schoolSug.textContent = "";
-    renderSuggestions(schoolBox, [], ()=>{});
-    return;
-  }
-
-  const hits = fuseCampus.search(q, { limit: 6 });
-
-  const items = hits.map(h => {
-    const c = h.item;
-    return {
-      title: c.code || (c.id.split("_")[0] || c.id),
-      sub: c.pretty || c.id.replaceAll("_"," "),
-      meta: "campus",
-      value: c.id
+function save() {
+  if (active) {
+    saved.plans[active.key] = plan;
+    saved.last = {
+      college: active.college.id,
+      campus: active.campus.id,
+      year: active.year,
+      major: active.major.id
     };
-  });
-
-  renderSuggestions(schoolBox, items, (it) => {
-    schoolInput.value = it.title;
-    selectCampus(it.value);
-    closeAllSuggest();
-    majorInput.focus();
-  });
+  }
+  try {
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(saved));
+  } catch {
+    storageAvailable = false;
+  }
+  $('saveNote').textContent = storageAvailable ? 'Saved in this browser as you go.' : 'Browser storage is unavailable. Copy your plan to keep it.';
 }
 
-function selectCampus(campusId){
-  selectedCampus = campusId;
-
-  majorsForCampus = [];
-  fuseMajors = null;
-  majorInput.value = "";
-  delete majorInput.dataset.majorId;
-  renderSuggestions(majorBox, [], ()=>{});
-
-  const c = campuses.find(x => x.id === selectedCampus);
-  if (!c) {
-    majorSug.textContent = "Campus not found in index.";
-    return;
-  }
-
-  selectedYear = c.latestYear || (c.years?.[0] || "");
-  const yearMap = c.yearMap || {};
-  majorsForCampus = yearMap[selectedYear] || [];
-
-  fuseMajors = new Fuse(
-    majorsForCampus.map(m => ({ label: m.pretty, id: m.id, path: m.path })),
-    { keys:["label","id"], threshold:0.35 }
-  );
-
-  majorSug.textContent =
-    `Campus locked: ${c.pretty} • ${majorsForCampus.length} majors • ${selectedYear}`;
+function invalidate() {
+  requestVersion++;
+  controller?.abort();
+  active = null;
+  rows = [];
+  plan = [];
+  $('results').hidden = true;
+  $('welcome').hidden = false;
+  $('loadBtn').textContent = 'Show my course matches →';
+  $('loadBtn').disabled = !$('majorSelect').value;
+  $('finderForm').removeAttribute('aria-busy');
+  error();
+  renderPlan();
 }
 
-schoolInput.addEventListener("input", () => {
-  updateSchoolSuggestions();
-
-  if (selectedCampus) {
-    selectedCampus = "";
-    selectedYear = "";
-    majorsForCampus = [];
-    fuseMajors = null;
-
-    majorInput.value = "";
-    delete majorInput.dataset.majorId;
-
-    majorSug.textContent = "Pick a campus first to see major suggestions.";
-    renderSuggestions(majorBox, [], ()=>{});
+function changeCollege() {
+  invalidate();
+  const available = Boolean(college()?.campuses.length);
+  $('collegeNotice').hidden = available;
+  if (!available) {
+    $('collegeNotice').replaceChildren(document.createTextNode(`${college()?.name || 'This college'} agreements aren’t included yet. Look them up on `));
+    const link = el('a', '', 'ASSIST ↗');
+    link.href = 'https://assist.org';
+    link.target = '_blank';
+    link.rel = 'noopener noreferrer';
+    $('collegeNotice').append(link);
   }
-});
-
-schoolInput.addEventListener("focus", updateSchoolSuggestions);
-
-function updateMajorSuggestions(){
-  const q = majorInput.value.trim();
-
-  if (!selectedCampus) {
-    majorSug.textContent = "Pick a campus first.";
-    renderSuggestions(majorBox, [], ()=>{});
-    return;
-  }
-
-  if (!majorsForCampus.length) {
-    majorSug.textContent = "No majors for this campus/year.";
-    renderSuggestions(majorBox, [], ()=>{});
-    return;
-  }
-
-  if (!q) {
-    const top = majorsForCampus.slice(0, 8).map(m => ({
-      title: m.pretty,
-      sub: "Click to select",
-      meta: "major",
-      value: m.id
-    }));
-
-    majorSug.textContent = "Top majors (start typing to filter).";
-    renderSuggestions(majorBox, top, (it) => {
-      majorInput.value = it.title;
-      majorInput.dataset.majorId = it.value;
-      closeAllSuggest();
-    });
-    return;
-  }
-
-  if (!fuseMajors) return;
-
-  const hits = fuseMajors.search(q, { limit: 8 });
-  const items = hits.map(h => ({
-    title: h.item.label,
-    sub: "Click to select",
-    meta: "major",
-    value: h.item.id
-  }));
-
-  majorSug.textContent = `Matches: ${items.length}`;
-  renderSuggestions(majorBox, items, (it) => {
-    majorInput.value = it.title;
-    majorInput.dataset.majorId = it.value;
-    closeAllSuggest();
-  });
+  options($('schoolInput'), available ? 'Choose a campus' : 'No agreements available', (college()?.campuses || []).map(c => [c.id, `${c.code} · ${c.pretty}`]));
+  $('schoolInput').disabled = !available;
+  changeCampus();
 }
 
-majorInput.addEventListener("input", () => {
-  delete majorInput.dataset.majorId;
-  updateMajorSuggestions();
-});
-majorInput.addEventListener("focus", updateMajorSuggestions);
+function changeCampus() {
+  invalidate();
+  const c = campus();
+  options($('yearInput'), c ? 'Choose a year' : 'Choose a campus first', (c?.years || []).map(y => [y, yearLabel(y)]));
+  $('yearInput').disabled = !c;
+  if (c) $('yearInput').value = c.latestYear;
+  changeYear();
+}
 
-retryBtn.addEventListener("click", loadIndex);
-clearBtn.addEventListener("click", clearUI);
+function changeYear() {
+  invalidate();
+  $('majorInput').value = '';
+  $('majorInput').disabled = !majors().length;
+  filterMajors();
+}
 
-loadBtn.addEventListener("click", async () => {
-  parsedArea.innerHTML = "";
-  finalOut.textContent = "";
-  results.style.display = "none";
+function filterMajors() {
+  invalidate();
+  const words = normalize($('majorInput').value.trim()).split(/\s+/).filter(Boolean);
+  const matches = majors().filter(m => words.every(word => normalize(`${m.pretty} ${m.id}`).includes(word)));
+  options($('majorSelect'), !campus() ? 'Choose a campus first' : matches.length ? 'Choose a major' : 'No matching majors', matches.map(m => [m.id, m.pretty]));
+  $('majorSelect').disabled = !matches.length;
+  $('loadBtn').disabled = true;
+  $('majorHint').textContent = !campus() ? 'Choose a campus to see its majors.' : matches.length ? `${matches.length} majors available. Select yours below the search.` : 'No matches. Try a broader search, such as “biology”.';
+}
 
-  if (!fuseCampus || !indexJson) { alert("Data not loaded."); return; }
+// Imported agreement HTML is converted to text, never inserted into the live page.
+function plainText(html) {
+  const doc = new DOMParser().parseFromString(String(html), 'text/html');
+  doc.querySelectorAll('script,style,iframe,object,img').forEach(node => node.remove());
+  doc.querySelectorAll('br').forEach(node => node.replaceWith('\n'));
+  doc.querySelectorAll('p,li,div,h1,h2,h3,tr').forEach(node => node.append('\n'));
+  return doc.body.textContent.replace(/[ \t]+/g, ' ').replace(/\n\s*\n\s*\n/g, '\n\n').trim();
+}
 
-  if (!selectedCampus) {
-    const campusQ = schoolInput.value.trim();
-    const campusHit = fuseCampus.search(campusQ, { limit: 1 })[0];
-    if (!campusHit) { alert("Type a campus like UCSD, UCLA, UCB..."); return; }
-    selectCampus(campusHit.item.id);
+function instructionText(instruction) {
+  if (!instruction) return '';
+  if (instruction.type === 'Following') return `${instruction.selectionType || 'Complete'} the following group of courses; see the full agreement for context.`;
+  if (instruction.amount != null) return `${instruction.selectionType || 'Complete'} ${instruction.amountQuantifier && instruction.amountQuantifier !== 'None' ? instruction.amountQuantifier + ' ' : ''}${instruction.amount} ${instruction.amountUnitType || 'course(s)'} from this group in the agreement.`;
+  return 'This group has additional selection instructions. Review the full agreement on ASSIST.';
+}
+
+function collectNotes(value, output = []) {
+  if (Array.isArray(value)) {
+    sorted(value).forEach(item => collectNotes(item, output));
+    return output;
   }
-
-  if (!selectedCampus || !selectedYear || !majorsForCampus.length) {
-    alert("Campus selection failed. Re-pick the campus.");
-    return;
+  if (!value || typeof value !== 'object') return output;
+  for (const [key, child] of Object.entries(value)) {
+    if (['content', 'text', 'description'].includes(key) && typeof child === 'string') {
+      const text = plainText(child);
+      if (text) output.push(text);
+    } else if (key === 'instruction') {
+      const text = instructionText(child);
+      if (text) output.push(text);
+    } else if (typeof child === 'object') collectNotes(child, output);
   }
+  return [...new Set(output)];
+}
 
-  let chosenMajorId = majorInput.dataset.majorId || "";
-  let chosenMajorPretty = majorInput.value.trim();
+function contextMap(assets) {
+  const map = new Map();
 
-  if (!chosenMajorId) {
-    const majQ = majorInput.value.trim();
-    if (!majQ) {
-      chosenMajorId = majorsForCampus[0].id;
-      chosenMajorPretty = majorsForCampus[0].pretty;
-    } else if (fuseMajors) {
-      const majHit = fuseMajors.search(majQ, { limit: 1 })[0];
-      chosenMajorId = majHit ? majHit.item.id : majorsForCampus[0].id;
-      chosenMajorPretty = majHit ? majHit.item.label : majorsForCampus[0].pretty;
-    } else {
-      chosenMajorId = majorsForCampus[0].id;
-      chosenMajorPretty = majorsForCampus[0].pretty;
-    }
-  }
-
-  const majorEntry = majorsForCampus.find(m => m.id === chosenMajorId) || majorsForCampus[0];
-  if (!majorEntry?.path) {
-    alert("Major path missing in index.json. Rebuild index.");
-    return;
-  }
-
-  let majorJson;
-  try{
-    const res = await fetch("./" + majorEntry.path, { cache:"no-store" });
-    const text = await res.text();
-    if (!res.ok) {
-      console.error("Major fetch failed:", res.status, text);
-      alert(`Failed to load major file (HTTP ${res.status}).`);
+  function walk(value, inherited = []) {
+    if (Array.isArray(value)) {
+      value.forEach(v => walk(v, inherited));
       return;
     }
-    majorJson = JSON.parse(text);
-  } catch (e){
-    console.error(e);
-    alert("Failed to load major JSON. Check console.");
+    if (!value || typeof value !== 'object') return;
+    const notes = [...inherited, instructionText(value.instruction), ...collectNotes(value.attributes), ...collectNotes(value.advisements)].filter(Boolean);
+    if (value.id) map.set(value.id, [...new Set(notes)]);
+    for (const key of ['sections', 'rows', 'cells'])
+      if (value[key]) walk(value[key], notes);
+  }
+  walk(assets);
+  return map;
+}
+
+function normalizeRows(result) {
+  const contexts = contextMap(result.templateAssets || []);
+  return (result.articulations || []).map((entry, index) => {
+    const art = entry.articulation || {},
+      sending = art.sendingArticulation || {};
+    const targets = art.course ? [art.course] : sorted(art.series?.courses || art.generalEducationArea?.courses || []);
+    const title = art.series?.name || art.requirement?.name || art.generalEducationArea?.name || art.transferability?.name || art.type || 'Agreement item';
+    const groups = sorted(sending.items).map(group => ({
+      ...group,
+      items: sorted(group.items).filter(hasCourse)
+    })).filter(g => g.items.length);
+    const review = !groups.length || Boolean(sending.noArticulationReason) || sending.type === 'TemplateOverride';
+    return {
+      index,
+      art,
+      sending,
+      targets,
+      title,
+      groups,
+      review,
+      notes: [...new Set([...(contexts.get(entry.templateCellId) || []), ...collectNotes(art)])],
+      search: normalize([title, ...targets.map(c => `${courseCode(c)} ${c.courseTitle}`), ...groups.flatMap(g => g.items.map(c => `${courseCode(c)} ${c.courseTitle}`))].join(' '))
+    };
+  });
+}
+
+function courseNode(c) {
+  const node = el('div', 'course-item');
+  node.append(el('strong', 'course-code', courseCode(c)), el('div', 'course-title', c.courseTitle || 'Course title unavailable'));
+  if (units(c)) node.append(el('div', 'course-units', `${units(c)} units`));
+  if (/honors/i.test(c.courseTitle || '')) node.append(el('span', 'course-tag', 'Honors option'));
+  const crossListed = (c.visibleCrossListedCourses || []).map(item => courseCode(item.course || item)).filter(Boolean);
+  if (crossListed.length) node.append(el('div', 'row-note', `Cross-listed as ${crossListed.join(', ')}. See the agreement for details.`));
+  return node;
+}
+
+function addButton(courses) {
+  const button = el('button', 'add-course');
+  button.type = 'button';
+  button.dataset.courses = JSON.stringify(courses.map(courseKey));
+  button.dataset.label = courses.length > 1 ? `+ Add ${courses.length} courses` : '+ Add to plan';
+  button.setAttribute('aria-label', `Add ${courses.map(courseCode).join(' and ')} to your plan`);
+  button.addEventListener('click', () => {
+    let added = 0;
+    for (const c of courses)
+      if (!plan.some(p => courseKey(p) === courseKey(c))) {
+        plan.push({
+          prefix: c.prefix,
+          courseNumber: c.courseNumber,
+          courseTitle: c.courseTitle || '',
+          minUnits: c.minUnits,
+          maxUnits: c.maxUnits,
+          completed: false
+        });
+        added++;
+      }
+    save();
+    renderPlan();
+    updateAddButtons();
+    toast(added ? `${added} ${added === 1 ? 'course added' : 'courses added'} to your plan.` : 'These courses are already in your plan.');
+  });
+  return button;
+}
+
+function updateAddButtons() {
+  document.querySelectorAll('.add-course').forEach(button => {
+    const included = JSON.parse(button.dataset.courses).every(key => plan.some(c => courseKey(c) === key));
+    button.textContent = included ? '✓ In your plan' : button.dataset.label;
+    button.classList.toggle('added', included);
+    button.disabled = included;
+  });
+}
+
+function renderChart() {
+  const query = normalize($('courseSearch').value.trim()),
+    filter = $('matchFilter').value;
+  const visible = rows.filter(row => (!query || row.search.includes(query)) && (filter === 'all' || (filter === 'review' ? row.review : !row.review)));
+  const fragment = document.createDocumentFragment();
+  for (const row of visible) {
+    const tr = el('tr'),
+      source = el('td'),
+      target = el('td');
+    if (row.review) {
+      source.append(el('span', 'review-tag', 'Needs review'), el('p', 'no-articulation', row.sending.noArticulationReason || 'No standard course match is listed. Check the agreement notes.'));
+    }
+    row.groups.forEach((group, index) => {
+      if (index > 0) {
+        const previous = row.groups[index - 1];
+        const connection = (row.sending.courseGroupConjunctions || []).find(c => c.sendingCourseGroupBeginPosition === previous.position && c.sendingCourseGroupEndPosition === group.position);
+        // A missing connector is not permission to infer a requirement or alternative.
+        source.append(el('div', 'conjunction', connection?.groupConjunction?.toUpperCase() || 'SEE AGREEMENT'));
+      }
+      const container = el('div', 'course-group');
+      const isOr = group.courseConjunction === 'Or';
+      if (group.items.length > 1) container.append(el('div', 'group-label', isOr ? 'Choose one of these courses' : 'Take all courses in this set'));
+      group.items.forEach(c => {
+        const node = courseNode(c);
+        if (isOr && !row.review) node.append(addButton([c]));
+        container.append(node);
+      });
+      if (!isOr && !row.review) container.append(addButton(group.items));
+      source.append(container);
+    });
+    if (row.art.type === 'Series') target.append(el('div', 'group-label', row.art.series?.conjunction === 'Or' ? 'University alternatives' : 'University course sequence'));
+    if (row.targets.length) row.targets.forEach(c => target.append(courseNode(c)));
+    else target.append(el('strong', 'course-code', row.title));
+    if (row.notes.length) {
+      const detail = el('details', 'row-note');
+      detail.append(el('summary', '', 'Context & notes'), el('div', '', row.notes.join('\n\n')));
+      target.append(detail);
+    }
+    tr.append(source, target);
+    fragment.append(tr);
+  }
+  $('chartBody').replaceChildren(fragment);
+  $('noMatches').hidden = Boolean(visible.length);
+  updateAddButtons();
+}
+
+function renderPlan() {
+  $('mobilePlanBar').hidden = !active;
+  $('mobilePlanCount').textContent = `${plan.length} ${plan.length === 1 ? 'course' : 'courses'}`;
+  $('planContext').textContent = active ? `${active.college.name} → ${active.campus.code} · ${active.major.pretty} · ${yearLabel(active.year)}` : 'Your next steps, all in one place.';
+  const done = plan.filter(c => c.completed).length,
+    percent = plan.length ? Math.round(done / plan.length * 100) : 0;
+  $('progressPercent').textContent = `${percent}%`;
+  $('progressCount').textContent = `${done} of ${plan.length} courses`;
+  $('progressRing').style.setProperty('--progress', `${percent}%`);
+  $('progressRing').setAttribute('aria-label', `${done} of ${plan.length} planned courses completed, ${percent} percent`);
+  $('savedCount').textContent = plan.length;
+  $('planEmpty').hidden = Boolean(plan.length);
+  $('copyBtn').disabled = !plan.length;
+  $('printBtn').disabled = !plan.length;
+  const fragment = document.createDocumentFragment();
+  plan.forEach(c => {
+    const item = el('li', c.completed ? 'is-complete' : ''),
+      label = el('label'),
+      input = el('input'),
+      text = el('span');
+    input.type = 'checkbox';
+    input.checked = c.completed;
+    input.setAttribute('aria-label', `Mark ${courseCode(c)} completed`);
+    input.addEventListener('change', () => {
+      c.completed = input.checked;
+      save();
+      // Keep the focused checkbox in place while updating the progress graphic.
+      const key = courseKey(c);
+      renderPlan();
+      Array.from($('planList').querySelectorAll('input')).find(node => node.dataset.key === key)?.focus();
+    });
+    input.dataset.key = courseKey(c);
+    text.append(el('strong', '', courseCode(c)), el('small', '', c.courseTitle));
+    label.append(input, text);
+    const remove = el('button', 'remove-course', '×');
+    remove.type = 'button';
+    remove.setAttribute('aria-label', `Remove ${courseCode(c)} from plan`);
+    remove.addEventListener('click', () => {
+      plan = plan.filter(p => courseKey(p) !== courseKey(c));
+      save();
+      renderPlan();
+      updateAddButtons();
+      toast(`${courseCode(c)} removed from your plan.`);
+    });
+    item.append(label, remove);
+    fragment.append(item);
+  });
+  $('planList').replaceChildren(fragment);
+  const known = plan.every(c => Number.isFinite(c.minUnits) && Number.isFinite(c.maxUnits));
+  const minimum = plan.reduce((n, c) => n + (Number(c.minUnits) || 0), 0),
+    maximum = plan.reduce((n, c) => n + (Number(c.maxUnits) || 0), 0);
+  $('planUnits').hidden = !plan.length;
+  $('planUnits').textContent = known ? `${minimum === maximum ? minimum : minimum + '–' + maximum} ${active?.termType === 'Quarter' ? 'quarter' : active?.termType === 'Semester' ? 'semester' : ''} units in your plan` : 'Some course unit values are not listed.';
+  $('saveNote').textContent = storageAvailable ? 'Saved in this browser as you go.' : 'Browser storage is unavailable. Copy your plan to keep it.';
+}
+async function loadAgreement({
+  scroll = true
+} = {}) {
+  const c = campus(),
+    m = majors().find(item => item.id === $('majorSelect').value),
+    source = college(),
+    year = $('yearInput').value;
+  if (!c || !m || !source) {
+    error('Choose a campus, agreement year, and major first.');
     return;
   }
-
-  results.style.display = "block";
-  parsedArea.innerHTML =
-    `<div class="req"><b>Campus:</b> ${selectedCampus.replaceAll("_"," ")} <span class="tag"><i></i>${selectedYear}</span><br/>` +
-    `<b>Major:</b> ${chosenMajorPretty || chosenMajorId}</div>`;
-
-  const result = majorJson?.result || majorJson || {};
-  const articulations = result.articulations || [];
-
-  const orSelects = [];
-  const autoPicked = new Map();
-
-  for (const entry of articulations) {
-    const art = entry.articulation || {};
-    const target = art.course || {};
-    const t_prefix = target.prefix || "";
-    const t_num = target.courseNumber || "";
-    const t_desc = target.courseTitle || "";
-    if (!(t_prefix || t_num || t_desc)) continue;
-
-    const card = document.createElement("div");
-    card.className = "req";
-    card.innerHTML = `<b>UC Requirement:</b> ${t_prefix} ${t_num} - ${t_desc}<div class="small">De Anza options below</div><hr class="hr"/>`;
-    parsedArea.appendChild(card);
-
-    const sending = art.sendingArticulation || {};
-    const groups = sending.items || [];
-    if (!groups.length) {
-      const msg = document.createElement("div");
-      msg.className = "small";
-      msg.textContent = "(no articulation listed)";
-      card.appendChild(msg);
-      continue;
-    }
-
-    const posToConj = {};
-    for (const gc of (sending.courseGroupConjunctions || [])) {
-      const begin = gc.sendingCourseGroupBeginPosition;
-      const conj = gc.groupConjunction;
-      if (begin != null && conj) posToConj[begin] = conj;
-    }
-
-    const groupsSorted = groups.slice().sort((a,b)=>(a.position||0)-(b.position||0));
-    const groupOptionNums = [];
-    const choiceTypes = [];
-    const optionMap = {};
-    let optNum = 1;
-
-    let currentChoiceSet = [];
-    let currentChoiceType = "And";
-
-    for (let i = 0; i < groupsSorted.length; i++) {
-      const g = groupsSorted[i];
-      const label = g.courseConjunction || "And";
-      const groupOpts = [];
-
-      for (const cls of (g.items || [])) {
-        const c_prefix = cls.prefix || "";
-        const c_num = cls.courseNumber || "";
-        const c_title = cls.courseTitle || "";
-        if (String(c_title).includes("HONORS")) continue;
-
-        optionMap[optNum] = { prefix:c_prefix, number:c_num, title:c_title, group:label };
-
-        const line = document.createElement("div");
-        line.textContent = `${optNum} [${label}] ${c_prefix} ${c_num} - ${c_title}`;
-        card.appendChild(line);
-
-        groupOpts.push(optNum);
-        optNum++;
-      }
-
-      if (i < groupsSorted.length - 1) {
-        const conj = posToConj[g.position] || "And";
-        const between = document.createElement("div");
-        between.className = "small";
-        between.textContent = `- [${conj}]`;
-        card.appendChild(between);
-      }
-
-      currentChoiceSet = currentChoiceSet.concat(groupOpts);
-      if (label === "Or") currentChoiceType = "Or";
-
-      if (i < groupsSorted.length - 1) {
-        const conj = posToConj[g.position] || "And";
-         if (conj === "Or") {
-          currentChoiceType = "Or"; // critical fix
-          continue;
-      }
-    }
-
-      groupOptionNums.push(currentChoiceSet.slice());
-      choiceTypes.push(currentChoiceType);
-      currentChoiceSet = [];
-      currentChoiceType = "And";
-    }
-
-    for (let gi = 0; gi < groupOptionNums.length; gi++) {
-      const opts = groupOptionNums[gi];
-      const type = choiceTypes[gi] || "And";
-
-      if (type === "And") {
-        const note = document.createElement("div");
-        note.className = "small";
-        note.textContent = "Auto-picked (AND):";
-        card.appendChild(note);
-
-        for (const n of opts) {
-          const c = optionMap[n];
-          const key = `${c.prefix}::${c.number}`;
-          if (!autoPicked.has(key)) autoPicked.set(key, c.title);
-          const bullet = document.createElement("div");
-          bullet.textContent = `• ${c.prefix} ${c.number} - ${c.title}`;
-          card.appendChild(bullet);
-        }
-      } else {
-        const wrap = document.createElement("div");
-        wrap.className = "row";
-
-        const labelEl = document.createElement("div");
-        labelEl.className = "small";
-        labelEl.textContent = "Pick one (OR group):";
-        labelEl.style.minWidth = "220px";
-
-        const sel = document.createElement("select");
-        const ph = document.createElement("option");
-        ph.value = "";
-        ph.textContent = "-- choose one --";
-        sel.appendChild(ph);
-
-        for (const n of opts) {
-          const c = optionMap[n];
-          const o = document.createElement("option");
-          o.value = n;
-          o.textContent = `${c.prefix} ${c.number} - ${c.title}`;
-          sel.appendChild(o);
-        }
-
-        wrap.appendChild(labelEl);
-        wrap.appendChild(sel);
-        card.appendChild(wrap);
-
-        orSelects.push({ sel, optionMap });
-      }
+  invalidate();
+  const version = requestVersion;
+  controller = new AbortController();
+  $('loadBtn').disabled = true;
+  $('loadBtn').textContent = 'Finding your course matches…';
+  $('finderForm').setAttribute('aria-busy', 'true');
+  try {
+    const response = await fetch('./' + m.path.split('/').map(encodeURIComponent).join('/'), {
+      signal: controller.signal
+    });
+    if (!response.ok) throw new Error(`The agreement could not be loaded (HTTP ${response.status}).`);
+    const payload = await response.json(),
+      result = payload.result || payload;
+    if (version !== requestVersion) return;
+    if (!Array.isArray(result.articulations)) throw new Error('This file does not contain a course agreement.');
+    const sender = decode(result.sendingInstitution);
+    if (!(sender.names || []).some(n => n.name === source.name)) throw new Error('This agreement belongs to a different community college.');
+    active = {
+      college: source,
+      campus: c,
+      major: m,
+      year,
+      key: JSON.stringify([source.id, c.id, year, m.id]),
+      termType: sender.termType
+    };
+    const storedPlan = saved.plans[active.key];
+    plan = Array.isArray(storedPlan) ? storedPlan.filter(hasCourse).map(c => ({
+      ...c,
+      completed: c.completed === true
+    })) : [];
+    rows = normalizeRows(result);
+    $('courseSearch').value = '';
+    $('matchFilter').value = 'all';
+    $('resultCampus').textContent = `${c.code} / ${c.pretty}`;
+    $('resultMajor').textContent = result.name || m.pretty;
+    $('resultYear').textContent = decode(result.academicYear).code || yearLabel(year);
+    $('resultMeta').textContent = `From ${source.name} · ${rows.length} agreement items`;
+    $('sourceHeading').textContent = `AT ${source.name.replace(' College', '').toUpperCase()}`;
+    $('targetHeading').textContent = `AT ${c.code}`;
+    $('matchCount').textContent = rows.filter(r => !r.review).length;
+    $('reviewCount').textContent = rows.filter(r => r.review).length;
+    $('agreementNotes').textContent = collectNotes(result.templateAssets).join('\n\n') || 'No additional notes are included in this file. Review the full agreement on ASSIST.';
+    $('results').hidden = false;
+    $('welcome').hidden = true;
+    renderChart();
+    renderPlan();
+    save();
+    if (!rows.length) {
+      $('noMatches').hidden = false;
+      $('noMatches').textContent = 'This agreement contains no course matches. Read the agreement notes or open ASSIST for details.';
+    } else $('noMatches').textContent = 'No matches here. Try another subject or clear the filters.';
+    if (scroll && matchMedia('(max-width: 760px)').matches) $('results').scrollIntoView({
+      behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth',
+      block: 'start'
+    });
+  } catch (e) {
+    if (version !== requestVersion || e.name === 'AbortError') return;
+    error(`${e.message} Please try again.`);
+  } finally {
+    if (version === requestVersion) {
+      $('loadBtn').disabled = !$('majorSelect').value;
+      $('loadBtn').textContent = 'Show my course matches →';
+      $('finderForm').removeAttribute('aria-busy');
     }
   }
-
-  finalBtn.onclick = () => {
-    const final = new Map(autoPicked);
-    for (const { sel, optionMap } of orSelects) {
-      if (!sel.value) continue;
-      const c = optionMap[parseInt(sel.value,10)];
-      if (!c) continue;
-      const key = `${c.prefix}::${c.number}`;
-      if (!final.has(key)) final.set(key, c.title);
+}
+async function loadIndex() {
+  $('retryBtn').hidden = true;
+  $('statusText').textContent = 'Loading available agreements…';
+  error();
+  try {
+    const response = await fetch('./data/index.json');
+    if (!response.ok) throw new Error('Data unavailable');
+    const data = await response.json();
+    if (!Array.isArray(data.colleges) || !data.colleges.some(c => c.campuses?.length)) throw new Error('No agreements found');
+    colleges = data.colleges;
+    const last = saved.last;
+    $('collegeInput').replaceChildren(...colleges.map(c => new Option(c.name, c.id)));
+    if (last && colleges.some(c => c.id === last.college)) $('collegeInput').value = last.college;
+    changeCollege();
+    $('statusText').textContent = `${colleges.reduce((n,c) => n + c.campuses.length, 0)} campus routes · saved agreements`;
+    if (last && college()?.campuses.some(c => c.id === last.campus)) {
+      $('schoolInput').value = last.campus;
+      changeCampus();
+      if (campus().years.includes(last.year)) {
+        $('yearInput').value = last.year;
+        changeYear();
+      }
+      if (majors().some(m => m.id === last.major)) {
+        $('majorSelect').value = last.major;
+        await loadAgreement({
+          scroll: false
+        });
+      }
     }
-
-    finalOut.textContent = final.size
-      ? Array.from(final.entries()).map(([k,title]) => {
-          const [p,n] = k.split("::");
-          return `${p} ${n} - ${title}`;
-        }).join("\n")
-      : "No classes picked yet.";
-  };
-});
-
-copyBtn.addEventListener("click", async () => {
-  const text = finalOut.textContent || "";
-  if (!text.trim()) return;
-  try{
-    await navigator.clipboard.writeText(text);
-    copyBtn.textContent = "Copied!";
-    setTimeout(()=> copyBtn.textContent = "Copy", 900);
   } catch {
-    alert("Copy failed (browser blocked). Select the text and copy manually.");
+    $('statusText').textContent = 'Agreements could not be loaded.';
+    $('retryBtn').hidden = false;
+    error(location.protocol === 'file:' ? 'Open this app through a local web server so its course data can load.' : 'Check your connection and try again. Your saved plans are still in this browser.');
+  }
+}
+$('collegeInput').addEventListener('change', changeCollege);
+$('schoolInput').addEventListener('change', changeCampus);
+$('yearInput').addEventListener('change', changeYear);
+$('majorInput').addEventListener('input', filterMajors);
+$('majorSelect').addEventListener('change', () => {
+  invalidate();
+  $('loadBtn').disabled = !$('majorSelect').value;
+});
+$('finderForm').addEventListener('submit', event => {
+  event.preventDefault();
+  loadAgreement();
+});
+$('retryBtn').addEventListener('click', loadIndex);
+$('clearBtn').addEventListener('click', () => {
+  saved.last = null;
+  changeCollege();
+  save();
+  $('schoolInput').focus();
+  toast('Search reset. Your saved course plans are kept.');
+});
+$('courseSearch').addEventListener('input', renderChart);
+$('matchFilter').addEventListener('change', renderChart);
+$('printBtn').addEventListener('click', () => window.print());
+$('copyBtn').addEventListener('click', async () => {
+  if (!active || !plan.length) return;
+  const text = [`Better Assist — my course plan`, `${active.college.name} → ${active.campus.pretty}`, `${active.major.pretty} | ${yearLabel(active.year)}`, '', ...plan.map(c => `[${c.completed ? 'x' : ' '}] ${courseCode(c)} — ${c.courseTitle}${units(c) ? ' (' + units(c) + ' units)' : ''}`), '', 'Personal planning checklist. Review the full agreement and requirements at https://assist.org.'].join('\n');
+  try {
+    await navigator.clipboard.writeText(text);
+    toast('Course plan copied.');
+  } catch {
+    const area = el('textarea');
+    area.value = text;
+    area.setAttribute('aria-label', 'Course plan to copy');
+    area.style.cssText = 'position:fixed;left:10px;bottom:10px;width:calc(100% - 20px);height:180px;z-index:30';
+    document.body.append(area);
+    area.focus();
+    area.select();
+    let copied = false;
+    try {
+      copied = document.execCommand('copy');
+    } catch {
+      /* Manual copy remains available. */ }
+    if (copied) {
+      area.remove();
+      $('copyBtn').focus();
+      toast('Course plan copied.');
+    } else {
+      toast('Press Ctrl+C or ⌘C to copy the selected plan. Press Escape to close.');
+      area.addEventListener('keydown', event => {
+        if (event.key === 'Escape') {
+          area.remove();
+          $('copyBtn').focus();
+        }
+      });
+      area.addEventListener('blur', () => area.remove(), {
+        once: true
+      });
+    }
   }
 });
-
+renderPlan();
 loadIndex();
-majorSug.textContent = "Pick a campus first to see major suggestions.";
