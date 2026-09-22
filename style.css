@@ -1793,3 +1793,262 @@ select {
     display: none !important
   }
 }
+
+/* Search suggestions stay attached to their field and remain keyboard accessible. */
+.combo-wrap {
+  position: relative;
+}
+
+.combo-options {
+  position: absolute;
+  top: calc(100% + 6px);
+  left: 0;
+  right: 0;
+  z-index: 25;
+  max-height: 285px;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  padding: 5px;
+  border: 1px solid #cad8c1;
+  border-radius: 9px;
+  background: #fff;
+  box-shadow: 0 12px 30px #233e3724;
+}
+
+.combo-option {
+  padding: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  line-height: 1.5;
+  overflow-wrap: anywhere;
+}
+
+.combo-option strong {
+  display: block;
+  font-size: 12px;
+}
+
+.combo-option small {
+  display: block;
+  font-size: 11px;
+  color: var(--muted);
+  margin-top: 3px;
+}
+
+.combo-option:hover,
+.combo-option[aria-selected="true"] {
+  background: #edf3e5;
+}
+
+.combo-option[aria-disabled="true"] {
+  opacity: .6;
+  cursor: not-allowed;
+  background: #f7f7f4;
+}
+
+.ge-course-hint {
+  margin: 7px 0 3px;
+  line-height: 1.7;
+}
+
+.ge-course-hint.ge-selected {
+  color: var(--green);
+}
+
+.combo-empty {
+  padding: 12px;
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.progress-switch {
+  display: flex;
+  gap: 3px;
+  background: #f1f4ec;
+  border-radius: 7px;
+  padding: 3px;
+  margin-top: 17px;
+}
+
+.progress-switch button {
+  flex: 1;
+  font-size: 10px;
+  line-height: 1.5;
+  padding: 7px 4px;
+  border: 0;
+  background: transparent;
+  color: var(--muted);
+}
+
+.progress-switch button[aria-pressed="true"] {
+  background: white;
+  color: var(--green);
+  box-shadow: 0 1px 4px #233e3715;
+}
+
+.progress-caption {
+  min-width: 0;
+}
+
+#completionCount {
+  margin: 13px 0;
+  font-size: 11px;
+}
+
+.calgetc-panel {
+  padding: 25px;
+  margin-top: 20px;
+}
+
+.calgetc-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 5px;
+}
+
+.calgetc-heading h2 {
+  font-size: 21px;
+}
+
+.calgetc-heading>strong {
+  color: var(--green);
+  font-size: 22px;
+}
+
+.ge-intro {
+  font-size: 12px;
+  color: var(--muted);
+  line-height: 1.8;
+  margin: 15px 0;
+}
+
+.ge-progress {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.ge-progress progress {
+  min-width: 0;
+  flex: 1;
+  height: 7px;
+  border: 0;
+  border-radius: 5px;
+  background: #edf1e7;
+  accent-color: var(--green);
+}
+
+.ge-progress progress::-webkit-progress-bar {
+  background: #edf1e7;
+  border-radius: 5px;
+}
+
+.ge-progress progress::-webkit-progress-value {
+  background: var(--green);
+  border-radius: 5px;
+}
+
+.ge-progress progress::-moz-progress-bar {
+  background: var(--green);
+  border-radius: 5px;
+}
+
+.ge-progress>span {
+  font-size: 10px;
+  color: var(--muted);
+}
+
+#geSource {
+  margin: 0 0 18px;
+  font-size: 12px;
+}
+
+.ge-area {
+  border-top: 1px solid var(--line);
+  padding: 14px 0;
+}
+
+.ge-area summary {
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.ge-area-count {
+  float: right;
+  font-size: 11px;
+  color: var(--muted);
+}
+
+.ge-area .field-hint {
+  margin: 8px 0;
+}
+
+.ge-item {
+  padding: 7px 0;
+}
+
+.ge-item label:not(.sr-only) {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  font-size: 12px;
+  cursor: pointer;
+  margin: 5px 0 8px;
+}
+
+.ge-item input[type=checkbox] {
+  width: 16px;
+  height: 16px;
+  min-height: 16px;
+  margin: 0;
+  flex: none;
+  accent-color: var(--green);
+}
+
+.ge-item input[type=text] {
+  font-size: 12px;
+}
+
+.ge-footnote {
+  font-size: 11px;
+  line-height: 1.8;
+  color: var(--muted);
+  padding: 10px 0 17px;
+}
+
+@media (max-width:760px) {
+  .combo-option {
+    padding: 12px;
+  }
+
+  .combo-option strong {
+    font-size: 14px;
+  }
+
+  .ge-item input[type=text] {
+    font-size: 16px;
+  }
+
+  .calgetc-panel {
+    padding: 20px;
+  }
+}
+
+@media print {
+
+  .combo-options,
+  .progress-switch {
+    display: none !important;
+  }
+
+  .calgetc-panel {
+    break-before: page;
+  }
+
+  .ge-area {
+    break-inside: avoid;
+  }
+}

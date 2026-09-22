@@ -1,0 +1,57 @@
+.community-panel { margin: 24px 0 40px; padding: 32px; display: grid; grid-template-columns: 1fr 1fr; gap: 40px; }
+.community-copy h2 { font-size: 29px; margin-bottom: 12px; }
+.community-copy p { max-width: 390px; }
+.community-mark { font-size: 48px; color: var(--green); margin-top: 15px; }
+.community-panel fieldset { border: 0; padding: 0; margin: 0 0 18px; }
+.community-panel legend { font-weight: 700; margin-bottom: 6px; }
+.star-rating { display: flex; gap: 8px; }
+.star-option { position: relative; cursor: pointer; }
+.star-option input { position: absolute; width: 1px; height: 1px; opacity: 0; }
+.star-option span { display: grid; place-items: center; font-size: 29px; width: 46px; height: 46px; border: 1px solid var(--line); border-radius: 10px; color: #778277; background: var(--bg); }
+.star-option.filled span { background: var(--lime); color: var(--green); border-color: #a2bf79; }
+.star-option input:focus-visible + span { outline: 3px solid #72a28d; outline-offset: 3px; }
+#feedbackForm label[for=feedbackMessage] { display: block; margin-bottom: 7px; font-weight: 600; }
+#feedbackMessage { font: inherit; resize: vertical; min-height: 110px; width: 100%; padding: 12px; border: 1px solid var(--line); border-radius: 8px; background: var(--bg); color: var(--ink); }
+.feedback-meta { display: flex; justify-content: space-between; gap: 12px; font-size: 11px; color: var(--muted); margin: 5px 0 12px; }
+#feedbackLength { white-space: nowrap; }
+#feedbackStatus { margin-top: 12px; min-height: 24px; }
+.cookie-banner { position: fixed; bottom: 22px; left: 22px; z-index: 100; width: min(420px, calc(100vw - 44px)); border: 1px solid var(--line); border-radius: 18px; padding: 22px; background: var(--paper); box-shadow: 0 12px 60px #233e3729; max-height: 70vh; overflow-y: auto; }
+.cookie-banner h2 { font-size: 18px; margin-bottom: 8px; }
+.cookie-banner p { font-size: 12px; color: var(--muted); }
+.cookie-actions { display: flex; gap: 10px; margin-top: 16px; }
+.cookie-actions button { flex: 1; min-height: 44px; }
+footer #cookieSettings { white-space: nowrap; }
+.admin-main { max-width: 1180px; margin: 50px auto; padding: 0 24px; }
+.admin-login { max-width: 450px; margin: 80px auto; padding: 32px; }
+.admin-main h1 { font-size: clamp(27px, 4vw, 38px); line-height: 1.2; margin-bottom: 14px; }
+.admin-login form { margin-top: 25px; }
+.admin-login label { display: block; font-weight: 600; margin-bottom: 6px; }
+.admin-login input { width: 100%; border: 1px solid var(--line); padding: 12px; margin-bottom: 16px; font-size: 18px; }
+.admin-heading { display: flex; align-items: center; justify-content: space-between; gap: 20px; }
+.admin-actions { display: flex; gap: 12px; flex-shrink: 0; }
+.admin-stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin: 24px 0; }
+.admin-stats article { padding: 22px; }
+.admin-stats strong { display: block; font-size: 36px; letter-spacing: -1px; }
+.admin-stats p { color: var(--muted); font-size: 11px; }
+.feedback-inbox { padding: 28px; margin-bottom: 24px; }
+.metrics-mode { display: flex; align-items: center; justify-content: space-between; gap: 20px; padding: 18px 22px; margin-top: 20px; border: 1px solid var(--line); border-radius: 12px; background: #edf3e7; }
+.metrics-mode p { font-size: 12px; color: var(--muted); margin-top: 4px; max-width: 700px; }
+.metrics-mode button { flex-shrink: 0; }
+.feedback-entry { padding: 18px 0; border-top: 1px solid var(--line); margin-top: 14px; }
+.feedback-entry time { display: block; color: var(--muted); font-size: 11px; margin: 4px 0 8px; }
+.feedback-entry p { white-space: pre-wrap; overflow-wrap: anywhere; }
+@media (max-width: 760px) {
+  .community-panel { grid-template-columns: 1fr; padding: 22px; gap: 20px; }
+  .community-mark { display: none; }
+  #feedbackMessage { font-size: 16px; }
+  .admin-main { margin: 24px auto; padding: 0 16px; }
+  .admin-login { margin: 35px auto; padding: 24px; }
+  .admin-heading { align-items: flex-start; flex-direction: column; }
+  .admin-stats { grid-template-columns: repeat(2, 1fr); gap: 10px; }
+  .admin-stats article { padding: 16px; }
+  .admin-stats strong { font-size: 28px; }
+  .feedback-inbox { padding: 20px; }
+  .metrics-mode { align-items: flex-start; flex-direction: column; padding: 18px; gap: 12px; }
+  .cookie-banner { bottom: 80px; left: 12px; width: calc(100vw - 24px); padding: 18px; }
+}
+@media print { .community-panel, .cookie-banner { display: none !important; } }

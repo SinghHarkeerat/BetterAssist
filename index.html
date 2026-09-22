@@ -8,9 +8,13 @@
     <title>
       Better Assist · Your transfer, made clearer
     </title>
-    <link href="./style.css" rel="stylesheet"/>
-    <script defer="" src="./script.js">
+    <link href="./style.css?v=20260922-7" rel="stylesheet"/>
+    <link href="./community.css?v=20260922-7" rel="stylesheet"/>
+    <script defer="" src="./script.js?v=20260922-7">
     </script>
+    <script defer="" src="./calgetc.js?v=20260922-7">
+    </script>
+    <script defer src="./community.js?v=20260922-7"></script>
   </head>
   <body>
     <a class="skip-link" href="#planner">
@@ -149,10 +153,15 @@
               </a>
               .
             </div>
-            <label for="schoolInput">
+            <label for="schoolSearch">
               Destination campus
             </label>
-            <select disabled="" id="schoolInput">
+            <div class="combo-wrap">
+              <input aria-autocomplete="list" aria-controls="schoolOptions" aria-expanded="false" autocomplete="off" disabled="" id="schoolSearch" placeholder="Type a campus, e.g. UCLA" role="combobox" type="search"/>
+              <div aria-label="Campus suggestions" class="combo-options" hidden="" id="schoolOptions" role="listbox">
+              </div>
+            </div>
+            <select aria-hidden="true" disabled="" hidden="" id="schoolInput" tabindex="-1">
               <option value="">
                 Choose a campus
               </option>
@@ -168,16 +177,19 @@
             <label for="majorInput">
               Find your major
             </label>
-            <div class="search-field">
+            <div class="search-field combo-wrap">
               <span aria-hidden="true">
                 ⌕
               </span>
-              <input aria-controls="majorSelect" autocomplete="off" disabled="" id="majorInput" placeholder="Search majors…" type="search"/>
+              <input aria-autocomplete="list" aria-controls="majorOptions" aria-expanded="false" autocomplete="off" disabled="" id="majorInput" placeholder="Type a major…" role="combobox" type="search">
+                <div aria-label="Major suggestions" class="combo-options" hidden="" id="majorOptions" role="listbox">
+                </div>
+              </input>
             </div>
             <label class="sr-only" for="majorSelect">
               Matching major
             </label>
-            <select disabled="" id="majorSelect">
+            <select aria-hidden="true" disabled="" hidden="" id="majorSelect" tabindex="-1">
               <option value="">
                 Choose a major
               </option>
@@ -185,6 +197,8 @@
             <p class="field-hint" id="majorHint">
               Choose a campus to see its majors.
             </p>
+            <div aria-live="polite" class="sr-only" id="suggestionStatus" role="status">
+            </div>
             <button class="primary full-width" disabled="" id="loadBtn" type="submit">
               Show my course matches
               <span aria-hidden="true">
@@ -195,6 +209,7 @@
               Reset search
             </button>
           </form>
+          <a class="hero-link" href="#calgetc">Plan Cal-GETC general education ↗</a>
           <div class="data-status" id="status" role="status">
             <span class="dot">
             </span>
@@ -377,6 +392,48 @@
               </div>
             </details>
           </section>
+          <section aria-labelledby="calgetcHeading" class="panel calgetc-panel" id="calgetc">
+            <div class="section-kicker">
+              GENERAL EDUCATION / 2025–26
+            </div>
+            <div class="calgetc-heading">
+              <h2 id="calgetcHeading">
+                Your Cal-GETC checklist
+              </h2>
+              <strong id="gePercent">
+                0%
+              </strong>
+            </div>
+            <p class="muted" id="geContext">
+            </p>
+            <p class="ge-intro">
+              11 courses, at least 45 quarter units, and a science lab. Track your completed areas below; your college confirms certification.
+            </p>
+            <div class="ge-progress">
+              <progress aria-label="Cal-GETC checkpoints completed" id="geProgress" max="12" value="0">
+              </progress>
+              <span id="geCount" role="status">
+                0 of 12 checkpoints
+              </span>
+            </div>
+            <p class="field-hint">
+              Type a course code or title under any requirement to see approved options. Select one to plan it; check the box after you complete it. The lab can be included in a science course.
+            </p>
+            <p id="geDataStatus" class="field-hint" role="status">Loading approved courses…</p>
+            <button id="geRetry" type="button" class="secondary" hidden>Retry course list</button>
+            <div id="geSuggestionStatus" class="sr-only" role="status" aria-live="polite"></div>
+            <a class="hero-link" id="geSource" rel="noopener noreferrer" target="_blank">
+              Open your college’s official course list ↗
+            </a>
+            <div id="geAreas">
+            </div>
+            <p class="ge-footnote">
+              Courses need a C or better (or qualifying Pass). Do not use one course in two GE areas; a science course with its lab can meet 5A/5B and 5C together. Area 4 needs two disciplines. Review applicability and request certification with your college.
+            </p>
+            <p class="save-note" id="geSaveStatus">
+              Saved for this college and checklist year.
+            </p>
+          </section>
         </div>
         <aside aria-labelledby="planHeading" class="plan panel" id="course-plan">
           <div class="plan-heading">
@@ -393,14 +450,22 @@
           <p class="muted" id="planContext">
             Your next steps, all in one place.
           </p>
+          <div aria-label="Progress view" class="progress-switch" role="group">
+            <button aria-pressed="true" id="plannedView" type="button">
+              Planned matches
+            </button>
+            <button aria-pressed="false" id="completedView" type="button">
+              Completed courses
+            </button>
+          </div>
           <div class="progress-block">
             <div aria-label="No planned courses completed" class="progress-ring" id="progressRing" role="img">
               <div>
                 <strong id="progressPercent">
                   0%
                 </strong>
-                <small>
-                  completed
+                <small id="progressLabel">
+                  planned
                 </small>
               </div>
             </div>
@@ -408,13 +473,14 @@
               <strong id="progressCount">
                 0 of 0 courses
               </strong>
-              <span>
-                One course at a time.
-                <br/>
-                You’ve got this.
+              <span id="progressHelp">
+                Add courses to start planning.
               </span>
             </div>
           </div>
+          <p class="field-hint" id="completionCount" role="status">
+            0 of 0 planned courses completed. Use the checkboxes below.
+          </p>
           <div id="planEmpty">
             <div aria-hidden="true" class="plan-empty-icon">
               +
@@ -493,6 +559,32 @@
           </p>
         </div>
       </section>
+      <section class="panel community-panel" id="feedback" aria-labelledby="feedbackHeading">
+        <div class="community-copy">
+          <div class="section-kicker">BUILT FOR STUDENTS. BETTER WITH YOU.</div>
+          <h2 id="feedbackHeading">Help shape what comes next.</h2>
+          <p class="muted">Did this make planning a little easier? Leave a rating, flag something confusing, or tell Harkeerat what would make Better Assist more useful.</p>
+          <div class="community-mark" aria-hidden="true">↗ ✳</div>
+        </div>
+        <form id="feedbackForm">
+          <fieldset aria-describedby="ratingHint">
+            <legend>How was your experience?</legend>
+            <div class="star-rating">
+              <label class="star-option"><input type="radio" name="rating" value="1" aria-label="1 star"><span aria-hidden="true">★</span></label>
+              <label class="star-option"><input type="radio" name="rating" value="2" aria-label="2 stars"><span aria-hidden="true">★</span></label>
+              <label class="star-option"><input type="radio" name="rating" value="3" aria-label="3 stars"><span aria-hidden="true">★</span></label>
+              <label class="star-option"><input type="radio" name="rating" value="4" aria-label="4 stars"><span aria-hidden="true">★</span></label>
+              <label class="star-option"><input type="radio" name="rating" value="5" aria-label="5 stars"><span aria-hidden="true">★</span></label>
+            </div>
+            <p class="field-hint" id="ratingHint">Choose 1 to 5 stars</p>
+          </fieldset>
+          <label for="feedbackMessage">What could be better? <span class="muted">(optional)</span></label>
+          <textarea id="feedbackMessage" name="message" maxlength="2000" rows="4" placeholder="A feature you'd love, a bug you found, or anything that felt confusing…" aria-describedby="feedbackPrivacy feedbackLength"></textarea>
+          <div class="feedback-meta"><span id="feedbackPrivacy">Shared privately with the site owner. No personal details needed.</span><span id="feedbackLength">0 / 2,000</span></div>
+          <button class="primary" id="feedbackSubmit" type="submit">Send feedback ↗</button>
+          <p id="feedbackStatus" role="status"></p>
+        </form>
+      </section>
       <div class="source-note">
         <span aria-hidden="true">
           ⓘ
@@ -525,7 +617,15 @@
           Harkeerat Singh
         </strong>
       </span>
+      <button class="text-button" type="button" id="cookieSettings">Cookie settings</button>
+      <a href="./admin.html" aria-label="Admin login">Admin</a>
     </footer>
+    <section id="cookieBanner" class="cookie-banner" aria-labelledby="cookieHeading" hidden>
+      <h2 id="cookieHeading">A small cookie check.</h2>
+      <p>May we use an anonymous browser cookie to count visits and improve Better Assist? Your course plan and cookie preference stay saved on this device. Ratings and suggestions are sent only when you submit them.</p>
+      <p>Analytics is optional. No ads or third-party tracking. Change your choice anytime in Cookie settings.</p>
+      <div class="cookie-actions"><button class="secondary" id="declineCookies" type="button">Decline</button><button class="secondary" id="acceptCookies" type="button">Accept analytics</button></div>
+    </section>
     <a class="mobile-plan-bar" hidden="" href="#course-plan" id="mobilePlanBar">
       My course plan
       <span id="mobilePlanCount">

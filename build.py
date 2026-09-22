@@ -60,7 +60,10 @@ def main():
     if not any(college['campuses'] for college in colleges):
         raise SystemExit('No major agreements found under data/.')
     OUT_FILE.parent.mkdir(parents=True, exist_ok=True)
-    OUT_FILE.write_text(json.dumps({'colleges': colleges}, ensure_ascii=False), encoding='utf-8')
+    # Keep the original shape for older pages still cached by a browser or CDN.
+    legacy_campuses = next(c['campuses'] for c in colleges if c['id'] == 'deanza')
+    OUT_FILE.write_text(json.dumps({'schemaVersion': 2, 'colleges': colleges,
+                                    'campuses': legacy_campuses}, ensure_ascii=False), encoding='utf-8')
     for college in colleges:
         count = sum(len(majors) for campus in college['campuses'] for majors in campus['yearMap'].values())
         print(f"{college['name']}: {len(college['campuses'])} campuses, {count} major agreements")

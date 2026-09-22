@@ -4,6 +4,9 @@ from urllib.parse import urlparse, parse_qs, unquote
 from pathlib import Path
 import json
 import os
+from io import BytesIO
+from server import application, public_file
+from engagement import MAX_BODY
 
 ROOT = Path(__file__).resolve().parent
 def find_uc_to_deanza(root: Path) -> Path:
@@ -65,15 +68,37 @@ def pick_latest_year(years):
 
 class Handler(SimpleHTTPRequestHandler):
 
-    def translate_path(self, path):
+    def end_headers(self):
+        # Local development should never pair stale assets with a newer index.
+        self.send_header("Cache-Control", "no-store")
+        super().end_headers()
 
-        path = urlparse(path).path
-        path = unquote(path)
-        rel = Path(path.lstrip("/"))
-        full = (ROOT / rel).resolve()
-        if safe_relpath(full, ROOT) == "":
-            return str(ROOT)
-        return str(full)
+    def translate_path(self, path):
+        return str(public_file(urlparse(path).path) or (ROOT / '__not_public__'))
+
+    def service_request(self):
+        try:
+            length = int(self.headers.get('Content-Length', '0'))
+        except ValueError:
+            length = -1
+        if not 0 <= length <= MAX_BODY or self.headers.get('Transfer-Encoding'):
+            self.close_connection = True
+            return self._json({'error': 'Invalid request size.'}, 413)
+        environ = {'PATH_INFO': urlparse(self.path).path, 'REQUEST_METHOD': self.command,
+                   'CONTENT_LENGTH': str(length), 'CONTENT_TYPE': self.headers.get('Content-Type', ''),
+                   'REMOTE_ADDR': self.client_address[0], 'wsgi.url_scheme': 'http',
+                   'wsgi.input': BytesIO(self.rfile.read(length))}
+        environ.update({'HTTP_' + key.upper().replace('-', '_'): value for key, value in self.headers.items()})
+        def start_response(status, headers):
+            self.send_response(int(status.split()[0]))
+            for name, value in headers:
+                self.send_header(name, value)
+            self.end_headers()
+        for chunk in application(environ, start_response):
+            self.wfile.write(chunk)
+
+    def do_POST(self):
+        return self.service_request()
 
     def _json(self, obj, status=200):
         raw = json.dumps(obj, ensure_ascii=False).encode("utf-8")
@@ -139,6 +164,8 @@ class Handler(SimpleHTTPRequestHandler):
 
             return self._json(obj)
 
+        if u.path.startswith('/api/'):
+            return self.service_request()
         return super().do_GET()
 
 if __name__ == "__main__":

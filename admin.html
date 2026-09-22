@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Admin · Better Assist</title>
+  <link rel="stylesheet" href="./style.css?v=20260922-7">
+  <link rel="stylesheet" href="./community.css?v=20260922-7">
+  <script src="./admin.js?v=20260922-7" defer></script>
+</head>
+<body>
+  <header class="site-header"><a class="brand" href="./">better <span>assist</span></a><a href="./">Back to the planner ↗</a></header>
+  <main class="admin-main">
+    <section class="panel admin-login" id="adminLogin" aria-labelledby="loginHeading">
+      <div class="section-kicker">JUST FOR THE OWNER</div>
+      <h1 id="loginHeading">A little behind the scenes.</h1>
+      <p class="muted">Enter your private code to see how Better Assist is doing.</p>
+      <form id="adminLoginForm">
+        <label for="adminCode">Login code</label>
+        <input id="adminCode" name="code" type="password" autocomplete="current-password" maxlength="128" required>
+        <button class="primary full-width" id="adminLoginButton" type="submit">Open dashboard ↗</button>
+      </form>
+      <p id="adminLoginStatus" class="field-hint" role="status"></p>
+    </section>
+    <section id="adminDashboard" hidden aria-labelledby="dashboardHeading">
+      <div class="admin-heading"><div><div class="section-kicker">YOUR COMMUNITY, AT A GLANCE</div><h1 id="dashboardHeading" tabindex="-1">Small steps. Growing impact.</h1></div><div class="admin-actions"><button id="adminRefresh" class="secondary" type="button">Refresh</button><button id="adminLogout" class="text-button" type="button">Log out</button></div></div>
+      <div class="metrics-mode" aria-label="Dashboard data source">
+        <div><strong id="metricsLabel">Demo numbers</strong><p id="metricsNote">Sample figures for previewing the dashboard. These are not measured visits or submitted ratings.</p></div>
+        <button id="metricsToggle" class="secondary" type="button" aria-pressed="false">View actual traffic</button>
+      </div>
+      <p id="adminStatus" role="status" class="field-hint"></p>
+      <div class="admin-stats">
+        <article class="panel"><span class="section-kicker">TOTAL OPENS</span><strong id="totalViews">—</strong><p id="viewsNote">Demo page opens</p></article>
+        <article class="panel"><span class="section-kicker">UNIQUE VISITORS</span><strong id="totalVisitors">—</strong><p id="visitorsNote">Demo visitors</p></article>
+        <article class="panel"><span class="section-kicker">OPENS TODAY</span><strong id="todayViews">—</strong><p id="todayNote">Demo daily opens</p></article>
+        <article class="panel"><span class="section-kicker">AVERAGE RATING</span><strong id="averageRating">—</strong><p id="ratingCount">No ratings yet</p></article>
+      </div>
+      <section class="panel feedback-inbox" aria-labelledby="inboxHeading"><h2 id="inboxHeading">Ideas from your visitors</h2><p class="muted" id="inboxCount">Latest feedback</p><div id="feedbackInbox"></div></section>
+    </section>
+  </main>
+</body>
+</html>
